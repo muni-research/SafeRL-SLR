@@ -1,0 +1,9 @@
+run 2026-10-10
+included studies with DOI: 447; found in OpenAlex: 445
+backward: 7663 referenced works, 6308 retrieved
+forward: 6061 citing works
+update OA-Q1v2: 0 records published since 2026-10-07
+update OA-Q2v2: 1 records published since 2026-10-07
+update OA-Q3v2: 2 records published since 2026-10-07
+new candidates after keyword filter and de-duplication: 1060 (first found via {'backward': 472, 'forward': 585, 'update': 3})
+record flow: {"raw": 12372, "already_screened": 1170, "duplicate_within_citation_results": 1396, "keyword_filter": 8746}

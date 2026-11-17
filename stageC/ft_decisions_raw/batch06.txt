@@ -1,0 +1,5 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch09), 2026-10-10
+C0517 FI fully parameterised quantile network with CVaR risk-sensitive decisions at uncontrolled intersections; SUMO
+C0518 FI uncertainty-aware model-based offline RL (UMBRELLA) planning with aleatoric uncertainty; NGSIM, CARLA
+C0521 FI bounded-rationality-aware RL car-following handling cut-ins with TTC rear-end risk reward; NGSIM
+C0524 FI DRL with learnable rule-based safety module for driving safety and transparency; highway-env

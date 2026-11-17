@@ -1,0 +1,16 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch16), 2026-10-10
+C0126 FI Q-learning drivers trained with and without traffic-rule enforcement; safety and efficiency compared
+C0155 FI DQN driving with a collision-prevention model; AirSim
+C0199 FI physics-guided SAC adaptive cruise control with jam-avoiding-distance safety constraint as soft constraint
+C0282 FI uncertainty-aware DRL detecting unlearned situations for risk-aware decisions; SUMO
+C0341 FI TD3 online trajectory planning for pedestrian emergency avoidance with MPC execution
+C0366 FI criticality metrics analysed as SAC reward components for safe car following
+C0377 FI DDPG lane keeping from surrounding-vehicle motion as fail-safe under degraded lane sensing; CarMaker
+C0493 FI RL lane change for CAVs in mixed traffic under low visibility with safety-condition checks
+C0620 FI DRL decisions with classical LQR/MPC execution under constraints; CARLA
+C0692 FI RL with robust controller and disturbance estimator for car following; safety metrics on highD
+C0939 FI hybrid MARL urban decision framework with arbitration and SHAP explainability; collision rates in CARLA
+C0961 FI adversarial RL with MPGD worst-case perception errors and SAC-Lag safety costs at on-ramps
+C0981 FI DRL longitudinal control against aggressive drivers with TTC/THW safety evaluation; Flow/SUMO
+C0998 FI offline CQL dueling DQN with runtime execution-authority gating and rule fallback
+C1039 FI risk-sensitive distributional PPO for lane-change decisions; highway-env

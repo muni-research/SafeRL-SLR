@@ -1,0 +1,6 @@
+subset,N,simulation only,L3 or higher,L4 or higher,empirical-only claim,code released,no generalisation test,no uncertainty addressed
+all,702,89.6%,46.4%,12.7%,44.9%,11.8%,31.6%,23.5%
+excl. questionable venues,698,89.8%,46.4%,12.8%,45.0%,11.9%,31.7%,23.5%
+excl. Low QA,662,89.3%,47.3%,12.4%,43.8%,12.4%,27.6%,21.3%
+excl. preprints,639,89.5%,46.6%,12.7%,44.9%,10.5%,31.1%,23.3%
+High QA only,426,86.6%,47.7%,12.4%,36.6%,16.2%,12.7%,13.1%

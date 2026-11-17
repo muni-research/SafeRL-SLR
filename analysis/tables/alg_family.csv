@@ -1,0 +1,9 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+Off-policy actor-critic,Off-policy actor-critic,247,35.2,
+Value-based,Value-based,185,26.4,
+On-policy policy gradient,On-policy policy gradient,152,21.7,
+Constrained policy optimisation,Constrained policy optimisation,87,12.4,
+Model-based RL,Model-based RL,31,4.4,
+Other / unspecified,Other / unspecified,19,2.7,
+Generic actor-critic,Generic actor-critic,17,2.4,
+Offline RL,Offline RL,14,2.0,

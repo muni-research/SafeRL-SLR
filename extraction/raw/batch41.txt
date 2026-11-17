@@ -1,0 +1,370 @@
+@@ C1037
+country: China
+problem: Case study of how the maximum steering-angle constraint affects safety and efficiency of a hierarchical SAC-MPC (RL decisions, MPC control) on-ramp merging framework in highway-env.
+task: MERGE
+scenario: RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: SAC-MPC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: merging progress, collision and comfort terms
+safety_cost: NA
+constraints: steering-angle and safety constraints in the MPC layer
+mech: I
+mech_primary: I
+mech_stage: EXEC
+rl_output: TRAJ
+safety_integration: EMBED
+control: MPC
+safety_claim: EMP; CEXP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: MPC with safety constraints executes RL targets at run time; collisions, success and reward compared across steering-angle limits.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; REW
+baselines: steering-limit variants
+baseline_types: ABL
+results: An intermediate steering-angle limit achieved zero collisions, 100% success and the highest reward, while too tight or loose limits degraded safety or efficiency.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: DEC; CTRL
+limitations: R: one scenario.
+qa: 2 2 2 2 1 2 2 0 0 1 1 1
+qa_note: Q5 parameter variants only; Q8 none; Q9 none; Q10 partial; Q11 no code; Q12 highway-env
+
+@@ C1038
+country: Morocco
+problem: PPO with a risk-augmented loss that penalises unsafe actions according to distance-based risk, plus attention over surrounding vehicles, for dense four-lane highway driving.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: highway-env rewards
+safety_cost: distance-based risk term in the policy loss
+constraints: NA
+mech: L; A
+mech_primary: L
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM; MOBIL
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates and rewards across traffic densities compared with PPO, attention PPO and DQN baselines in highway-env.
+uncertainty: SENS; STOCH
+uncertainty_method: sensor noise and abrupt behaviour
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; REW; SPEED
+baselines: PPO, attention PPO, DQN
+baseline_types: NSRL; ABL
+results: The risk-augmented attention PPO reduced collision rates and improved robustness in dense traffic relative to baselines.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 2 2 2 2 2 2 2 1 1 1
+qa_note: Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env
+
+@@ C1042
+country: China
+problem: Causal-invariant adversarial RL (CIARL) for robust lane changing: a Bayesian-optimisation attacker crafts closed-box perturbations while causal-invariant feature learning keeps decisions tied to causal features.
+task: LC; MERGE
+scenario: HWY; RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: CIARL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: efficiency, collision and lane-change terms
+safety_cost: NA
+constraints: NA
+mech: K
+mech_primary: K
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM
+safety_claim: ROB; EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates and lane-change robustness under adversarial perturbations compared with adversarial-training and regularisation baselines in SUMO.
+uncertainty: ADV; SENS
+uncertainty_method: Bayesian-optimised observation perturbations
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; REW
+baselines: PPO, adversarial training, robust regularisation methods
+baseline_types: NSRL; SRL
+results: CIARL significantly outperformed state-of-the-art robust baselines in lane-change robustness and collision safety under attack.
+generalization: GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: R: SUMO only.
+qa: 2 2 2 2 2 2 2 2 1 1 1 1
+qa_note: Q9 two scenarios; Q10 seeds unclear; Q11 SUMO, no code; Q12 SUMO
+
+@@ C1043
+country: United States
+problem: Hierarchical framework with a discrete SAC planner issuing lane-level manoeuvres and a high-order CLF-CBF-QP low-level controller enforcing stability and collision-avoidance boundaries, tested in roundabouts and intersections and on a HIL platform.
+task: TD; LC; RAB; INT
+scenario: RAB; INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:discrete SAC
+method_name: SAC-D + HOCLF-HOCBF-QP
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress, collision and comfort terms
+safety_cost: NA
+constraints: high-order CBF collision constraints and CLF tracking in a QP
+mech: H; F; G
+mech_primary: H
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: FILTER
+control: QP
+safety_claim: EMP; RT
+guarantee_assumptions: feasible QP; accurate vehicle model
+safety_level: L3
+level_note: The HOCBF-QP enforces collision boundaries at run time below the SAC-D planner; collision rates under reward variants in highway-env roundabouts and intersections and HIL trajectory tests.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: HWENV
+dataset: NONE
+vehicle_model: DYN
+metrics: COLL; DEV; SUCC
+baselines: reward variants, SAC-D without QP
+baseline_types: ABL
+results: The hierarchical framework reduced collisions in roundabout and intersection traffic and tracked trajectories accurately on the HIL platform.
+generalization: GEOM
+validation_tier: HIL
+real_world: hardware-in-the-loop tests of the controller
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: R: HIL limited to control layer.
+qa: 2 2 2 2 1 2 2 0 2 1 1 2
+qa_note: Q5 ablation only; Q8 none; Q10 seeds unclear; Q11 no code
+
+@@ C1048
+country: China
+problem: Self-attention integrated double DQN (Self-ATDDQN) for safe and efficient highway driving decisions, embedding self-attention over surrounding vehicles in the Q-network.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: Self-ATDDQN
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: highway-env rewards with collision penalty
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM; MOBIL
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate and driving distance compared with DQN-family baselines in highway-env.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; DIST; REW
+baselines: DQN, DDQN, D3QN
+baseline_types: NSRL
+results: Self-ATDDQN outperformed baselines in average driving distance and collision rate.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 1 2 2 2 2 0 0 1 1 1
+qa_note: Q3 reward only; Q8 none; Q9 none; Q10 seeds missing; Q11 highway-env, no code; Q12 highway-env
+
+@@ C1049
+country: China
+problem: SoAD: safety-oriented end-to-end driving in which an RL-trained value function quantifies long-term safety of candidate trajectories using rollouts of a vector world model, used for value-guided fine-tuning and online planning rescoring.
+task: E2E; MP
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MB; IL+RL
+agents: SA
+n_agents: 1
+algorithm: OTHER:safety value learning in world model
+method_name: SoAD
+network: ATT
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: safety-oriented reward from collisions and infractions
+safety_cost: NA
+constraints: NA
+mech: C; Q; S
+mech_primary: C
+mech_stage: BOTH
+rl_output: TRAJ
+safety_integration: CORRECT
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Safety-value rescoring selects trajectories at run time; Bench2Drive closed-loop driving scores, success and collision outcomes, plus zero-shot tests on another benchmark.
+uncertainty: PRED
+uncertainty_method: world-model rollouts of interactions
+simulator: CARLA
+dataset: OWN
+vehicle_model: SIMVEH
+metrics: DSCORE; SUCC; COLL; COMF
+baselines: UniAD, VAD and other E2E planners
+baseline_types: NSRL; CLASS
+results: SoAD improved closed-loop driving score and success on Bench2Drive and generalised zero-shot to interactive scenarios.
+generalization: UNSEEN; DOMAIN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; SUPERV
+limitations: R: simulation only.
+qa: 2 2 2 2 2 2 2 1 2 1 1 2
+qa_note: Q8 interaction only; Q10 seeds unclear; Q11 benchmark data, no code
+
+@@ C1051
+country: China
+problem: TriCoD: self-organising cooperative platoon decision framework in mixed traffic combining DRL formation reconfiguration, a formation-maintenance algorithm and adaptive switching, evaluated under human interference, incidents and fluctuating flows and on a HIL platform.
+task: PLT; COOP; LC
+scenario: HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: PPO
+method_name: TriCoD
+network: GNN
+obs_type: GRAPH
+action_type: DISC
+action_level: BEHAV
+reward: formation, efficiency and collision terms
+safety_cost: NA
+constraints: NA
+mech: O; W
+mech_primary: O
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: CORRECT
+control: IDM
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates, TTC and headway under structured disturbances compared with platoon baselines in simulation and a CARLA-based HIL platform.
+uncertainty: INTENT; STOCH
+uncertainty_method: human interference, incidents and fluctuating flows
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TTC; THRU
+baselines: CACC platooning, MAPPO, rule-based formation
+baseline_types: CLASS; NSRL
+results: TriCoD maintained lower collision rates and more stable formations than baselines under disturbances, confirmed on the HIL platform.
+generalization: AGENTS; DENS
+validation_tier: HIL
+real_world: hardware-in-the-loop platform with CARLA and domain controller
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: R: HIL not full vehicle.
+qa: 2 2 1 2 2 2 2 2 2 2 1 2
+qa_note: Q3 safety via reward and switching; Q11 no code

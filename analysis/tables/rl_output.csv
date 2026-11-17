@@ -1,0 +1,6 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+ACT,ACT,373,53.1,
+DEC,DEC,218,31.1,
+PARAM,PARAM,51,7.3,
+TRAJ,TRAJ,47,6.7,
+RES,RES,13,1.9,

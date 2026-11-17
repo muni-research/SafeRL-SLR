@@ -1,0 +1,8 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+PERC,PERC,44,6.3,
+PRED,PRED,44,6.3,
+PLAN,PLAN,161,22.9,
+DEC,DEC,336,47.9,
+CTRL,CTRL,443,63.1,
+SUPERV,SUPERV,253,36.0,
+RTA,RTA,25,3.6,

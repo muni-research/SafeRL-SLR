@@ -1,0 +1,14 @@
+Screening (forwarded to full text vs not): n = 559 of 564; agreement 51.5%; Cohen's kappa 0.16
+Screening (four categories): n = 559 of 564; agreement 31.8%; Cohen's kappa 0.08
+  stage A: n = 41; agreement 46.3%; kappa 0.16
+  stage B: n = 313; agreement 55.6%; kappa 0.21
+  stage C: n = 205; agreement 46.3%; kappa 0.09
+  skipped: 5 rows (blank or invalid; invalid: none)
+  forwarding disagreements: C0825, C0930, B1126, B0765, B1303, A016, C0505, B0294, B1133, B0286, C0624, C0513, B1579, B0978, B1635, B1740, B1317, C0464, B1413, C0515, B0395, C0489, B0182, B0621, B0132, B1719, B1758, B1232, B1155, B0371, C0850, B0400, B0541, B0417, C0271, A196, C0238, C0903, A065, C0016, C0497, B0376, C0255, B1077, C0241, B1564, C0286, B0986, B0564, C0031, B1080, C0023, B1760, C0306, B0967, C0792, B0786, C0250, C1030, B1108, B1646, B0592, C0450, C0886, B0233, C0344, B0474, C0678, B1237, C0684, B0520, C0395, B1741, B1530, B1190, B1737, B0880, B1722, C0433, B1255, B0215, B1028, B0366, B1766, A202, C0193, A148, C0303, C0857, B0772, C0044, A076, B0597, C0675, B1419, C0208, C0337, C0366, B0347, C0906, C0474, B1496, B1128, A092, C0004, B0565, C0512, C0256, B1602, C0253, C0622, B1809, B1734, C0428, B1592, C0669, C0292, C0442, C0582, B1410, B0504, B1069, C0150, C0531, C1060, C0025, B0898, B1392, A044, B1560, B0995, B1033, B1712, B1262, B1633, B0544, B0644, A066, A178, A045, C0591, B1571, C0380, C0121, C0368, B1362, C0801, B0945, C0364, C0374, C0099, B1559, C0071, B0021, C0585, A015, C0148, B1357, A165, C0522, B1082, C0379, C0254, C0406, B0830, B1552, A022, C0813, B1267, B1548, C0815, A024, C0355, C0762, C0824, B0146, B0801, B0105, A195, B1393, A101, C1023, C0141, B1231, B1064, B0240, C1045, B1561, C0312, A070, B1513, B0951, C0897, B1616, B0009, C0168, B1664, B0128, B0543, B0236, C0877, B1718, B0682, B0905, C0663, C0594, B0909, B1205, C0672, B0121, B1290, A050, C0236, B1053, B1706, C0417, A043, C0373, C0065, B1304, B0099, B1242, C0846, C0603, B1726, C1003, C0787, C0985, C0064, B0198, C0769, B1800, B0791, C0757, B1134, B0667, B0038, C0597, B1769, B0025, B0281, B0005, B0602, C0420, B0572, B0023, B0822, B1538, C0132, C1007, C0466, B1161, B1081, C0051, C0317, A103, A094, B0584, B1352, B1145, C0554, C0179, C0699, C0372, B0669, B0706, B0871, C0921, C0357, C0298, B0103
+Reconciliation: 276 of 276 rows agreed; first-pass exclusions upheld 251, first-pass forwarding upheld 25; records whose forwarding status changed: 0 (none)
+Extraction safety_level: n = 0 of 68; agreement nan%; Cohen's kappa nan
+Extraction mech_primary: n = 0 of 68; agreement nan%; Cohen's kappa nan
+Extraction rl_output: n = 0 of 68; agreement nan%; Cohen's kappa nan
+Extraction safety_integration: n = 0 of 68; agreement nan%; Cohen's kappa nan
+Extraction validation_tier: n = 0 of 68; agreement nan%; Cohen's kappa nan
+Extraction algorithm_family: n = 0 of 68; agreement nan%; Cohen's kappa nan

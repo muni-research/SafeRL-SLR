@@ -1,0 +1,25 @@
+code,mechanism,studies,% L3+,% L4+,% empirical-only claim,physical/HIL studies,median QA
+A,Safety-aware reward design,278,24.1,1.4,80.2,14,18
+B,Constrained RL (CMDP),133,27.1,6.8,8.3,20,19
+C,Safety critic,34,41.2,5.9,29.4,4,19
+D,Action shielding / masking,108,91.7,20.4,36.1,9,18
+E,Safety filter / layer,112,96.4,27.7,8.0,13,19
+F,Control barrier function,81,82.7,44.4,4.9,9,18
+G,Lyapunov / CLF,46,73.9,50.0,13.0,4,17
+H,CBF-CLF-QP / optimisation layer,28,100.0,53.6,0.0,3,19
+I,MPC-RL hybrid,104,82.7,16.3,24.0,18,18
+J,Reachability / invariant sets,39,82.1,64.1,10.3,7,19
+K,Robust / adversarial RL,85,44.7,28.2,8.2,13,19
+L,Risk-sensitive RL,80,25.0,3.8,51.2,6,19
+M,Distributionally robust RL,0,,,,,
+N,Uncertainty-aware RL,90,44.4,8.9,51.1,10,20
+O,Multi-agent safe RL,74,45.9,14.9,43.2,4,19
+P,Offline safe RL,16,25.0,6.2,37.5,1,20
+Q,Model-based safe RL,66,53.0,13.6,30.3,12,19
+R,Hierarchical safe RL,55,61.8,5.5,52.7,3,18
+S,Runtime assurance / fallback,69,84.1,23.2,31.9,18,20
+T,Formal verification / specification,32,81.2,56.2,12.5,1,18
+U,Sim-to-real safe RL,19,36.8,31.6,31.6,12,19
+V,Human-aware / human-in-the-loop,72,37.5,8.3,63.9,12,18
+W,Rule-based intervention,132,68.9,6.1,56.1,12,18
+X,Foundation-model-assisted,11,18.2,0.0,72.7,0,19

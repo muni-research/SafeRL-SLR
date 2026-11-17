@@ -1,0 +1,27 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+NONE,NONE,552,78.6,
+OWN,OWN,62,8.8,
+NGSIM,NGSIM,40,5.7,
+HIGHD,HIGHD,22,3.1,
+IND,IND,5,0.7,B0305;B0429;B1418;E071;E075
+WAYMO,WAYMO,5,0.7,B0517;B0805;B1046;C0328;C0452
+NUPLAN,NUPLAN,3,0.4,B0805;B1805;C0998
+INTERACTION,INTERACTION,3,0.4,B1149;B1257;B1575
+OTHER:Lyft Level 5 Motion Prediction,OTHER:Lyft Level 5 Motion Prediction,2,0.3,B0763;B1594
+NUSCENES,NUSCENES,2,0.3,B0894;B1805
+OTHER:DSRL,OTHER:DSRL,2,0.3,B0930;B1162
+ROUND,ROUND,2,0.3,E071;E075
+OTHER:Bench2Drive-derived scenario set,OTHER:Bench2Drive-derived scenario set,1,0.1,A193
+OTHER:real Boston intersection lane data,OTHER:real Boston intersection lane data,1,0.1,B0402
+OTHER:CitySim,OTHER:CitySim,1,0.1,B0754
+OTHER:PeMS,OTHER:PeMS,1,0.1,B0878
+OTHER:California DMV collision reports,OTHER:California DMV collision reports,1,0.1,B1041
+OTHER:Udacity self-driving car dataset,OTHER:Udacity self-driving car dataset,1,0.1,B1146
+OTHER:GIDAS-based OpenDS-CTS benchmark,OTHER:GIDAS-based OpenDS-CTS benchmark,1,0.1,B1222
+OTHER:Athens arterial trajectory data,OTHER:Athens arterial trajectory data,1,0.1,B1287
+OTHER:CARLA-CTS (GIDAS-based scenarios),OTHER:CARLA-CTS (GIDAS-based scenarios),1,0.1,B1365
+OTHER:openDD,OTHER:openDD,1,0.1,B1427
+OTHER:OpenACC,OTHER:OpenACC,1,0.1,B1508
+OTHER:UCF-SST CitySim,OTHER:UCF-SST CitySim,1,0.1,B1747
+OTHER:NAVSIM v2 navtrain (nuPlan-based),OTHER:NAVSIM v2 navtrain (nuPlan-based),1,0.1,B1813
+OTHER:Woven Planet Level 5 prediction dataset,OTHER:Woven Planet Level 5 prediction dataset,1,0.1,C0658

@@ -1,0 +1,28 @@
+code,label,studies,% of 702,study IDs (if <= 8)
+A,Safety-aware reward design,135,19.2,
+B,Constrained RL (CMDP),71,10.1,
+D,Action shielding / masking,52,7.4,
+I,MPC-RL hybrid,48,6.8,
+F,Control barrier function,47,6.7,
+E,Safety filter / layer,44,6.3,
+W,Rule-based intervention,40,5.7,
+K,Robust / adversarial RL,38,5.4,
+L,Risk-sensitive RL,35,5.0,
+S,Runtime assurance / fallback,31,4.4,
+G,Lyapunov / CLF,21,3.0,
+N,Uncertainty-aware RL,21,3.0,
+V,Human-aware / human-in-the-loop,21,3.0,
+T,Formal verification / specification,18,2.6,
+J,Reachability / invariant sets,14,2.0,
+C,Safety critic,13,1.9,
+H,CBF-CLF-QP / optimisation layer,12,1.7,
+P,Offline safe RL,9,1.3,
+O,Multi-agent safe RL,6,0.9,A193;C0396;C0903;C0939;C1009;C1051
+Q,Model-based safe RL,6,0.9,B0145;B1222;B1370;B1793;C0056;C0771
+X,Foundation-model-assisted,6,0.9,B0939;B1031;B1636;B1651;B1745;E076
+R,Hierarchical safe RL,6,0.9,B1455;B1459;B1543;B1572;C0122;C0130
+U,Sim-to-real safe RL,3,0.4,B1189;C0115;C0552
+OTHER:benchmark,Benchmark (no new mechanism),2,0.3,B0272;C0328
+OTHER:safety-oriented state representation,OTHER:safety-oriented state representation,1,0.1,B1178
+OTHER:safety case (assurance argument),OTHER:safety case (assurance argument),1,0.1,B1443
+OTHER:learned risk-threshold monitor,OTHER:learned risk-threshold monitor,1,0.1,C0550

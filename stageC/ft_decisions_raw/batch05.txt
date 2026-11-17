@@ -1,0 +1,16 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch08), 2026-10-10
+C0442 FI RL (actor-critic fuzzy ADP) platoon control with prescribed-performance spacing bounds and barrier-type cost
+C0443 FI drone-assisted DQN lane change with safety-weighted dynamic reward and adaptive MPC; NGSIM-based
+C0451 FI uncertainty-bound RL identifying and protecting unreliable DRL decisions with a fallback planner; CARLA
+C0452 FI BC-SAC combining imitation with RL safety reward on real-world driving data
+C0458 FI TD3 lateral obstacle-avoidance control with dynamic driving risk field; CARLA
+C0467 FI LSTM-attention TD3 car-following with safety (TTC/safety factor) objective; NGSIM
+C0479 FX:EC3 SAC parking path planning accuracy under deviations; safety not an RL objective or metric
+C0480 FI hybrid RL/SL car-following with safety reward and real-vehicle data
+C0481 FI constrained ADP within integrated decision and control for constrained dynamic environments; SUMO
+C0482 FI prediction-aware altruistic cooperative driving with TTC safety thresholds; highway-env
+C0483 FI robust multimodal RL on-ramp merging under inaccurate observations with safety-staged reward
+C0484 FX:EC1 RL-driven MPPI control; vehicles not a substantive application
+C0490 FI MARL reference policy with distributed MPC ensuring collision avoidance in constrained spaces
+C0492 FX:EC6 collision prediction and avoidance system described without method, set-up or evaluation details
+C0494 FX:EC3 RL navigation on downscaled vehicle; safety not evaluated

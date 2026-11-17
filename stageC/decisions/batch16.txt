@@ -1,0 +1,48 @@
+# batch 16 (C0901-C0960), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0901 Unsure - policy-constraint generalisation of driving policies (check safety)
+C0902 Unsure - PPO lateral stability control for active safety under low adhesion
+C0903 Unsure - resilient MARL for tiered mixed autonomy
+C0904 Review EC9
+C0905 Unsure - robust policy learning via constrained zero-sum game under coupled uncertainties
+C0906 Unsure - robust MARL against adversarial attacks, cooperative driving
+C0907 Exclude EC1 robot navigation PAC-NMPC (check vehicle)
+C0908 Unsure - robust DRL vehicle control under communication delay
+C0910 Exclude EC2 attribution priors for DNN driving
+C0911 Unsure - trustworthy DRL decisions with safety, blockchain
+C0912 Unsure - safe and efficient DRL lane changing with fuzzy logic
+C0913 Exclude EC2 safety validation co-simulation (not RL)
+C0914 Unsure - scenario-based hierarchical RL for safe decisions
+C0915 Unsure - multi-task offline-to-online RL (check safety)
+C0916 Exclude EC3 suspension control
+C0917 Unsure - self-game safe driving decisions against robust attacks
+C0919 Exclude EC2 simulation platform
+C0920 Exclude EC2 intersection cooperation (check)
+C0923 Exclude EC1 UAV interception
+C0924 Unsure - DRL decision-making on consecutive sharp turns, long-tail extreme scenarios
+C0927 Unsure - trust-calibrated HITL RL for safe navigation of ground vehicles (check road)
+C0928 Unsure - trustworthy GNN-PPO decisions for safety
+C0929 Unsure - UARL aleatoric/epistemic uncertainty risk-sensitive driving
+C0932 Unsure - visual risk-aware decision making
+C0933 Unsure - PPO collision avoidance with hesitant pedestrians
+C0934 Exclude EC9 position paper on safe accountable AV
+C0935 Exclude EC1 UGV navigation
+C0936 Review EC9
+C0937 Exclude EC3 book chapter highway entry (check safety)
+C0938 Unsure - dual-aligned SAC with adaptive risk threshold for safe motion planning (no abstract)
+C0939 Unsure - hybrid MARL with XAI for safe urban decisions
+C0940 Unsure - Lagrangian-constrained MARL for safe cooperative lane changing
+C0941 Exclude EC1 power distribution
+C0942 Exclude EC2 variable speed limit
+C0944 Unsure - risk-aware executive-control SAC for AD (no abstract)
+C0945 Exclude EC2 traffic signal control
+C0946 Unsure - safety-conscious double DQN for reducing accidents (check vehicle-level)
+C0947 Review EC9
+C0948 Review EC9
+C0953 Unsure - hybrid learning/model-based safety control for merging
+C0954 Exclude EC2 cellular automata congestion model
+C0955 Unsure - multi-step double DQN ACC for road safety
+C0956 Exclude EC2 variable speed limit
+C0957 Review EC9
+C0958 Background EC1 RL with reachability for human-robot interaction
+C0959 Exclude EC2 object detection
+C0960 Review EC9

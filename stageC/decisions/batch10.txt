@@ -1,0 +1,39 @@
+# batch 10 (C0541-C0600), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0541 Duplicate C0540
+C0542 Review EC9
+C0543 Exclude EC1 battery degradation velocity optimisation
+C0544 Review EC9
+C0545 Unsure - AF-DQN with safe action filter at unsignalised intersections
+C0546 Exclude EC2 infrastructure-based supervised system (check RL)
+C0548 Unsure - adaptive autopilot constrained DRL car-following
+C0549 Unsure - adaptive multi-objective RL with safety objective, urban
+C0550 Unsure - DQN adapting risk-feature thresholds in ADS
+C0551 Unsure - hierarchical SAC lane change trajectory planning for safety
+C0552 Unsure - sim2real DRL car-following with federated RL (safety)
+C0553 Exclude EC10
+C0555 Unsure - RL-adaptive MPC longitudinal control with constraints
+C0557 Unsure - DRL trajectory planning with driver-style inference for safety
+C0558 Exclude EC1 Mars transport
+C0559 Exclude EC3 speed tracking
+C0560 Exclude EC1 unmanned robot ROS
+C0561 Review EC9 (challenges and research directions)
+C0562 Exclude EC1 robot navigation
+C0564 Exclude EC1 crowdsensing
+C0566 Unsure - DRL with heuristic-rule action filter at roundabouts
+C0567 Unsure - DRL chain-collision prevention
+C0570 Unsure - safety-first RL under cyber-attacks
+C0572 Exclude EC1 mobile robot
+C0574 Exclude EC10 mixed-traffic perturbation modelling
+C0575 Exclude EC10 scenario generation
+C0576 Unsure - cognitive RL interpretable decisions for safety validation
+C0577 Unsure - TD learning of collision probability distribution for AD
+C0579 Exclude EC1 communication-efficient MARL
+C0581 Unsure - TD3 risk-based collision avoidance (minimum-risk optimisation)
+C0583 Exclude EC3 MARL intersection with game priors
+C0588 Unsure - curriculum RL unprotected left turn guaranteeing safety
+C0589 Exclude EC2 privacy and security
+C0590 Exclude EC1 surface vessels
+C0594 Exclude EC2 variable speed limit
+C0595 Exclude EC1 cybersecurity
+C0598 Unsure - DRL to prevent road accidents
+C0600 Exclude EC1 ship scheduling

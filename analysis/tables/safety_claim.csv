@@ -1,0 +1,8 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+EMP,EMP,589,83.9,
+RT,RT,198,28.2,
+CEXP,CEXP,108,15.4,
+FORMAL,FORMAL,92,13.1,
+ROB,ROB,58,8.3,
+STAT,STAT,22,3.1,
+PROB,PROB,20,2.8,

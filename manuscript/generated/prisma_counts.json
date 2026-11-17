@@ -1,0 +1,135 @@
+{
+ "identification": {
+  "records_supplied_corpus": 211,
+  "records_databases_total": 2551,
+  "records_by_database": {
+   "OpenAlex": 2229,
+   "arXiv": 145,
+   "SemanticScholar": 177
+  },
+  "duplicates_removed_total": 987,
+  "duplicates_detail": {
+   "within_supplied_corpus": 5,
+   "within_database_results": 927,
+   "database_records_already_in_supplied_corpus": 53,
+   "found_manually_at_screening": 2
+  }
+ },
+ "screening": {
+  "records_screened": 1775,
+  "records_excluded": 1168,
+  "excluded_by_reason": {
+   "EC1": 524,
+   "EC10": 26,
+   "EC11": 4,
+   "EC2": 58,
+   "EC3": 421,
+   "EC4": 15,
+   "EC8": 76,
+   "EC9": 44
+  },
+  "of_which_background_pool_EC1": 258
+ },
+ "eligibility": {
+  "reports_sought_for_retrieval": 607,
+  "include_at_title_abstract": 373,
+  "unsure_at_title_abstract": 234,
+  "not_retrieved": 84,
+  "not_retrieved_by_reason": {
+   "Not pursued (small publisher)": 52,
+   "No access (Springer book)": 10,
+   "No access (SAGE)": 7,
+   "No access (Springer)": 7,
+   "No (failed)": 4,
+   "No access (Taylor & Francis)": 4
+  },
+  "fulltext_assessed": 523,
+  "fulltext_excluded": 63,
+  "fulltext_excluded_by_reason": {
+   "EC1": 24,
+   "EC10": 1,
+   "EC2": 14,
+   "EC3": 17,
+   "EC6": 5,
+   "EC9": 2
+  },
+  "fulltext_additional_reports_of_included_studies": 8,
+  "fulltext_studies_included": 452
+ },
+ "other_methods": {
+  "records_identified": 14417,
+  "backward": 6308,
+  "forward": 6061,
+  "update_search": 3,
+  "duplicates_removed": 4519,
+  "duplicates_already_screened": 3097,
+  "duplicates_within_citation_results": 1422,
+  "removed_by_automation_keyword_filter": 8760,
+  "records_screened": 1138,
+  "duplicates_found_at_screening": 17,
+  "records_excluded": 762,
+  "of_which_background_pool_EC1": 32,
+  "screening_excluded_by_reason": {
+   "EC1": 189,
+   "EC10": 22,
+   "EC2": 88,
+   "EC3": 381,
+   "EC4": 6,
+   "EC8": 12,
+   "EC9": 64
+  },
+  "reports_sought": 359,
+  "not_retrieved": 54,
+  "assessed": 305,
+  "excluded": 54,
+  "fulltext_excluded_by_reason": {
+   "EC1": 6,
+   "EC10": 1,
+   "EC2": 2,
+   "EC3": 39,
+   "EC6": 5,
+   "EC9": 1
+  },
+  "additional_reports": 1,
+  "studies_included": 250,
+  "update_search_2": 2045
+ },
+ "update_search_2": {
+  "date": "2026-11-13",
+  "records_identified": 2045,
+  "duplicates_removed": 1953,
+  "duplicates_already_screened": 1927,
+  "duplicates_within_update": 26,
+  "removed_by_automation_keyword_filter": 14,
+  "records_screened": 78,
+  "records_excluded": 42,
+  "of_which_background_pool_EC1": 8,
+  "screening_excluded_by_reason": {
+   "EC1": 17,
+   "EC10": 1,
+   "EC2": 4,
+   "EC3": 6,
+   "EC4": 5,
+   "EC8": 7,
+   "EC9": 2
+  },
+  "reports_sought": 36,
+  "not_retrieved": 5,
+  "assessed": 31,
+  "excluded": 5,
+  "fulltext_excluded_by_reason": {
+   "EC1": 1,
+   "EC3": 2,
+   "EC6": 2
+  },
+  "additional_reports": 0,
+  "studies_included": 26
+ },
+ "included": {
+  "studies": 702,
+  "reports": 711,
+  "studies_databases": 452,
+  "studies_other_methods": 250,
+  "status": "final (database retrieval closed 2026-10-09; citation searching 2026-10-10; second update search 2026-11-13)"
+ }
+}

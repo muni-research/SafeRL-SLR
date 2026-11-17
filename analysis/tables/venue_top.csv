@@ -1,0 +1,71 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+IEEE Transactions on Intelligent Transportation Systems,IEEE Transactions on Intelligent Transportation Systems,82,11.7,
+arXiv,arXiv,59,8.4,
+IEEE Intelligent Transportation Systems Conference (ITSC),IEEE Intelligent Transportation Systems Conference (ITSC),49,7.0,
+IEEE Transactions on Vehicular Technology,IEEE Transactions on Vehicular Technology,31,4.4,
+IEEE Intelligent Vehicles Symposium,IEEE Intelligent Vehicles Symposium,30,4.3,
+IEEE Transactions on Intelligent Vehicles,IEEE Transactions on Intelligent Vehicles,22,3.1,
+CAA International Conference on Vehicular Control and Intelligence (CVCI),CAA International Conference on Vehicular Control and Intelligence (CVCI),20,2.8,
+IEEE/RSJ IROS,IEEE/RSJ IROS,16,2.3,
+IEEE Access,IEEE Access,14,2.0,
+IEEE ICRA,IEEE ICRA,14,2.0,
+Electronics,Electronics,12,1.7,B0533;B0711;B0776;B0847;B1116;B1563;B1808;C0155;C0282;C0341;C0961;E076
+Sensors,Sensors,11,1.6,A086;A095;B0432;B0490;B0524;B0545;B1280;B1289;B1525;C0377;C0620
+IFAC-PapersOnLine,IFAC-PapersOnLine,11,1.6,A198;B0242;B0267;B0423;B1327;B1329;B1368;B1375;B1422;B1430;C0370
+Transportation Research Part C Emerging Technologies,Transportation Research Part C Emerging Technologies,11,1.6,B0115;B0230;B0656;B0883;B1261;B1333;B1408;B1544;B1651;B1717;B1745
+IEEE Robotics and Automation Letters,IEEE Robotics and Automation Letters,10,1.4,B0641;B0757;B0916;B1427;B1543;C0299;C0518;C0720;C0826;C1024
+IEEE Internet of Things Journal,IEEE Internet of Things Journal,9,1.3,B0522;B0664;B1780;B1806;B1818;C0740;C0866;C0927;C1020
+IET Intelligent Transport Systems,IET Intelligent Transport Systems,8,1.1,A046;B0431;B1120;B1146;B1303;B1697;B1738;C0997
+Applied Sciences,Applied Sciences,8,1.1,B0213;B0935;B0952;B0987;B1336;C0126;C0981;C1039
+IEEE Transactions on Transportation Electrification,IEEE Transactions on Transportation Electrification,8,1.1,B0337;B0896;B1445;B1538;B1793;C0647;C0765;C0851
+Engineering Applications of Artificial Intelligence,Engineering Applications of Artificial Intelligence,8,1.1,B0972;B1168;B1474;B1528;B1536;B1687;B1788;B1804
+Lecture notes in computer science,Lecture notes in computer science,7,1.0,B0015;B0066;B0180;B0181;B0937;B1358;C0319
+China Automation Congress (CAC),China Automation Congress (CAC),6,0.9,B0439;B1276;B1299;B1341;B1461;C0467
+IEEE International Conference on Unmanned Systems (ICUS),IEEE International Conference on Unmanned Systems (ICUS),5,0.7,B0324;B1324;C0190;C0705;C0932
+Advanced Engineering Informatics,Advanced Engineering Informatics,5,0.7,B0507;B1519;B1583;B1689;B1787
+Expert Systems with Applications,Expert Systems with Applications,4,0.6,A007;B0668;B0892;B1786
+IEEE Transactions on Neural Networks and Learning Systems,IEEE Transactions on Neural Networks and Learning Systems,4,0.6,A052;B0575;B1312;B1816
+IEEE Transactions on Industrial Electronics,IEEE Transactions on Industrial Electronics,4,0.6,A074;C0748;C0822;C0884
+American Control Conference (ACC),American Control Conference (ACC),4,0.6,A164;A187;B0077;C0389
+IEEE Transactions on Cybernetics,IEEE Transactions on Cybernetics,4,0.6,B0170;B0334;B0623;C0315
+Accident Analysis & Prevention,Accident Analysis & Prevention,4,0.6,B0678;B0754;B1021;B1437
+IEEE Sensors Journal,IEEE Sensors Journal,4,0.6,B0894;C0252;C0783;C0881
+Machines,Machines,4,0.6,B0976;B1169;B1490;C0692
+"Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics","Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics",3,0.4,B0133;C0406;C0698
+SSRN Electronic Journal,SSRN Electronic Journal,3,0.4,B0781;B1636;B1709
+IEEE Transactions on Pattern Analysis and Machine Intelligence,IEEE Transactions on Pattern Analysis and Machine Intelligence,3,0.4,B1046;B1360;C0328
+IEEE Transactions on Systems Man and Cybernetics Systems,IEEE Transactions on Systems Man and Cybernetics Systems,3,0.4,B1084;C1049;E050
+IEEE Transactions on Automation Science and Engineering,IEEE Transactions on Automation Science and Engineering,3,0.4,B1770;C0714;C0992
+European Control Conference (ECC),European Control Conference (ECC),3,0.4,C0129;C0309;C0378
+Knowledge-Based Systems,Knowledge-Based Systems,2,0.3,A072;B1566
+Automotive Innovation,Automotive Innovation,2,0.3,A112;B1411
+IEEE Conference on Decision and Control (CDC),IEEE Conference on Decision and Control (CDC),2,0.3,A204;B1275
+Proceedings of the AAAI Conference on Artificial Intelligence,Proceedings of the AAAI Conference on Artificial Intelligence,2,0.3,B0029;B0048
+2022 IEEE 18th International Conference on Automation Science and Engineering (CASE),2022 IEEE 18th International Conference on Automation Science and Engineering (CASE),2,0.3,B0219;B0909
+Chinese Journal of Mechanical Engineering,Chinese Journal of Mechanical Engineering,2,0.3,B0321;C0849
+Energies,Energies,2,0.3,B0325;C0199
+Engineering,Engineering,2,0.3,B0373;B1409
+Journal of Applied Automation Technologies,Journal of Applied Automation Technologies,2,0.3,B0385;B1342
+IEEE International Automated Vehicle Validation Conference (IAVVC),IEEE International Automated Vehicle Validation Conference (IAVVC),2,0.3,B0436;C0608
+Adaptive Agents and Multi-Agents Systems,Adaptive Agents and Multi-Agents Systems,2,0.3,B0724;C0082
+Applied and Computational Engineering,Applied and Computational Engineering,2,0.3,B0837;B1556
+International Conference on Intelligent Computing and Signal Processing (ICSP),International Conference on Intelligent Computing and Signal Processing (ICSP),2,0.3,B0950;B1178
+Mathematics,Mathematics,2,0.3,B1292;C0493
+World Electric Vehicle Journal,World Electric Vehicle Journal,2,0.3,B1356;B1799
+IEEE Open Journal of Intelligent Transportation Systems,IEEE Open Journal of Intelligent Transportation Systems,2,0.3,B1369;B1676
+Energy,Energy,2,0.3,B1378;B1416
+Communications in Transportation Research,Communications in Transportation Research,2,0.3,B1458;E075
+Robotics: Science and Systems (RSS),Robotics: Science and Systems (RSS),2,0.3,B1479;C0130
+Scientific Reports,Scientific Reports,2,0.3,B1658;B1677
+Vehicles,Vehicles,2,0.3,B1667;C0939
+Journal of Intelligent and Connected Vehicles,Journal of Intelligent and Connected Vehicles,2,0.3,B1747;B1765
+"International Conference on Control, Decision and Information Technologies (CoDIT)","International Conference on Control, Decision and Information Technologies (CoDIT)",2,0.3,B1779;C0382
+IEEE International Conference on Machine Learning and Applications (ICMLA),IEEE International Conference on Machine Learning and Applications (ICMLA),2,0.3,C0056;C0111
+International Joint Conference on Neural Networks (IJCNN),International Joint Conference on Neural Networks (IJCNN),2,0.3,C0068;E033
+IEEE Vehicular Technology Conference,IEEE Vehicular Technology Conference,2,0.3,C0365;C0908
+International Conference on Advanced Robotics (ICAR),International Conference on Advanced Robotics (ICAR),2,0.3,C0376;C0404
+PLoS ONE,PLoS ONE,2,0.3,C0557;C0902
+Chinese Control and Decision Conference (CCDC),Chinese Control and Decision Conference (CCDC),2,0.3,C0666;E032
+"International Conference on Robotics, Automation and Intelligent Transportation Systems (RAITS)","International Conference on Robotics, Automation and Intelligent Transportation Systems (RAITS)",2,0.3,C1037;E030
+IEEE Open Journal of Vehicular Technology,IEEE Open Journal of Vehicular Technology,2,0.3,C1043;E024
+IEEE Conference on Cybernetics and Intelligent Systems,IEEE Conference on Cybernetics and Intelligent Systems,2,0.3,E046;E047

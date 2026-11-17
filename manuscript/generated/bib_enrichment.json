@@ -1,0 +1,4674 @@
+{
+ "A005": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "10",
+  "issue": "1",
+  "pages": "359-372",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A007": {
+  "container": "Expert Systems with Applications",
+  "volume": "267",
+  "pages": "126153",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "A019": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "7",
+  "pages": "12528-12542",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A035": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "10",
+  "issue": "6",
+  "pages": "3782-3791",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A036": {
+  "container": "Actuators",
+  "volume": "14",
+  "issue": "7",
+  "pages": "315",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "A037": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "9",
+  "pages": "14039-14052",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A046": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "19",
+  "issue": "1",
+  "pages": "e70013",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "A052": {
+  "container": "IEEE Transactions on Neural Networks and Learning Systems",
+  "volume": "35",
+  "issue": "2",
+  "pages": "2066-2080",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A053": {
+  "container": "IEEE Transactions on Consumer Electronics",
+  "volume": "72",
+  "issue": "2",
+  "pages": "3287-3296",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A059": {
+  "container": "IEEE Access",
+  "volume": "12",
+  "pages": "128007-128023",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A072": {
+  "container": "Knowledge-Based Systems",
+  "volume": "290",
+  "pages": "111548",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "A074": {
+  "container": "IEEE Transactions on Industrial Electronics",
+  "volume": "71",
+  "issue": "10",
+  "pages": "12744-12753",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A086": {
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "10",
+  "pages": "3139",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "A087": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "10",
+  "pages": "13653-13666",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A089": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "4",
+  "pages": "4948-4959",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A095": {
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "13",
+  "pages": "4140",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "A096": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "72",
+  "issue": "9",
+  "pages": "11251-11263",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A097": {
+  "container": "2025 4th International Conference on Automation, Robotics and Computer Engineering (ICARCE)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A099": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "12",
+  "pages": "14320-14328",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A105": {
+  "container": "IEEE Transactions on Cognitive and Developmental Systems",
+  "volume": "16",
+  "issue": "6",
+  "pages": "2070-2084",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A109": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "pages": "1-13",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A112": {
+  "container": "Automotive Innovation",
+  "volume": "9",
+  "issue": "2",
+  "pages": "340-353",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "A127": {
+  "container": "2025 International Conference on Cyber-Physical Social Intelligence (CPSI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A129": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "2",
+  "pages": "1889-1899",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A132": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "3",
+  "pages": "2332-2344",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A135": {
+  "container": "International Journal of Control, Automation and Systems",
+  "volume": "21",
+  "issue": "12",
+  "pages": "4098-4110",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "A139": {
+  "container": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A140": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "6",
+  "pages": "5765-5780",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "A144": {
+  "container": "2024 10th International Conference on Control, Instrumentation and Automation (ICCIA)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A164": {
+  "container": "2025 American Control Conference (ACC)",
+  "pages": "5202-5209",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A167": {
+  "container": "2024 36th Chinese Control and Decision Conference (CCDC)",
+  "pages": "896-901",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A187": {
+  "container": "2025 American Control Conference (ACC)",
+  "pages": "1327-1334",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A188": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A193": {
+  "container": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "4520-4527",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A198": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "58",
+  "issue": "28",
+  "pages": "84-89",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "A204": {
+  "container": "2024 IEEE 63rd Conference on Decision and Control (CDC)",
+  "pages": "401-406",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "A210": {
+  "container": "2024 43rd Chinese Control Conference (CCC)",
+  "pages": "6433-6438",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0011": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0015": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "417-429",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter"
+ },
+ "B0028": {
+  "container": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0029": {
+  "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "volume": "32",
+  "issue": "1",
+  "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+  "type": "journal-article"
+ },
+ "B0048": {
+  "container": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "volume": "33",
+  "issue": "01",
+  "pages": "3387-3395",
+  "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+  "type": "journal-article"
+ },
+ "B0053": {
+  "container": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "3263-3268",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0062": {
+  "container": "2019 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1469-1476",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0066": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "350-354",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter"
+ },
+ "B0077": {
+  "container": "2020 American Control Conference (ACC)",
+  "pages": "4355-4361",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0085": {
+  "container": "2020 4th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0089": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1550-1555",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0096": {
+  "container": "IEEE Access",
+  "volume": "8",
+  "pages": "187470-187482",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0110": {
+  "container": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "6627-6632",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0115": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "117",
+  "pages": "102662",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0117": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0118": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0122": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0124": {
+  "container": "2020 IEEE International Conference on Mechatronics and Automation (ICMA)",
+  "pages": "320-326",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0133": {
+  "container": "2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "pages": "3934-3941",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0145": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0153": {
+  "container": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
+  "pages": "1592-1598",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0157": {
+  "container": "2021 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "171-178",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0160": {
+  "container": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "942-947",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0170": {
+  "container": "IEEE Transactions on Cybernetics",
+  "volume": "52",
+  "issue": "9",
+  "pages": "8897-8910",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0180": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "702-713",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter"
+ },
+ "B0181": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "439-450",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter"
+ },
+ "B0186": {
+  "container": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "4552-4559",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0188": {
+  "container": "2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)",
+  "pages": "230-235",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0190": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0199": {
+  "container": "IEEE Access",
+  "volume": "9",
+  "pages": "141347-141359",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0200": {
+  "container": "2021 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "488-495",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0202": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "7",
+  "pages": "6766-6773",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0209": {
+  "publisher": "Unpublished",
+  "type": "Text"
+ },
+ "B0210": {
+  "container": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "791-798",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0213": {
+  "container": "Applied Sciences",
+  "volume": "11",
+  "issue": "8",
+  "pages": "3464",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0219": {
+  "container": "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)",
+  "pages": "563-568",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0221": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "4017-4023",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0225": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "71",
+  "issue": "4",
+  "pages": "3621-3632",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0226": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "11",
+  "pages": "21848-21860",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0230": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "139",
+  "pages": "103662",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0237": {
+  "container": "Robotics",
+  "volume": "11",
+  "issue": "4",
+  "pages": "81",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0240": {
+  "container": "IEEE Access",
+  "volume": "10",
+  "pages": "68029-68041",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0242": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "55",
+  "issue": "27",
+  "pages": "241-246",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0246": {
+  "container": "IEEE Access",
+  "volume": "10",
+  "pages": "43303-43319",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0257": {
+  "container": "Journal of Systems Architecture",
+  "volume": "126",
+  "pages": "102505",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0267": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "55",
+  "issue": "20",
+  "pages": "355-360",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0268": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1913-1920",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0270": {
+  "container": "Journal of Physics: Conference Series",
+  "volume": "2234",
+  "issue": "1",
+  "pages": "012015",
+  "publisher": "IOP Publishing",
+  "type": "journal-article"
+ },
+ "B0272": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0276": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2415-2421",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0284": {
+  "container": "Journal of the Franklin Institute",
+  "volume": "360",
+  "issue": "17",
+  "pages": "13737-13760",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0301": {
+  "container": "Lecture Notes in Intelligent Transportation and Infrastructure",
+  "pages": "161-212",
+  "publisher": "Springer International Publishing",
+  "type": "book-chapter"
+ },
+ "B0303": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2708-2715",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0305": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2407-2414",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0307": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0308": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0321": {
+  "container": "Chinese Journal of Mechanical Engineering",
+  "volume": "36",
+  "issue": "1",
+  "pages": "80",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0324": {
+  "container": "2023 IEEE International Conference on Unmanned Systems (ICUS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0325": {
+  "container": "Energies",
+  "volume": "16",
+  "issue": "8",
+  "pages": "3490",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0327": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "5",
+  "pages": "3654-3670",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0334": {
+  "container": "IEEE Transactions on Cybernetics",
+  "volume": "54",
+  "issue": "3",
+  "pages": "1907-1920",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0337": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "10",
+  "issue": "3",
+  "pages": "6488-6496",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0339": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "73",
+  "issue": "1",
+  "pages": "162-175",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0373": {
+  "container": "Engineering",
+  "volume": "33",
+  "pages": "108-120",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0381": {
+  "container": "2023 IEEE 35th International Conference on Tools with Artificial Intelligence (ICTAI)",
+  "pages": "746-753",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0385": {
+  "container": "Journal of Applied Automation Technologies",
+  "volume": "1",
+  "publisher": "European Federation of Engineering Associations",
+  "type": "journal-article"
+ },
+ "B0393": {
+  "container": "2023 7th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0402": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "1",
+  "pages": "1577-1588",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0403": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "6",
+  "pages": "5374-5388",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0423": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "56",
+  "issue": "3",
+  "pages": "85-90",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0429": {
+  "container": "Artificial Intelligence",
+  "volume": "320",
+  "pages": "103923",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0431": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "17",
+  "issue": "11",
+  "pages": "2143-2153",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B0432": {
+  "container": "Sensors",
+  "volume": "23",
+  "issue": "3",
+  "pages": "1198",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0433": {
+  "container": "International Journal of Environmental Research and Public Health",
+  "volume": "20",
+  "issue": "1",
+  "pages": "893",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0436": {
+  "container": "2023 IEEE International Automated Vehicle Validation Conference (IAVVC)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0438": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "9",
+  "pages": "5490-5505",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0439": {
+  "container": "2023 China Automation Congress (CAC)",
+  "pages": "3484-3489",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0441": {
+  "container": "2023 7th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0442": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3253-3260",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0444": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1313-1319",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0445": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "9",
+  "pages": "9966-9983",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0446": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2811-2818",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0448": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "11",
+  "pages": "12345-12356",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0451": {
+  "container": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "5574-5580",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0455": {
+  "container": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
+  "pages": "3124-3133",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B0484": {
+  "container": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1401-1408",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0485": {
+  "container": "IEEE/ASME Transactions on Mechatronics",
+  "volume": "31",
+  "issue": "4",
+  "pages": "4531-4539",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0490": {
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "8",
+  "pages": "2657",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0507": {
+  "container": "Advanced Engineering Informatics",
+  "volume": "62",
+  "pages": "102801",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0514": {
+  "container": "IEEE Transactions on Mobile Computing",
+  "volume": "23",
+  "issue": "12",
+  "pages": "12830-12847",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0516": {
+  "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "14205-14211",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0517": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0522": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "12",
+  "issue": "5",
+  "pages": "5396-5411",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0524": {
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "16",
+  "pages": "5187",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0529": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "17602-17613",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0533": {
+  "container": "Electronics",
+  "volume": "13",
+  "issue": "10",
+  "pages": "1952",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0545": {
+  "container": "Sensors",
+  "volume": "24",
+  "issue": "17",
+  "pages": "5514",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0550": {
+  "container": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1758-1763",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0557": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "7",
+  "pages": "7339-7351",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0575": {
+  "container": "IEEE Transactions on Neural Networks and Learning Systems",
+  "volume": "36",
+  "issue": "2",
+  "pages": "2327-2341",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0577": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "10",
+  "pages": "6183-6194",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0595": {
+  "container": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1214-1221",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0623": {
+  "container": "IEEE Transactions on Cybernetics",
+  "volume": "55",
+  "issue": "2",
+  "pages": "638-648",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0629": {
+  "container": "2024 4th International Conference on Control Theory and Applications (ICoCTA)",
+  "pages": "18-22",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0631": {
+  "container": "IEEE/CAA Journal of Automatica Sinica",
+  "volume": "11",
+  "issue": "9",
+  "pages": "2011-2026",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0634": {
+  "container": "International Journal of Engineering",
+  "volume": "38",
+  "issue": "1",
+  "pages": "21-34",
+  "publisher": "International Digital Organization for Scientific Information (IDOSI)",
+  "type": "journal-article"
+ },
+ "B0636": {
+  "container": "2024 IEEE 7th International Conference on Industrial Cyber-Physical Systems (ICPS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0640": {
+  "container": "Alexandria Engineering Journal",
+  "volume": "111",
+  "pages": "92-106",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0641": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "9",
+  "issue": "5",
+  "pages": "4639-4646",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0647": {
+  "container": "2024 7th International Symposium on Autonomous Systems (ISAS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0653": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "74",
+  "issue": "3",
+  "pages": "3830-3842",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0656": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "163",
+  "pages": "104632",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0657": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "12",
+  "pages": "7931-7944",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0663": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "10",
+  "pages": "16377-16390",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0664": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "12",
+  "issue": "13",
+  "pages": "22733-22745",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0668": {
+  "container": "Expert Systems with Applications",
+  "volume": "276",
+  "pages": "127167",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0671": {
+  "container": "2025 25th International Conference on Software Quality, Reliability and Security (QRS)",
+  "pages": "634-643",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0678": {
+  "container": "Accident Analysis &amp; Prevention",
+  "volume": "214",
+  "pages": "107941",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0700": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "10",
+  "pages": "15728-15745",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0705": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "74",
+  "issue": "6",
+  "pages": "8824-8838",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0711": {
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "3",
+  "pages": "557",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0716": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0718": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "6",
+  "pages": "8919-8932",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0724": {
+  "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "pages": "3026-3028",
+  "publisher": "IEEE Computer Society",
+  "type": "proceedings-article"
+ },
+ "B0737": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0738": {
+  "container": "2025 IEEE 5th International Conference on Industrial Automation, Robotics and Control Engineering (IARCE)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0739": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1964-1970",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0741": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0750": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "1",
+  "pages": "1592-1605",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0754": {
+  "container": "Accident Analysis &amp; Prevention",
+  "volume": "223",
+  "pages": "108265",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0757": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "10",
+  "issue": "6",
+  "pages": "6448-6455",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0761": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3482-3487",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0763": {
+  "container": "2025 International Conference on Data, Energy and Communication Networks (DECoN)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0766": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0775": {
+  "container": "Proceedings of the 2025 9th International Conference on Computer Science and Artificial Intelligence",
+  "pages": "169-174",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B0776": {
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "14",
+  "pages": "2776",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0778": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0781": {
+  "publisher": "Elsevier BV",
+  "type": "posted-content"
+ },
+ "B0793": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "6",
+  "pages": "7624-7639",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0796": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0805": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0835": {
+  "container": "2025 6th International Conference on Artificial Intelligence and Electromechanical Automation (AIEA)",
+  "pages": "425-431",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0837": {
+  "container": "Applied and Computational Engineering",
+  "volume": "158",
+  "issue": "1",
+  "pages": "211-220",
+  "publisher": "EWA Publishing",
+  "type": "journal-article"
+ },
+ "B0845": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "3",
+  "pages": "3711-3724",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0847": {
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "22",
+  "pages": "4446",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0848": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0870": {
+  "container": "2025 International Conference on Mechatronics, Automation and Intelligent Control (MAIC)",
+  "pages": "406-409",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0877": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0878": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "11",
+  "pages": "18880-18893",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0879": {
+  "container": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "15254-15261",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0882": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0883": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "172",
+  "pages": "105005",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0886": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1848-1855",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0887": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "678-685",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0892": {
+  "container": "Expert Systems with Applications",
+  "volume": "287",
+  "pages": "128174",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0893": {
+  "container": "IEEE Transactions on Parallel and Distributed Systems",
+  "volume": "36",
+  "issue": "8",
+  "pages": "1744-1761",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0894": {
+  "container": "IEEE Sensors Journal",
+  "volume": "26",
+  "issue": "2",
+  "pages": "2848-2855",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0896": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "12",
+  "issue": "2",
+  "pages": "2221-2234",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0897": {
+  "container": "2025 IEEE 4th International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON)",
+  "pages": "60-65",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0898": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "10",
+  "pages": "14780-14791",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0902": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "2",
+  "pages": "2101-2117",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0904": {
+  "container": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "4196-4203",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0906": {
+  "container": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+  "pages": "1380-1387",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0909": {
+  "container": "2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)",
+  "pages": "2450-2455",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0910": {
+  "container": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "8522-8528",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0916": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "10",
+  "issue": "11",
+  "pages": "11626-11633",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0920": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0923": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0929": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3805-3811",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0930": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "11",
+  "pages": "18854-18863",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0935": {
+  "container": "Applied Sciences",
+  "volume": "15",
+  "issue": "10",
+  "pages": "5463",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0937": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "288-307",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter"
+ },
+ "B0944": {
+  "container": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "572-579",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0950": {
+  "container": "2026 11th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+  "pages": "902-908",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0952": {
+  "container": "Applied Sciences",
+  "volume": "16",
+  "issue": "7",
+  "pages": "3610",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0957": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0972": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "173",
+  "pages": "114348",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B0974": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "10",
+  "pages": "13097-13112",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0976": {
+  "container": "Machines",
+  "volume": "14",
+  "issue": "6",
+  "pages": "605",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0981": {
+  "container": "IEEE Access",
+  "volume": "14",
+  "pages": "43954-43975",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B0987": {
+  "container": "Applied Sciences",
+  "volume": "16",
+  "issue": "8",
+  "pages": "3687",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B0991": {
+  "container": "2026 7th International Seminar on Artificial Intelligence, Networking and Information Technology (AINIT)",
+  "pages": "119-122",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B0997": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B0999": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1002": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1003": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1021": {
+  "container": "Accident Analysis &amp; Prevention",
+  "volume": "230",
+  "pages": "108448",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1031": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1034": {
+  "container": "2026 6th International Conference on Computer, Control and Robotics (ICCCR)",
+  "pages": "43-46",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1035": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "7",
+  "pages": "12195-12207",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1041": {
+  "container": "Results in Engineering",
+  "volume": "30",
+  "pages": "109912",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1046": {
+  "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "volume": "48",
+  "issue": "10",
+  "pages": "13549-13566",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1070": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1071": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "8",
+  "pages": "9529-9544",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1074": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1084": {
+  "container": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+  "volume": "56",
+  "issue": "3",
+  "pages": "2076-2088",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1093": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "4",
+  "pages": "4699-4714",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1094": {
+  "container": "2026 IEEE 20th International Conference on Control and Automation (ICCA)",
+  "pages": "528-533",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1116": {
+  "container": "Electronics",
+  "volume": "15",
+  "issue": "10",
+  "pages": "2031",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1120": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "20",
+  "issue": "1",
+  "pages": "e70269",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B1136": {
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "posted-content"
+ },
+ "B1137": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "9",
+  "pages": "18857-18870",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1146": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "20",
+  "issue": "1",
+  "pages": "e70230",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B1147": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1149": {
+  "container": "EAI Endorsed Transactions on Internet of Things",
+  "volume": "11",
+  "publisher": "European Alliance for Innovation n.o.",
+  "type": "journal-article"
+ },
+ "B1157": {
+  "container": "Control Engineering Practice",
+  "volume": "176",
+  "pages": "107141",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1158": {
+  "container": "Research Digest on Engineering Management and Social Innovations",
+  "publisher": "Mallikarjuna Infosys",
+  "type": "journal-article"
+ },
+ "B1162": {
+  "container": "2026 22nd IEEE International Conference on Mechatronic and Embedded Systems and Applications (MESA)",
+  "pages": "33-38",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1163": {
+  "container": "Nonlinear Dynamics",
+  "volume": "114",
+  "issue": "15",
+  "pages": "991",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "B1166": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1167": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-11",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1168": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "181",
+  "pages": "115460",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1169": {
+  "container": "Machines",
+  "volume": "14",
+  "issue": "5",
+  "pages": "560",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1171": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-13",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1175": {
+  "container": "IEEE Access",
+  "volume": "14",
+  "pages": "17506-17524",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1178": {
+  "container": "2026 11th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+  "pages": "1258-1262",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1189": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1209": {
+  "container": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2156-2162",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1210": {
+  "container": "2018 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1665-1671",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1212": {
+  "container": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "307-312",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1216": {
+  "container": "2019 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "2148-2155",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1220": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1222": {
+  "container": "2019 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1013-1020",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1225": {
+  "container": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "1838-1844",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1230": {
+  "container": "Proceedings of the 23rd International Conference on Hybrid Systems: Computation and Control",
+  "pages": "1-7",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B1234": {
+  "container": "Vehicular Communications",
+  "volume": "26",
+  "pages": "100266",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1237": {
+  "container": "Proceedings of the 39th International Conference on Computer-Aided Design",
+  "pages": "1-9",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B1248": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1205-1212",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1253": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1256": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "7",
+  "pages": "8805-8822",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1257": {
+  "container": "2021 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "2660-2666",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1261": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "134",
+  "pages": "103452",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1269": {
+  "container": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "804-811",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1270": {
+  "container": "2021 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
+  "pages": "1058-1063",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1271": {
+  "container": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "3462-3469",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1274": {
+  "container": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "1236-1243",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1275": {
+  "container": "2021 60th IEEE Conference on Decision and Control (CDC)",
+  "pages": "4694-4700",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1276": {
+  "container": "2021 China Automation Congress (CAC)",
+  "pages": "3388-3393",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1277": {
+  "container": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "1990-1996",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1278": {
+  "container": "2021 5th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-5",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1280": {
+  "container": "Sensors",
+  "volume": "21",
+  "issue": "11",
+  "pages": "3864",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1281": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1284": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1287": {
+  "container": "2021 IEEE International Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "3156-3161",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1289": {
+  "container": "Sensors",
+  "volume": "21",
+  "issue": "6",
+  "pages": "2032",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1291": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "10",
+  "pages": "18620-18631",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1292": {
+  "container": "Mathematics",
+  "volume": "10",
+  "issue": "9",
+  "pages": "1551",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1293": {
+  "container": "ICT Express",
+  "volume": "8",
+  "issue": "3",
+  "pages": "479-483",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1295": {
+  "container": "2022 7th International Conference on Machine Learning Technologies (ICMLT)",
+  "pages": "209-215",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B1297": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1063-1069",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1299": {
+  "container": "2022 China Automation Congress (CAC)",
+  "pages": "2785-2790",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1300": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2556-2562",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1301": {
+  "container": "Proceedings of the 30th International Conference on Advances in Geographic Information Systems",
+  "pages": "1-12",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B1303": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "16",
+  "issue": "6",
+  "pages": "813-824",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B1312": {
+  "container": "IEEE Transactions on Neural Networks and Learning Systems",
+  "volume": "35",
+  "issue": "1",
+  "pages": "466-478",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1318": {
+  "container": "2022 6th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1321": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "4",
+  "pages": "4103-4113",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1322": {
+  "container": "2022 International Conference on Robotics and Automation (ICRA)",
+  "pages": "8978-8984",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1324": {
+  "container": "2022 IEEE International Conference on Unmanned Systems (ICUS)",
+  "pages": "1151-1156",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1325": {
+  "container": "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1228-1233",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1326": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "7",
+  "issue": "2",
+  "pages": "387-398",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1327": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "55",
+  "issue": "37",
+  "pages": "615-620",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1328": {
+  "container": "2022 International Joint Conference on Neural Networks (IJCNN)",
+  "pages": "01-08",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1329": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "55",
+  "issue": "24",
+  "pages": "149-154",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1330": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1333": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "138",
+  "pages": "103656",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1336": {
+  "container": "Applied Sciences",
+  "volume": "13",
+  "issue": "9",
+  "pages": "5272",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1341": {
+  "container": "2023 China Automation Congress (CAC)",
+  "pages": "7214-7219",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1342": {
+  "container": "Journal of Applied Automation Technologies",
+  "volume": "1",
+  "publisher": "European Federation of Engineering Associations",
+  "type": "journal-article"
+ },
+ "B1345": {
+  "container": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "9421-9427",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1346": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "4079-4085",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1349": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "12",
+  "pages": "4696-4705",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1350": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "1",
+  "pages": "1654-1666",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1356": {
+  "container": "World Electric Vehicle Journal",
+  "volume": "14",
+  "issue": "4",
+  "pages": "79",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1358": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "193-218",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter"
+ },
+ "B1359": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1360": {
+  "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "volume": "46",
+  "issue": "1",
+  "pages": "267-279",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1361": {
+  "container": "2023 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1364": {
+  "container": "2023 International Workshop on Intelligent Systems (IWIS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1365": {
+  "container": "2023 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1368": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "56",
+  "issue": "2",
+  "pages": "1101-1106",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1369": {
+  "container": "IEEE Open Journal of Intelligent Transportation Systems",
+  "volume": "4",
+  "pages": "419-430",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1370": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "6",
+  "pages": "3556-3571",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1375": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "56",
+  "issue": "2",
+  "pages": "3308-3313",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1378": {
+  "container": "Energy",
+  "volume": "284",
+  "pages": "128517",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1388": {
+  "container": "2023 7th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1389": {
+  "container": "IECON 2023- 49th Annual Conference of the IEEE Industrial Electronics Society",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1392": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "6074-6079",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1398": {
+  "container": "Cognitive Robotics",
+  "volume": "3",
+  "pages": "107-126",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1403": {
+  "container": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "5631-5637",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1407": {
+  "container": "IEEE Access",
+  "volume": "11",
+  "pages": "16843-16854",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1408": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "156",
+  "pages": "104352",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1409": {
+  "container": "Engineering",
+  "volume": "33",
+  "pages": "77-89",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1411": {
+  "container": "Automotive Innovation",
+  "volume": "6",
+  "issue": "4",
+  "pages": "509-520",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "B1415": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2606-2613",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1416": {
+  "container": "Energy",
+  "volume": "314",
+  "pages": "134225",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1417": {
+  "container": "Proceedings of the 2024 3rd International Symposium on Intelligent Unmanned Systems and Artificial Intelligence",
+  "pages": "136-144",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "B1418": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "73",
+  "issue": "11",
+  "pages": "16375-16388",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1422": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "58",
+  "issue": "30",
+  "pages": "186-191",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1423": {
+  "container": "2024 IEEE 4th International Conference on Digital Twins and Parallel Intelligence (DTPI)",
+  "pages": "459-464",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1427": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "9",
+  "issue": "9",
+  "pages": "7477-7484",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1429": {
+  "container": "2024 IEEE International Conference on Agents (ICA)",
+  "pages": "39-44",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1430": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "58",
+  "issue": "28",
+  "pages": "216-221",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1432": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "3",
+  "pages": "3976-3988",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1435": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "9",
+  "issue": "4",
+  "pages": "4657-4674",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1437": {
+  "container": "Accident Analysis &amp; Prevention",
+  "volume": "210",
+  "pages": "107843",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1439": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1443": {
+  "container": "2024 IEEE 32nd International Requirements Engineering Conference Workshops (REW)",
+  "pages": "57-67",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1445": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "11",
+  "issue": "1",
+  "pages": "732-743",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1448": {
+  "container": "IEEE Access",
+  "volume": "12",
+  "pages": "132198-132209",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1450": {
+  "container": "IEEE Transactions on Industrial Informatics",
+  "volume": "20",
+  "issue": "10",
+  "pages": "12385-12395",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1455": {
+  "container": "Field Robotics",
+  "volume": "4",
+  "pages": "46-69",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1458": {
+  "container": "Communications in Transportation Research",
+  "volume": "4",
+  "pages": "100127",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1459": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "12",
+  "pages": "19522-19535",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1461": {
+  "container": "2024 China Automation Congress (CAC)",
+  "pages": "1312-1317",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1469": {
+  "container": "Electronic Proceedings in Theoretical Computer Science",
+  "volume": "411",
+  "pages": "160-177",
+  "publisher": "Open Publishing Association",
+  "type": "journal-article"
+ },
+ "B1470": {
+  "container": "2024 14th International Conference on Cloud Computing, Data Science &amp;amp; Engineering (Confluence)",
+  "pages": "644-651",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1474": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "142",
+  "pages": "109870",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1476": {
+  "container": "2024 International Conference on Networking, Sensing and Control (ICNSC)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1479": {
+  "container": "Robotics: Science and Systems XX",
+  "publisher": "Robotics: Science and Systems Foundation",
+  "type": "proceedings-article"
+ },
+ "B1481": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "856-863",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1485": {
+  "container": "2024 IEEE Congress on Evolutionary Computation (CEC)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1487": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "12",
+  "pages": "19605-19618",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1490": {
+  "container": "Machines",
+  "volume": "12",
+  "issue": "4",
+  "pages": "252",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1492": {
+  "container": "IEEE Transactions on Artificial Intelligence",
+  "volume": "6",
+  "issue": "4",
+  "pages": "829-842",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1500": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "16181-16192",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1504": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "10",
+  "issue": "5",
+  "pages": "3251-3267",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1506": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1508": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "74",
+  "issue": "6",
+  "pages": "8707-8720",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1512": {
+  "container": "IEEE Transactions on Human-Machine Systems",
+  "volume": "55",
+  "issue": "6",
+  "pages": "1006-1015",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1518": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "1",
+  "pages": "609-622",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1519": {
+  "container": "Advanced Engineering Informatics",
+  "volume": "68",
+  "pages": "103731",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1520": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1525": {
+  "container": "Sensors",
+  "volume": "25",
+  "issue": "3",
+  "pages": "774",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1528": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "161",
+  "pages": "112108",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1532": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1148-1155",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1533": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1534": {
+  "container": "Symmetry",
+  "volume": "17",
+  "issue": "1",
+  "pages": "132",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1536": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "164",
+  "pages": "113162",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1538": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "12",
+  "issue": "2",
+  "pages": "2457-2472",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1543": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "10",
+  "issue": "9",
+  "pages": "8994-9001",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1544": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "181",
+  "pages": "105369",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1556": {
+  "container": "Applied and Computational Engineering",
+  "volume": "146",
+  "issue": "1",
+  "pages": "9-22",
+  "publisher": "EWA Publishing",
+  "type": "journal-article"
+ },
+ "B1563": {
+  "container": "Electronics",
+  "volume": "14",
+  "issue": "5",
+  "pages": "918",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1566": {
+  "container": "Knowledge-Based Systems",
+  "volume": "317",
+  "pages": "113433",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1568": {
+  "container": "Journal of Intelligent Transportation Systems",
+  "pages": "1-22",
+  "publisher": "Informa UK Limited",
+  "type": "journal-article"
+ },
+ "B1569": {
+  "container": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "7925-7932",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1572": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1574": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "1",
+  "pages": "785-799",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1575": {
+  "container": "IEEE Access",
+  "volume": "13",
+  "pages": "189203-189215",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1577": {
+  "container": "Physica A: Statistical Mechanics and its Applications",
+  "volume": "679",
+  "pages": "131009",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1583": {
+  "container": "Advanced Engineering Informatics",
+  "volume": "65",
+  "pages": "103188",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1584": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1594": {
+  "container": "International Journal of Advanced Computer Science and Applications",
+  "volume": "16",
+  "issue": "5",
+  "publisher": "The Science and Information Organization",
+  "type": "journal-article"
+ },
+ "B1610": {
+  "container": "2025 IEEE 17th International Conference on Computational Intelligence and Communication Networks (CICN)",
+  "pages": "645-650",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1612": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1630": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1635": {
+  "container": "2025 Optical Communication, Photonics, Telecommunications, and Intelligent Machine Applications (OPTIMA)",
+  "pages": "297-302",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1636": {
+  "publisher": "Elsevier BV",
+  "type": "posted-content"
+ },
+ "B1639": {
+  "container": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "4579-4586",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1640": {
+  "container": "Displays",
+  "volume": "88",
+  "pages": "103041",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1642": {
+  "container": "Computer-Aided Civil and Infrastructure Engineering",
+  "volume": "40",
+  "issue": "20",
+  "pages": "3053-3073",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1645": {
+  "container": "Transportation Research Record: Journal of the Transportation Research Board",
+  "volume": "2680",
+  "issue": "1",
+  "pages": "416-431",
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "B1651": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "180",
+  "pages": "105321",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1653": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1898-1905",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1658": {
+  "container": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "B1659": {
+  "container": "International Journal of Robust and Nonlinear Control",
+  "volume": "36",
+  "issue": "11",
+  "pages": "5836-5854",
+  "publisher": "Wiley",
+  "type": "journal-article"
+ },
+ "B1667": {
+  "container": "Vehicles",
+  "volume": "8",
+  "issue": "3",
+  "pages": "58",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1676": {
+  "container": "IEEE Open Journal of Intelligent Transportation Systems",
+  "volume": "7",
+  "pages": "2377-2390",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1677": {
+  "container": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "B1686": {
+  "container": "Applied Soft Computing",
+  "pages": "116528",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1687": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "168",
+  "pages": "113998",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1689": {
+  "container": "Advanced Engineering Informatics",
+  "volume": "76",
+  "pages": "104985",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1692": {
+  "container": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "5502-5509",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1697": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "20",
+  "issue": "1",
+  "pages": "e70256",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B1709": {
+  "publisher": "Elsevier BV",
+  "type": "posted-content"
+ },
+ "B1712": {
+  "container": "Green Energy and Intelligent Transportation",
+  "pages": "100424",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1717": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "190",
+  "pages": "105761",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1738": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "20",
+  "issue": "1",
+  "pages": "e70149",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "B1742": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-11",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1745": {
+  "container": "Transportation Research Part C: Emerging Technologies",
+  "volume": "184",
+  "pages": "105511",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1747": {
+  "container": "Journal of Intelligent and Connected Vehicles",
+  "volume": "9",
+  "issue": "3",
+  "pages": "9210085",
+  "publisher": "Tsinghua University Press",
+  "type": "journal-article"
+ },
+ "B1761": {
+  "container": "Neurocomputing",
+  "volume": "701",
+  "pages": "134631",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1764": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "6",
+  "pages": "6289-6303",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1765": {
+  "container": "Journal of Intelligent and Connected Vehicles",
+  "volume": "9",
+  "issue": "3",
+  "pages": "9210090",
+  "publisher": "Tsinghua University Press",
+  "type": "journal-article"
+ },
+ "B1767": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "3",
+  "pages": "2957-2969",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1770": {
+  "container": "IEEE Transactions on Automation Science and Engineering",
+  "volume": "23",
+  "pages": "7176-7188",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1773": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "5",
+  "pages": "6050-6062",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1777": {
+  "container": "ISA Transactions",
+  "volume": "177",
+  "pages": "390-403",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1778": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "8",
+  "pages": "15571-15587",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1779": {
+  "container": "2026 12th International Conference on Control, Decision and Information Technologies (CoDIT)",
+  "pages": "31-36",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "B1780": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "13",
+  "issue": "13",
+  "pages": "28121-28137",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1786": {
+  "container": "Expert Systems with Applications",
+  "volume": "334",
+  "pages": "134435",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1787": {
+  "container": "Advanced Engineering Informatics",
+  "volume": "76",
+  "pages": "105142",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1788": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "184",
+  "pages": "116313",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1790": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1793": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "pages": "1-1",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1796": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "5",
+  "pages": "5136-5148",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1797": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-15",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1798": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "pages": "1-17",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1799": {
+  "container": "World Electric Vehicle Journal",
+  "volume": "17",
+  "issue": "1",
+  "pages": "24",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1804": {
+  "container": "Engineering Applications of Artificial Intelligence",
+  "volume": "177",
+  "pages": "114787",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "B1805": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1806": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "13",
+  "issue": "18",
+  "pages": "43540-43553",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1808": {
+  "container": "Electronics",
+  "volume": "15",
+  "issue": "14",
+  "pages": "3026",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "B1812": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "pages": "1-10",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1813": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "B1816": {
+  "container": "IEEE Transactions on Neural Networks and Learning Systems",
+  "pages": "1-14",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "B1818": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "13",
+  "issue": "16",
+  "pages": "36645-36656",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0009": {
+  "container": "2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0011": {
+  "container": "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "6059-6066",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0022": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "19",
+  "issue": "9",
+  "pages": "2903-2912",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0030": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0032": {
+  "container": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3175-3182",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0035": {
+  "container": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3169-3174",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0051": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "4",
+  "issue": "3",
+  "pages": "416-424",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0056": {
+  "container": "2019 18th IEEE International Conference On Machine Learning And Applications (ICMLA)",
+  "pages": "844-850",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0060": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0061": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "21",
+  "issue": "11",
+  "pages": "4895-4905",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0068": {
+  "container": "2019 International Joint Conference on Neural Networks (IJCNN)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0073": {
+  "container": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)",
+  "pages": "4348-4353",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0080": {
+  "publisher": "arXiv",
+  "type": "Text"
+ },
+ "C0082": {
+  "container": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "pages": "359-367",
+  "publisher": "IEEE Computer Society",
+  "type": "proceedings-article"
+ },
+ "C0084": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "69",
+  "issue": "6",
+  "pages": "5876-5888",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0088": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1156-1161",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0095": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1746-1752",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0102": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0111": {
+  "container": "2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA)",
+  "pages": "205-212",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0115": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0117": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0122": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1595-1600",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0125": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0126": {
+  "container": "Applied Sciences",
+  "volume": "10",
+  "issue": "7",
+  "pages": "2394",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0128": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0129": {
+  "container": "2020 European Control Conference (ECC)",
+  "pages": "332-337",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0130": {
+  "container": "Robotics: Science and Systems XVI",
+  "publisher": "Robotics: Science and Systems Foundation",
+  "type": "proceedings-article"
+ },
+ "C0132": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0138": {
+  "container": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0141": {
+  "container": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1563-1569",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0153": {
+  "container": "2021 5th International Conference on Control and Fault-Tolerant Systems (SysTol)",
+  "pages": "44-49",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0154": {
+  "container": "2021 18th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)",
+  "pages": "1-9",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0155": {
+  "container": "Electronics",
+  "volume": "10",
+  "issue": "18",
+  "pages": "2271",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0161": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "8",
+  "pages": "10309-10321",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0164": {
+  "container": "2021 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "1028-1035",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0171": {
+  "container": "2021 International Conference on Communications, Computing, Cybersecurity, and Informatics (CCCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0173": {
+  "container": "2021 International Conference on Software Engineering &amp; Computer Systems and 4th International Conference on Computational Science and Information Management (ICSECS-ICOCSIM)",
+  "pages": "200-205",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0176": {
+  "container": "Proceedings of the 5th International Conference on Computer Science and Application Engineering",
+  "pages": "1-8",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "C0178": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0190": {
+  "container": "2021 IEEE International Conference on Unmanned Systems (ICUS)",
+  "pages": "396-401",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0194": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "8",
+  "pages": "10902-10911",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0196": {
+  "container": "IET Control Theory &amp; Applications",
+  "volume": "16",
+  "issue": "1",
+  "pages": "112-124",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "C0197": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "8",
+  "pages": "11273-11286",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0199": {
+  "container": "Energies",
+  "volume": "14",
+  "issue": "22",
+  "pages": "7572",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0214": {
+  "container": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "3506-3511",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0217": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "8",
+  "pages": "12490-12502",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0219": {
+  "container": "2021 Emerging Technology in Computing, Communication and Electronics (ETCCE)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0221": {
+  "container": "2021 6th International Conference on Robotics and Automation Engineering (ICRAE)",
+  "pages": "244-249",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0222": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0228": {
+  "container": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "5641-5648",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0248": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "72",
+  "issue": "2",
+  "pages": "2593-2598",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0252": {
+  "container": "IEEE Sensors Journal",
+  "volume": "22",
+  "issue": "16",
+  "pages": "16370-16380",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0274": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "10",
+  "pages": "17594-17606",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0281": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "11",
+  "pages": "21102-21112",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0282": {
+  "container": "Electronics",
+  "volume": "11",
+  "issue": "11",
+  "pages": "1685",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0283": {
+  "container": "2022 6th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0293": {
+  "container": "2022 31st IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "pages": "1570-1577",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0296": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "3",
+  "pages": "3476-3488",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0297": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0299": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "7",
+  "issue": "2",
+  "pages": "4773-4780",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0302": {
+  "container": "2022 8th International Conference on Control, Automation and Robotics (ICCAR)",
+  "pages": "264-270",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0307": {
+  "container": "2022 International Conference on Robotics and Automation (ICRA)",
+  "pages": "7263-7269",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0309": {
+  "container": "2022 European Control Conference (ECC)",
+  "pages": "1964-1969",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0314": {
+  "container": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "8987-8994",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0315": {
+  "container": "IEEE Transactions on Cybernetics",
+  "volume": "53",
+  "issue": "2",
+  "pages": "859-873",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0316": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "2",
+  "pages": "1339-1349",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0319": {
+  "container": "Lecture Notes in Computer Science",
+  "pages": "501-512",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter"
+ },
+ "C0321": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "3",
+  "pages": "2197-2211",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0325": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "10",
+  "pages": "18808-18821",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0327": {
+  "container": "2022 6th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0328": {
+  "container": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "volume": "45",
+  "issue": "3",
+  "pages": "3461-3475",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0330": {
+  "container": "2022 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "331-336",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0338": {
+  "container": "Advances in Mechanical Engineering",
+  "volume": "14",
+  "issue": "12",
+  "pages": "16878132221139661",
+  "publisher": "SAGE Publications",
+  "type": "journal-article"
+ },
+ "C0341": {
+  "container": "Electronics",
+  "volume": "11",
+  "issue": "15",
+  "pages": "2346",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0343": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "23",
+  "issue": "12",
+  "pages": "24355-24368",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0352": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "8",
+  "issue": "1",
+  "pages": "184-193",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0365": {
+  "container": "2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0366": {
+  "container": "Sustainability",
+  "volume": "14",
+  "issue": "12",
+  "pages": "6988",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0370": {
+  "container": "IFAC-PapersOnLine",
+  "volume": "55",
+  "issue": "24",
+  "pages": "227-232",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "C0376": {
+  "container": "2023 21st International Conference on Advanced Robotics (ICAR)",
+  "pages": "71-78",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0377": {
+  "container": "Sensors",
+  "volume": "23",
+  "issue": "24",
+  "pages": "9843",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0378": {
+  "container": "2023 European Control Conference (ECC)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0381": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "11",
+  "pages": "11773-11784",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0382": {
+  "container": "2023 9th International Conference on Control, Decision and Information Technologies (CoDIT)",
+  "pages": "1049-1054",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0385": {
+  "container": "Proceedings of the Romanian Academy, Series A: Mathematics, Physics, Technical Sciences, Information Science",
+  "volume": "24",
+  "issue": "4",
+  "pages": "395-408",
+  "publisher": "Editura Academiei Rom\u00e2ne",
+  "type": "journal-article"
+ },
+ "C0387": {
+  "container": "Complex &amp; Intelligent Systems",
+  "volume": "10",
+  "issue": "2",
+  "pages": "1715-1732",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "C0389": {
+  "container": "2023 American Control Conference (ACC)",
+  "pages": "472-477",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0396": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "5548-5554",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0404": {
+  "container": "2023 21st International Conference on Advanced Robotics (ICAR)",
+  "pages": "325-331",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0406": {
+  "container": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "pages": "2946-2951",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0419": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "11",
+  "pages": "11623-11638",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0438": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "6",
+  "pages": "6030-6041",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0442": {
+  "container": "IEEE Transactions on Fuzzy Systems",
+  "volume": "32",
+  "issue": "2",
+  "pages": "360-372",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0443": {
+  "container": "ICC 2023 - IEEE International Conference on Communications",
+  "pages": "6584-6590",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0446": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "C0451": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "8",
+  "pages": "7932-7942",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0452": {
+  "container": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "7553-7560",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0457": {
+  "container": "EAI/Springer Innovations in Communication and Computing",
+  "pages": "99-114",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter"
+ },
+ "C0458": {
+  "container": "2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "5229-5234",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0467": {
+  "container": "2023 China Automation Congress (CAC)",
+  "pages": "4919-4924",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0478": {
+  "container": "Frontiers in Future Transportation",
+  "volume": "4",
+  "pages": "1076439",
+  "publisher": "Frontiers Media SA",
+  "type": "journal-article"
+ },
+ "C0480": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "6",
+  "pages": "6014-6029",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0481": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "5",
+  "pages": "5003-5013",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0482": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "3",
+  "pages": "2450-2465",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0483": {
+  "container": "2023 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)",
+  "pages": "23-33",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0490": {
+  "container": "2023 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0493": {
+  "container": "Mathematics",
+  "volume": "11",
+  "issue": "6",
+  "pages": "1556",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0504": {
+  "container": "Transportmetrica A: Transport Science",
+  "volume": "21",
+  "issue": "2",
+  "pages": "2246586",
+  "publisher": "Informa UK Limited",
+  "type": "journal-article"
+ },
+ "C0517": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "24",
+  "issue": "9",
+  "pages": "9725-9735",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0518": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "8",
+  "issue": "2",
+  "pages": "1167-1174",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0521": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "17902-17916",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0524": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "73",
+  "issue": "10",
+  "pages": "14275-14290",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0525": {
+  "container": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1967-1973",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0528": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "73",
+  "issue": "11",
+  "pages": "16134-16147",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0530": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "15827-15840",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0545": {
+  "container": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "337-344",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0548": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "3383-3390",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0550": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "1730-1735",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0552": {
+  "container": "Proceedings of the 2024 International Conference on Intelligent Driving and Smart Transportation",
+  "pages": "137-142",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "C0555": {
+  "container": "2024 8th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0557": {
+  "container": "PLOS ONE",
+  "volume": "19",
+  "issue": "1",
+  "pages": "e0297192",
+  "publisher": "Public Library of Science (PLoS)",
+  "type": "journal-article"
+ },
+ "C0566": {
+  "container": "2024 IEEE Cyber Science and Technology Congress (CyberSciTech)",
+  "pages": "294-299",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0570": {
+  "container": "2024 Annual Computer Security Applications Conference Workshops (ACSAC Workshops)",
+  "pages": "30-41",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0577": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2645-2650",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0581": {
+  "container": "2024 IEEE 22nd International Conference on Industrial Informatics (INDIN)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0608": {
+  "container": "2024 IEEE International Automated Vehicle Validation Conference (IAVVC)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0617": {
+  "container": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "13671-13678",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0619": {
+  "container": "2024 8th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0620": {
+  "container": "Sensors",
+  "volume": "25",
+  "issue": "1",
+  "pages": "117",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0621": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "1",
+  "pages": "835-848",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0623": {
+  "container": "IEEE Access",
+  "volume": "12",
+  "pages": "30765-30780",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0628": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "10",
+  "issue": "4",
+  "pages": "2551-2563",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0634": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "16235-16248",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0638": {
+  "container": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "7419-7425",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0639": {
+  "container": "Lecture Notes in Mechanical Engineering",
+  "pages": "742-748",
+  "publisher": "Springer Nature Switzerland",
+  "type": "book-chapter"
+ },
+ "C0643": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "11",
+  "pages": "17888-17901",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0646": {
+  "container": "2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2338-2345",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0647": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "11",
+  "issue": "1",
+  "pages": "521-535",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0658": {
+  "container": "2024 6th International Conference on Reconfigurable Mechanisms and Robots (ReMAR)",
+  "pages": "493-499",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0666": {
+  "container": "2024 36th Chinese Control and Decision Conference (CCDC)",
+  "pages": "1844-1851",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0672": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "73",
+  "issue": "9",
+  "pages": "12638-12651",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0673": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "25",
+  "issue": "9",
+  "pages": "12437-12449",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0692": {
+  "container": "Machines",
+  "volume": "12",
+  "issue": "12",
+  "pages": "861",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0698": {
+  "container": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "pages": "3193-3198",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0705": {
+  "container": "2024 IEEE International Conference on Unmanned Systems (ICUS)",
+  "pages": "1351-1356",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0708": {
+  "container": "2024 8th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0709": {
+  "container": "2024 International Conference on Automation in Manufacturing, Transportation and Logistics (ICaMaL)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0711": {
+  "container": "2024 8th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0714": {
+  "container": "IEEE Transactions on Automation Science and Engineering",
+  "volume": "22",
+  "pages": "129-140",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0720": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "9",
+  "issue": "11",
+  "pages": "9454-9461",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0722": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "3",
+  "pages": "3700-3712",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0727": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "74",
+  "issue": "1",
+  "pages": "378-389",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0731": {
+  "container": "IEEE Access",
+  "volume": "13",
+  "pages": "87730-87739",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0734": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "11",
+  "pages": "20628-20641",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0740": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "12",
+  "issue": "14",
+  "pages": "26943-26954",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0743": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "12",
+  "pages": "22031-22044",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0744": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "8",
+  "pages": "11466-11478",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0748": {
+  "container": "IEEE Transactions on Industrial Electronics",
+  "volume": "72",
+  "issue": "12",
+  "pages": "14437-14447",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0764": {
+  "container": "Proceedings of the 2025 2nd International Conference on Computer Network and Cloud Computing",
+  "pages": "36-40",
+  "publisher": "ACM",
+  "type": "proceedings-article"
+ },
+ "C0765": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "11",
+  "issue": "5",
+  "pages": "12416-12427",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0771": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1209-1214",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0777": {
+  "container": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "pages": "15268-15275",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0778": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "11",
+  "pages": "20334-20347",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0783": {
+  "container": "IEEE Sensors Journal",
+  "volume": "25",
+  "issue": "13",
+  "pages": "25605-25614",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0796": {
+  "container": "IEEE Access",
+  "volume": "13",
+  "pages": "23111-23119",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0799": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "5",
+  "pages": "7356-7367",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0807": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "648-655",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0809": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "3",
+  "pages": "3198-3209",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0820": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "1",
+  "pages": "483-500",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0822": {
+  "container": "IEEE Transactions on Industrial Electronics",
+  "volume": "73",
+  "issue": "4",
+  "pages": "5771-5781",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0826": {
+  "container": "IEEE Robotics and Automation Letters",
+  "volume": "11",
+  "issue": "2",
+  "pages": "1754-1761",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0828": {
+  "container": "2025 4th International Conference on Electronics Representation and Algorithm (ICERA)",
+  "pages": "394-399",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0837": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "1201-1208",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0849": {
+  "container": "Chinese Journal of Mechanical Engineering",
+  "volume": "38",
+  "issue": "1",
+  "pages": "1",
+  "publisher": "Elsevier BV",
+  "type": "journal-article"
+ },
+ "C0851": {
+  "container": "IEEE Transactions on Transportation Electrification",
+  "volume": "11",
+  "issue": "4",
+  "pages": "8863-8875",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0866": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "12",
+  "issue": "19",
+  "pages": "39665-39676",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0874": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "2576-2582",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0876": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "2259-2264",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0879": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "8",
+  "pages": "12676-12687",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0881": {
+  "container": "IEEE Sensors Journal",
+  "volume": "25",
+  "issue": "6",
+  "pages": "10390-10401",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0884": {
+  "container": "IEEE Transactions on Industrial Electronics",
+  "volume": "72",
+  "issue": "12",
+  "pages": "14281-14292",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0893": {
+  "container": "2025 IEEE Intelligent Vehicles Symposium (IV)",
+  "pages": "2473-2478",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0894": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "74",
+  "issue": "7",
+  "pages": "10122-10136",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0902": {
+  "container": "PLOS One",
+  "volume": "20",
+  "issue": "11",
+  "pages": "e0335686",
+  "publisher": "Public Library of Science (PLoS)",
+  "type": "journal-article"
+ },
+ "C0903": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "1",
+  "pages": "709-724",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0905": {
+  "container": "2025 9th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0906": {
+  "container": "IET Radar, Sonar &amp; Navigation",
+  "volume": "19",
+  "issue": "1",
+  "pages": "e70033",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "C0908": {
+  "container": "2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0914": {
+  "container": "2025 XXX International Conference on Information, Communication and Automation Technologies (ICAT)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0915": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "26",
+  "issue": "9",
+  "pages": "13317-13330",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0927": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "12",
+  "issue": "18",
+  "pages": "39029-39041",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0929": {
+  "container": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "pages": "789-794",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0932": {
+  "container": "2025 IEEE International Conference on Unmanned Systems (ICUS)",
+  "pages": "1548-1553",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0933": {
+  "container": "2025 International Conference on Smart Applications, Communications and Networking (SmartNets)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0938": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "10",
+  "pages": "13230-13240",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0939": {
+  "container": "Vehicles",
+  "volume": "8",
+  "issue": "1",
+  "pages": "8",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0944": {
+  "container": "2026 11th International Symposium on Advances in Electrical, Electronics and Computer Engineering (ISAEECE)",
+  "pages": "673-677",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0946": {
+  "container": "2026 3rd International Conference on Research Methodologies in Knowledge Management, Artificial Intelligence and Telecommunication Engineering (RMKMATE)",
+  "pages": "1-7",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0961": {
+  "container": "Electronics",
+  "volume": "15",
+  "issue": "6",
+  "pages": "1178",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0969": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "8",
+  "pages": "16043-16054",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0970": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "3",
+  "pages": "3383-3394",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0977": {
+  "container": "2026 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C0981": {
+  "container": "Applied Sciences",
+  "volume": "16",
+  "issue": "16",
+  "pages": "7908",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0992": {
+  "container": "IEEE Transactions on Automation Science and Engineering",
+  "volume": "23",
+  "pages": "11578-11595",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C0997": {
+  "container": "IET Intelligent Transport Systems",
+  "volume": "20",
+  "issue": "1",
+  "pages": "e70251",
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "type": "journal-article"
+ },
+ "C0998": {
+  "container": "Computation",
+  "volume": "14",
+  "issue": "9",
+  "pages": "213",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C0999": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "8",
+  "pages": "15635-15649",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1006": {
+  "container": "IEEE Transactions on Intelligent Vehicles",
+  "volume": "11",
+  "issue": "4",
+  "pages": "545-553",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1009": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "9",
+  "pages": "18912-18925",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1020": {
+  "container": "IEEE Internet of Things Journal",
+  "volume": "13",
+  "issue": "16",
+  "pages": "36930-36946",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1022": {
+  "container": "2026 IIEEJ International Conference on Image Electronics and Visual Computing (IEVC)",
+  "pages": "1-4",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C1024": {
+  "container": "IEEE Robotics and Automation Letters",
+  "pages": "1-8",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1025": {
+  "container": "Arabian Journal for Science and Engineering",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "C1027": {
+  "container": "IEEE Access",
+  "volume": "14",
+  "pages": "122595-122619",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1033": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "8",
+  "pages": "15687-15702",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1037": {
+  "container": "2026 International Conference on Robotics, Automation and Intelligent Transportation Systems (RAITS)",
+  "pages": "1-5",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C1038": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "8",
+  "pages": "9364-9380",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1039": {
+  "container": "Applied Sciences",
+  "volume": "16",
+  "issue": "12",
+  "pages": "6271",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ },
+ "C1042": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "10",
+  "pages": "12835-12848",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1043": {
+  "container": "IEEE Open Journal of Vehicular Technology",
+  "volume": "7",
+  "pages": "1474-1489",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1048": {
+  "container": "2026 IEEE 8th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+  "pages": "1345-1349",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "C1049": {
+  "container": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+  "volume": "56",
+  "issue": "8",
+  "pages": "4942-4955",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "C1051": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "volume": "75",
+  "issue": "9",
+  "pages": "18871-18884",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E015": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-14",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E019": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "pages": "1-15",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E022": {
+  "container": "IEEE Transactions on Vehicular Technology",
+  "pages": "1-16",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E024": {
+  "container": "IEEE Open Journal of Vehicular Technology",
+  "pages": "1-16",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E025": {
+  "container": "IEEE Transactions on Network and Service Management",
+  "pages": "1-1",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E029": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "pages": "1-18",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E030": {
+  "container": "2026 International Conference on Robotics, Automation and Intelligent Transportation Systems (RAITS)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E032": {
+  "container": "2026 38th Chinese Control and Decision Conference (CCDC)",
+  "pages": "7261-7267",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E033": {
+  "container": "2026 International Joint Conference on Neural Networks (IJCNN)",
+  "pages": "1-6",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E035": {
+  "container": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition- FINDINGS Track (CVPRF)",
+  "pages": "942-951",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E036": {
+  "container": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+  "pages": "8406-8413",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E037": {
+  "container": "2026 15th Asian Control Conference (ASCC)",
+  "pages": "2339-2344",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E040": {
+  "container": "2026 29th International Conference on Information Fusion (FUSION)",
+  "pages": "1-8",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E046": {
+  "container": "2026 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)",
+  "pages": "213-218",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E047": {
+  "container": "2026 IEEE International Conference on Cybernetics and Intelligent Systems (CIS) and IEEE International Conference on Robotics, Automation and Mechatronics (RAM)",
+  "pages": "181-186",
+  "publisher": "IEEE",
+  "type": "proceedings-article"
+ },
+ "E048": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "9",
+  "pages": "11151-11164",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E049": {
+  "container": "IEEE Transactions on Intelligent Transportation Systems",
+  "volume": "27",
+  "issue": "10",
+  "pages": "12946-12958",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E050": {
+  "container": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+  "volume": "56",
+  "issue": "11",
+  "pages": "6925-6939",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "type": "journal-article"
+ },
+ "E058": {
+  "container": "Transportation Safety and Environment",
+  "pages": "tdag062",
+  "publisher": "Oxford University Press (OUP)",
+  "type": "journal-article"
+ },
+ "E060": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "E061": {
+  "container": "Discover Artificial Intelligence",
+  "volume": "6",
+  "issue": "1",
+  "pages": "1503",
+  "publisher": "Springer Science and Business Media LLC",
+  "type": "journal-article"
+ },
+ "E063": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "E071": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "E074": {
+  "publisher": "arXiv",
+  "type": "Preprint"
+ },
+ "E075": {
+  "container": "Communications in Transportation Research",
+  "publisher": "Tsinghua University Press",
+  "type": "journal-article"
+ },
+ "E076": {
+  "container": "Electronics",
+  "volume": "15",
+  "issue": "21",
+  "pages": "5179",
+  "publisher": "MDPI AG",
+  "type": "journal-article"
+ }
+}

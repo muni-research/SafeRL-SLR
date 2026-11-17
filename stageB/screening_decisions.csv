@@ -1,0 +1,1572 @@
+study_id,decision,reason_code,screening_note,batch,screened_on,stage
+B0002,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0003,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0004,Exclude,EC9,,batch1,2026-10-07,title/abstract
+B0005,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0007,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0008,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0009,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0011,Include,,,batch1,2026-10-07,title/abstract
+B0012,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0013,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0014,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0015,Unsure,,no abstract; survival-oriented RL for AD,batch1,2026-10-07,title/abstract
+B0016,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0017,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0018,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0019,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0020,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0021,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0022,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0023,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0025,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0026,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0027,Unsure,,safe imitation+RL for MPC; check vehicle platform,batch1,2026-10-07,title/abstract
+B0028,Include,,,batch1,2026-10-07,title/abstract
+B0029,Unsure,,formal-methods safe RL; check vehicle case study,batch1,2026-10-07,title/abstract
+B0030,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0031,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0033,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0034,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0035,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0036,Exclude,EC10,,batch1,2026-10-07,title/abstract
+B0037,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0038,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0040,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0041,Exclude,EC4,,batch1,2026-10-07,title/abstract
+B0043,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0046,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0047,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0048,Unsure,,barrier-function safe RL; check car-following experiment,batch1,2026-10-07,title/abstract
+B0049,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0050,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0051,Background,EC1,,batch1,2026-10-07,title/abstract
+B0052,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0053,Include,,,batch1,2026-10-07,title/abstract
+B0054,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0056,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0058,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0059,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0060,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0061,Background,EC1,,batch1,2026-10-07,title/abstract
+B0062,Include,,,batch1,2026-10-07,title/abstract
+B0064,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0065,Unsure,,no abstract; constrained RL for AV trajectory,batch1,2026-10-07,title/abstract
+B0066,Include,,,batch1,2026-10-07,title/abstract
+B0067,Unsure,,RL forward-collision warning,batch1,2026-10-07,title/abstract
+B0068,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0069,Exclude,EC9,,batch1,2026-10-07,title/abstract
+B0072,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0073,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0074,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0076,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0077,Include,,,batch1,2026-10-07,title/abstract
+B0078,Unsure,,CAV behavior planning with safety check,batch1,2026-10-07,title/abstract
+B0079,Unsure,,CAV intersection PPO; check safety formulation,batch1,2026-10-07,title/abstract
+B0083,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0084,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0085,Include,,,batch1,2026-10-07,title/abstract
+B0086,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0089,Include,,,batch1,2026-10-07,title/abstract
+B0090,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0091,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0093,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0094,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0096,Unsure,,RL+MPC evasive planning,batch1,2026-10-07,title/abstract
+B0098,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0099,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0100,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0101,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0103,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0104,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0105,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0106,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0108,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0109,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0110,Unsure,,ReachFlow runtime assurance; check whether controller is RL,batch1,2026-10-07,title/abstract
+B0111,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0112,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0113,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0114,Include,,,batch1,2026-10-07,title/abstract
+B0115,Include,,,batch1,2026-10-07,title/abstract
+B0116,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0117,Include,,,batch1,2026-10-07,title/abstract
+B0118,Include,,,batch1,2026-10-07,title/abstract
+B0119,Background,EC1,,batch1,2026-10-07,title/abstract
+B0120,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0121,Background,EC1,,batch1,2026-10-07,title/abstract
+B0122,Include,,,batch1,2026-10-07,title/abstract
+B0123,Background,EC1,,batch1,2026-10-07,title/abstract
+B0124,Include,,,batch1,2026-10-07,title/abstract
+B0125,Background,EC1,,batch1,2026-10-07,title/abstract
+B0126,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0127,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0128,Exclude,EC9,,batch1,2026-10-07,title/abstract
+B0129,Exclude,EC10,,batch1,2026-10-07,title/abstract
+B0130,Background,EC1,,batch1,2026-10-07,title/abstract
+B0131,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0132,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0133,Include,,,batch1,2026-10-07,title/abstract
+B0142,Exclude,EC9,,batch1,2026-10-07,title/abstract
+B0143,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0144,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0145,Include,,,batch1,2026-10-07,title/abstract
+B0146,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0147,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0148,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0150,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0151,Exclude,EC10,,batch1,2026-10-07,title/abstract
+B0152,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0153,Include,,possible conference version of A052,batch1,2026-10-07,title/abstract
+B0154,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0155,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0156,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0157,Include,,,batch1,2026-10-07,title/abstract
+B0160,Include,,,batch1,2026-10-07,title/abstract
+B0162,Include,,,batch1,2026-10-07,title/abstract
+B0163,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0164,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0166,Include,,,batch1,2026-10-07,title/abstract
+B0168,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0169,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0170,Unsure,,viability-theory RL for constrained multi-vehicle systems,batch1,2026-10-07,title/abstract
+B0171,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0172,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0173,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0175,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0176,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0177,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0178,Exclude,EC2,,batch1,2026-10-07,title/abstract
+B0180,Unsure,,no abstract; safety decision making highway,batch1,2026-10-07,title/abstract
+B0181,Include,,,batch1,2026-10-07,title/abstract
+B0182,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0184,Background,EC1,,batch1,2026-10-07,title/abstract
+B0186,Unsure,,model-based constrained RL with generalized CBF; check AD experiment,batch1,2026-10-07,title/abstract
+B0187,Duplicate,EC5:A074,preprint of A074,batch1,2026-10-07,title/abstract
+B0188,Include,,,batch1,2026-10-07,title/abstract
+B0189,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0190,Include,,,batch1,2026-10-07,title/abstract
+B0194,Background,EC1,,batch1,2026-10-07,title/abstract
+B0195,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0196,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0197,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0198,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0199,Include,,,batch1,2026-10-07,title/abstract
+B0200,Include,,,batch1,2026-10-07,title/abstract
+B0201,Unsure,,safe racing control; check RL,batch1,2026-10-07,title/abstract
+B0202,Include,,,batch1,2026-10-07,title/abstract
+B0203,Background,EC1,,batch1,2026-10-07,title/abstract
+B0204,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0205,Background,EC1,,batch1,2026-10-07,title/abstract
+B0206,Background,EC1,,batch1,2026-10-07,title/abstract
+B0207,Include,,,batch1,2026-10-07,title/abstract
+B0208,Include,,,batch1,2026-10-07,title/abstract
+B0209,Include,,,batch1,2026-10-07,title/abstract
+B0210,Unsure,,IRL with safety constraints; check driving application,batch1,2026-10-07,title/abstract
+B0211,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0212,Unsure,,chance-constrained RL; check AD experiment,batch1,2026-10-07,title/abstract
+B0213,Include,,,batch1,2026-10-07,title/abstract
+B0214,Unsure,,RL-MPC lane change,batch1,2026-10-07,title/abstract
+B0215,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0216,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0217,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0218,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0219,Unsure,,DQN-MPC platoon constraints,batch1,2026-10-07,title/abstract
+B0220,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0221,Include,,,batch1,2026-10-07,title/abstract
+B0222,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0223,Background,EC1,,batch1,2026-10-07,title/abstract
+B0225,Unsure,,learning+rule-based decision highway,batch1,2026-10-07,title/abstract
+B0226,Unsure,,lane change/speed DRL with safety check,batch1,2026-10-07,title/abstract
+B0227,Exclude,EC1,,batch1,2026-10-07,title/abstract
+B0228,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0229,Include,,,batch1,2026-10-07,title/abstract
+B0230,Unsure,,no abstract; RL+MPC intersections,batch1,2026-10-07,title/abstract
+B0231,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0233,Exclude,EC4,,batch1,2026-10-07,title/abstract
+B0234,Background,EC1,,batch1,2026-10-07,title/abstract
+B0236,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0237,Include,,,batch1,2026-10-07,title/abstract
+B0238,Exclude,EC8,,batch1,2026-10-07,title/abstract
+B0240,Unsure,,CAV-pedestrian coordination; check RL,batch1,2026-10-07,title/abstract
+B0241,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0242,Include,,,batch1,2026-10-07,title/abstract
+B0243,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0244,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0245,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0246,Include,,,batch1,2026-10-07,title/abstract
+B0247,Unsure,,DRL tracking with safety guarantee,batch1,2026-10-07,title/abstract
+B0248,Unsure,,DRL with NMPC assistance urban AD,batch1,2026-10-07,title/abstract
+B0249,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0252,Exclude,EC3,,batch1,2026-10-07,title/abstract
+B0253,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0255,Unsure,,"DriveIRL with safety filter, real vehicle; check IRL vs IC1",batch2,2026-10-07,title/abstract
+B0256,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0257,Include,,,batch2,2026-10-07,title/abstract
+B0260,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0262,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0263,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0264,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0265,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0267,Unsure,,learning-based MPC collision avoidance; check RL,batch2,2026-10-07,title/abstract
+B0268,Include,,,batch2,2026-10-07,title/abstract
+B0269,Unsure,,learning driving constraints from demonstration,batch2,2026-10-07,title/abstract
+B0270,Include,,,batch2,2026-10-07,title/abstract
+B0271,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0272,Unsure,,Learn-to-Race safe learning benchmark,batch2,2026-10-07,title/abstract
+B0273,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0274,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0275,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0276,Include,,,batch2,2026-10-07,title/abstract
+B0277,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0278,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0280,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0281,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0282,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0284,Include,,,batch2,2026-10-07,title/abstract
+B0286,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0287,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0289,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0290,Background,EC1,,batch2,2026-10-07,title/abstract
+B0291,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0294,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0295,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0296,Unsure,,RL+MPC highway path planning,batch2,2026-10-07,title/abstract
+B0297,Exclude,EC10,,batch2,2026-10-07,title/abstract
+B0298,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0299,Include,,,batch2,2026-10-07,title/abstract
+B0300,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0301,Unsure,,no abstract detail; robust AI driving strategy,batch2,2026-10-07,title/abstract
+B0302,Include,,,batch2,2026-10-07,title/abstract
+B0303,Include,,,batch2,2026-10-07,title/abstract
+B0304,Background,EC1,,batch2,2026-10-07,title/abstract
+B0305,Include,,,batch2,2026-10-07,title/abstract
+B0306,Include,,journal version related to B0122,batch2,2026-10-07,title/abstract
+B0307,Include,,preprint; related to B0426,batch2,2026-10-07,title/abstract
+B0308,Include,,,batch2,2026-10-07,title/abstract
+B0309,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0310,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0311,Exclude,EC4,,batch2,2026-10-07,title/abstract
+B0312,Unsure,,stability analysis of DDPG AV navigation,batch2,2026-10-07,title/abstract
+B0314,Exclude,EC8,,batch2,2026-10-07,title/abstract
+B0315,Exclude,EC10,,batch2,2026-10-07,title/abstract
+B0316,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0317,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0320,Background,EC1,,batch2,2026-10-07,title/abstract
+B0321,Unsure,,RL-tuned MPC car following,batch2,2026-10-07,title/abstract
+B0323,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0324,Include,,,batch2,2026-10-07,title/abstract
+B0325,Unsure,,hybrid DRL + optimal control highway,batch2,2026-10-07,title/abstract
+B0326,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0327,Include,,,batch2,2026-10-07,title/abstract
+B0329,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0330,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0331,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0332,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0333,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0334,Include,,,batch2,2026-10-07,title/abstract
+B0337,Unsure,,explainable robust on-ramp DRL,batch2,2026-10-07,title/abstract
+B0339,Unsure,,highway safety planner DRL,batch2,2026-10-07,title/abstract
+B0341,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0343,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0344,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0345,Background,EC1,,batch2,2026-10-07,title/abstract
+B0347,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0350,Background,EC1,,batch2,2026-10-07,title/abstract
+B0351,Background,EC1,,batch2,2026-10-07,title/abstract
+B0352,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0353,Background,EC1,,batch2,2026-10-07,title/abstract
+B0354,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0356,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0357,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0359,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0360,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0361,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0362,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0364,Exclude,EC4,,batch2,2026-10-07,title/abstract
+B0365,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0366,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0367,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0369,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0370,Background,EC1,,batch2,2026-10-07,title/abstract
+B0371,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0372,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0373,Include,,,batch2,2026-10-07,title/abstract
+B0374,Unsure,,SAC obstacle avoidance with collision-risk cost,batch2,2026-10-07,title/abstract
+B0376,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0377,Background,EC1,,batch2,2026-10-07,title/abstract
+B0378,Unsure,,traffic-rule curriculum RL,batch2,2026-10-07,title/abstract
+B0379,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0381,Include,,,batch2,2026-10-07,title/abstract
+B0382,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0383,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0384,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0385,Include,,,batch2,2026-10-07,title/abstract
+B0386,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0387,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0390,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0391,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0392,Exclude,EC4,,batch2,2026-10-07,title/abstract
+B0393,Include,,,batch2,2026-10-07,title/abstract
+B0395,Background,EC1,,batch2,2026-10-07,title/abstract
+B0396,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0397,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0398,Include,,,batch2,2026-10-07,title/abstract
+B0400,Exclude,EC8,,batch2,2026-10-07,title/abstract
+B0401,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0402,Include,,,batch2,2026-10-07,title/abstract
+B0403,Include,,,batch2,2026-10-07,title/abstract
+B0404,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0406,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0407,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0408,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0409,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0410,Unsure,,no abstract; stable RL navigation for AVs,batch2,2026-10-07,title/abstract
+B0411,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0412,Include,,,batch2,2026-10-07,title/abstract
+B0413,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0414,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0415,Background,EC1,,batch2,2026-10-07,title/abstract
+B0416,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0417,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0419,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0421,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0422,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0423,Include,,,batch2,2026-10-07,title/abstract
+B0425,Unsure,,RL shared driving with MPC,batch2,2026-10-07,title/abstract
+B0426,Include,,conference version; related to B0307,batch2,2026-10-07,title/abstract
+B0427,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0428,Exclude,EC4,,batch2,2026-10-07,title/abstract
+B0429,Include,,,batch2,2026-10-07,title/abstract
+B0430,Background,EC1,,batch2,2026-10-07,title/abstract
+B0431,Include,,,batch2,2026-10-07,title/abstract
+B0432,Include,,,batch2,2026-10-07,title/abstract
+B0433,Unsure,,safe/efficient/comfortable AD with CVIS; check RL,batch2,2026-10-07,title/abstract
+B0434,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0435,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0436,Include,,,batch2,2026-10-07,title/abstract
+B0438,Include,,,batch2,2026-10-07,title/abstract
+B0439,Include,,,batch2,2026-10-07,title/abstract
+B0440,Background,EC1,,batch2,2026-10-07,title/abstract
+B0441,Include,,,batch2,2026-10-07,title/abstract
+B0442,Include,,,batch2,2026-10-07,title/abstract
+B0444,Include,,,batch2,2026-10-07,title/abstract
+B0445,Include,,,batch2,2026-10-07,title/abstract
+B0446,Include,,,batch2,2026-10-07,title/abstract
+B0447,Exclude,EC8,,batch2,2026-10-07,title/abstract
+B0448,Unsure,,HRL feasible decision-making intersections,batch2,2026-10-07,title/abstract
+B0450,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0451,Include,,,batch2,2026-10-07,title/abstract
+B0454,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0455,Unsure,,rule-aided RL maneuver decision,batch2,2026-10-07,title/abstract
+B0456,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0457,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0458,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0459,Background,EC1,,batch2,2026-10-07,title/abstract
+B0460,Background,EC1,,batch2,2026-10-07,title/abstract
+B0461,Include,,,batch2,2026-10-07,title/abstract
+B0462,Unsure,,safety-assured vision racing; check RL,batch2,2026-10-07,title/abstract
+B0463,Exclude,EC8,,batch2,2026-10-07,title/abstract
+B0464,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0465,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0466,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0467,Exclude,EC10,,batch2,2026-10-07,title/abstract
+B0468,Background,EC1,,batch2,2026-10-07,title/abstract
+B0470,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0471,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0472,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0473,Background,EC1,,batch2,2026-10-07,title/abstract
+B0474,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0475,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0476,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0477,Exclude,EC2,,batch2,2026-10-07,title/abstract
+B0478,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0479,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0481,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0482,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0483,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0484,Include,,,batch2,2026-10-07,title/abstract
+B0485,Include,,,batch2,2026-10-07,title/abstract
+B0486,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0487,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0488,Background,EC1,,batch2,2026-10-07,title/abstract
+B0489,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0490,Include,,,batch2,2026-10-07,title/abstract
+B0491,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0492,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0493,Exclude,EC3,,batch2,2026-10-07,title/abstract
+B0494,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0495,Exclude,EC9,,batch2,2026-10-07,title/abstract
+B0498,Exclude,EC1,,batch2,2026-10-07,title/abstract
+B0499,Background,EC1,,batch2,2026-10-07,title/abstract
+B0501,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0502,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0503,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0504,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0505,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0507,Include,,,batch3,2026-10-07,title/abstract
+B0510,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0514,Include,,,batch3,2026-10-07,title/abstract
+B0516,Unsure,,chance-aware lane change with high-level MPC via curriculum RL,batch3,2026-10-07,title/abstract
+B0517,Include,,,batch3,2026-10-07,title/abstract
+B0518,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0519,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0520,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0521,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0522,Include,,,batch3,2026-10-07,title/abstract
+B0523,Background,EC1,,batch3,2026-10-07,title/abstract
+B0524,Unsure,,constraint-guided behaviour transformer for CAV coordination; check RL,batch3,2026-10-07,title/abstract
+B0528,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0529,Include,,,batch3,2026-10-07,title/abstract
+B0531,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0533,Include,,,batch3,2026-10-07,title/abstract
+B0534,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0536,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0537,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0538,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0539,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0540,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0541,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0542,Exclude,EC10,,batch3,2026-10-07,title/abstract
+B0543,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0544,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0545,Include,,,batch3,2026-10-07,title/abstract
+B0546,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0549,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0550,Include,,,batch3,2026-10-07,title/abstract
+B0551,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0553,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0557,Unsure,,hybrid augmented decision-making; related to B0373,batch3,2026-10-07,title/abstract
+B0558,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0559,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0560,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0561,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0562,Unsure,,guided online distillation safe RL; check AD experiments,batch3,2026-10-07,title/abstract
+B0563,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0564,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0565,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0567,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0568,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0569,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0570,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0572,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0574,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0575,Unsure,,zero-constraint-violation constrained RL; check AD experiments,batch3,2026-10-07,title/abstract
+B0576,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0577,Unsure,,learning-based MPC off-ramp diverging; check RL,batch3,2026-10-07,title/abstract
+B0579,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0580,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0581,Include,,,batch3,2026-10-07,title/abstract
+B0582,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0584,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0587,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0589,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0590,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0592,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0593,Unsure,,no abstract; MARL cooperative on-ramp merging,batch3,2026-10-07,title/abstract
+B0594,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0595,Unsure,,MARL collaborative lane change with safety focus,batch3,2026-10-07,title/abstract
+B0596,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0597,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0599,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0600,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0602,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0603,Unsure,,discrete-time CBF safety filters for RL policies; check RL use,batch3,2026-10-07,title/abstract
+B0604,Background,EC1,,batch3,2026-10-07,title/abstract
+B0606,Exclude,EC10,,batch3,2026-10-07,title/abstract
+B0611,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0612,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0614,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0616,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0617,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0620,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0621,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0623,Unsure,,risk-conscious RL racing,batch3,2026-10-07,title/abstract
+B0624,Unsure,,reach-avoid games for safe influence; check RL and vehicle application,batch3,2026-10-07,title/abstract
+B0625,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0627,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0629,Include,,,batch3,2026-10-07,title/abstract
+B0631,Include,,,batch3,2026-10-07,title/abstract
+B0632,Unsure,,safe DQN navigation architecture,batch3,2026-10-07,title/abstract
+B0633,Background,EC1,,batch3,2026-10-07,title/abstract
+B0634,Include,,,batch3,2026-10-07,title/abstract
+B0636,Include,,,batch3,2026-10-07,title/abstract
+B0639,Unsure,,counterfactual explainer for DRL in ADS (RQ10),batch3,2026-10-07,title/abstract
+B0640,Include,,,batch3,2026-10-07,title/abstract
+B0641,Include,,,batch3,2026-10-07,title/abstract
+B0642,Background,EC1,,batch3,2026-10-07,title/abstract
+B0643,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0644,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0645,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0647,Include,,,batch3,2026-10-07,title/abstract
+B0648,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0649,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0650,Exclude,EC4,,batch3,2026-10-07,title/abstract
+B0651,Include,,,batch3,2026-10-07,title/abstract
+B0653,Include,,,batch3,2026-10-07,title/abstract
+B0654,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0655,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0656,Include,,,batch3,2026-10-07,title/abstract
+B0657,Unsure,,uncertainty-aware DRL for AV crowd navigation,batch3,2026-10-07,title/abstract
+B0658,Unsure,,uniformly safe RL multi-constraint; check AD experiments,batch3,2026-10-07,title/abstract
+B0659,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0660,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0661,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0662,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0663,Unsure,,KAN-based RL roundabouts with conflict-free safety,batch3,2026-10-07,title/abstract
+B0664,Include,,,batch3,2026-10-07,title/abstract
+B0665,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0666,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0667,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0668,Unsure,,no abstract; ramp-merging path planning with risk management,batch3,2026-10-07,title/abstract
+B0669,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0670,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0671,Unsure,,reward-machine guided safety decision making,batch3,2026-10-07,title/abstract
+B0672,Exclude,EC10,,batch3,2026-10-07,title/abstract
+B0673,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0674,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0676,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0677,Exclude,EC9,,batch3,2026-10-07,title/abstract
+B0678,Unsure,,safe self-evolution AD; check RL,batch3,2026-10-07,title/abstract
+B0679,Exclude,EC9,,batch3,2026-10-07,title/abstract
+B0680,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0681,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0682,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0683,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0684,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0685,Background,EC1,,batch3,2026-10-07,title/abstract
+B0687,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0689,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0691,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0692,Exclude,EC9,,batch3,2026-10-07,title/abstract
+B0693,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0695,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0696,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0697,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0698,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0700,Include,,,batch3,2026-10-07,title/abstract
+B0701,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0702,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0704,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0705,Unsure,,hierarchical RL with uncertainty at intersections,batch3,2026-10-07,title/abstract
+B0706,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0707,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0709,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0710,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0711,Include,,,batch3,2026-10-07,title/abstract
+B0712,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0715,Background,EC1,,batch3,2026-10-07,title/abstract
+B0716,Unsure,,human-AI collaboration for safe exploration in AD,batch3,2026-10-07,title/abstract
+B0717,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0718,Include,,,batch3,2026-10-07,title/abstract
+B0719,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0721,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0722,Unsure,,safe MARL CAV trajectory planning under uncertainty,batch3,2026-10-07,title/abstract
+B0723,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0724,Include,,,batch3,2026-10-07,title/abstract
+B0727,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0729,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0730,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0731,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0732,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0733,Include,,,batch3,2026-10-07,title/abstract
+B0734,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0735,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0737,Unsure,,DIAL multi-task constraints; check AD,batch3,2026-10-07,title/abstract
+B0738,Unsure,,differentiable model predictive safety at intersections; check RL,batch3,2026-10-07,title/abstract
+B0739,Include,,,batch3,2026-10-07,title/abstract
+B0741,Include,,,batch3,2026-10-07,title/abstract
+B0743,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0744,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0745,Exclude,EC4,,batch3,2026-10-07,title/abstract
+B0746,Exclude,EC4,,batch3,2026-10-07,title/abstract
+B0747,Background,EC1,,batch3,2026-10-07,title/abstract
+B0748,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0750,Include,,,batch3,2026-10-07,title/abstract
+B0751,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0752,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0753,Exclude,EC2,,batch3,2026-10-07,title/abstract
+B0754,Include,,,batch3,2026-10-07,title/abstract
+B0755,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0756,Exclude,EC3,,batch3,2026-10-07,title/abstract
+B0757,Include,,,batch3,2026-10-07,title/abstract
+B0759,Exclude,EC9,,batch3,2026-10-07,title/abstract
+B0760,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0761,Include,,,batch3,2026-10-07,title/abstract
+B0763,Unsure,,explainable DRL with attention for safety,batch3,2026-10-07,title/abstract
+B0764,Exclude,EC8,,batch3,2026-10-07,title/abstract
+B0765,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0766,Unsure,,fault-tolerant MARL under observation perturbations,batch3,2026-10-07,title/abstract
+B0767,Exclude,EC1,,batch3,2026-10-07,title/abstract
+B0769,Unsure,,"RL extreme vehicle control for collision avoidance, sim-to-real",batch3,2026-10-07,title/abstract
+B0770,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0771,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0772,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0773,Include,,,batch4,2026-10-07,title/abstract
+B0774,Exclude,EC10,,batch4,2026-10-07,title/abstract
+B0775,Unsure,,hierarchical DRL decision/control addressing decision safety,batch4,2026-10-07,title/abstract
+B0776,Include,,,batch4,2026-10-07,title/abstract
+B0777,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0778,Include,,,batch4,2026-10-07,title/abstract
+B0779,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0781,Include,,,batch4,2026-10-07,title/abstract
+B0782,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0783,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0785,Background,EC1,,batch4,2026-10-07,title/abstract
+B0786,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0787,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0788,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0790,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0791,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0792,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0793,Unsure,,eco-driving with model-based controller assisting DRL under safety regulations,batch4,2026-10-07,title/abstract
+B0794,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0795,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0796,Unsure,,interaction-reasoning RL for safety-critical driving,batch4,2026-10-07,title/abstract
+B0797,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0798,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0799,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0800,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0801,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0802,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0804,Unsure,,learning-based platoon control with Lyapunov/string stability,batch4,2026-10-07,title/abstract
+B0805,Include,,,batch4,2026-10-07,title/abstract
+B0806,Exclude,EC10,,batch4,2026-10-07,title/abstract
+B0807,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0808,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0809,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0810,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0811,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0812,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0813,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0814,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0815,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0816,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0817,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0818,Background,EC1,,batch4,2026-10-07,title/abstract
+B0819,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0822,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0823,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0824,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0827,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0828,Unsure,,safe MARL for yellow-interval signal control in mixed traffic; check IC3,batch4,2026-10-07,title/abstract
+B0829,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0830,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0832,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0833,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0835,Include,,,batch4,2026-10-07,title/abstract
+B0837,Unsure,,PPO safety strategy for AD,batch4,2026-10-07,title/abstract
+B0838,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0839,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0840,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0842,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0843,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0844,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0845,Include,,,batch4,2026-10-07,title/abstract
+B0847,Include,,,batch4,2026-10-07,title/abstract
+B0848,Unsure,,predictive traffic-rule compliance with RL,batch4,2026-10-07,title/abstract
+B0850,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0851,Background,EC1,,batch4,2026-10-07,title/abstract
+B0854,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0856,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0857,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0859,Background,EC1,,batch4,2026-10-07,title/abstract
+B0861,Exclude,EC8,,batch4,2026-10-07,title/abstract
+B0862,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0863,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0865,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0866,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0867,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0869,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0870,Unsure,,"hybrid DRL path planning, safe and verifiable",batch4,2026-10-07,title/abstract
+B0871,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0872,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0873,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0874,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0876,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0877,Include,,,batch4,2026-10-07,title/abstract
+B0878,Include,,,batch4,2026-10-07,title/abstract
+B0879,Include,,,batch4,2026-10-07,title/abstract
+B0880,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0881,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0882,Include,,,batch4,2026-10-07,title/abstract
+B0883,Include,,,batch4,2026-10-07,title/abstract
+B0884,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0885,Include,,,batch4,2026-10-07,title/abstract
+B0886,Include,,,batch4,2026-10-07,title/abstract
+B0887,Include,,,batch4,2026-10-07,title/abstract
+B0888,Background,EC1,,batch4,2026-10-07,title/abstract
+B0889,Include,,,batch4,2026-10-07,title/abstract
+B0890,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0891,Include,,,batch4,2026-10-07,title/abstract
+B0892,Include,,,batch4,2026-10-07,title/abstract
+B0893,Include,,,batch4,2026-10-07,title/abstract
+B0894,Include,,,batch4,2026-10-07,title/abstract
+B0896,Unsure,,safe RL eco-driving off-road HEV; check road context,batch4,2026-10-07,title/abstract
+B0897,Include,,,batch4,2026-10-07,title/abstract
+B0898,Include,,,batch4,2026-10-07,title/abstract
+B0900,Include,,,batch4,2026-10-07,title/abstract
+B0902,Include,,,batch4,2026-10-07,title/abstract
+B0904,Include,,,batch4,2026-10-07,title/abstract
+B0905,Exclude,EC10,,batch4,2026-10-07,title/abstract
+B0906,Include,,,batch4,2026-10-07,title/abstract
+B0908,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0909,Include,,,batch4,2026-10-07,title/abstract
+B0910,Include,,,batch4,2026-10-07,title/abstract
+B0912,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0913,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0914,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0915,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0916,Include,,,batch4,2026-10-07,title/abstract
+B0918,Background,EC1,,batch4,2026-10-07,title/abstract
+B0919,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0920,Unsure,,risk-driven RL left-turn control,batch4,2026-10-07,title/abstract
+B0922,Unsure,,comparative RL/MPC/game-theory conflict management with safety,batch4,2026-10-07,title/abstract
+B0923,Include,,,batch4,2026-10-07,title/abstract
+B0924,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0926,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0927,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0928,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0929,Include,,,batch4,2026-10-07,title/abstract
+B0930,Include,,,batch4,2026-10-07,title/abstract
+B0931,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0932,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0933,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0935,Include,,,batch4,2026-10-07,title/abstract
+B0936,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0937,Unsure,,no abstract; formal verification of neural car controller,batch4,2026-10-07,title/abstract
+B0939,Include,,,batch4,2026-10-07,title/abstract
+B0942,Background,EC1,,batch4,2026-10-07,title/abstract
+B0943,Exclude,EC4,,batch4,2026-10-07,title/abstract
+B0944,Include,,,batch4,2026-10-07,title/abstract
+B0945,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0947,Exclude,EC2,,batch4,2026-10-07,title/abstract
+B0948,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0949,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0950,Unsure,,eco-safe mixed platooning MARL,batch4,2026-10-07,title/abstract
+B0951,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0952,Unsure,,APF + TD3 with safety emphasis,batch4,2026-10-07,title/abstract
+B0953,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0954,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0956,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0957,Include,,,batch4,2026-10-07,title/abstract
+B0958,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0960,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0961,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0962,Unsure,,no abstract; safe MARL platooning,batch4,2026-10-07,title/abstract
+B0963,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0964,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0965,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0966,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0967,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0968,Include,,,batch4,2026-10-07,title/abstract
+B0970,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0971,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0972,Include,,,batch4,2026-10-07,title/abstract
+B0974,Include,,,batch4,2026-10-07,title/abstract
+B0975,Unsure,,TD3 + MPC active safety and comfort,batch4,2026-10-07,title/abstract
+B0976,Include,,,batch4,2026-10-07,title/abstract
+B0977,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0978,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0979,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0980,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0981,Unsure,,adversarial-training robust RL tracking,batch4,2026-10-07,title/abstract
+B0983,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0984,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0985,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0986,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0987,Unsure,,action-masked diffusion policy merging,batch4,2026-10-07,title/abstract
+B0988,Include,,,batch4,2026-10-07,title/abstract
+B0989,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0990,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B0991,Include,,,batch4,2026-10-07,title/abstract
+B0994,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0995,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0996,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B0997,Unsure,,racing-parameterised DRL collision avoidance,batch4,2026-10-07,title/abstract
+B0998,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B0999,Include,,,batch4,2026-10-07,title/abstract
+B1000,Exclude,EC10,,batch4,2026-10-07,title/abstract
+B1001,Include,,,batch4,2026-10-07,title/abstract
+B1002,Include,,,batch4,2026-10-07,title/abstract
+B1003,Include,,,batch4,2026-10-07,title/abstract
+B1004,Exclude,EC9,,batch4,2026-10-07,title/abstract
+B1005,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B1006,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B1007,Include,,,batch4,2026-10-07,title/abstract
+B1008,Background,EC1,,batch4,2026-10-07,title/abstract
+B1010,Unsure,,"constrained IRL chassis control, sim-to-real",batch4,2026-10-07,title/abstract
+B1011,Exclude,EC3,,batch4,2026-10-07,title/abstract
+B1012,Unsure,,no abstract; risk-evaluation DRL collision avoidance,batch4,2026-10-07,title/abstract
+B1014,Exclude,EC1,,batch4,2026-10-07,title/abstract
+B1017,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1019,Background,EC1,,batch5,2026-10-07,title/abstract
+B1020,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1021,Unsure,,no abstract; AV decisions under risky pedestrian crossing,batch5,2026-10-07,title/abstract
+B1022,Exclude,EC4,,batch5,2026-10-07,title/abstract
+B1023,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1025,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1026,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1027,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1028,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1030,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1031,Include,,,batch5,2026-10-07,title/abstract
+B1032,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1033,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1034,Include,,,batch5,2026-10-07,title/abstract
+B1035,Include,,,batch5,2026-10-07,title/abstract
+B1036,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1037,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1038,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1039,Exclude,EC10,,batch5,2026-10-07,title/abstract
+B1040,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1041,Include,,,batch5,2026-10-07,title/abstract
+B1043,Include,,,batch5,2026-10-07,title/abstract
+B1044,Unsure,,safe decision-making with claimed mathematical guarantees; check RL,batch5,2026-10-07,title/abstract
+B1045,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1046,Include,,,batch5,2026-10-07,title/abstract
+B1047,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1048,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1049,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1050,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1052,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1053,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1054,Background,EC1,,batch5,2026-10-07,title/abstract
+B1055,Background,EC1,,batch5,2026-10-07,title/abstract
+B1056,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1057,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1058,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1059,Exclude,EC4,,batch5,2026-10-07,title/abstract
+B1061,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1062,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1063,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1064,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1065,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1066,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1067,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1068,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1069,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1070,Include,,,batch5,2026-10-07,title/abstract
+B1071,Include,,,batch5,2026-10-07,title/abstract
+B1072,Unsure,,event-camera fusion for safe RL decision making,batch5,2026-10-07,title/abstract
+B1074,Unsure,,IRL diffusion planner with safety,batch5,2026-10-07,title/abstract
+B1075,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1076,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1077,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1078,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1079,Include,,,batch5,2026-10-07,title/abstract
+B1080,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1081,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1082,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1083,Include,,,batch5,2026-10-07,title/abstract
+B1084,Include,,,batch5,2026-10-07,title/abstract
+B1085,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1087,Unsure,,no abstract; trust- and risk-aware multi-agent safety coordination,batch5,2026-10-07,title/abstract
+B1088,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1090,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1091,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1092,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1093,Include,,,batch5,2026-10-07,title/abstract
+B1094,Include,,,batch5,2026-10-07,title/abstract
+B1095,Exclude,EC10,,batch5,2026-10-07,title/abstract
+B1096,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1097,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1098,Background,EC1,,batch5,2026-10-07,title/abstract
+B1099,Exclude,EC10,,batch5,2026-10-07,title/abstract
+B1100,Include,,,batch5,2026-10-07,title/abstract
+B1101,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1102,Background,EC1,,batch5,2026-10-07,title/abstract
+B1104,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1105,Unsure,,RL within robust MPC for overtaking,batch5,2026-10-07,title/abstract
+B1106,Background,EC1,,batch5,2026-10-07,title/abstract
+B1107,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1108,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1109,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1110,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1111,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1114,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1115,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1116,Include,,,batch5,2026-10-07,title/abstract
+B1117,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1118,Include,,,batch5,2026-10-07,title/abstract
+B1119,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1120,Unsure,,physics-informed RL platoon control with safety emphasis,batch5,2026-10-07,title/abstract
+B1121,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1122,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1123,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1124,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1125,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1126,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1127,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1128,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1129,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1130,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1131,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1132,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1133,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1134,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1135,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1136,Unsure,,no abstract; RL decision-making for safe motion planning,batch5,2026-10-07,title/abstract
+B1137,Unsure,,RL-tuned tube NMPC for safe robust tracking,batch5,2026-10-07,title/abstract
+B1138,Unsure,,RL-enhanced adaptive NMPC for safe AD,batch5,2026-10-07,title/abstract
+B1139,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1140,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1141,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1142,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1143,Unsure,,hybrid DRL path planning (same line as B0870),batch5,2026-10-07,title/abstract
+B1144,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1145,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1146,Include,,,batch5,2026-10-07,title/abstract
+B1147,Unsure,,risk-aware human-in-the-loop with intrusion response,batch5,2026-10-07,title/abstract
+B1148,Include,,,batch5,2026-10-07,title/abstract
+B1149,Include,,,batch5,2026-10-07,title/abstract
+B1150,Include,,,batch5,2026-10-07,title/abstract
+B1151,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1152,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1153,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1154,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1155,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1156,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1157,Unsure,,RSS risk assessment with RL + adaptive MPC shared driving,batch5,2026-10-07,title/abstract
+B1158,Include,,,batch5,2026-10-07,title/abstract
+B1159,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1160,Unsure,,fuzzy-CBF monitoring of DRL navigation agents; check vehicle application,batch5,2026-10-07,title/abstract
+B1161,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1162,Include,,,batch5,2026-10-07,title/abstract
+B1163,Include,,,batch5,2026-10-07,title/abstract
+B1164,Include,,,batch5,2026-10-07,title/abstract
+B1165,Background,EC1,,batch5,2026-10-07,title/abstract
+B1166,Include,,,batch5,2026-10-07,title/abstract
+B1167,Include,,,batch5,2026-10-07,title/abstract
+B1168,Include,,,batch5,2026-10-07,title/abstract
+B1169,Include,,,batch5,2026-10-07,title/abstract
+B1170,Exclude,EC10,,batch5,2026-10-07,title/abstract
+B1171,Include,,,batch5,2026-10-07,title/abstract
+B1172,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1173,Unsure,,one-step predictive safety filter for RL; check vehicle application,batch5,2026-10-07,title/abstract
+B1174,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1175,Include,,,batch5,2026-10-07,title/abstract
+B1176,Include,,,batch5,2026-10-07,title/abstract
+B1177,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1178,Include,,,batch5,2026-10-07,title/abstract
+B1179,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1180,Background,EC1,,batch5,2026-10-07,title/abstract
+B1181,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1182,Exclude,EC9,,batch5,2026-10-07,title/abstract
+B1183,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1184,Background,EC1,,batch5,2026-10-07,title/abstract
+B1185,Exclude,EC2,,batch5,2026-10-07,title/abstract
+B1186,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1189,Unsure,,transferable RL for sim-to-real with safety violations,batch5,2026-10-07,title/abstract
+B1190,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1191,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1192,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1193,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1200,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1201,Include,,,batch5,2026-10-07,title/abstract
+B1202,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1203,Unsure,,IRL for risk anticipation and defensive driving,batch5,2026-10-07,title/abstract
+B1204,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1205,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1206,Unsure,,catastrophic-failure-aware policy search for driving,batch5,2026-10-07,title/abstract
+B1207,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1208,Exclude,EC8,,batch5,2026-10-07,title/abstract
+B1209,Include,,,batch5,2026-10-07,title/abstract
+B1210,Include,,,batch5,2026-10-07,title/abstract
+B1211,Unsure,,no abstract; multi-objective velocity control incl. safety,batch5,2026-10-07,title/abstract
+B1212,Unsure,,robust DRL for security and safety of AVs,batch5,2026-10-07,title/abstract
+B1213,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1214,Unsure,,safe learning-based optimal motion planning,batch5,2026-10-07,title/abstract
+B1215,Background,EC1,,batch5,2026-10-07,title/abstract
+B1216,Include,,,batch5,2026-10-07,title/abstract
+B1217,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1218,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1219,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1220,Unsure,,budgeted RL; check highway experiments,batch5,2026-10-07,title/abstract
+B1221,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1222,Include,,,batch5,2026-10-07,title/abstract
+B1223,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1224,Unsure,,efficient and safe highway policy (SL+RL),batch5,2026-10-07,title/abstract
+B1225,Include,,,batch5,2026-10-07,title/abstract
+B1226,Unsure,,CAV pedestrian safety with RL,batch5,2026-10-07,title/abstract
+B1227,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1228,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1229,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1230,Unsure,,verification of NN racing controller; check RL,batch5,2026-10-07,title/abstract
+B1231,Exclude,EC3,,batch5,2026-10-07,title/abstract
+B1232,Include,,,batch5,2026-10-07,title/abstract
+B1233,Exclude,EC1,,batch5,2026-10-07,title/abstract
+B1234,Unsure,,security and safety DRL with LSTM-GAN,batch5,2026-10-07,title/abstract
+B1235,Include,,,batch5,2026-10-07,title/abstract
+B1236,Background,EC1,,batch5,2026-10-07,title/abstract
+B1237,Unsure,,safety-guaranteed control adaptation for learning-enabled CPS; check vehicle case,batch6,2026-10-07,title/abstract
+B1238,Background,EC1,,batch6,2026-10-07,title/abstract
+B1239,Background,EC1,,batch6,2026-10-07,title/abstract
+B1240,Background,EC1,,batch6,2026-10-07,title/abstract
+B1241,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1242,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1243,Unsure,,multi-objective RL for intersection safety via signal control; check IC3,batch6,2026-10-07,title/abstract
+B1244,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1245,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1246,Background,EC1,,batch6,2026-10-07,title/abstract
+B1247,Unsure,,no abstract; RL for AV goods transport with co-safe temporal logic,batch6,2026-10-07,title/abstract
+B1248,Include,,,batch6,2026-10-07,title/abstract
+B1249,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1250,Exclude,EC8,,batch6,2026-10-07,title/abstract
+B1251,Background,EC1,,batch6,2026-10-07,title/abstract
+B1252,Background,EC1,,batch6,2026-10-07,title/abstract
+B1253,Include,,,batch6,2026-10-07,title/abstract
+B1254,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1255,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1256,Include,,,batch6,2026-10-07,title/abstract
+B1257,Include,,,batch6,2026-10-07,title/abstract
+B1258,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1259,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1260,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1261,Unsure,,no abstract; risk-aware DRL lane change,batch6,2026-10-07,title/abstract
+B1262,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1263,Unsure,,DRL torque control incl. active safety (vehicle stability),batch6,2026-10-07,title/abstract
+B1264,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1265,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1266,Background,EC1,,batch6,2026-10-07,title/abstract
+B1267,Include,,,batch6,2026-10-07,title/abstract
+B1268,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1269,Include,,,batch6,2026-10-07,title/abstract
+B1270,Unsure,,safe J-turn manoeuvre via instructed RL,batch6,2026-10-07,title/abstract
+B1271,Unsure,,collision-free model-based RL at intersections,batch6,2026-10-07,title/abstract
+B1272,Unsure,,DDPG safe on-ramp merging,batch6,2026-10-07,title/abstract
+B1273,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1274,Include,,,batch6,2026-10-07,title/abstract
+B1275,Unsure,,chance-constrained model-based actor-critic; check vehicle experiment,batch6,2026-10-07,title/abstract
+B1276,Unsure,,multi-agent CACC with constraints,batch6,2026-10-07,title/abstract
+B1277,Unsure,,NMPC + DRL intersection management,batch6,2026-10-07,title/abstract
+B1278,Unsure,,safety and comfort car-following DRL,batch6,2026-10-07,title/abstract
+B1279,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1280,Include,,,batch6,2026-10-07,title/abstract
+B1281,Include,,,batch6,2026-10-07,title/abstract
+B1282,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1283,Exclude,EC8,,batch6,2026-10-07,title/abstract
+B1284,Unsure,,robust action governor safe RL; check vehicle application,batch6,2026-10-07,title/abstract
+B1285,Include,,,batch6,2026-10-07,title/abstract
+B1286,Background,EC1,,batch6,2026-10-07,title/abstract
+B1287,Unsure,,safe driving via RL traffic modelling,batch6,2026-10-07,title/abstract
+B1288,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1289,Include,,,batch6,2026-10-07,title/abstract
+B1290,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1291,Unsure,,roadside DRL safety/efficiency at merging,batch6,2026-10-07,title/abstract
+B1292,Unsure,,safe and efficient lane change DRL,batch6,2026-10-07,title/abstract
+B1293,Include,,,batch6,2026-10-07,title/abstract
+B1294,Exclude,EC8,,batch6,2026-10-07,title/abstract
+B1295,Include,,,batch6,2026-10-07,title/abstract
+B1296,Include,,,batch6,2026-10-07,title/abstract
+B1297,Include,,,batch6,2026-10-07,title/abstract
+B1298,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1299,Include,,,batch6,2026-10-07,title/abstract
+B1300,Unsure,,comparison of DRL for safe/efficient pedestrian crossings,batch6,2026-10-07,title/abstract
+B1301,Unsure,,safety and flow in AIM via DRL,batch6,2026-10-07,title/abstract
+B1302,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1303,Unsure,,DRL active safety (yaw) control,batch6,2026-10-07,title/abstract
+B1304,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1305,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1306,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1307,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1308,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1309,Exclude,EC10,,batch6,2026-10-07,title/abstract
+B1310,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1311,Background,EC1,,batch6,2026-10-07,title/abstract
+B1312,Unsure,,chance-constrained RL (journal of B0212); check vehicle experiment,batch6,2026-10-07,title/abstract
+B1313,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1314,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1315,Exclude,EC8,,batch6,2026-10-07,title/abstract
+B1316,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1317,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1318,Include,,,batch6,2026-10-07,title/abstract
+B1319,Background,EC1,,batch6,2026-10-07,title/abstract
+B1320,Unsure,,risk-sensitive MPC with distributional IRL,batch6,2026-10-07,title/abstract
+B1321,Include,,,batch6,2026-10-07,title/abstract
+B1322,Include,,,batch6,2026-10-07,title/abstract
+B1324,Include,,,batch6,2026-10-07,title/abstract
+B1325,Include,,,batch6,2026-10-07,title/abstract
+B1326,Include,,,batch6,2026-10-07,title/abstract
+B1327,Include,,,batch6,2026-10-07,title/abstract
+B1328,Include,,,batch6,2026-10-07,title/abstract
+B1329,Include,,,batch6,2026-10-07,title/abstract
+B1330,Include,,,batch6,2026-10-07,title/abstract
+B1331,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1332,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1333,Include,,,batch6,2026-10-07,title/abstract
+B1334,Exclude,EC8,,batch6,2026-10-07,title/abstract
+B1335,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1336,Unsure,,"efficient, safe and comfortable ACC via DRL",batch6,2026-10-07,title/abstract
+B1337,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1338,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1339,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1340,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1341,Include,,,batch6,2026-10-07,title/abstract
+B1342,Unsure,,hierarchical AI ACC with economic MPC and safety,batch6,2026-10-07,title/abstract
+B1343,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1344,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1345,Include,,,batch6,2026-10-07,title/abstract
+B1346,Include,,,batch6,2026-10-07,title/abstract
+B1347,Include,,,batch6,2026-10-07,title/abstract
+B1348,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1349,Include,,,batch6,2026-10-07,title/abstract
+B1350,Unsure,,DRL trajectory control for different risk levels,batch6,2026-10-07,title/abstract
+B1351,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1352,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1353,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1354,Exclude,EC10,,batch6,2026-10-07,title/abstract
+B1355,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1356,Unsure,,DRL with risk assessment at intersections,batch6,2026-10-07,title/abstract
+B1357,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1358,Unsure,,no abstract; hard state-dependent action bounds,batch6,2026-10-07,title/abstract
+B1359,Unsure,,evaluation of safety constraints in DRL navigation,batch6,2026-10-07,title/abstract
+B1360,Include,,,batch6,2026-10-07,title/abstract
+B1361,Include,,,batch6,2026-10-07,title/abstract
+B1362,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1363,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1364,Unsure,,hybrid DRL safe/efficient at pedestrian crossings,batch6,2026-10-07,title/abstract
+B1365,Include,,,batch6,2026-10-07,title/abstract
+B1366,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1367,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1368,Include,,,batch6,2026-10-07,title/abstract
+B1369,Include,,,batch6,2026-10-07,title/abstract
+B1370,Unsure,,level-K + DRL fast and safe lane change,batch6,2026-10-07,title/abstract
+B1371,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1372,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1373,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1374,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1375,Unsure,,optimal control + RL multi-vehicle conflict resolution,batch6,2026-10-07,title/abstract
+B1376,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1377,Include,,,batch6,2026-10-07,title/abstract
+B1378,Unsure,,no abstract; eco-driving via safety-model-based RL,batch6,2026-10-07,title/abstract
+B1379,Background,EC1,,batch6,2026-10-07,title/abstract
+B1380,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1381,Unsure,,"predictive manoeuvre planning DRL, comfortable and safe",batch6,2026-10-07,title/abstract
+B1382,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1383,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1384,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1385,Unsure,,RL safety-critical control of automated vehicle (mobile robot platform),batch6,2026-10-07,title/abstract
+B1386,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1387,Background,EC1,,batch6,2026-10-07,title/abstract
+B1388,Unsure,,reward machine RL unifying safety and performance,batch6,2026-10-07,title/abstract
+B1389,Unsure,,risk-aware reward shaping,batch6,2026-10-07,title/abstract
+B1390,Unsure,,safe cooperative cruise control DRL,batch6,2026-10-07,title/abstract
+B1391,Include,,,batch6,2026-10-07,title/abstract
+B1392,Unsure,,roundabout DRL safe/efficient/comfortable,batch6,2026-10-07,title/abstract
+B1393,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1394,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1395,Unsure,,safe navigation DRL in CARLA,batch6,2026-10-07,title/abstract
+B1396,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1398,Include,,,batch6,2026-10-07,title/abstract
+B1399,Include,,,batch6,2026-10-07,title/abstract
+B1400,Exclude,EC11,,batch6,2026-10-07,title/abstract
+B1401,Exclude,EC11,,batch6,2026-10-07,title/abstract
+B1402,Include,,,batch6,2026-10-07,title/abstract
+B1403,Include,,,batch6,2026-10-07,title/abstract
+B1404,Include,,,batch6,2026-10-07,title/abstract
+B1405,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1406,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1407,Unsure,,human-like safe car-following DRL,batch6,2026-10-07,title/abstract
+B1408,Include,,,batch6,2026-10-07,title/abstract
+B1409,Include,,,batch6,2026-10-07,title/abstract
+B1410,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1411,Include,,,batch6,2026-10-07,title/abstract
+B1412,Include,,,batch6,2026-10-07,title/abstract
+B1413,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1414,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1415,Unsure,,MARL cooperative driving with safety rules,batch6,2026-10-07,title/abstract
+B1416,Unsure,,no abstract; eco platooning with risk prediction,batch6,2026-10-07,title/abstract
+B1417,Include,,,batch6,2026-10-07,title/abstract
+B1418,Include,,,batch6,2026-10-07,title/abstract
+B1419,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1420,Background,EC1,,batch6,2026-10-07,title/abstract
+B1421,Unsure,,no abstract; RL for urban traffic safety,batch6,2026-10-07,title/abstract
+B1422,Unsure,,RL tuning of CBF parameter; check vehicle application,batch6,2026-10-07,title/abstract
+B1423,Include,,,batch6,2026-10-07,title/abstract
+B1424,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1425,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1426,Exclude,EC2,,batch6,2026-10-07,title/abstract
+B1427,Include,,,batch6,2026-10-07,title/abstract
+B1428,Exclude,EC10,,batch6,2026-10-07,title/abstract
+B1429,Unsure,,DRL agents for safe road junctions,batch6,2026-10-07,title/abstract
+B1430,Include,,,batch6,2026-10-07,title/abstract
+B1431,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1432,Include,,,batch6,2026-10-07,title/abstract
+B1433,Exclude,EC3,,batch6,2026-10-07,title/abstract
+B1434,Unsure,,constrained meta-RL with safety guarantee; check AD experiment,batch6,2026-10-07,title/abstract
+B1435,Include,,,batch6,2026-10-07,title/abstract
+B1436,Include,,,batch6,2026-10-07,title/abstract
+B1437,Include,,,batch6,2026-10-07,title/abstract
+B1438,Exclude,EC1,,batch6,2026-10-07,title/abstract
+B1439,Include,,,batch7,2026-10-07,title/abstract
+B1441,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1442,Background,EC1,,batch7,2026-10-07,title/abstract
+B1443,Include,,,batch7,2026-10-07,title/abstract
+B1444,Background,EC1,,batch7,2026-10-07,title/abstract
+B1445,Unsure,,constraint-enforced RL eco-driving,batch7,2026-10-07,title/abstract
+B1446,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1447,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1448,Include,,,batch7,2026-10-07,title/abstract
+B1449,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1450,Include,,,batch7,2026-10-07,title/abstract
+B1451,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1452,Unsure,,signal control + CAV for intersection safety; check IC3,batch7,2026-10-07,title/abstract
+B1453,Background,EC1,,batch7,2026-10-07,title/abstract
+B1454,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1455,Unsure,,hierarchical head-to-head racing control with safety rules; check RL,batch7,2026-10-07,title/abstract
+B1456,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1457,Unsure,,high-speed cornering RL with real-vehicle deployment; check safety role,batch7,2026-10-07,title/abstract
+B1458,Include,,,batch7,2026-10-07,title/abstract
+B1459,Include,,,batch7,2026-10-07,title/abstract
+B1460,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1461,Include,,,batch7,2026-10-07,title/abstract
+B1462,Background,EC1,,batch7,2026-10-07,title/abstract
+B1463,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1464,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1465,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1466,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1467,Duplicate,EC5:A020,conference version of A020,batch7,2026-10-07,title/abstract
+B1468,Background,EC1,,batch7,2026-10-07,title/abstract
+B1469,Unsure,,model checking of RL for AD,batch7,2026-10-07,title/abstract
+B1470,Include,,,batch7,2026-10-07,title/abstract
+B1471,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1472,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1473,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1474,Unsure,,"RL path planning with closed-loop control and field tests, evasive manoeuvres",batch7,2026-10-07,title/abstract
+B1475,Unsure,,safe adaptive MBRL for off-road driving; check road context,batch7,2026-10-07,title/abstract
+B1476,Include,,,batch7,2026-10-07,title/abstract
+B1478,Unsure,,no abstract; predictive planning policy for safe driving,batch7,2026-10-07,title/abstract
+B1479,Include,,,batch7,2026-10-07,title/abstract
+B1480,Unsure,,adversarial resistance in cooperative MARL transport,batch7,2026-10-07,title/abstract
+B1481,Include,,,batch7,2026-10-07,title/abstract
+B1482,Background,EC1,,batch7,2026-10-07,title/abstract
+B1483,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1484,Unsure,,RL obstacle avoidance considering driving risk,batch7,2026-10-07,title/abstract
+B1485,Include,,,batch7,2026-10-07,title/abstract
+B1486,Include,,,batch7,2026-10-07,title/abstract
+B1487,Unsure,,risk-anticipatory hierarchical DRL,batch7,2026-10-07,title/abstract
+B1488,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1489,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1490,Include,,,batch7,2026-10-07,title/abstract
+B1491,Background,EC1,,batch7,2026-10-07,title/abstract
+B1492,Include,,,batch7,2026-10-07,title/abstract
+B1493,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1494,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1495,Background,EC1,,batch7,2026-10-07,title/abstract
+B1496,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1497,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1498,Background,EC1,,batch7,2026-10-07,title/abstract
+B1499,Exclude,EC10,,batch7,2026-10-07,title/abstract
+B1500,Include,,,batch7,2026-10-07,title/abstract
+B1501,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1502,Exclude,EC11,,batch7,2026-10-07,title/abstract
+B1503,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1504,Include,,,batch7,2026-10-07,title/abstract
+B1505,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1506,Include,,,batch7,2026-10-07,title/abstract
+B1507,Include,,,batch7,2026-10-07,title/abstract
+B1508,Unsure,,DRL backstepping platoon control,batch7,2026-10-07,title/abstract
+B1509,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1511,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1512,Unsure,,human-machine cooperative DRL for heavy-vehicle safety,batch7,2026-10-07,title/abstract
+B1513,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1514,Exclude,EC10,,batch7,2026-10-07,title/abstract
+B1515,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1516,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1517,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1518,Unsure,,eco-safe mixed platooning RL,batch7,2026-10-07,title/abstract
+B1519,Unsure,,no abstract; long-term safety reward RL,batch7,2026-10-07,title/abstract
+B1520,Include,,,batch7,2026-10-07,title/abstract
+B1521,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1522,Exclude,EC9,,batch7,2026-10-07,title/abstract
+B1523,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1524,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1525,Unsure,,DRL decision with driving risk,batch7,2026-10-07,title/abstract
+B1526,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1527,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1528,Include,,,batch7,2026-10-07,title/abstract
+B1529,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1530,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1531,Background,EC1,,batch7,2026-10-07,title/abstract
+B1532,Unsure,,risk-aware RL objective,batch7,2026-10-07,title/abstract
+B1533,Include,,,batch7,2026-10-07,title/abstract
+B1534,Include,,,batch7,2026-10-07,title/abstract
+B1535,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1536,Unsure,,docking control for reconfigurable ground vehicles with predictive safety filter,batch7,2026-10-07,title/abstract
+B1537,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1538,Unsure,,safe lane-change decision with MARL energy management,batch7,2026-10-07,title/abstract
+B1540,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1541,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1542,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1543,Unsure,,coupled RL with risk assessment,batch7,2026-10-07,title/abstract
+B1544,Include,,journal version related to B1436,batch7,2026-10-07,title/abstract
+B1545,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1546,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1547,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1548,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1549,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1550,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1551,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1552,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1553,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1554,Unsure,,model-based DRL maximising safety under cyberattacks,batch7,2026-10-07,title/abstract
+B1555,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1556,Unsure,,reward design balancing safety and efficiency,batch7,2026-10-07,title/abstract
+B1557,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1558,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1559,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1560,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1561,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1562,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1563,Unsure,,improved RL for lane-change safety,batch7,2026-10-07,title/abstract
+B1564,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1565,Background,EC1,,batch7,2026-10-07,title/abstract
+B1566,Include,,,batch7,2026-10-07,title/abstract
+B1567,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1568,Unsure,,safe and efficient car-following DRL,batch7,2026-10-07,title/abstract
+B1569,Include,,,batch7,2026-10-07,title/abstract
+B1570,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1571,Include,,,batch7,2026-10-07,title/abstract
+B1572,Include,,,batch7,2026-10-07,title/abstract
+B1573,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1574,Unsure,,hierarchical RL shared steering with risk assessment,batch7,2026-10-07,title/abstract
+B1575,Unsure,,hierarchical TD3 for safe lane changing,batch7,2026-10-07,title/abstract
+B1576,Unsure,,DRL deceleration strategy for traffic safety at bottlenecks,batch7,2026-10-07,title/abstract
+B1577,Unsure,,asymmetric risk field RL lane change,batch7,2026-10-07,title/abstract
+B1578,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1579,Exclude,EC10,,batch7,2026-10-07,title/abstract
+B1580,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1581,Unsure,,no abstract; IRL for safe trajectory planning,batch7,2026-10-07,title/abstract
+B1582,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1583,Include,,,batch7,2026-10-07,title/abstract
+B1584,Include,,,batch7,2026-10-07,title/abstract
+B1585,Unsure,,layered optimisation for CAV efficiency and safety,batch7,2026-10-07,title/abstract
+B1586,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1587,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1588,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1589,Exclude,EC10,,batch7,2026-10-07,title/abstract
+B1590,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1591,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1592,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1593,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1594,Include,,,batch7,2026-10-07,title/abstract
+B1595,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1596,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1597,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1598,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1599,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1600,Unsure,,safety/efficiency/battery car-following DRL,batch7,2026-10-07,title/abstract
+B1601,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1602,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1603,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1604,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1605,Background,EC1,,batch7,2026-10-07,title/abstract
+B1606,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1607,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1608,Exclude,EC11,,batch7,2026-10-07,title/abstract
+B1609,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1610,Include,,,batch7,2026-10-07,title/abstract
+B1611,Background,EC1,,batch7,2026-10-07,title/abstract
+B1612,Include,,,batch7,2026-10-07,title/abstract
+B1613,Include,,,batch7,2026-10-07,title/abstract
+B1614,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1615,Unsure,,safe interpretable planning with deep IRL,batch7,2026-10-07,title/abstract
+B1616,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1617,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1618,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1619,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1620,Unsure,,negative-demonstration IRL for safe forced merging,batch7,2026-10-07,title/abstract
+B1621,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1622,Background,EC1,,batch7,2026-10-07,title/abstract
+B1623,Unsure,,no abstract; safe RL eco-driving at signalised intersection,batch7,2026-10-07,title/abstract
+B1625,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1627,Background,EC1,,batch7,2026-10-07,title/abstract
+B1628,Background,EC1,,batch7,2026-10-07,title/abstract
+B1629,Exclude,EC2,,batch7,2026-10-07,title/abstract
+B1630,Include,,,batch7,2026-10-07,title/abstract
+B1631,Background,EC1,,batch7,2026-10-07,title/abstract
+B1632,Unsure,,no abstract; safety-driven path selection RL,batch7,2026-10-07,title/abstract
+B1633,Background,EC1,,batch7,2026-10-07,title/abstract
+B1634,Unsure,,safety-enhanced formation control for EV fleet with RL,batch7,2026-10-07,title/abstract
+B1635,Unsure,,eco-safe longitudinal control DRL,batch7,2026-10-07,title/abstract
+B1636,Include,,,batch7,2026-10-07,title/abstract
+B1637,Exclude,EC1,,batch7,2026-10-07,title/abstract
+B1639,Include,,,batch7,2026-10-07,title/abstract
+B1640,Include,,,batch7,2026-10-07,title/abstract
+B1642,Unsure,,continual RL for safe driving,batch7,2026-10-07,title/abstract
+B1643,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1644,Exclude,EC3,,batch7,2026-10-07,title/abstract
+B1645,Include,,,batch7,2026-10-07,title/abstract
+B1646,Exclude,EC8,,batch7,2026-10-07,title/abstract
+B1647,Unsure,,signal control for pedestrian safety; check IC3,batch8,2026-10-07,title/abstract
+B1648,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1649,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1650,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1651,Include,,,batch8,2026-10-07,title/abstract
+B1652,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1653,Include,,,batch8,2026-10-07,title/abstract
+B1654,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1655,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1656,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1657,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1658,Include,,,batch8,2026-10-07,title/abstract
+B1659,Include,,,batch8,2026-10-07,title/abstract
+B1660,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1661,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1662,Include,,,batch8,2026-10-07,title/abstract
+B1663,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1664,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1665,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1666,Background,EC1,,batch8,2026-10-07,title/abstract
+B1667,Include,,,batch8,2026-10-07,title/abstract
+B1668,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1669,Include,,,batch8,2026-10-07,title/abstract
+B1670,Background,EC1,,batch8,2026-10-07,title/abstract
+B1671,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1672,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1673,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1674,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1675,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1676,Include,,,batch8,2026-10-07,title/abstract
+B1677,Unsure,,regenerative braking DRL with following safety,batch8,2026-10-07,title/abstract
+B1678,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1679,Unsure,,no abstract; LLM-enhanced RL for safety,batch8,2026-10-07,title/abstract
+B1680,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1681,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1682,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1683,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1684,Unsure,,no abstract; risk perception with DRL and uncertainty modelling,batch8,2026-10-07,title/abstract
+B1685,Background,EC1,,batch8,2026-10-07,title/abstract
+B1686,Include,,,batch8,2026-10-07,title/abstract
+B1687,Unsure,,no abstract; motion planning under observation uncertainty,batch8,2026-10-07,title/abstract
+B1688,Background,EC1,,batch8,2026-10-07,title/abstract
+B1689,Include,,,batch8,2026-10-07,title/abstract
+B1690,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1691,Include,,,batch8,2026-10-07,title/abstract
+B1692,Include,,,batch8,2026-10-07,title/abstract
+B1693,Include,,,batch8,2026-10-07,title/abstract
+B1694,Background,EC1,,batch8,2026-10-07,title/abstract
+B1695,Unsure,,risk-aware hierarchical SAC lane change,batch8,2026-10-07,title/abstract
+B1696,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1697,Include,,,batch8,2026-10-07,title/abstract
+B1698,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1699,Exclude,EC4,,batch8,2026-10-07,title/abstract
+B1700,Include,,,batch8,2026-10-07,title/abstract
+B1701,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1702,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1703,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1704,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1705,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1706,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1707,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1708,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1709,Include,,,batch8,2026-10-07,title/abstract
+B1710,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1711,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1712,Unsure,,Lagrangian-constrained DRL with tyre-slip safety constraints,batch8,2026-10-07,title/abstract
+B1713,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1714,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1715,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1716,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1717,Unsure,,ethical RL for fair risk management,batch8,2026-10-07,title/abstract
+B1718,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1719,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1720,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1721,Background,EC1,,batch8,2026-10-07,title/abstract
+B1722,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1723,Include,,,batch8,2026-10-07,title/abstract
+B1724,Unsure,,no abstract; safety-aware grey-box architecture,batch8,2026-10-07,title/abstract
+B1725,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1726,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1727,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1728,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1729,Background,EC1,,batch8,2026-10-07,title/abstract
+B1730,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1731,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1732,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1733,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1734,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1735,Include,,,batch8,2026-10-07,title/abstract
+B1736,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1737,Background,EC1,,batch8,2026-10-07,title/abstract
+B1738,Unsure,,hybrid RL-MPC merging control,batch8,2026-10-07,title/abstract
+B1739,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1740,Exclude,EC10,,batch8,2026-10-07,title/abstract
+B1741,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1742,Include,,,batch8,2026-10-07,title/abstract
+B1743,Exclude,EC10,,batch8,2026-10-07,title/abstract
+B1744,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1745,Include,,,batch8,2026-10-07,title/abstract
+B1746,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1747,Include,,,batch8,2026-10-07,title/abstract
+B1748,Include,,,batch8,2026-10-07,title/abstract
+B1749,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1751,Background,EC1,,batch8,2026-10-07,title/abstract
+B1753,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1754,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1755,Unsure,,reward design for safe roundabout navigation,batch8,2026-10-07,title/abstract
+B1756,Background,EC1,,batch8,2026-10-07,title/abstract
+B1757,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1758,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1759,Unsure,,safety-aware signal control; check IC3,batch8,2026-10-07,title/abstract
+B1760,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1761,Include,,,batch8,2026-10-07,title/abstract
+B1762,Background,EC1,,batch8,2026-10-07,title/abstract
+B1763,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1764,Include,,,batch8,2026-10-07,title/abstract
+B1765,Unsure,,prior-knowledge RL platoon control under cut-ins,batch8,2026-10-07,title/abstract
+B1766,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1767,Include,,,batch8,2026-10-07,title/abstract
+B1768,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1769,Exclude,EC8,,batch8,2026-10-07,title/abstract
+B1770,Include,,,batch8,2026-10-07,title/abstract
+B1771,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1772,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1773,Unsure,,risk-aware expert policy for generalisation,batch8,2026-10-07,title/abstract
+B1774,Exclude,EC9,,batch8,2026-10-07,title/abstract
+B1775,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1776,Include,,,batch8,2026-10-07,title/abstract
+B1777,Include,,,batch8,2026-10-07,title/abstract
+B1778,Unsure,,risk-aware MARL at intersections,batch8,2026-10-07,title/abstract
+B1779,Include,,,batch8,2026-10-07,title/abstract
+B1780,Include,,,batch8,2026-10-07,title/abstract
+B1781,Background,EC1,,batch8,2026-10-07,title/abstract
+B1782,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1783,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1784,Background,EC1,,batch8,2026-10-07,title/abstract
+B1786,Include,,,batch8,2026-10-07,title/abstract
+B1787,Unsure,,risk-screened MARL lane change,batch8,2026-10-07,title/abstract
+B1788,Include,,,batch8,2026-10-07,title/abstract
+B1789,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1790,Unsure,,MPC-CBF racing overtaking with learning; check RL,batch8,2026-10-07,title/abstract
+B1791,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1792,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1793,Include,,,batch8,2026-10-07,title/abstract
+B1794,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1795,Background,EC1,,batch8,2026-10-07,title/abstract
+B1796,Include,,,batch8,2026-10-07,title/abstract
+B1797,Include,,,batch8,2026-10-07,title/abstract
+B1798,Include,,,batch8,2026-10-07,title/abstract
+B1799,Include,,,batch8,2026-10-07,title/abstract
+B1800,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1801,Exclude,EC4,,batch8,2026-10-07,title/abstract
+B1802,Include,,,batch8,2026-10-07,title/abstract
+B1803,Background,EC1,,batch8,2026-10-07,title/abstract
+B1804,Unsure,,risk-aware graph attention DRL at intersections,batch8,2026-10-07,title/abstract
+B1805,Unsure,,GRPO VLM planner with safety constraints,batch8,2026-10-07,title/abstract
+B1806,Include,,,batch8,2026-10-07,title/abstract
+B1807,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1808,Include,,,batch8,2026-10-07,title/abstract
+B1809,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1810,Unsure,,safe agile racing MARL; check vehicle type,batch8,2026-10-07,title/abstract
+B1811,Exclude,EC4,,batch8,2026-10-07,title/abstract
+B1812,Include,,,batch8,2026-10-07,title/abstract
+B1813,Include,,,batch8,2026-10-07,title/abstract
+B1814,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1815,Include,,,batch8,2026-10-07,title/abstract
+B1816,Unsure,,trajectory-constrained human-guided RL,batch8,2026-10-07,title/abstract
+B1817,Exclude,EC1,,batch8,2026-10-07,title/abstract
+B1818,Unsure,,uncertainty-risk-adaptive offline RL,batch8,2026-10-07,title/abstract
+B1819,Exclude,EC3,,batch8,2026-10-07,title/abstract
+B1820,Exclude,EC1,,batch8,2026-10-07,title/abstract

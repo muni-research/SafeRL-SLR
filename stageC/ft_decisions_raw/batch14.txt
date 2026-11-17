@@ -1,0 +1,10 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch17), 2026-10-10
+C0176 FI domain-randomisation DRL surfacing corner cases with safety reward; collision outcomes
+C0196 FI hierarchical DRL speed decisions with robust low-level control; safety term in reward under disturbances
+C0319 FI interpretable SAC with safety awareness for lane-change decisions; CARLA
+C0457 FI local RL agent with global drone cooperation for collision-free lane change; NGSIM-based scenarios
+C0502 FB timed contracts and model checking for RL components in SystemC with runtime monitor; traffic-light case study (non-vehicle)
+C0504 FI MAPPO with collision-avoidability risk model for manoeuvring around emergency vehicles vs MPC baseline
+C0552 FI federated RL with augmented observations for sim-to-real car following; TTC-based safety reward and evaluation
+C0764 FI attention double DQN with human-value safety layer at runtime for highway decisions
+C0997 FI hierarchical attention RL with RSS-based Simplex switching to a safety controller

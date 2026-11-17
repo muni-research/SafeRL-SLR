@@ -1,0 +1,72 @@
+study,year,uncertainty,uncertainty_method,mech_primary,safety_level
+B0048,2019,MODEL; EPI,Gaussian-process model of unknown dynamics with confidence bounds,F,L4
+B1216,2019,INTENT; ALE,stochastic Bayesian game over driver behaviour types; quantile return distributions,L,L1
+C0051,2019,ALE; STOCH,quantile-regression distributional critic,D,L3
+C0083,2019,ALE; DSHIFT; STOCH,distributional (Gaussian) critic with CVaR,L,L1
+B0110,2020,MODEL; EPI,Gaussian-process estimate of future control bounds,J,L4
+C0117,2020,ADV; ALE; DSHIFT,adversary policy and distributional critic with variance penalty,K,L1
+C0132,2020,EPI; DSHIFT; INTENT,bootstrapped ensemble with randomized prior functions,N,L3
+C0141,2020,EPI; DSHIFT,bootstrapped ensemble with randomized prior functions,N,L3
+C0178,2021,ALE; INTENT; STOCH,distributional critic,F,L3
+C0214,2021,PO; SENS; ALE,"quantile-regression distributional critic, worst-case optimisation",L,L1
+B0276,2022,ALE,Gaussian cost distribution and CVaR risk level,B,L2
+B0307,2022,MODEL; EPI,probabilistic CBF with Gaussian model uncertainty,F,L2
+B1291,2022,ALE,Bayesian inference of collision-risk level,A,L1
+C0282,2022,EPI; ALE; DSHIFT,Gaussian mixture density head,N,L1
+C0296,2022,EPI; DSHIFT,driving-confidence (long-tail rate) estimation from data coverage,N,L3
+C0343,2022,SENS; EPI; ALE,probabilistic object detection (ensembles/MC dropout) and distributional value function,N,L3
+A096,2023,EPI; DSHIFT; SENS,ensemble of critics (std of Q-values),S,L3
+A132,2023,MODEL; EPI,Gaussian-process regression of unknown dynamics with confidence bounds,F,L4
+B0385,2023,EPI; SENS; DSHIFT; DIST; INTENT,online context estimation; ensembles; uncertainty-scaled updates,S,L3
+B0429,2023,ALE; PRED,Gaussian process position-error model and stochastic collision prediction,L,L1
+C0438,2023,EPI; ALE; DSHIFT; PO,implicit quantile networks in a bootstrapped ensemble with randomized priors; CVaR,N,L3
+C0451,2023,EPI; DSHIFT,"three estimators for data-collection, training and policy uncertainty",N,L3
+C0517,2023,ALE; INTENT; STOCH,distributional critic with CVaR,L,L1
+C0518,2023,ALE; EPI; INTENT,stochastic forward models with latent variables; model ensembles,N,L1
+A087,2024,EPI; DSHIFT,deep ensemble of Q critics,N,L3
+B0529,2024,PO; PRED; ALE,mixture density network predicting position and speed of occluded vehicles; CVaR risk,L,L3
+B0545,2024,ALE; STOCH,distributional cost/value modelling (CVaR) and latent diffusion rollouts,L,L2
+B0653,2024,EPI; PO,ensemble of K SAC agents; occlusion model,S,L3
+B0657,2024,PRED; INTENT; ALE,bivariate Gaussian trajectory predictions with uncertainty-aware loss,N,L1
+B1427,2024,ALE,implicit quantile return distribution,L,L1
+B1479,2024,EPI; ALE,ensemble of distributional critics; CVaR over ensemble return distribution,L,L1
+C0577,2024,ALE; STOCH,distribution of collision probabilities over horizons,C,L1
+C0621,2024,EPI; INTENT,bootstrapped ensemble heads,I,L1
+C0666,2024,PO; ALE,distributional value under occlusion,L,L1
+C0705,2024,INTENT; ALE,uncertainty-based risk assessment of surrounding vehicles,F,L2
+C0727,2024,EPI; SENS,Bayesian neural network Q-value estimation,N,L1
+B0716,2025,ALE; EPI,return distributions from DSAC used for policy confidence,V,L5
+B0737,2025,ALE; DSHIFT,distributional constraint learning with risk-level (CVaR) adjustment,L,L2
+B0878,2025,ALE; INTENT; PO,Gaussian-mixture Bayesian belief updater over intent models; expanding uncertainty ellipses,L,L1
+B0929,2025,EPI; ALE,bootstrapped ensemble of quantile critics (CVaR) for epistemic and aleatoric uncertainty,N,L3
+B0930,2025,EPI; DSHIFT,ensemble Q-network standard deviation,P,L2
+B1520,2025,EPI; MODEL,Gaussian-process confidence interval on unknown dynamics,F,L3
+B1528,2025,EPI,critic ensemble with gradient diversification and lower-confidence bounds,E,L3
+B1543,2025,ALE; INTENT,Bayesian estimation of surrounding-vehicle impact,R,L1
+B1566,2025,EPI; STOCH,environmental uncertainty term in fear model,B,L2
+B1569,2025,ALE,distributional critic over returns,V,L1
+B1571,2025,EPI; ALE; INTENT; PRED,multi-level game-theoretic world model with predictive uncertainty driving rollout horizon and barrier margin,B,L2
+B1610,2025,SENS; EPI,Gaussian pose noise; dynamics ensemble for imagination,F,L3
+C0807,2025,ALE; STOCH,multimodal distributional critic,L,L1
+C0826,2025,EPI; PRED,critic ensemble for motion-prediction uncertainty,N,L1
+C0929,2025,EPI; ALE,ensemble quantile networks with prior-free epistemic estimate,N,L3
+A053,2026,SENS; DIST; ALE,Gaussian-process regression of road friction feeding a finite-state runtime monitor,F,L3
+B0968,2026,EPI; ALE; DSHIFT; MODEL,ensemble CVaR quantile critics (epistemic/aleatoric) and learned CBF residual,F,L3
+B0972,2026,MODEL; EPI,Gaussian-process posterior with ellipsoidal uncertainty propagation,I,L4
+B1093,2026,EPI; SENS; DSHIFT,ensemble cost critics (epistemic) and Gaussian perception noise in tests,N,L3
+B1094,2026,EPI; MODEL,sparse Gaussian process disturbance model with confidence intervals,F,L3
+B1146,2026,SENS; EPI; DSHIFT,uncertainty-aware perception fusion; domain randomisation and MMD alignment,G,L2
+B1149,2026,EPI; STOCH,Bayesian and ensemble risk estimation,L,L1
+B1157,2026,EPI; INTENT,uncertainty-aware weighting of RL guidance in out-of-distribution states; diverse human intentions,I,L3
+B1175,2026,ALE; INTENT,distributional cost estimate over interaction outcomes,L,L3
+B1189,2026,DSHIFT; MODEL; EPI,latent context variable inference and distributional cost critic with adjustable risk level,U,L2
+B1689,2026,EPI; SENS,ensemble experts and dual risk perception; noisy observations,B,L2
+B1692,2026,ALE,quantile return distributions compared by quantile dominance,A,L1
+B1767,2026,EPI; DSHIFT,ensemble Q-advantage; domain randomisation and semantic remapping for Sim2Real,V,L1
+B1779,2026,ALE,worst-case cost distribution (WCSAC),L,L2
+B1798,2026,PO; ALE; SENS,PINN reconstruction of occluded or faulty observations; tail-risk cost distribution,L,L2
+B1818,2026,EPI; DSHIFT,risk-potential-field mapping to conservative coefficient and target entropy,P,L1
+C0998,2026,DSHIFT; EPI,Mahalanobis out-of-distribution diagnostic and value margins,S,L3
+C1020,2026,EPI; PRED; DSHIFT,uncertainty-aware decisions over predicted leader trajectories; long-tail augmentation,N,L1
+C1039,2026,ALE; STOCH,return distribution with risk-sensitive objective,L,L1
+E074,2026,INTENT; PO; EPI,latent-context posterior over interaction partners,B,L2

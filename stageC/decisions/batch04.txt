@@ -1,0 +1,41 @@
+# batch 04 (C0181-C0240), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0183 Exclude EC10 driver models for AV testing
+C0185 Exclude EC2 inverse RL behaviour modelling
+C0189 Exclude EC1 energy management
+C0190 Unsure - DDPG car-following with collision-prediction supervision of actions
+C0191 Exclude EC3 mixed-autonomy traffic framework
+C0194 Unsure - program-triggered hierarchical RL for verifiability
+C0196 Unsure - DRL speed decision with robust control layer
+C0197 Unsure - DRL with expert-system guidance for safe decisions
+C0199 Unsure - physics-guided SAC ACC for collision avoidance
+C0200 Duplicate C0315
+C0201 Duplicate C0315
+C0202 Exclude EC2 inverse RL
+C0203 Exclude EC1 communications
+C0204 Exclude EC1 energy management
+C0206 Background EC1 safe set actor-critic, general (check AV experiments)
+C0207 Duplicate C0325
+C0208 Exclude EC3 racing sim-to-real
+C0209 Exclude EC1 surface vessel
+C0211 Exclude EC2 intersection scheduling/management
+C0213 Exclude EC1 surface vessel
+C0214 Unsure - worst-case RL motion planning under occlusion uncertainty
+C0215 Exclude EC2 traffic signal control
+C0216 Exclude EC1 UAV networks
+C0217 Unsure - CAV on-ramp merging with safety constraints
+C0219 Unsure - DRL safety planning in emergency multi-collision
+C0220 Exclude EC3 traffic smoothing
+C0221 Unsure - DRL pedestrian avoidance with safety clearance
+C0222 Unsure - DQN pedestrian collision avoidance at intersection
+C0225 Duplicate C0314
+C0227 Background EC1 probabilistic MPSC general (check AV case)
+C0228 Unsure - action-space shaping for safety rules in Q-learning lane change
+C0229 Exclude EC3 meta-RL roadmanship
+C0230 Duplicate C0229
+C0232 Review EC9
+C0234 Unsure - ConstraintNet output constraints, safety-critical driving
+C0235 Exclude EC8 dissertation
+C0237 Exclude EC1 UGV navigation
+C0238 Exclude EC3 trust-aware ITS control
+C0239 Duplicate C0238
+C0240 Exclude EC1 urban rail dissertation

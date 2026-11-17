@@ -1,0 +1,214 @@
+# Phase 4 extraction, batch 19 (institutional PDFs), codebook v1.5, extracted 2026-10-08
+# Source: extraction/packets/batch19.txt plus targeted full-text lookups (scripts/13b_lookup.py)
+
+@@ B1797
+country: China
+problem: ACST-SRL: spatiotemporal social-attention TD3 for unsignalized left turns with a CMDP-based adaptive policy rectification that corrects actions violating TTC constraints, plus collision-zone risk assessment.
+task: INT
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: TD3
+method_name: ACST-SRL
+network: ATT; RNN
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: dense risk-informed progress and efficiency terms
+safety_cost: TTC constraint violation
+constraints: TTC constraint with adaptive multiplier-based action rectification
+mech: B; E; L
+mech_primary: E
+mech_stage: BOTH
+rl_output: PARAM
+safety_integration: CORRECT
+control: NONE
+safety_claim: RT; CEXP
+guarantee_assumptions: TTC estimate reliable; HVs ignore signals but follow CARLA autopilot
+safety_level: L3
+level_note: Actions violating the TTC constraint are rectified at execution; success 97.65% in CARLA Town03.
+uncertainty: INTENT; STOCH
+uncertainty_method: random HV routes and target speeds
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: SUCC; COLL; TIME; TTC
+baselines: TD3-Lag, CSC-RL, Saute-RL, HLIST-AA, EQN, LA-SRL, STA-RL, MixATT, TQC, D4PG, SAC
+baseline_types: SRL; NSRL; ABL
+results: Success rate 97.65%, up to 44.39% above safe/constrained RL baselines, with slightly shorter crossing time than TD3.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; SUPERV
+limitations: A: single left-turn intersection.
+qa: 2 2 2 2 2 2 2 1 0 2 1 2
+qa_note: Q8 traffic randomness only; Q9 none; Q11 public simulator, no code
+
+@@ B1798
+country: China
+problem: SRMARL for cooperative on-ramp merging in heterogeneous traffic: PINN-based state reconstruction under incomplete observations, Gaussian-Generalized-Pareto CVaR tail-risk constraints tightened by a homotopy curriculum, and ODD-based safety-boundary analysis.
+task: MERGE; COOP
+scenario: RAMP
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: OTHER:MAPPO-Lagrangian with CVaR homotopy
+method_name: SRMARL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: merging success and efficiency
+safety_cost: tail-risk (CVaR) of long-term safety cost
+constraints: CVaR constraint with progressively tightened cost limit
+mech: L; B; O; N
+mech_primary: L
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: CEXP; PROB
+guarantee_assumptions: compact convex policy space (homotopy convergence); kinematic bicycle model
+safety_level: L2
+level_note: CVaR-constrained learning with convergence analysis; ODD-based post-hoc safety-boundary quantification.
+uncertainty: PO; ALE; SENS
+uncertainty_method: PINN reconstruction of occluded or faulty observations; tail-risk cost distribution
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; TTC
+baselines: MAPPO, MAPPO-Lag, MAACKTR, Safe-MAA2C, MAPPO-PIS
+baseline_types: NSRL; SRL
+results: Success +29.17%, crash ratio -77.79% and system-level safety boundary +63.35% versus MAPPO-Lag.
+generalization: DENS; AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: Y
+code_url: https://github.com/Makabaka0000/SRMARL
+data_avail: NA
+hyperparams: Y
+seeds: 4
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PERC; DEC
+limitations: A: rule-based HDV behaviour; offline PINN pretraining cost (authors).
+qa: 2 2 2 2 2 2 2 2 1 2 2 1
+qa_note: Q9 densities and penetration rates only; Q12 highway-env merging
+
+@@ B1816
+country: China
+problem: Trajectory-constrained human-guided RL: a trajectory-level similarity to human guidance is imposed as a constraint solved by a Lagrangian method with a strong-duality analysis, for end-to-end lane changing in CARLA.
+task: LC; E2E
+scenario: MIXED
+traffic: SCRIPTED
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: OTHER:TCHug-RL (Lagrangian TD3-style actor-critic)
+method_name: TCHug-RL
+network: CNN; MLP
+obs_type: BEV
+action_type: CONT
+action_level: CTRL
+reward: lane-keeping, speed and collision terms
+safety_cost: NA
+constraints: expected trajectory similarity to human guidance
+mech: V; B
+mech_primary: V
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: bounded reward; binding constraint; Slater's condition (duality)
+safety_level: L1
+level_note: Human-similarity constraint during training; success rates over 50 test episodes with noisy surrounding vehicles.
+uncertainty: SENS
+uncertainty_method: noise on surrounding vehicle positions and velocities in testing
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: SUCC; REW; INTERV
+baselines: Hug-RL, VP-RL, vanilla RL, other human-guided RL
+baseline_types: NSRL; HUMAN
+results: Learning efficiency +22.1% and overall performance +18.7% over state-of-the-art human-guided RL; robust to changed vehicle types.
+generalization: AGENTS; DIST
+validation_tier: SIM-HIFI
+real_world: Human participants providing keyboard interventions in simulation
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 10
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL
+limitations: A: perception bypassed with simulator semantic BEV.
+qa: 2 2 1 2 2 1 2 1 2 2 1 2
+qa_note: Q3 constraint targets human similarity rather than safety; Q6 success rate as safety proxy; Q8 test noise only; Q11 public simulator, no code
+
+@@ B1818
+country: China
+problem: Offline context-aware RL (CQL-SAC) for vehicle-cloud end-to-end driving: diffusion-based generative experience replay in the cloud, a risk-potential-field uncertainty module that adapts conservatism and entropy, and a semantic-attention context encoder.
+task: E2E; NAV
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: OFF
+agents: SA
+n_agents: 1
+algorithm: OTHER:CQL-SAC (risk-adaptive)
+method_name: Uncertainty-risk-adaptive offline context-aware RL
+network: ATT; CNN
+obs_type: BEV; VEC
+action_type: CONT
+action_level: CTRL
+reward: progress, safety, comfort and fuel terms
+safety_cost: NA
+constraints: NA
+mech: P; L; N
+mech_primary: P
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Risk-adaptive conservatism in offline training; collision and departure rates in four CARLA towns.
+uncertainty: EPI; DSHIFT
+uncertainty_method: risk-potential-field mapping to conservative coefficient and target entropy
+simulator: CARLA
+dataset: OWN
+vehicle_model: SIMVEH
+metrics: COLL; SUCC; JERK; ENERGY; TTC
+baselines: CQL, IQL, BCQ and other offline RL
+baseline_types: NSRL; ABL
+results: Better stability, safety, efficiency and fuel economy than offline baselines, generalising from Town03 to Towns 04, 05 and 07.
+generalization: GEOM; UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: N
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: Y
+stack: PERC; CTRL
+limitations: A: weaker on unstructured roads (Town07).
+qa: 2 2 1 2 2 2 2 1 2 1 1 2
+qa_note: Q3 safety via risk-adaptive conservatism only; Q8 risk-field uncertainty only; Q10 seeds not reported; Q11 public simulator, no code or data

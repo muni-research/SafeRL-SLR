@@ -1,0 +1,41 @@
+# batch 06 (C0301-C0360), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0301 Background EC1 safety-oriented search for cost-constrained DRL (check AV experiments)
+C0302 Unsure - fuzzy action-masked RL behaviour planning with traffic-rule constraints
+C0305 Review EC9
+C0306 Exclude EC2 intersection management
+C0307 Unsure - residual RL tactical planner robust to observation noise
+C0308 Background EC1 offline goal-conditioned RL (check driving experiments)
+C0309 Unsure - hierarchical RL speed plus safe vehicle-level control, roundabout
+C0311 Unsure - unprotected left turn avoiding face-off, safety
+C0312 Exclude EC1 mobile robot
+C0314 Unsure - PEARL+ prior-policy safety for meta-RL, AV
+C0315 Unsure - integrated decision and control with constrained optimal tracking
+C0316 Unsure - DRL pedestrian interaction with social value orientation for safe AV
+C0317 Exclude EC2 inverse RL
+C0319 Unsure - interpretable SAC with safety awareness, lane change (no abstract)
+C0320 Unsure - driver-input DRL for safe lane change
+C0321 Unsure - transformer DRL lane change with risk awareness
+C0323 Exclude EC10
+C0324 Exclude EC2 intersection management
+C0325 Unsure - RL guidance for safe trajectory optimisation (MPC), dense traffic
+C0326 Exclude EC1 aerial vehicle
+C0327 Unsure - mandatory lane change with traffic-rule behaviour constraints
+C0328 Unsure - MetaDrive safe RL benchmark (environment paper)
+C0329 Exclude EC2 imitation learning
+C0330 Unsure - MARL pedestrian crash avoidance
+C0336 Review EC9
+C0338 Unsure - DRL emergency obstacle avoidance with graded hazard index
+C0339 Unsure - offline RL for safety-critical driving with real data
+C0341 Unsure - RL emergency pedestrian avoidance trajectory planning
+C0342 Exclude EC3 ADP platoon tracking
+C0343 Unsure - perception-uncertainty-aware decision making
+C0344 Exclude EC2 POMDP planner, not RL (check)
+C0347 Exclude EC1 charging forecast
+C0349 Review EC9
+C0350 Exclude EC2 intersection management
+C0351 Exclude EC2 safety analysis, not RL
+C0352 Unsure - observation-adversarial RL for robust safe lane change
+C0354 Exclude EC1 wireless security
+C0355 Background EC1 data-driven predictive control safety layer (check vehicle case)
+C0356 Exclude EC2 traffic signal control
+C0357 Background EC1 Saute RL general

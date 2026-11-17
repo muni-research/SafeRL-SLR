@@ -1,0 +1,6 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch18), 2026-10-10
+C0129 FI DDPG trajectory planner with safety and comfort reward; proving-ground real-vehicle tests
+C0309 FI hierarchical cloud-level RL speed design with robust vehicle-level control for safe roundabout motion
+C0338 FI DRL emergency obstacle avoidance with graded hazard index; CARLA
+C0378 FI RL strategy policy parameterising a constrained NMPC guaranteeing safe feasible racing trajectories
+C0389 FI two-player zero-sum Markov game Q-learning against adversarial neighbour vehicles; human-in-the-loop tests

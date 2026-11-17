@@ -1,0 +1,4381 @@
+{
+ "N": 702,
+ "year": {
+  "2016": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "2017": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "2018": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "2019": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "2020": {
+   "n": 32,
+   "pct": 4.6
+  },
+  "2021": {
+   "n": 53,
+   "pct": 7.5
+  },
+  "2022": {
+   "n": 71,
+   "pct": 10.1
+  },
+  "2023": {
+   "n": 94,
+   "pct": 13.4
+  },
+  "2024": {
+   "n": 119,
+   "pct": 17.0
+  },
+  "2025": {
+   "n": 154,
+   "pct": 21.9
+  },
+  "2026": {
+   "n": 149,
+   "pct": 21.2
+  }
+ },
+ "period": {
+  "2016-2020": {
+   "n": 62,
+   "pct": 8.8
+  },
+  "2021-2022": {
+   "n": 124,
+   "pct": 17.7
+  },
+  "2023-2024": {
+   "n": 213,
+   "pct": 30.3
+  },
+  "2025-2026": {
+   "n": 303,
+   "pct": 43.2
+  }
+ },
+ "pub_type": {
+  "journal": {
+   "n": 362,
+   "pct": 51.6
+  },
+  "conference": {
+   "n": 277,
+   "pct": 39.5
+  },
+  "preprint": {
+   "n": 63,
+   "pct": 9.0
+  }
+ },
+ "venue_top": {
+  "IEEE Transactions on Intelligent Transportation Systems": {
+   "n": 82,
+   "pct": 11.7
+  },
+  "arXiv": {
+   "n": 59,
+   "pct": 8.4
+  },
+  "IEEE Intelligent Transportation Systems Conference (ITSC)": {
+   "n": 49,
+   "pct": 7.0
+  },
+  "IEEE Transactions on Vehicular Technology": {
+   "n": 31,
+   "pct": 4.4
+  },
+  "IEEE Intelligent Vehicles Symposium": {
+   "n": 30,
+   "pct": 4.3
+  },
+  "IEEE Transactions on Intelligent Vehicles": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "CAA International Conference on Vehicular Control and Intelligence (CVCI)": {
+   "n": 20,
+   "pct": 2.8
+  },
+  "IEEE/RSJ IROS": {
+   "n": 16,
+   "pct": 2.3
+  },
+  "IEEE Access": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "IEEE ICRA": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "Electronics": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "Sensors": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "IFAC-PapersOnLine": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "Transportation Research Part C Emerging Technologies": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "IEEE Robotics and Automation Letters": {
+   "n": 10,
+   "pct": 1.4
+  },
+  "IEEE Internet of Things Journal": {
+   "n": 9,
+   "pct": 1.3
+  },
+  "IET Intelligent Transport Systems": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "Applied Sciences": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "IEEE Transactions on Transportation Electrification": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "Engineering Applications of Artificial Intelligence": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "Lecture notes in computer science": {
+   "n": 7,
+   "pct": 1.0
+  },
+  "China Automation Congress (CAC)": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "IEEE International Conference on Unmanned Systems (ICUS)": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "Advanced Engineering Informatics": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "Expert Systems with Applications": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "IEEE Transactions on Neural Networks and Learning Systems": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "IEEE Transactions on Industrial Electronics": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "American Control Conference (ACC)": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "IEEE Transactions on Cybernetics": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Accident Analysis & Prevention": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "IEEE Sensors Journal": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Machines": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Conference proceedings/Conference proceedings - IEEE International Conference on Systems, Man, and Cybernetics": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "SSRN Electronic Journal": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "IEEE Transactions on Pattern Analysis and Machine Intelligence": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "IEEE Transactions on Systems Man and Cybernetics Systems": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "IEEE Transactions on Automation Science and Engineering": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "European Control Conference (ECC)": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Knowledge-Based Systems": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Automotive Innovation": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE Conference on Decision and Control (CDC)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Proceedings of the AAAI Conference on Artificial Intelligence": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "2022 IEEE 18th International Conference on Automation Science and Engineering (CASE)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Chinese Journal of Mechanical Engineering": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Energies": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Engineering": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Journal of Applied Automation Technologies": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE International Automated Vehicle Validation Conference (IAVVC)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Adaptive Agents and Multi-Agents Systems": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Applied and Computational Engineering": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "International Conference on Intelligent Computing and Signal Processing (ICSP)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Mathematics": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "World Electric Vehicle Journal": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE Open Journal of Intelligent Transportation Systems": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Energy": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Communications in Transportation Research": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Robotics: Science and Systems (RSS)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Scientific Reports": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Vehicles": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Journal of Intelligent and Connected Vehicles": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "International Conference on Control, Decision and Information Technologies (CoDIT)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE International Conference on Machine Learning and Applications (ICMLA)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "International Joint Conference on Neural Networks (IJCNN)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE Vehicular Technology Conference": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "International Conference on Advanced Robotics (ICAR)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "PLoS ONE": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Chinese Control and Decision Conference (CCDC)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "International Conference on Robotics, Automation and Intelligent Transportation Systems (RAITS)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE Open Journal of Vehicular Technology": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "IEEE Conference on Cybernetics and Intelligent Systems": {
+   "n": 2,
+   "pct": 0.3
+  }
+ },
+ "country": {
+  "China": {
+   "n": 376,
+   "pct": 53.6
+  },
+  "USA": {
+   "n": 89,
+   "pct": 12.7
+  },
+  "Germany": {
+   "n": 49,
+   "pct": 7.0
+  },
+  "Singapore": {
+   "n": 20,
+   "pct": 2.8
+  },
+  "Canada": {
+   "n": 19,
+   "pct": 2.7
+  },
+  "South Korea": {
+   "n": 18,
+   "pct": 2.6
+  },
+  "India": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "France": {
+   "n": 13,
+   "pct": 1.9
+  },
+  "Hungary": {
+   "n": 9,
+   "pct": 1.3
+  },
+  "Italy": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "United Kingdom": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "Iran": {
+   "n": 7,
+   "pct": 1.0
+  },
+  "Sweden": {
+   "n": 7,
+   "pct": 1.0
+  },
+  "UK": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "NR": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "Australia": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "Turkey": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "United States": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Japan": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Netherlands": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Egypt": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Taiwan": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Malaysia": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Poland": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Ireland": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "South Africa": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Spain": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Bangladesh": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Ethiopia": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Pakistan": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Greece": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Belgium": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Russia": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Portugal": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "New Zealand": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Indonesia": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Tunisia": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Jordan": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "United Arab Emirates": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Morocco": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "China; United Kingdom": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Spain; China": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "China; South Korea": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "China; Australia": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "China; Singapore": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "China; Qatar": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "qa_band": {
+  "High": 426,
+  "Medium": 236,
+  "Low": 40
+ },
+ "alg_family": {
+  "Off-policy actor-critic": {
+   "n": 247,
+   "pct": 35.2
+  },
+  "Value-based": {
+   "n": 185,
+   "pct": 26.4
+  },
+  "On-policy policy gradient": {
+   "n": 152,
+   "pct": 21.7
+  },
+  "Constrained policy optimisation": {
+   "n": 87,
+   "pct": 12.4
+  },
+  "Model-based RL": {
+   "n": 31,
+   "pct": 4.4
+  },
+  "Other / unspecified": {
+   "n": 19,
+   "pct": 2.7
+  },
+  "Generic actor-critic": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "Offline RL": {
+   "n": 14,
+   "pct": 2.0
+  }
+ },
+ "algorithm": {
+  "PPO": {
+   "n": 123,
+   "pct": 17.5
+  },
+  "SAC": {
+   "n": 105,
+   "pct": 15.0
+  },
+  "DQN": {
+   "n": 88,
+   "pct": 12.5
+  },
+  "DDPG": {
+   "n": 72,
+   "pct": 10.3
+  },
+  "TD3": {
+   "n": 59,
+   "pct": 8.4
+  },
+  "Double DQN": {
+   "n": 42,
+   "pct": 6.0
+  },
+  "SAC-Lagrangian": {
+   "n": 23,
+   "pct": 3.3
+  },
+  "Dueling double DQN": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "PPO-Lagrangian": {
+   "n": 16,
+   "pct": 2.3
+  },
+  "Q-learning": {
+   "n": 15,
+   "pct": 2.1
+  },
+  "Actor-critic": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "MAPPO": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "CPO": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "Adaptive dynamic programming": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "Model-based AC": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "A2C": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "Not reported": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "MADDPG": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "DSAC": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "TD3-Lagrangian": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "TRPO": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "MCTS": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "QMIX": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "IQN": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Proxy-value actor-critic": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "CQL": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Dueling DQN": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "Model-based RL + MPC": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Distributional DQN": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "Adversarial robust AC": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "PCPO": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "DRQN": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Various": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "FAC": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Constrained decision transformer": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "DreamerV3 safe AC": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Diffusion policy optimisation": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "QR-DQN": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "A3C": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "MATD3": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "MPO": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Unspecified": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "MAPPO-Lagrangian": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "FC-AC": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Behaviour cloning (with RL)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "P-DQN": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "Hybrid-action constrained AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "FOMI": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "BCQ": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained soft Q-learning": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "REINFORCE with baseline": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained Q-learning path search": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "PPO-PID Lagrangian (CVaR)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "EPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Safety layer (Dalal)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Recovery RL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "MACPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "RSCPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Episodic policy search": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "PPO-augmented Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained PPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Transformer offline safe RL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Robust constrained AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "DDPG-augmented Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Dual-constrained AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "CRPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "TRPO-PID Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "P3O": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Safe MBPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "MAPCPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "CrossQ": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "GPI": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Lyapunov-constrained SAC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Diffusion policy (UADP)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "DDPG-Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "GP learning-based MPC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Dual-policy constrained AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "IQL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "MAA2C-Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "C51 (distributional)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "IQN-Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "NFSP": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Budgeted fitted-Q": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Model-based constrained policy search": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "CCAC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "SPIL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "CAAC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "SMORL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "VDN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained multi-objective AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "UPPAAL Stratego": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "HCP4O": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Actor-Critic-Safety": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Safe-evolving ensemble AC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "IGCARL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "WCA-SAC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Feasible policy iteration": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Diffusion policy (DICE)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "CRR": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "WCSAC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "SAC-augmented Lagrangian": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "GRPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Rainbow DQN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Value-network RL (SARL)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Tsallis actor-critic": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "DQN (prioritised replay)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "IPPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "DQN (Ape-X)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Model-based offline RL": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "TD collision-probability learning": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Bootstrapped DQN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "SARSA": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Bayesian DQN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "MBPO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "High-confidence policy improvement": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "REINFORCE-type policy gradient": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained multi-objective policy gradient": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "Constrained trust-region MARL": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "lagrangian": {
+  "n": 72,
+  "pct": 10.3
+ },
+ "constrained_any": {
+  "n": 136,
+  "pct": 19.4
+ },
+ "rl_paradigm": {
+  "MF": {
+   "n": 637,
+   "pct": 90.7
+  },
+  "HRL": {
+   "n": 85,
+   "pct": 12.1
+  },
+  "MB": {
+   "n": 65,
+   "pct": 9.3
+  },
+  "IL+RL": {
+   "n": 61,
+   "pct": 8.7
+  },
+  "OFF": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "LLM+RL": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "META": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "OFF2ON": {
+   "n": 4,
+   "pct": 0.6
+  }
+ },
+ "agents": {
+  "SA": {
+   "n": 604,
+   "pct": 86.0
+  },
+  "MA-DEC": {
+   "n": 44,
+   "pct": 6.3
+  },
+  "MA-CTDE": {
+   "n": 41,
+   "pct": 5.8
+  },
+  "MA-CEN": {
+   "n": 13,
+   "pct": 1.9
+  }
+ },
+ "action_level": {
+  "CTRL": {
+   "n": 373,
+   "pct": 53.1
+  },
+  "BEHAV": {
+   "n": 210,
+   "pct": 29.9
+  },
+  "TRAJ": {
+   "n": 52,
+   "pct": 7.4
+  },
+  "PARAM": {
+   "n": 43,
+   "pct": 6.1
+  },
+  "MIXED": {
+   "n": 15,
+   "pct": 2.1
+  },
+  "NR": {
+   "n": 9,
+   "pct": 1.3
+  }
+ },
+ "network": {
+  "MLP": {
+   "n": 564,
+   "pct": 80.3
+  },
+  "ATT": {
+   "n": 70,
+   "pct": 10.0
+  },
+  "CNN": {
+   "n": 63,
+   "pct": 9.0
+  },
+  "RNN": {
+   "n": 43,
+   "pct": 6.1
+  },
+  "NR": {
+   "n": 28,
+   "pct": 4.0
+  },
+  "GNN": {
+   "n": 18,
+   "pct": 2.6
+  },
+  "RBF": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "OTHER:KAN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Gaussian process": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:diffusion model": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:critic-only NN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:GAN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:critic NN": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:fuzzy logic systems": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:diffusion policy": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "obs_type": {
+  "VEC": {
+   "n": 640,
+   "pct": 91.2
+  },
+  "LIDAR": {
+   "n": 37,
+   "pct": 5.3
+  },
+  "IMG": {
+   "n": 32,
+   "pct": 4.6
+  },
+  "BEV": {
+   "n": 19,
+   "pct": 2.7
+  },
+  "GRAPH": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "OCC": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "LANG": {
+   "n": 4,
+   "pct": 0.6
+  },
+  "NR": {
+   "n": 3,
+   "pct": 0.4
+  }
+ },
+ "mech": {
+  "A": {
+   "n": 278,
+   "pct": 39.6
+  },
+  "B": {
+   "n": 133,
+   "pct": 18.9
+  },
+  "W": {
+   "n": 132,
+   "pct": 18.8
+  },
+  "E": {
+   "n": 112,
+   "pct": 16.0
+  },
+  "D": {
+   "n": 108,
+   "pct": 15.4
+  },
+  "I": {
+   "n": 104,
+   "pct": 14.8
+  },
+  "N": {
+   "n": 90,
+   "pct": 12.8
+  },
+  "K": {
+   "n": 85,
+   "pct": 12.1
+  },
+  "F": {
+   "n": 81,
+   "pct": 11.5
+  },
+  "L": {
+   "n": 80,
+   "pct": 11.4
+  },
+  "O": {
+   "n": 74,
+   "pct": 10.5
+  },
+  "V": {
+   "n": 72,
+   "pct": 10.3
+  },
+  "S": {
+   "n": 69,
+   "pct": 9.8
+  },
+  "Q": {
+   "n": 66,
+   "pct": 9.4
+  },
+  "R": {
+   "n": 55,
+   "pct": 7.8
+  },
+  "G": {
+   "n": 46,
+   "pct": 6.6
+  },
+  "J": {
+   "n": 39,
+   "pct": 5.6
+  },
+  "C": {
+   "n": 34,
+   "pct": 4.8
+  },
+  "T": {
+   "n": 32,
+   "pct": 4.6
+  },
+  "H": {
+   "n": 28,
+   "pct": 4.0
+  },
+  "U": {
+   "n": 19,
+   "pct": 2.7
+  },
+  "P": {
+   "n": 16,
+   "pct": 2.3
+  },
+  "X": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "OTHER:benchmark": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:safety-oriented state representation": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:safety case (assurance argument)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:learned risk-threshold monitor": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "mech_primary": {
+  "A": {
+   "n": 135,
+   "pct": 19.2
+  },
+  "B": {
+   "n": 71,
+   "pct": 10.1
+  },
+  "D": {
+   "n": 52,
+   "pct": 7.4
+  },
+  "I": {
+   "n": 48,
+   "pct": 6.8
+  },
+  "F": {
+   "n": 47,
+   "pct": 6.7
+  },
+  "E": {
+   "n": 44,
+   "pct": 6.3
+  },
+  "W": {
+   "n": 40,
+   "pct": 5.7
+  },
+  "K": {
+   "n": 38,
+   "pct": 5.4
+  },
+  "L": {
+   "n": 35,
+   "pct": 5.0
+  },
+  "S": {
+   "n": 31,
+   "pct": 4.4
+  },
+  "G": {
+   "n": 21,
+   "pct": 3.0
+  },
+  "N": {
+   "n": 21,
+   "pct": 3.0
+  },
+  "V": {
+   "n": 21,
+   "pct": 3.0
+  },
+  "T": {
+   "n": 18,
+   "pct": 2.6
+  },
+  "J": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "C": {
+   "n": 13,
+   "pct": 1.9
+  },
+  "H": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "P": {
+   "n": 9,
+   "pct": 1.3
+  },
+  "O": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "Q": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "X": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "R": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "U": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "OTHER:benchmark": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:safety-oriented state representation": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:safety case (assurance argument)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:learned risk-threshold monitor": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "mech_cluster": {
+  "M1 Objective shaping": {
+   "n": 439,
+   "pct": 62.5
+  },
+  "M2 Run-time intervention": {
+   "n": 319,
+   "pct": 45.4
+  },
+  "M6 Learning-paradigm extensions": {
+   "n": 287,
+   "pct": 40.9
+  },
+  "M3 Control-theoretic certificates": {
+   "n": 220,
+   "pct": 31.3
+  },
+  "M5 Robustness and uncertainty": {
+   "n": 170,
+   "pct": 24.2
+  },
+  "M4 Formal methods": {
+   "n": 32,
+   "pct": 4.6
+  },
+  "M0 No mechanism (benchmark, representation, assurance case)": {
+   "n": 5,
+   "pct": 0.7
+  }
+ },
+ "mech_stage": {
+  "TRAIN": {
+   "n": 314,
+   "pct": 44.7
+  },
+  "BOTH": {
+   "n": 284,
+   "pct": 40.5
+  },
+  "EXEC": {
+   "n": 104,
+   "pct": 14.8
+  }
+ },
+ "safety_claim": {
+  "EMP": {
+   "n": 589,
+   "pct": 83.9
+  },
+  "RT": {
+   "n": 198,
+   "pct": 28.2
+  },
+  "CEXP": {
+   "n": 108,
+   "pct": 15.4
+  },
+  "FORMAL": {
+   "n": 92,
+   "pct": 13.1
+  },
+  "ROB": {
+   "n": 58,
+   "pct": 8.3
+  },
+  "STAT": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "PROB": {
+   "n": 20,
+   "pct": 2.8
+  }
+ },
+ "explicit_safety_cost": {
+  "n": 182,
+  "pct": 25.9
+ },
+ "n_mech": {
+  "1": {
+   "n": 103,
+   "pct": 14.7
+  },
+  "2": {
+   "n": 266,
+   "pct": 37.9
+  },
+  "3": {
+   "n": 224,
+   "pct": 31.9
+  },
+  "4": {
+   "n": 88,
+   "pct": 12.5
+  },
+  "5": {
+   "n": 17,
+   "pct": 2.4
+  },
+  "6": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "7": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "mech_profile": {
+  "A": [
+   278,
+   24.1,
+   1.4,
+   80.2,
+   14,
+   18
+  ],
+  "B": [
+   133,
+   27.1,
+   6.8,
+   8.3,
+   20,
+   19
+  ],
+  "C": [
+   34,
+   41.2,
+   5.9,
+   29.4,
+   4,
+   19
+  ],
+  "D": [
+   108,
+   91.7,
+   20.4,
+   36.1,
+   9,
+   18
+  ],
+  "E": [
+   112,
+   96.4,
+   27.7,
+   8.0,
+   13,
+   19
+  ],
+  "F": [
+   81,
+   82.7,
+   44.4,
+   4.9,
+   9,
+   18
+  ],
+  "G": [
+   46,
+   73.9,
+   50.0,
+   13.0,
+   4,
+   17
+  ],
+  "H": [
+   28,
+   100.0,
+   53.6,
+   0.0,
+   3,
+   19
+  ],
+  "I": [
+   104,
+   82.7,
+   16.3,
+   24.0,
+   18,
+   18
+  ],
+  "J": [
+   39,
+   82.1,
+   64.1,
+   10.3,
+   7,
+   19
+  ],
+  "K": [
+   85,
+   44.7,
+   28.2,
+   8.2,
+   13,
+   19
+  ],
+  "L": [
+   80,
+   25.0,
+   3.8,
+   51.2,
+   6,
+   19
+  ],
+  "M": [
+   0,
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "N": [
+   90,
+   44.4,
+   8.9,
+   51.1,
+   10,
+   20
+  ],
+  "O": [
+   74,
+   45.9,
+   14.9,
+   43.2,
+   4,
+   19
+  ],
+  "P": [
+   16,
+   25.0,
+   6.2,
+   37.5,
+   1,
+   20
+  ],
+  "Q": [
+   66,
+   53.0,
+   13.6,
+   30.3,
+   12,
+   19
+  ],
+  "R": [
+   55,
+   61.8,
+   5.5,
+   52.7,
+   3,
+   18
+  ],
+  "S": [
+   69,
+   84.1,
+   23.2,
+   31.9,
+   18,
+   20
+  ],
+  "T": [
+   32,
+   81.2,
+   56.2,
+   12.5,
+   1,
+   18
+  ],
+  "U": [
+   19,
+   36.8,
+   31.6,
+   31.6,
+   12,
+   19
+  ],
+  "V": [
+   72,
+   37.5,
+   8.3,
+   63.9,
+   12,
+   18
+  ],
+  "W": [
+   132,
+   68.9,
+   6.1,
+   56.1,
+   12,
+   18
+  ],
+  "X": [
+   11,
+   18.2,
+   0.0,
+   72.7,
+   0,
+   19
+  ]
+ },
+ "rl_output": {
+  "ACT": {
+   "n": 373,
+   "pct": 53.1
+  },
+  "DEC": {
+   "n": 218,
+   "pct": 31.1
+  },
+  "PARAM": {
+   "n": 51,
+   "pct": 7.3
+  },
+  "TRAJ": {
+   "n": 47,
+   "pct": 6.7
+  },
+  "RES": {
+   "n": 13,
+   "pct": 1.9
+  }
+ },
+ "safety_integration": {
+  "NONE": {
+   "n": 346,
+   "pct": 49.3
+  },
+  "CORRECT": {
+   "n": 119,
+   "pct": 17.0
+  },
+  "FILTER": {
+   "n": 86,
+   "pct": 12.3
+  },
+  "EMBED": {
+   "n": 78,
+   "pct": 11.1
+  },
+  "MASK": {
+   "n": 73,
+   "pct": 10.4
+  }
+ },
+ "rl_output_x_integration": {
+  "ACT": {
+   "NONE": 221,
+   "FILTER": 64,
+   "CORRECT": 63,
+   "EMBED": 15,
+   "MASK": 10
+  },
+  "DEC": {
+   "MASK": 59,
+   "CORRECT": 38,
+   "NONE": 92,
+   "EMBED": 22,
+   "FILTER": 7
+  },
+  "PARAM": {
+   "EMBED": 26,
+   "NONE": 14,
+   "FILTER": 3,
+   "CORRECT": 7,
+   "MASK": 1
+  },
+  "RES": {
+   "FILTER": 4,
+   "CORRECT": 3,
+   "EMBED": 2,
+   "NONE": 4
+  },
+  "TRAJ": {
+   "FILTER": 8,
+   "NONE": 15,
+   "EMBED": 13,
+   "MASK": 3,
+   "CORRECT": 8
+  }
+ },
+ "rl_role_s17": {
+  "1 RL generates control action": {
+   "n": 386,
+   "pct": 55.0
+  },
+  "2 RL generates high-level decision": {
+   "n": 265,
+   "pct": 37.7
+  },
+  "4 RL under a safety filter": {
+   "n": 159,
+   "pct": 22.6
+  },
+  "5 RL corrected by a safety controller": {
+   "n": 119,
+   "pct": 17.0
+  },
+  "6 RL embedded in optimisation layer": {
+   "n": 78,
+   "pct": 11.1
+  },
+  "3 RL provides controller parameters": {
+   "n": 51,
+   "pct": 7.3
+  }
+ },
+ "control": {
+  "NONE": {
+   "n": 368,
+   "pct": 52.4
+  },
+  "MPC": {
+   "n": 103,
+   "pct": 14.7
+  },
+  "QP": {
+   "n": 54,
+   "pct": 7.7
+  },
+  "PLANNER": {
+   "n": 41,
+   "pct": 5.8
+  },
+  "RULE": {
+   "n": 39,
+   "pct": 5.6
+  },
+  "IDM": {
+   "n": 38,
+   "pct": 5.4
+  },
+  "PID": {
+   "n": 31,
+   "pct": 4.4
+  },
+  "MOBIL": {
+   "n": 16,
+   "pct": 2.3
+  },
+  "BACKSTEP": {
+   "n": 11,
+   "pct": 1.6
+  },
+  "PP": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "APF": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "LQR": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "SMC": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "OTHER:robust H-infinity controller": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "STANLEY": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:model-based reference controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:fallback steering controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:verified fail-safe controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:safety actor (HJ-based recovery)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:robust cruise control": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:fail-safe braking planner": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:6-DOF model-based target-state controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:HJ reachability controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:reachability-based trajectory projection": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:linear model-based controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:DDPG neural controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:ACC gap controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:ORCA velocity-obstacle controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:H-infinity robust control": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:vehicle speed controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:speed tracking controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Gipps model": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:expert driver model": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:acceleration controller for short-term goals": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:ACC/LKAS driver-assistance functions": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:low-level trajectory controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:differential-equation collision predictor": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:vehicle ACC/lane-change controllers": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Lyapunov-based safety controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:motion safety controller": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:RBF compensator": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:robust disturbance compensator": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:trajectory optimisation": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:linear car-following feedback": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:RISE robust control": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "control_theoretic_any": {
+  "n": 220,
+  "pct": 31.3
+ },
+ "safety_level": {
+  "L0": {
+   "n": 13,
+   "pct": 1.9
+  },
+  "L1": {
+   "n": 273,
+   "pct": 38.9
+  },
+  "L2": {
+   "n": 90,
+   "pct": 12.8
+  },
+  "L3": {
+   "n": 237,
+   "pct": 33.8
+  },
+  "L4": {
+   "n": 74,
+   "pct": 10.5
+  },
+  "L5": {
+   "n": 15,
+   "pct": 2.1
+  }
+ },
+ "level_x_tier": {
+  "L0": {
+   "SIM-LOW": 9,
+   "SIM-HIFI": 3,
+   "SCALED": 1
+  },
+  "L1": {
+   "SIM-HIFI": 90,
+   "SIM-LOW": 124,
+   "SIM-DATA": 42,
+   "HIL": 3,
+   "SCALED": 4,
+   "CLOSED": 7,
+   "ROAD": 3
+  },
+  "L2": {
+   "SIM-HIFI": 34,
+   "SIM-LOW": 41,
+   "SCALED": 5,
+   "CLOSED": 4,
+   "SIM-DATA": 4,
+   "ROAD": 2
+  },
+  "L3": {
+   "SIM-LOW": 132,
+   "SIM-HIFI": 58,
+   "HIL": 14,
+   "SIM-DATA": 21,
+   "ROAD": 3,
+   "SCALED": 6,
+   "CLOSED": 3
+  },
+  "L4": {
+   "SIM-DATA": 8,
+   "SIM-LOW": 52,
+   "SIM-HIFI": 11,
+   "SCALED": 1,
+   "HIL": 2
+  },
+  "L5": {
+   "CLOSED": 8,
+   "ROAD": 2,
+   "SCALED": 5
+  }
+ },
+ "level_x_period": {
+  "L0": {
+   "2023-2024": 3,
+   "2016-2020": 2,
+   "2025-2026": 5,
+   "2021-2022": 3
+  },
+  "L1": {
+   "2023-2024": 86,
+   "2025-2026": 107,
+   "2016-2020": 28,
+   "2021-2022": 52
+  },
+  "L2": {
+   "2025-2026": 44,
+   "2023-2024": 31,
+   "2016-2020": 3,
+   "2021-2022": 12
+  },
+  "L3": {
+   "2025-2026": 108,
+   "2023-2024": 71,
+   "2016-2020": 19,
+   "2021-2022": 39
+  },
+  "L4": {
+   "2025-2026": 32,
+   "2023-2024": 17,
+   "2016-2020": 8,
+   "2021-2022": 17
+  },
+  "L5": {
+   "2023-2024": 5,
+   "2016-2020": 2,
+   "2025-2026": 7,
+   "2021-2022": 1
+  }
+ },
+ "level_x_cluster": {
+  "M0 No mechanism (benchmark, representation, assurance case)": {
+   "L1": 4,
+   "L0": 1
+  },
+  "M1 Objective shaping": {
+   "L2": 87,
+   "L3": 107,
+   "L1": 221,
+   "L5": 6,
+   "L4": 10,
+   "L0": 8
+  },
+  "M2 Run-time intervention": {
+   "L3": 203,
+   "L4": 49,
+   "L5": 11,
+   "L0": 3,
+   "L1": 49,
+   "L2": 4
+  },
+  "M3 Control-theoretic certificates": {
+   "L2": 21,
+   "L3": 101,
+   "L4": 63,
+   "L5": 10,
+   "L0": 1,
+   "L1": 24
+  },
+  "M4 Formal methods": {
+   "L3": 8,
+   "L4": 17,
+   "L2": 2,
+   "L1": 4,
+   "L5": 1
+  },
+  "M5 Robustness and uncertainty": {
+   "L3": 45,
+   "L4": 27,
+   "L5": 4,
+   "L1": 73,
+   "L2": 18,
+   "L0": 3
+  },
+  "M6 Learning-paradigm extensions": {
+   "L2": 44,
+   "L3": 97,
+   "L4": 21,
+   "L5": 13,
+   "L1": 108,
+   "L0": 4
+  }
+ },
+ "formal_or_prob_claim": {
+  "n": 109,
+  "pct": 15.5
+ },
+ "empirical_only_claim": {
+  "n": 315,
+  "pct": 44.9
+ },
+ "task": {
+  "LC": {
+   "n": 225,
+   "pct": 32.1
+  },
+  "CF": {
+   "n": 184,
+   "pct": 26.2
+  },
+  "INT": {
+   "n": 154,
+   "pct": 21.9
+  },
+  "TD": {
+   "n": 133,
+   "pct": 18.9
+  },
+  "CA": {
+   "n": 99,
+   "pct": 14.1
+  },
+  "NAV": {
+   "n": 96,
+   "pct": 13.7
+  },
+  "MERGE": {
+   "n": 83,
+   "pct": 11.8
+  },
+  "MP": {
+   "n": 75,
+   "pct": 10.7
+  },
+  "COOP": {
+   "n": 69,
+   "pct": 9.8
+  },
+  "LK": {
+   "n": 61,
+   "pct": 8.7
+  },
+  "PED": {
+   "n": 51,
+   "pct": 7.3
+  },
+  "EMG": {
+   "n": 48,
+   "pct": 6.8
+  },
+  "PLT": {
+   "n": 29,
+   "pct": 4.1
+  },
+  "OVT": {
+   "n": 28,
+   "pct": 4.0
+  },
+  "RAB": {
+   "n": 26,
+   "pct": 3.7
+  },
+  "RACE": {
+   "n": 24,
+   "pct": 3.4
+  },
+  "E2E": {
+   "n": 16,
+   "pct": 2.3
+  },
+  "PARK": {
+   "n": 10,
+   "pct": 1.4
+  },
+  "OTHER:eco-driving": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "scenario": {
+  "HWY": {
+   "n": 264,
+   "pct": 37.6
+  },
+  "URB": {
+   "n": 136,
+   "pct": 19.4
+  },
+  "INTX": {
+   "n": 122,
+   "pct": 17.4
+  },
+  "GENERIC": {
+   "n": 72,
+   "pct": 10.3
+  },
+  "RAMP": {
+   "n": 65,
+   "pct": 9.3
+  },
+  "MIXED": {
+   "n": 46,
+   "pct": 6.6
+  },
+  "TRACK": {
+   "n": 34,
+   "pct": 4.8
+  },
+  "RAB": {
+   "n": 14,
+   "pct": 2.0
+  },
+  "PARKLOT": {
+   "n": 10,
+   "pct": 1.4
+  },
+  "RURAL": {
+   "n": 8,
+   "pct": 1.1
+  }
+ },
+ "traffic": {
+  "SCRIPTED": {
+   "n": 428,
+   "pct": 61.0
+  },
+  "NONE": {
+   "n": 98,
+   "pct": 14.0
+  },
+  "MIXED": {
+   "n": 75,
+   "pct": 10.7
+  },
+  "REPLAY": {
+   "n": 66,
+   "pct": 9.4
+  },
+  "LEARNED": {
+   "n": 31,
+   "pct": 4.4
+  },
+  "HUMAN": {
+   "n": 4,
+   "pct": 0.6
+  }
+ },
+ "task_x_cluster": {
+  "CA": {
+   "M2 Run-time intervention": 29,
+   "M5 Robustness and uncertainty": 25,
+   "M3 Control-theoretic certificates": 39,
+   "M6 Learning-paradigm extensions": 45,
+   "M1 Objective shaping": 66,
+   "M4 Formal methods": 2,
+   "M0 No mechanism (benchmark, representation, assurance case)": 2
+  },
+  "CF": {
+   "M2 Run-time intervention": 92,
+   "M5 Robustness and uncertainty": 47,
+   "M3 Control-theoretic certificates": 57,
+   "M1 Objective shaping": 110,
+   "M6 Learning-paradigm extensions": 58,
+   "M4 Formal methods": 12,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1
+  },
+  "COOP": {
+   "M1 Objective shaping": 43,
+   "M6 Learning-paradigm extensions": 58,
+   "M3 Control-theoretic certificates": 18,
+   "M2 Run-time intervention": 27,
+   "M5 Robustness and uncertainty": 16,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1
+  },
+  "E2E": {
+   "M2 Run-time intervention": 4,
+   "M1 Objective shaping": 13,
+   "M6 Learning-paradigm extensions": 8,
+   "M5 Robustness and uncertainty": 4
+  },
+  "EMG": {
+   "M2 Run-time intervention": 13,
+   "M1 Objective shaping": 33,
+   "M6 Learning-paradigm extensions": 25,
+   "M3 Control-theoretic certificates": 20,
+   "M5 Robustness and uncertainty": 10,
+   "M4 Formal methods": 3
+  },
+  "INT": {
+   "M3 Control-theoretic certificates": 43,
+   "M1 Objective shaping": 113,
+   "M6 Learning-paradigm extensions": 72,
+   "M2 Run-time intervention": 63,
+   "M5 Robustness and uncertainty": 36,
+   "M4 Formal methods": 8,
+   "M0 No mechanism (benchmark, representation, assurance case)": 2
+  },
+  "LC": {
+   "M1 Objective shaping": 138,
+   "M2 Run-time intervention": 121,
+   "M5 Robustness and uncertainty": 46,
+   "M3 Control-theoretic certificates": 54,
+   "M4 Formal methods": 17,
+   "M6 Learning-paradigm extensions": 86
+  },
+  "LK": {
+   "M1 Objective shaping": 28,
+   "M3 Control-theoretic certificates": 35,
+   "M6 Learning-paradigm extensions": 19,
+   "M5 Robustness and uncertainty": 18,
+   "M2 Run-time intervention": 23,
+   "M4 Formal methods": 2
+  },
+  "MERGE": {
+   "M2 Run-time intervention": 37,
+   "M6 Learning-paradigm extensions": 39,
+   "M3 Control-theoretic certificates": 31,
+   "M1 Objective shaping": 53,
+   "M5 Robustness and uncertainty": 19,
+   "M4 Formal methods": 1
+  },
+  "MP": {
+   "M3 Control-theoretic certificates": 43,
+   "M6 Learning-paradigm extensions": 36,
+   "M2 Run-time intervention": 34,
+   "M1 Objective shaping": 38,
+   "M5 Robustness and uncertainty": 19,
+   "M4 Formal methods": 3
+  },
+  "NAV": {
+   "M3 Control-theoretic certificates": 20,
+   "M1 Objective shaping": 68,
+   "M2 Run-time intervention": 36,
+   "M5 Robustness and uncertainty": 21,
+   "M6 Learning-paradigm extensions": 49,
+   "M4 Formal methods": 4,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1
+  },
+  "OTHER:eco-driving": {
+   "M3 Control-theoretic certificates": 1,
+   "M6 Learning-paradigm extensions": 1
+  },
+  "OVT": {
+   "M2 Run-time intervention": 13,
+   "M1 Objective shaping": 18,
+   "M6 Learning-paradigm extensions": 12,
+   "M3 Control-theoretic certificates": 14,
+   "M4 Formal methods": 2,
+   "M5 Robustness and uncertainty": 5
+  },
+  "PARK": {
+   "M1 Objective shaping": 3,
+   "M6 Learning-paradigm extensions": 8,
+   "M3 Control-theoretic certificates": 5,
+   "M2 Run-time intervention": 3,
+   "M5 Robustness and uncertainty": 1
+  },
+  "PED": {
+   "M1 Objective shaping": 38,
+   "M6 Learning-paradigm extensions": 23,
+   "M2 Run-time intervention": 17,
+   "M5 Robustness and uncertainty": 13,
+   "M4 Formal methods": 2,
+   "M3 Control-theoretic certificates": 7
+  },
+  "PLT": {
+   "M2 Run-time intervention": 14,
+   "M6 Learning-paradigm extensions": 11,
+   "M3 Control-theoretic certificates": 17,
+   "M1 Objective shaping": 8,
+   "M5 Robustness and uncertainty": 11
+  },
+  "RAB": {
+   "M1 Objective shaping": 17,
+   "M2 Run-time intervention": 10,
+   "M3 Control-theoretic certificates": 6,
+   "M6 Learning-paradigm extensions": 10,
+   "M5 Robustness and uncertainty": 3
+  },
+  "RACE": {
+   "M2 Run-time intervention": 15,
+   "M1 Objective shaping": 12,
+   "M6 Learning-paradigm extensions": 8,
+   "M5 Robustness and uncertainty": 5,
+   "M3 Control-theoretic certificates": 13,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1,
+   "M4 Formal methods": 1
+  },
+  "TD": {
+   "M1 Objective shaping": 79,
+   "M2 Run-time intervention": 73,
+   "M5 Robustness and uncertainty": 32,
+   "M4 Formal methods": 9,
+   "M6 Learning-paradigm extensions": 42,
+   "M3 Control-theoretic certificates": 24
+  }
+ },
+ "task_x_level": {
+  "CA": {
+   "L3": 20,
+   "L5": 5,
+   "L2": 13,
+   "L4": 8,
+   "L1": 50,
+   "L0": 3
+  },
+  "CF": {
+   "L4": 26,
+   "L2": 22,
+   "L3": 60,
+   "L1": 71,
+   "L5": 3,
+   "L0": 2
+  },
+  "COOP": {
+   "L2": 14,
+   "L4": 8,
+   "L3": 22,
+   "L1": 23,
+   "L5": 1,
+   "L0": 1
+  },
+  "E2E": {
+   "L1": 12,
+   "L2": 1,
+   "L3": 3
+  },
+  "EMG": {
+   "L4": 2,
+   "L1": 28,
+   "L3": 13,
+   "L5": 2,
+   "L2": 2,
+   "L0": 1
+  },
+  "INT": {
+   "L2": 30,
+   "L3": 51,
+   "L1": 55,
+   "L5": 1,
+   "L4": 13,
+   "L0": 4
+  },
+  "LC": {
+   "L2": 25,
+   "L4": 20,
+   "L3": 87,
+   "L1": 84,
+   "L5": 4,
+   "L0": 5
+  },
+  "LK": {
+   "L2": 10,
+   "L4": 15,
+   "L5": 3,
+   "L0": 2,
+   "L1": 17,
+   "L3": 14
+  },
+  "MERGE": {
+   "L4": 8,
+   "L3": 36,
+   "L2": 15,
+   "L1": 24
+  },
+  "MP": {
+   "L4": 13,
+   "L3": 30,
+   "L2": 13,
+   "L5": 2,
+   "L1": 17
+  },
+  "NAV": {
+   "L2": 24,
+   "L4": 5,
+   "L3": 23,
+   "L1": 38,
+   "L5": 2,
+   "L0": 4
+  },
+  "OTHER:eco-driving": {
+   "L3": 1
+  },
+  "OVT": {
+   "L3": 9,
+   "L4": 2,
+   "L2": 4,
+   "L1": 11,
+   "L5": 2
+  },
+  "PARK": {
+   "L2": 2,
+   "L0": 1,
+   "L1": 2,
+   "L3": 4,
+   "L4": 1
+  },
+  "PED": {
+   "L1": 34,
+   "L4": 2,
+   "L2": 3,
+   "L3": 10,
+   "L5": 1,
+   "L0": 1
+  },
+  "PLT": {
+   "L4": 12,
+   "L2": 1,
+   "L1": 8,
+   "L3": 7,
+   "L0": 1
+  },
+  "RAB": {
+   "L1": 9,
+   "L3": 11,
+   "L2": 5,
+   "L4": 1
+  },
+  "RACE": {
+   "L3": 13,
+   "L4": 3,
+   "L1": 4,
+   "L5": 2,
+   "L0": 1,
+   "L2": 1
+  },
+  "TD": {
+   "L2": 9,
+   "L3": 65,
+   "L4": 4,
+   "L1": 53,
+   "L0": 2
+  }
+ },
+ "uncertainty": {
+  "STOCH": {
+   "n": 211,
+   "pct": 30.1
+  },
+  "NONE": {
+   "n": 165,
+   "pct": 23.5
+  },
+  "INTENT": {
+   "n": 158,
+   "pct": 22.5
+  },
+  "MODEL": {
+   "n": 87,
+   "pct": 12.4
+  },
+  "SENS": {
+   "n": 73,
+   "pct": 10.4
+  },
+  "DIST": {
+   "n": 54,
+   "pct": 7.7
+  },
+  "PO": {
+   "n": 48,
+   "pct": 6.8
+  },
+  "DSHIFT": {
+   "n": 48,
+   "pct": 6.8
+  },
+  "EPI": {
+   "n": 43,
+   "pct": 6.1
+  },
+  "ADV": {
+   "n": 42,
+   "pct": 6.0
+  },
+  "PRED": {
+   "n": 40,
+   "pct": 5.7
+  },
+  "ALE": {
+   "n": 38,
+   "pct": 5.4
+  }
+ },
+ "uncertainty_any": {
+  "n": 537,
+  "pct": 76.5
+ },
+ "uncertainty_epi_ale": {
+  "n": 71,
+  "pct": 10.1
+ },
+ "simulator": {
+  "CUSTOM": {
+   "n": 192,
+   "pct": 27.4
+  },
+  "CARLA": {
+   "n": 146,
+   "pct": 20.8
+  },
+  "SUMO": {
+   "n": 115,
+   "pct": 16.4
+  },
+  "HWENV": {
+   "n": 114,
+   "pct": 16.2
+  },
+  "SIMULINK": {
+   "n": 54,
+   "pct": 7.7
+  },
+  "METADRIVE": {
+   "n": 27,
+   "pct": 3.8
+  },
+  "CARSIM": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "PRESCAN": {
+   "n": 13,
+   "pct": 1.9
+  },
+  "SMARTS": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "UNITY": {
+   "n": 12,
+   "pct": 1.7
+  },
+  "COMMONROAD": {
+   "n": 10,
+   "pct": 1.4
+  },
+  "SAFETYGYM": {
+   "n": 9,
+   "pct": 1.3
+  },
+  "NR": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "TORCS": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "FLOW": {
+   "n": 6,
+   "pct": 0.9
+  },
+  "OTHER:TruckSim": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "OTHER:Learn-to-Race (Arrival simulator)": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "WEBOTS": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:OpenDS": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:NS3": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:GOPS": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Udacity path-planning simulator": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "WAYMAX": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:SafeBench (CARLA-based)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Duckietown": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:GOPS-based multi-lane simulator": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:F1TENTH gym": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "BULLET": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:two further unnamed environments": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:BMW/ika traffic simulation": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:AutomotiveDrivingModels.jl": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Vissim": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:IPG CarMaker": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:EcoSim powertrain model": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:parking-env (gym)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:RoadRunner": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:OpenAI Gym CarRacing-v0": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:F1Tenth gym": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:AnyLogic": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:METANET": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:NAVSIM (non-reactive)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:GPUDrive": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Udacity highway simulator": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "AIRSIM": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "GAZEBO": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "NUPLAN": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "dataset": {
+  "NONE": {
+   "n": 552,
+   "pct": 78.6
+  },
+  "OWN": {
+   "n": 62,
+   "pct": 8.8
+  },
+  "NGSIM": {
+   "n": 40,
+   "pct": 5.7
+  },
+  "HIGHD": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "IND": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "WAYMO": {
+   "n": 5,
+   "pct": 0.7
+  },
+  "NUPLAN": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "INTERACTION": {
+   "n": 3,
+   "pct": 0.4
+  },
+  "OTHER:Lyft Level 5 Motion Prediction": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "NUSCENES": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:DSRL": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "ROUND": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:Bench2Drive-derived scenario set": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:real Boston intersection lane data": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:CitySim": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:PeMS": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:California DMV collision reports": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Udacity self-driving car dataset": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:GIDAS-based OpenDS-CTS benchmark": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Athens arterial trajectory data": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:CARLA-CTS (GIDAS-based scenarios)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:openDD": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:OpenACC": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:UCF-SST CitySim": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:NAVSIM v2 navtrain (nuPlan-based)": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Woven Planet Level 5 prediction dataset": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "validation_tier": {
+  "SIM-LOW": {
+   "n": 358,
+   "pct": 51.0
+  },
+  "SIM-HIFI": {
+   "n": 196,
+   "pct": 27.9
+  },
+  "SIM-DATA": {
+   "n": 75,
+   "pct": 10.7
+  },
+  "HIL": {
+   "n": 19,
+   "pct": 2.7
+  },
+  "SCALED": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "CLOSED": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "ROAD": {
+   "n": 10,
+   "pct": 1.4
+  },
+  "DEPLOY": {
+   "n": 0,
+   "pct": 0.0
+  }
+ },
+ "physical_any": {
+  "n": 73,
+  "pct": 10.4
+ },
+ "simulator_x_tier": {
+  "AIRSIM": {
+   "SIM-HIFI": 1
+  },
+  "BULLET": {
+   "SCALED": 1
+  },
+  "CARLA": {
+   "SIM-HIFI": 135,
+   "SIM-LOW": 1,
+   "SCALED": 4,
+   "CLOSED": 3,
+   "HIL": 3
+  },
+  "CARSIM": {
+   "SIM-HIFI": 15,
+   "CLOSED": 4,
+   "HIL": 3
+  },
+  "COMMONROAD": {
+   "SIM-DATA": 9,
+   "SIM-LOW": 1
+  },
+  "CUSTOM": {
+   "SIM-LOW": 127,
+   "SIM-DATA": 41,
+   "SCALED": 10,
+   "SIM-HIFI": 7,
+   "CLOSED": 4,
+   "HIL": 2,
+   "ROAD": 1
+  },
+  "FLOW": {
+   "SIM-LOW": 5,
+   "SIM-DATA": 1
+  },
+  "GAZEBO": {
+   "ROAD": 1
+  },
+  "HWENV": {
+   "SIM-HIFI": 4,
+   "HIL": 6,
+   "SIM-LOW": 100,
+   "CLOSED": 2,
+   "SIM-DATA": 1,
+   "SCALED": 1
+  },
+  "METADRIVE": {
+   "SIM-HIFI": 19,
+   "CLOSED": 1,
+   "ROAD": 2,
+   "SIM-LOW": 3,
+   "SIM-DATA": 2
+  },
+  "NR": {
+   "CLOSED": 1,
+   "SIM-LOW": 2,
+   "HIL": 1,
+   "ROAD": 1,
+   "SIM-DATA": 1,
+   "SIM-HIFI": 1,
+   "SCALED": 1
+  },
+  "NUPLAN": {
+   "SIM-DATA": 1
+  },
+  "OTHER:AnyLogic": {
+   "SIM-DATA": 1
+  },
+  "OTHER:AutomotiveDrivingModels.jl": {
+   "SIM-LOW": 1
+  },
+  "OTHER:BMW/ika traffic simulation": {
+   "SIM-LOW": 1
+  },
+  "OTHER:Duckietown": {
+   "SCALED": 1
+  },
+  "OTHER:EcoSim powertrain model": {
+   "SIM-LOW": 1
+  },
+  "OTHER:F1TENTH gym": {
+   "SCALED": 1
+  },
+  "OTHER:F1Tenth gym": {
+   "SIM-LOW": 1
+  },
+  "OTHER:GOPS": {
+   "SCALED": 1
+  },
+  "OTHER:GOPS-based multi-lane simulator": {
+   "SIM-LOW": 1
+  },
+  "OTHER:GPUDrive": {
+   "SIM-DATA": 1
+  },
+  "OTHER:IPG CarMaker": {
+   "SIM-HIFI": 1
+  },
+  "OTHER:Learn-to-Race (Arrival simulator)": {
+   "SIM-HIFI": 2
+  },
+  "OTHER:METANET": {
+   "SIM-LOW": 1
+  },
+  "OTHER:NAVSIM (non-reactive)": {
+   "SIM-DATA": 1
+  },
+  "OTHER:NS3": {
+   "SIM-HIFI": 1
+  },
+  "OTHER:OpenAI Gym CarRacing-v0": {
+   "SIM-LOW": 1
+  },
+  "OTHER:OpenDS": {
+   "SIM-HIFI": 1,
+   "CLOSED": 1
+  },
+  "OTHER:RoadRunner": {
+   "SIM-LOW": 1
+  },
+  "OTHER:SafeBench (CARLA-based)": {
+   "ROAD": 1
+  },
+  "OTHER:TruckSim": {
+   "HIL": 1,
+   "SIM-HIFI": 2
+  },
+  "OTHER:Udacity highway simulator": {
+   "SIM-LOW": 1
+  },
+  "OTHER:Udacity path-planning simulator": {
+   "SIM-LOW": 1
+  },
+  "OTHER:Vissim": {
+   "SIM-DATA": 1
+  },
+  "OTHER:parking-env (gym)": {
+   "SIM-LOW": 1
+  },
+  "OTHER:two further unnamed environments": {
+   "CLOSED": 1
+  },
+  "PRESCAN": {
+   "SIM-HIFI": 8,
+   "HIL": 3,
+   "SIM-DATA": 1,
+   "CLOSED": 1
+  },
+  "SAFETYGYM": {
+   "CLOSED": 2,
+   "SIM-HIFI": 3,
+   "HIL": 1,
+   "SIM-LOW": 3
+  },
+  "SIMULINK": {
+   "SIM-LOW": 24,
+   "SIM-HIFI": 21,
+   "CLOSED": 3,
+   "HIL": 4,
+   "SIM-DATA": 2
+  },
+  "SMARTS": {
+   "SIM-LOW": 12
+  },
+  "SUMO": {
+   "SIM-HIFI": 10,
+   "SIM-LOW": 80,
+   "CLOSED": 3,
+   "SIM-DATA": 13,
+   "HIL": 3,
+   "SCALED": 2,
+   "ROAD": 4
+  },
+  "TORCS": {
+   "SIM-HIFI": 4,
+   "CLOSED": 1,
+   "SIM-LOW": 1
+  },
+  "UNITY": {
+   "SIM-HIFI": 7,
+   "SIM-DATA": 1,
+   "SIM-LOW": 4
+  },
+  "WAYMAX": {
+   "ROAD": 1
+  },
+  "WEBOTS": {
+   "SIM-HIFI": 1,
+   "SIM-LOW": 1
+  }
+ },
+ "metrics": {
+  "COLL": {
+   "n": 410,
+   "pct": 58.4
+  },
+  "SUCC": {
+   "n": 302,
+   "pct": 43.0
+  },
+  "REW": {
+   "n": 218,
+   "pct": 31.1
+  },
+  "SPEED": {
+   "n": 174,
+   "pct": 24.8
+  },
+  "TIME": {
+   "n": 167,
+   "pct": 23.8
+  },
+  "TTC": {
+   "n": 160,
+   "pct": 22.8
+  },
+  "COMF": {
+   "n": 138,
+   "pct": 19.7
+  },
+  "JERK": {
+   "n": 126,
+   "pct": 17.9
+  },
+  "DEV": {
+   "n": 110,
+   "pct": 15.7
+  },
+  "VIOL": {
+   "n": 103,
+   "pct": 14.7
+  },
+  "DIST": {
+   "n": 96,
+   "pct": 13.7
+  },
+  "COMP": {
+   "n": 82,
+   "pct": 11.7
+  },
+  "INTERV": {
+   "n": 59,
+   "pct": 8.4
+  },
+  "SAMPLE": {
+   "n": 54,
+   "pct": 7.7
+  },
+  "ENERGY": {
+   "n": 50,
+   "pct": 7.1
+  },
+  "THRU": {
+   "n": 38,
+   "pct": 5.4
+  },
+  "OFFROAD": {
+   "n": 38,
+   "pct": 5.4
+  },
+  "ACC": {
+   "n": 33,
+   "pct": 4.7
+  },
+  "RISK": {
+   "n": 24,
+   "pct": 3.4
+  },
+  "RULE": {
+   "n": 21,
+   "pct": 3.0
+  },
+  "PET": {
+   "n": 9,
+   "pct": 1.3
+  },
+  "DSCORE": {
+   "n": 8,
+   "pct": 1.1
+  },
+  "OTHER:state-constraint satisfaction": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "UNSAFE": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:safe probability": {
+   "n": 2,
+   "pct": 0.3
+  },
+  "OTHER:control effort": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:path length": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:CLF/CBF violations": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:engine torque": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:Lyapunov violations": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:infeasibility count": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:steady-state outcomes": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:reachable-set enclosure rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:state convergence": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:feature matching": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:admissible path": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:decision accuracy": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:number of safety infractions": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:ADE": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:stuck rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:harsh braking": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:travel distance": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:route completion": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:episode length": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:frozen rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:merging percentage": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:steering effort": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:collision severity": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:attack success rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:scenario-recognition accuracy": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:oscillation ratio": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:safe control rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:freezing rate": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:collision-free feasibility": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "OTHER:rare-event probability": {
+   "n": 1,
+   "pct": 0.1
+  },
+  "GEN": {
+   "n": 1,
+   "pct": 0.1
+  }
+ },
+ "safety_metric_any": {
+  "n": 610,
+  "pct": 86.9
+ },
+ "collision_only_safety_metric": {
+  "n": 214,
+  "pct": 30.5
+ },
+ "surrogate_ttc_pet": {
+  "n": 161,
+  "pct": 22.9
+ },
+ "n_safety_metrics": {
+  "0": {
+   "n": 92,
+   "pct": 13.1
+  },
+  "1": {
+   "n": 354,
+   "pct": 50.4
+  },
+  "2": {
+   "n": 205,
+   "pct": 29.2
+  },
+  "3": {
+   "n": 46,
+   "pct": 6.6
+  },
+  "4": {
+   "n": 5,
+   "pct": 0.7
+  }
+ },
+ "generalization": {
+  "NONE": {
+   "n": 222,
+   "pct": 31.6
+  },
+  "UNSEEN": {
+   "n": 151,
+   "pct": 21.5
+  },
+  "DENS": {
+   "n": 150,
+   "pct": 21.4
+  },
+  "GEOM": {
+   "n": 88,
+   "pct": 12.5
+  },
+  "DIST": {
+   "n": 69,
+   "pct": 9.8
+  },
+  "AGENTS": {
+   "n": 65,
+   "pct": 9.3
+  },
+  "S2R": {
+   "n": 48,
+   "pct": 6.8
+  },
+  "DOMAIN": {
+   "n": 40,
+   "pct": 5.7
+  },
+  "DYN": {
+   "n": 25,
+   "pct": 3.6
+  },
+  "WEATHER": {
+   "n": 10,
+   "pct": 1.4
+  }
+ },
+ "generalization_any": {
+  "n": 480,
+  "pct": 68.4
+ },
+ "baseline_types": {
+  "NSRL": {
+   "n": 492,
+   "pct": 70.1
+  },
+  "CLASS": {
+   "n": 287,
+   "pct": 40.9
+  },
+  "ABL": {
+   "n": 272,
+   "pct": 38.7
+  },
+  "SRL": {
+   "n": 144,
+   "pct": 20.5
+  },
+  "HUMAN": {
+   "n": 54,
+   "pct": 7.7
+  },
+  "NONE": {
+   "n": 27,
+   "pct": 3.8
+  }
+ },
+ "code": {
+  "N": {
+   "n": 619,
+   "pct": 88.2
+  },
+  "Y": {
+   "n": 83,
+   "pct": 11.8
+  }
+ },
+ "data_avail": {
+  "NA": {
+   "n": 575,
+   "pct": 81.9
+  },
+  "Y": {
+   "n": 70,
+   "pct": 10.0
+  },
+  "N": {
+   "n": 57,
+   "pct": 8.1
+  }
+ },
+ "hyperparams": {
+  "Y": {
+   "n": 423,
+   "pct": 60.3
+  },
+  "P": {
+   "n": 211,
+   "pct": 30.1
+  },
+  "N": {
+   "n": 68,
+   "pct": 9.7
+  }
+ },
+ "eval_protocol": {
+  "Y": {
+   "n": 404,
+   "pct": 57.5
+  },
+  "P": {
+   "n": 263,
+   "pct": 37.5
+  },
+  "N": {
+   "n": 35,
+   "pct": 5.0
+  }
+ },
+ "stats": {
+  "N": {
+   "n": 317,
+   "pct": 45.2
+  },
+  "P": {
+   "n": 280,
+   "pct": 39.9
+  },
+  "Y": {
+   "n": 105,
+   "pct": 15.0
+  }
+ },
+ "compute": {
+  "N": {
+   "n": 373,
+   "pct": 53.1
+  },
+  "Y": {
+   "n": 329,
+   "pct": 46.9
+  }
+ },
+ "seeds_reported": {
+  "not reported": {
+   "n": 544,
+   "pct": 77.5
+  },
+  "reported": {
+   "n": 158,
+   "pct": 22.5
+  }
+ },
+ "code_x_period": {
+  "N": {
+   "2025-2026": 267,
+   "2023-2024": 187,
+   "2016-2020": 54,
+   "2021-2022": 111
+  },
+  "Y": {
+   "2025-2026": 36,
+   "2023-2024": 26,
+   "2016-2020": 8,
+   "2021-2022": 13
+  }
+ },
+ "explainability": {
+  "VIS": {
+   "n": 22,
+   "pct": 3.1
+  },
+  "DESIGN": {
+   "n": 70,
+   "pct": 10.0
+  },
+  "NONE": {
+   "n": 610,
+   "pct": 86.9
+  }
+ },
+ "stack": {
+  "PERC": {
+   "n": 44,
+   "pct": 6.3
+  },
+  "PRED": {
+   "n": 44,
+   "pct": 6.3
+  },
+  "PLAN": {
+   "n": 161,
+   "pct": 22.9
+  },
+  "DEC": {
+   "n": 336,
+   "pct": 47.9
+  },
+  "CTRL": {
+   "n": 443,
+   "pct": 63.1
+  },
+  "SUPERV": {
+   "n": 253,
+   "pct": 36.0
+  },
+  "RTA": {
+   "n": 25,
+   "pct": 3.6
+  }
+ },
+ "qa_band_t": {
+  "High": {
+   "n": 426,
+   "pct": 60.7
+  },
+  "Medium": {
+   "n": 236,
+   "pct": 33.6
+  },
+  "Low": {
+   "n": 40,
+   "pct": 5.7
+  }
+ },
+ "qa_items": {
+  "Q1": {
+   "mean": 1.98,
+   "n2": 691,
+   "n1": 11,
+   "n0": 0
+  },
+  "Q2": {
+   "mean": 1.87,
+   "n2": 611,
+   "n1": 90,
+   "n0": 1
+  },
+  "Q3": {
+   "mean": 1.69,
+   "n2": 489,
+   "n1": 210,
+   "n0": 3
+  },
+  "Q4": {
+   "mean": 1.85,
+   "n2": 598,
+   "n1": 103,
+   "n0": 1
+  },
+  "Q5": {
+   "mean": 1.46,
+   "n2": 352,
+   "n1": 320,
+   "n0": 30
+  },
+  "Q6": {
+   "mean": 1.68,
+   "n2": 497,
+   "n1": 185,
+   "n0": 20
+  },
+  "Q7": {
+   "mean": 1.85,
+   "n2": 601,
+   "n1": 99,
+   "n0": 2
+  },
+  "Q8": {
+   "mean": 1.05,
+   "n2": 213,
+   "n1": 314,
+   "n0": 175
+  },
+  "Q9": {
+   "mean": 1.0,
+   "n2": 224,
+   "n1": 257,
+   "n0": 221
+  },
+  "Q10": {
+   "mean": 1.11,
+   "n2": 144,
+   "n1": 491,
+   "n0": 67
+  },
+  "Q11": {
+   "mean": 0.84,
+   "n2": 83,
+   "n1": 425,
+   "n0": 194
+  },
+  "Q12": {
+   "mean": 1.31,
+   "n2": 269,
+   "n1": 382,
+   "n0": 51
+  }
+ },
+ "qa_total_mean": 17.7,
+ "qa_total_median": 18,
+ "qa_by_pubtype": {
+  "journal": 18.7,
+  "conference": 16.5,
+  "preprint": 17.8
+ },
+ "trend": {
+  "Reward design (A)": {
+   "2016-2020": {
+    "n": 29,
+    "pct": 46.8
+   },
+   "2021-2022": {
+    "n": 56,
+    "pct": 45.2
+   },
+   "2023-2024": {
+    "n": 79,
+    "pct": 37.1
+   },
+   "2025-2026": {
+    "n": 114,
+    "pct": 37.6
+   }
+  },
+  "Constrained RL (B)": {
+   "2016-2020": {
+    "n": 7,
+    "pct": 11.3
+   },
+   "2021-2022": {
+    "n": 22,
+    "pct": 17.7
+   },
+   "2023-2024": {
+    "n": 39,
+    "pct": 18.3
+   },
+   "2025-2026": {
+    "n": 65,
+    "pct": 21.5
+   }
+  },
+  "CBF/CLF/QP (F,G,H)": {
+   "2016-2020": {
+    "n": 2,
+    "pct": 3.2
+   },
+   "2021-2022": {
+    "n": 12,
+    "pct": 9.7
+   },
+   "2023-2024": {
+    "n": 28,
+    "pct": 13.1
+   },
+   "2025-2026": {
+    "n": 66,
+    "pct": 21.8
+   }
+  },
+  "MPC hybrid (I)": {
+   "2016-2020": {
+    "n": 3,
+    "pct": 4.8
+   },
+   "2021-2022": {
+    "n": 20,
+    "pct": 16.1
+   },
+   "2023-2024": {
+    "n": 33,
+    "pct": 15.5
+   },
+   "2025-2026": {
+    "n": 48,
+    "pct": 15.8
+   }
+  },
+  "Shield/filter/RTA (D,E,S)": {
+   "2016-2020": {
+    "n": 26,
+    "pct": 41.9
+   },
+   "2021-2022": {
+    "n": 50,
+    "pct": 40.3
+   },
+   "2023-2024": {
+    "n": 68,
+    "pct": 31.9
+   },
+   "2025-2026": {
+    "n": 120,
+    "pct": 39.6
+   }
+  },
+  "Formal methods (T)": {
+   "2016-2020": {
+    "n": 11,
+    "pct": 17.7
+   },
+   "2021-2022": {
+    "n": 7,
+    "pct": 5.6
+   },
+   "2023-2024": {
+    "n": 6,
+    "pct": 2.8
+   },
+   "2025-2026": {
+    "n": 8,
+    "pct": 2.6
+   }
+  },
+  "Robust/risk/uncertainty (K,L,M,N)": {
+   "2016-2020": {
+    "n": 19,
+    "pct": 30.6
+   },
+   "2021-2022": {
+    "n": 31,
+    "pct": 25.0
+   },
+   "2023-2024": {
+    "n": 65,
+    "pct": 30.5
+   },
+   "2025-2026": {
+    "n": 107,
+    "pct": 35.3
+   }
+  },
+  "Multi-agent": {
+   "2016-2020": {
+    "n": 4,
+    "pct": 6.5
+   },
+   "2021-2022": {
+    "n": 9,
+    "pct": 7.3
+   },
+   "2023-2024": {
+    "n": 32,
+    "pct": 15.0
+   },
+   "2025-2026": {
+    "n": 53,
+    "pct": 17.5
+   }
+  },
+  "Offline RL": {
+   "2016-2020": {
+    "n": 1,
+    "pct": 1.6
+   },
+   "2021-2022": {
+    "n": 2,
+    "pct": 1.6
+   },
+   "2023-2024": {
+    "n": 5,
+    "pct": 2.3
+   },
+   "2025-2026": {
+    "n": 12,
+    "pct": 4.0
+   }
+  },
+  "Model-based": {
+   "2016-2020": {
+    "n": 5,
+    "pct": 8.1
+   },
+   "2021-2022": {
+    "n": 17,
+    "pct": 13.7
+   },
+   "2023-2024": {
+    "n": 32,
+    "pct": 15.0
+   },
+   "2025-2026": {
+    "n": 31,
+    "pct": 10.2
+   }
+  },
+  "Human-in-the-loop (V)": {
+   "2016-2020": {
+    "n": 2,
+    "pct": 3.2
+   },
+   "2021-2022": {
+    "n": 9,
+    "pct": 7.3
+   },
+   "2023-2024": {
+    "n": 25,
+    "pct": 11.7
+   },
+   "2025-2026": {
+    "n": 36,
+    "pct": 11.9
+   }
+  },
+  "Foundation models (LLM/VLM)": {
+   "2016-2020": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "2021-2022": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "2023-2024": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "2025-2026": {
+    "n": 11,
+    "pct": 3.6
+   }
+  },
+  "Run-time level L3+": {
+   "2016-2020": {
+    "n": 29,
+    "pct": 46.8
+   },
+   "2021-2022": {
+    "n": 57,
+    "pct": 46.0
+   },
+   "2023-2024": {
+    "n": 93,
+    "pct": 43.7
+   },
+   "2025-2026": {
+    "n": 147,
+    "pct": 48.5
+   }
+  },
+  "Physical / HIL validation": {
+   "2016-2020": {
+    "n": 4,
+    "pct": 6.5
+   },
+   "2021-2022": {
+    "n": 7,
+    "pct": 5.6
+   },
+   "2023-2024": {
+    "n": 25,
+    "pct": 11.7
+   },
+   "2025-2026": {
+    "n": 37,
+    "pct": 12.2
+   }
+  },
+  "Code released": {
+   "2016-2020": {
+    "n": 8,
+    "pct": 12.9
+   },
+   "2021-2022": {
+    "n": 13,
+    "pct": 10.5
+   },
+   "2023-2024": {
+    "n": 26,
+    "pct": 12.2
+   },
+   "2025-2026": {
+    "n": 36,
+    "pct": 11.9
+   }
+  }
+ },
+ "family_x_cluster": {
+  "Constrained policy optimisation": {
+   "M3 Control-theoretic certificates": 24,
+   "M1 Objective shaping": 86,
+   "M6 Learning-paradigm extensions": 35,
+   "M2 Run-time intervention": 18,
+   "M5 Robustness and uncertainty": 20,
+   "M4 Formal methods": 1,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1
+  },
+  "Generic actor-critic": {
+   "M3 Control-theoretic certificates": 10,
+   "M6 Learning-paradigm extensions": 7,
+   "M5 Robustness and uncertainty": 9,
+   "M2 Run-time intervention": 3,
+   "M4 Formal methods": 1,
+   "M1 Objective shaping": 5
+  },
+  "Model-based RL": {
+   "M3 Control-theoretic certificates": 18,
+   "M1 Objective shaping": 15,
+   "M6 Learning-paradigm extensions": 20,
+   "M2 Run-time intervention": 10,
+   "M5 Robustness and uncertainty": 11
+  },
+  "Off-policy actor-critic": {
+   "M2 Run-time intervention": 123,
+   "M5 Robustness and uncertainty": 58,
+   "M3 Control-theoretic certificates": 80,
+   "M1 Objective shaping": 161,
+   "M6 Learning-paradigm extensions": 90,
+   "M4 Formal methods": 7,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1
+  },
+  "Offline RL": {
+   "M3 Control-theoretic certificates": 5,
+   "M6 Learning-paradigm extensions": 14,
+   "M1 Objective shaping": 7,
+   "M5 Robustness and uncertainty": 4,
+   "M2 Run-time intervention": 3
+  },
+  "On-policy policy gradient": {
+   "M3 Control-theoretic certificates": 44,
+   "M1 Objective shaping": 89,
+   "M6 Learning-paradigm extensions": 73,
+   "M2 Run-time intervention": 67,
+   "M4 Formal methods": 9,
+   "M5 Robustness and uncertainty": 37,
+   "M0 No mechanism (benchmark, representation, assurance case)": 2
+  },
+  "Other / unspecified": {
+   "M2 Run-time intervention": 10,
+   "M4 Formal methods": 4,
+   "M6 Learning-paradigm extensions": 10,
+   "M0 No mechanism (benchmark, representation, assurance case)": 1,
+   "M3 Control-theoretic certificates": 4,
+   "M1 Objective shaping": 7,
+   "M5 Robustness and uncertainty": 2
+  },
+  "Value-based": {
+   "M2 Run-time intervention": 98,
+   "M4 Formal methods": 16,
+   "M6 Learning-paradigm extensions": 62,
+   "M5 Robustness and uncertainty": 38,
+   "M1 Objective shaping": 107,
+   "M3 Control-theoretic certificates": 42,
+   "M0 No mechanism (benchmark, representation, assurance case)": 2
+  }
+ },
+ "family_x_primary": {
+  "Constrained policy optimisation": {
+   "B": 55,
+   "N": 2,
+   "G": 3,
+   "J": 2,
+   "F": 3,
+   "S": 1,
+   "I": 1,
+   "L": 5,
+   "K": 7,
+   "D": 1,
+   "C": 3,
+   "E": 1,
+   "U": 1,
+   "V": 1,
+   "OTHER:benchmark": 1
+  },
+  "Generic actor-critic": {
+   "G": 6,
+   "F": 2,
+   "J": 1,
+   "T": 1,
+   "K": 3,
+   "A": 3,
+   "S": 1
+  },
+  "Model-based RL": {
+   "Q": 2,
+   "B": 8,
+   "G": 6,
+   "F": 3,
+   "X": 1,
+   "I": 4,
+   "L": 2,
+   "D": 1,
+   "A": 1,
+   "K": 2,
+   "C": 1
+  },
+  "Off-policy actor-critic": {
+   "F": 20,
+   "E": 27,
+   "I": 17,
+   "S": 14,
+   "C": 6,
+   "G": 4,
+   "A": 58,
+   "W": 15,
+   "T": 6,
+   "J": 6,
+   "D": 10,
+   "H": 5,
+   "L": 13,
+   "V": 16,
+   "B": 5,
+   "K": 11,
+   "N": 5,
+   "X": 3,
+   "R": 2,
+   "U": 2,
+   "OTHER:benchmark": 1,
+   "O": 1
+  },
+  "Offline RL": {
+   "G": 1,
+   "P": 9,
+   "J": 1,
+   "N": 1,
+   "E": 1,
+   "S": 1
+  },
+  "On-policy policy gradient": {
+   "F": 18,
+   "H": 5,
+   "S": 9,
+   "O": 3,
+   "D": 12,
+   "T": 3,
+   "J": 3,
+   "B": 3,
+   "W": 7,
+   "A": 42,
+   "E": 9,
+   "L": 4,
+   "I": 9,
+   "N": 3,
+   "X": 2,
+   "G": 1,
+   "OTHER:safety-oriented state representation": 1,
+   "K": 10,
+   "Q": 2,
+   "R": 3,
+   "C": 1,
+   "OTHER:benchmark": 1,
+   "V": 1
+  },
+  "Other / unspecified": {
+   "T": 4,
+   "OTHER:benchmark": 1,
+   "E": 2,
+   "F": 1,
+   "A": 2,
+   "S": 1,
+   "Q": 2,
+   "W": 1,
+   "R": 2,
+   "N": 1,
+   "I": 1,
+   "B": 1
+  },
+  "Value-based": {
+   "D": 32,
+   "W": 17,
+   "T": 9,
+   "I": 16,
+   "A": 42,
+   "S": 6,
+   "C": 2,
+   "F": 1,
+   "L": 15,
+   "V": 3,
+   "H": 2,
+   "E": 6,
+   "K": 8,
+   "B": 5,
+   "J": 3,
+   "OTHER:safety case (assurance argument)": 1,
+   "R": 2,
+   "X": 2,
+   "Q": 1,
+   "N": 9,
+   "OTHER:learned risk-threshold monitor": 1,
+   "O": 2
+  }
+ },
+ "sensitivity": {
+  "all": {
+   "N": 702,
+   "simulation only": 89.6,
+   "L3 or higher": 46.4,
+   "L4 or higher": 12.7,
+   "empirical-only claim": 44.9,
+   "code released": 11.8,
+   "no generalisation test": 31.6,
+   "no uncertainty addressed": 23.5
+  },
+  "excl. questionable venues": {
+   "N": 698,
+   "simulation only": 89.8,
+   "L3 or higher": 46.4,
+   "L4 or higher": 12.8,
+   "empirical-only claim": 45.0,
+   "code released": 11.9,
+   "no generalisation test": 31.7,
+   "no uncertainty addressed": 23.5
+  },
+  "excl. Low QA": {
+   "N": 662,
+   "simulation only": 89.3,
+   "L3 or higher": 47.3,
+   "L4 or higher": 12.4,
+   "empirical-only claim": 43.8,
+   "code released": 12.4,
+   "no generalisation test": 27.6,
+   "no uncertainty addressed": 21.3
+  },
+  "excl. preprints": {
+   "N": 639,
+   "simulation only": 89.5,
+   "L3 or higher": 46.6,
+   "L4 or higher": 12.7,
+   "empirical-only claim": 44.9,
+   "code released": 10.5,
+   "no generalisation test": 31.1,
+   "no uncertainty addressed": 23.3
+  },
+  "High QA only": {
+   "N": 426,
+   "simulation only": 86.6,
+   "L3 or higher": 47.7,
+   "L4 or higher": 12.4,
+   "empirical-only claim": 36.6,
+   "code released": 16.2,
+   "no generalisation test": 12.7,
+   "no uncertainty addressed": 13.1
+  }
+ },
+ "assumptions": {
+  "N_L3plus": 326,
+  "N_stated": 274,
+  "known or accurate dynamics model": {
+   "n": 85,
+   "pct": 31.0
+  },
+  "predictable other road users": {
+   "n": 86,
+   "pct": 31.4
+  },
+  "perfect perception or state": {
+   "n": 32,
+   "pct": 11.7
+  },
+  "optimisation feasibility": {
+   "n": 54,
+   "pct": 19.7
+  },
+  "bounded disturbance or error": {
+   "n": 49,
+   "pct": 17.9
+  },
+  "reliable communication": {
+   "n": 18,
+   "pct": 6.6
+  },
+  "correct learned component or rule set": {
+   "n": 37,
+   "pct": 13.5
+  }
+ },
+ "L4_sim_only": {
+  "n": 71,
+  "pct": 95.9
+ },
+ "L4_simlow": {
+  "n": 52,
+  "pct": 70.3
+ }
+}

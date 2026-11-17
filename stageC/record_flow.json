@@ -1,0 +1,12 @@
+{
+ "raw": 12372,
+ "already_screened": 1170,
+ "duplicate_within_citation_results": 1396,
+ "keyword_filter": 8746,
+ "candidates": 1060,
+ "first_found_via": {
+  "backward": 472,
+  "forward": 585,
+  "update": 3
+ }
+}

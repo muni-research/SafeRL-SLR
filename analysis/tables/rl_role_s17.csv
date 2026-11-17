@@ -1,0 +1,7 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+1 RL generates control action,1 RL generates control action,386,55.0,
+2 RL generates high-level decision,2 RL generates high-level decision,265,37.7,
+4 RL under a safety filter,4 RL under a safety filter,159,22.6,
+5 RL corrected by a safety controller,5 RL corrected by a safety controller,119,17.0,
+6 RL embedded in optimisation layer,6 RL embedded in optimisation layer,78,11.1,
+3 RL provides controller parameters,3 RL provides controller parameters,51,7.3,

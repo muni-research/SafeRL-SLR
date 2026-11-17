@@ -1,0 +1,15 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch14), 2026-10-10
+C0885 FX:EC3 receding-horizon RL for shared-control authority; stability, tracking and workload evaluated, safety not an objective or metric
+C0893 FI model-based RL static output feedback for lateral control with Lyapunov stability during learning to avoid unsafe actions
+C0894 FI RL path-tracking controller with Lyapunov-based safety layer for autonomous mining trucks; real-vehicle data
+C0901 FX:EC3 adversarially constrained PPO for generalisation in CARLA; safety not evaluated
+C0903 FI resilient MARL with safe-braking-distance risk model for tiered mixed autonomy; Flow
+C0905 FI constrained zero-sum robust policy iteration for motion control under coupled uncertainties; real vehicle
+C0908 FI DRL vehicle control with action smoothing and prediction under delayed offloading; collision and emergency stop outcomes in CARLA
+C0914 FI scenario-based hierarchical RL with shielding safety layer; CommonRoad, highD
+C0915 FI multi-task offline-to-online RL with safe-distance rewards; TTC distributions evaluated
+C0927 FI trust-calibrated human-in-the-loop RL for safe unprotected left turns; CARLA with driving-simulator HIL
+C0928 FX:EC6 GNN-PPO decision model on PEMS-BAY traffic data; driving task and safety evaluation insufficiently described
+C0929 FI ensemble quantile uncertainty-aware RL with conservative fallback policy; MetaDrive
+C0932 FI visual risk-field SAC decision making; CARLA
+C0933 FI PPO-LSTM pedestrian collision avoidance under hesitation uncertainty; collision rates

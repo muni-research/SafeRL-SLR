@@ -1,0 +1,213 @@
+# Phase 4 extraction, batch 27 (citation-search studies, Phase 8, 2026-10-10), codebook v1.5a
+
+@@ C0849
+country: China
+problem: Mixture-of-experts highway decision framework where a discriminator switches between a SAC expert (with a buffer-zone reward) and a heuristic IDM/MOBIL expert to avoid collisions and off-road events.
+task: TD; LC; CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: MoE (SAC + heuristic expert)
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: speed, lane keeping, buffer-zone penalty before collisions, collision and off-road penalties
+safety_cost: NA
+constraints: NA
+mech: S; W; A
+mech_primary: S
+mech_stage: EXEC
+rl_output: ACT
+safety_integration: CORRECT
+control: IDM; MOBIL
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: A discriminator hands control to a rule-based expert in risky states at run time; collision and off-road rates reach 0% in tests.
+uncertainty: STOCH
+uncertainty_method: random highway-env traffic
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; OFFROAD; SPEED
+baselines: IDM+MOBIL, DQN, DDPG, SAC with and without buffer zone
+baseline_types: NSRL; CLASS; ABL
+results: MoE achieved 0% collision and off-road rates with 30.61 m/s average speed, versus 12% collisions for SAC with buffer zone, 21% for DQN and 28% for DDPG.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: R: safety depends on hand-designed expert; highway-env only.
+qa: 2 2 2 2 2 2 2 1 1 1 1 1
+qa_note: Q8 stochastic traffic only; Q9 scenario variants only; Q10 seeds missing; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0902
+country: China
+problem: PPO-based integrated longitudinal and lateral stability control (braking torque allocation and steering) for emergency braking on low and split-mu adhesion roads using brake- and steer-by-wire models, validated in HIL.
+task: EMG
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: yaw-rate and sideslip tracking errors, braking deceleration, stability penalties
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Vehicle-stability (active safety) metrics and braking distance compared with MPC+SMC in simulation and HIL; safety only through reward.
+uncertainty: DIST
+uncertainty_method: low, split and curved adhesion conditions
+simulator: CARSIM; SIMULINK
+dataset: NONE
+vehicle_model: DYN; SIMVEH
+metrics: DEV; ACC; DIST
+baselines: MPC + sliding-mode control
+baseline_types: CLASS
+results: PPO shortened braking distance (e.g. 61.5 m vs 71.3 m) with higher mean deceleration than MPC+SMC while maintaining lateral stability, confirmed in HIL tests.
+generalization: DIST
+validation_tier: HIL
+real_world: hardware-in-the-loop with CarSim-generated low-adhesion scenarios
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: Y
+stack: CTRL
+limitations: R: single-vehicle stability task, no traffic.
+qa: 2 2 1 2 1 2 2 2 1 1 0 2
+qa_note: Q3 safety via reward only; Q5 only classical baseline; Q9 road conditions only; Q10 seeds missing; Q11 commercial simulators, no code
+
+@@ C0906
+country: United Kingdom
+problem: Robust constrained cooperative MARL (R-CCMARL) for self-driving vehicles that approximates worst-case observation perturbations and constrains team risk with a CBF-style risk value network via Lagrangian optimisation.
+task: INT; COOP
+scenario: INTX
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: MAPPO
+method_name: R-CCMARL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: team and individual progress rewards
+safety_cost: team and individual risk from a learned risk (CBF-like) network
+constraints: expected risk below thresholds via Lagrange multipliers; worst-case observation perturbations
+mech: B; K; O; F; C
+mech_primary: K
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: CEXP; ROB
+guarantee_assumptions: bounded observation perturbations; learned risk network accurate
+safety_level: L2
+level_note: Risk constraints are optimised with Lagrange multipliers and reported with and without adversarial attacks in CARLA.
+uncertainty: ADV; SENS
+uncertainty_method: worst-case state perturbation approximation
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: SUCC; RISK; REW
+baselines: MAPPO, MADDPG, QMIX, constrained MARL without robustness
+baseline_types: NSRL; SRL
+results: R-CCMARL kept high team reward and success with lower team risk than baselines both with and without adversarial attacks at intersections.
+generalization: DIST
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC; CTRL
+limitations: R: CBF is used as a learned risk value, not a run-time filter.
+qa: 2 2 2 2 2 2 2 2 1 1 1 2
+qa_note: Q9 attack strengths only; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C1025
+country: United Arab Emirates
+problem: Rain-aware DQN lane-change decision model with rainfall-dependent road friction and driver behaviour in a modified highway-env, plus a safety-augmented reward penalising unsafe close following.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: Rain-aware / Safety-augmented DQN
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed error, lane-change cost, collision penalty, safe-distance penalty (safety-augmented variant)
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM; MOBIL
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates and travel time compared with rain-unaware DQN across rainfall intensities; safety via reward only.
+uncertainty: DIST; STOCH
+uncertainty_method: rainfall-dependent friction and human-vehicle behaviour
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TIME; SPEED
+baselines: rain-unaware DQN, PPO, rule-based MOBIL
+baseline_types: NSRL; CLASS
+results: Rain-aware and safety-augmented DQN reduced collision rate and improved travel efficiency relative to rain-unaware DQN across rainfall intensities (improvements of about 10.6% and 17.3% reported).
+generalization: WEATHER
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: DEC
+limitations: A: TTC/PET not evaluated; future higher-fidelity and real-world validation.
+qa: 2 2 1 2 1 2 2 2 2 1 1 1
+qa_note: Q3 safety via reward only; Q5 no safe-RL baseline; Q10 seeds missing; Q11 public simulator, no code; Q12 highway-env

@@ -1,0 +1,9 @@
+,"M0 No mechanism (benchmark, representation, assurance case)",M1 Objective shaping,M2 Run-time intervention,M3 Control-theoretic certificates,M4 Formal methods,M5 Robustness and uncertainty,M6 Learning-paradigm extensions,row sum
+Constrained policy optimisation,1,86,18,24,1,20,35,185
+Generic actor-critic,0,5,3,10,1,9,7,35
+Model-based RL,0,15,10,18,0,11,20,74
+Off-policy actor-critic,1,161,123,80,7,58,90,520
+Offline RL,0,7,3,5,0,4,14,33
+On-policy policy gradient,2,89,67,44,9,37,73,321
+Other / unspecified,1,7,10,4,4,2,10,38
+Value-based,2,107,98,42,16,38,62,365

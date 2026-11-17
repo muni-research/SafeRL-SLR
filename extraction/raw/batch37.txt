@@ -1,0 +1,211 @@
+@@ C0851
+country: China
+problem: Model-free integrated path-tracking and yaw-stability control for four-wheel independently driven electric AVs: a Stanley controller provides baseline tracking while a TD3 agent adds an external yaw moment, without an accurate tyre model.
+task: LK
+scenario: TRACK
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: TD3
+method_name: S-TD3
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: lateral error, heading error, yaw-rate and sideslip stability terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Stability (yaw rate, sideslip) and tracking errors compared with MPC and DDPG in CarSim/Simulink and a real-vehicle test, without collision or constraint statistics.
+uncertainty: MODEL
+uncertainty_method: unknown tyre model, varied road adhesion
+simulator: CARSIM
+dataset: NONE
+vehicle_model: DYN; REAL
+metrics: DEV; COMF
+baselines: Stanley, MPC, S-DDPG
+baseline_types: CLASS; NSRL
+results: S-TD3 improved tracking accuracy and lateral stability over Stanley, MPC and S-DDPG with better real-time performance, confirmed in a real-vehicle test.
+generalization: GEOM; DYN; S2R
+validation_tier: CLOSED
+real_world: real-vehicle path-tracking test of a four-wheel independent-drive vehicle
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL
+limitations: R: limited real test conditions.
+qa: 2 2 1 2 2 1 2 2 2 1 1 2
+qa_note: Q3 safety only via stability reward; Q6 stability metrics only; Q10 seeds missing; Q11 CarSim, no code
+
+@@ C0866
+country: China
+problem: Discrete SAC with multilevel (feature- and vehicle-level) attention and a dual replay buffer separating success and failure samples for motion-planning decisions at dense unsignalised intersections.
+task: INT; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: MA-DBSAC
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: arrival, collision penalty, speed and TTC/headway terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and success rates, TTC and headway compared with DQN, PPO and SAC baselines in highway-env intersections.
+uncertainty: STOCH
+uncertainty_method: varied IDM traffic density
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; TTC; COMF
+baselines: DQN, PPO, discrete SAC
+baseline_types: NSRL; ABL
+results: The framework achieved higher success and lower collision rates with better efficiency and attention-based interpretability than the baselines, including at unseen densities.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 1 2 2 2 2 1 2 1 1 1
+qa_note: Q3 safety via reward and buffer only; Q8 density only; Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0874
+country: France
+problem: PPO roundabout-entry longitudinal control with curriculum learning, a logistic-regression exit-probability model and a TTC predictor, under comfort constraints on acceleration.
+task: RAB
+scenario: RAB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress, TTC safety and comfort terms
+safety_cost: NA
+constraints: comfort bounds on acceleration via PID tracking
+mech: A; N
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: TTC distributions, jerk and acceleration reported in CARLA roundabout scenarios; safety via predictive features and reward.
+uncertainty: INTENT
+uncertainty_method: exit-probability prediction of circulating vehicles
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: TTC; JERK; ACC; TIME
+baselines: PPO without curriculum or predictors
+baseline_types: ABL
+results: The curriculum PPO with exit-probability and TTC predictors achieved comfortable, less conservative roundabout entries with safe TTC margins.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: P
+compute: Y
+stack: PRED; DEC
+limitations: R: single roundabout layout.
+qa: 2 2 1 2 1 2 2 1 0 1 1 2
+qa_note: Q3 safety indirect; Q5 ablation only; Q8 intent only; Q9 none; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0876
+country: India
+problem: Option-policy hierarchical DRL (OPDRL) for obstacle avoidance in NHTSA-inspired pre-crash scenarios: specialised sub-agents for left/right lane change and straight driving under a master policy that incorporates traffic safety rules.
+task: CA; LC
+scenario: HWY; URB
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: OPDRL
+network: CNN; MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: collision penalty, lane and progress terms
+safety_cost: NA
+constraints: traffic safety rules in the master policy
+mech: A; W
+mech_primary: A
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and success rates in NHTSA pre-crash scenarios compared with flat DRL in CARLA; rules shape option selection without verified enforcement.
+uncertainty: STOCH
+uncertainty_method: pre-crash scenario variations
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SUCC; TIME
+baselines: flat DQN, DDQN
+baseline_types: NSRL
+results: OPDRL reduced training time and improved success and collision rates over flat DRL agents in obstacle-avoidance scenarios.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: Y
+stack: DEC
+limitations: R: limited scenarios.
+qa: 2 2 1 2 1 2 2 1 1 1 1 2
+qa_note: Q3 rules informal; Q5 flat DRL only; Q8 scenario variation only; Q9 limited; Q10 seeds missing; Q11 CARLA, no code

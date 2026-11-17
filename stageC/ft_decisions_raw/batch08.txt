@@ -1,0 +1,23 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch11), 2026-10-10
+C0643 FI RL human-vehicle shared steering for reference-free obstacle collision avoidance
+C0646 FI SVO-PPO with motion safety controller for unprotected left turns
+C0647 FI model-based RL integrating online planning with a safety shield; no collisions; embedded controller timing
+C0652 FX:EC3 interpretable cognitive RL; safety not evaluated
+C0658 FI actor-critic safe urban driving policy trained from real-world data
+C0666 FI hierarchical distributional RL motion planning with occlusion collision risk
+C0667 FX:EC3 MARL platoon motion control; safety not an evaluated objective
+C0672 FI RL agent integrated with robust controller guaranteeing safe motion
+C0673 FI critic-only ADP path tracking with prescribed-performance safety constraints (Lyapunov)
+C0680 FX:EC2 DNN impact-severity predictor for simulators; no RL method proposed
+C0686 FX:EC6 Q-learning collision avoidance framework without reported metrics or evaluation protocol
+C0698 FI SAC collision avoidance with multiple two-wheelers at occluded intersections; TTC-based evaluation
+C0705 FI risk-aware TD3 with risk barrier-function constraints in the loss
+C0708 FI DRL with Bayesian particle-filter world model for robust decisions under noise
+C0709 FI intention-based robust DRL off-ramp decisions reducing collision risk
+C0711 FI SAC collision-avoidance control with efficient experience replay
+C0714 FI SARSA with collision-likelihood risk cost and SVO for ego-bicycle interaction
+C0720 FI curriculum residual hierarchical RL guided by rule-based planner for safety and rule compliance
+C0722 FI RL with expert priors and minimum safety acceleration constraints for unprotected turns
+C0727 FI Bayesian noise-aware DRL decisions reducing safety hazards
+C0731 FI game theory and RL speed decisions for safe pedestrian interaction on unstructured roads
+C0734 FI dual-layer mixture-of-experts DRL with rule model for safe human-like velocity control

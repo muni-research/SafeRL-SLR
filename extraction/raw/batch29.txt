@@ -1,0 +1,319 @@
+# Phase 4 extraction, batch 29 (citation-search studies via institutional access, Phase 8, 2026-10-10), codebook v1.5a
+
+@@ C0219
+country: NR
+problem: DDPG-based safety planning for multiple autonomous vehicles in emergencies, analysing lane-change and braking processes with a multi-goal reward to prevent first and chain collisions.
+task: EMG; CA; COOP
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: MA-CEN
+n_agents: NR
+algorithm: DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: collision avoidance, accident degree, time and comfort terms for cooperative and competitive settings
+safety_cost: NA
+constraints: NA
+mech: A; O
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision prevention in emergency scenarios evaluated in simulation; safety via reward only.
+uncertainty: STOCH
+uncertainty_method: random emergency scenarios
+simulator: UNITY
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; TTC; COMF
+baselines: rule-based braking, DQN
+baseline_types: NSRL; CLASS
+results: The scheme reduced first and multiple collisions compared with baselines in simulated emergency scenarios.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: N
+seeds: NR
+eval_protocol: N
+stats: N
+compute: Y
+stack: CTRL
+limitations: R: limited experimental detail.
+qa: 1 1 1 1 1 1 1 1 0 0 1 1
+qa_note: Q1 contribution vague; Q2 partly defined; Q3 safety via reward only; Q4 setup partly described; Q5 limited baselines; Q6 limited comparison; Q7 limited; Q8 stochastic scenarios only; Q9 none; Q10 not reported; Q11 Unity, no code; Q12 simple scenario
+
+@@ C0221
+country: NR
+problem: DRL agent trained in Unity ML-Agents to steer the ego vehicle away from a crossing pedestrian into the adjacent lane with a safety clearance, with and without oncoming traffic.
+task: PED; EMG; CA
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: pedestrian clearance, collision penalty, lane keeping
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L0
+level_note: Only training curves and qualitative avoidance behaviour are reported, with no safety metric.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: UNITY
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: REW
+baselines: none
+baseline_types: NONE
+results: The agent learned to change lanes to avoid the pedestrian in scenarios with and without traffic, shown by converging reward and policy loss.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: N
+stats: N
+compute: Y
+stack: CTRL
+limitations: R: preliminary results only.
+qa: 2 1 1 1 0 0 1 0 0 0 1 1
+qa_note: Q2 partly defined; Q3 reward only; Q4 partly described; Q5 none; Q6 none; Q7 training curves only; Q8 none; Q9 none; Q10 not reported; Q11 Unity ML-Agents, no code; Q12 single scenario
+
+@@ C0228
+country: Germany
+problem: DQN with long-term action-space shaping: auxiliary-cost constraints over fixed horizons (truncated value functions) restrict the action set at maximisation to encode safety, keep-right and comfort rules for highway lane changes.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: LTAS-DQN
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed towards desired velocity
+safety_cost: auxiliary costs for safety distance, lane changes and keep-right rule
+constraints: fixed-horizon expected auxiliary costs below thresholds via action-space shaping
+mech: B; D
+mech_primary: B
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: NONE
+safety_claim: CEXP; RT
+guarantee_assumptions: accurate truncated value estimates of auxiliary costs
+safety_level: L3
+level_note: Constraint sets restrict actions at execution; LTAS-DQN was the only agent satisfying all constraints at every time step.
+uncertainty: STOCH; INTENT
+uncertainty_method: varied SUMO driver types
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: VIOL; SPEED
+baselines: reward shaping, Lagrangian (RCPO), value-based policy extraction
+baseline_types: NSRL; SRL
+results: LTAS-DQN satisfied all constraints in every step with high speed and lowest variance, whereas reward shaping, Lagrangian and VPE agents were slower or caused many violations.
+generalization: AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; SUPERV
+limitations: R: SUMO only.
+qa: 2 2 2 2 2 2 2 1 1 1 1 1
+qa_note: Q8 driver-type variation only; Q9 driver configurations only; Q10 seeds missing; Q11 SUMO, no code; Q12 SUMO only
+
+@@ C0248
+country: China
+problem: Discrete SAC with a two-pool sample filter and area-observation state for freeway decision making to improve sample efficiency, driving efficiency and safety in dynamic traffic.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: DSAC-SF
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, collision penalty, goal reward
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Success and collision outcomes compared with rule-based and RL baselines in SMARTS; safety via reward only.
+uncertainty: STOCH
+uncertainty_method: SMARTS traffic
+simulator: SMARTS
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; SPEED; REW
+baselines: rule-based, PPO, DDQN, DSAC
+baseline_types: NSRL; CLASS; ABL
+results: DSAC-SF reached higher success rate and reward with fewer collisions than rule-based, PPO, DDQN and DSAC baselines.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC
+limitations: R: correspondence-length paper with limited analysis.
+qa: 2 2 1 2 2 2 2 1 0 1 1 1
+qa_note: Q3 safety via reward only; Q8 stochastic traffic only; Q9 none; Q10 seeds missing; Q11 SMARTS, no code; Q12 SMARTS
+
+@@ C0252
+country: China
+problem: Rear anti-collision decision making for autonomous commercial vehicles: an actor-critic network with a refined multi-objective reward handling backward target types, safety clearances and rollover risk on expressways.
+task: CA; CF; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:actor-critic (RAD-DRL)
+method_name: RAD-DRL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: MIXED
+reward: forward and backward clearance with reaction time, rear TTC, anti-rollover and efficiency terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Minimum time headway, backward clearance and rear TTC compared with DRL baselines; safety via reward only.
+uncertainty: STOCH
+uncertainty_method: random SUMO traffic
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: TTC; DIST; JERK
+baselines: DDPG, PPO, SAC, DQN-based methods
+baseline_types: NSRL
+results: RAD-DRL achieved larger minimum backward clearance and rear TTC than baseline DRL methods while also preventing forward collisions and rollover.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL
+limitations: R: SUMO kinematics limit rollover realism.
+qa: 2 2 1 2 1 2 2 1 0 1 1 1
+qa_note: Q3 safety via reward only; Q5 only non-safe RL baselines; Q8 stochastic traffic only; Q9 none; Q10 seed count not stated; Q11 SUMO, no code; Q12 SUMO only
+
+@@ C0274
+country: South Korea
+problem: RL cut-in policy network nested within a finite-state machine for lane merging: the FSM selects reachable gaps, evaluates their TTC-based risk and triggers the RL policy, balancing cut-in success and safety.
+task: MERGE; LC
+scenario: RAMP; HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: FSM-RL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: cut-in progress, risk (inverse TTC to vehicles and guardrail), comfort
+safety_cost: NA
+constraints: gap feasibility and risk thresholds evaluated by the FSM
+mech: W; D; A
+mech_primary: W
+mech_stage: EXEC
+rl_output: ACT
+safety_integration: CORRECT
+control: RULE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The FSM gates and aborts the RL cut-in based on gap risk at run time; collision-avoidance and success rates compared statistically with rule-based and end-to-end RL.
+uncertainty: STOCH; INTENT
+uncertainty_method: varied traffic levels and driver behaviour
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; TTC; JERK
+baselines: optimised rule-based algorithm, end-to-end RL
+baseline_types: NSRL; CLASS
+results: FSM-RL consistently achieved high cut-in success without sacrificing collision avoidance across traffic levels, outperforming rule-based and end-to-end RL algorithms.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; CTRL; SUPERV
+limitations: R: custom simulator.
+qa: 2 2 2 2 2 2 2 1 1 1 0 1
+qa_note: Q8 stochastic traffic only; Q9 traffic levels only; Q10 seeds missing; Q11 custom simulator; Q12 2-D simulation

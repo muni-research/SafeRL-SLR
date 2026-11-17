@@ -1,0 +1,53 @@
+# batch 17 (C0961-C1020), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0961 Unsure - adversarial RL worst-case perception error at on-ramps
+C0962 Review EC9
+C0966 Unsure - hybrid A* with RL trajectory control robust to disturbances, parking
+C0968 Unsure - interaction-constrained offline RL for AD (safety-critical distribution shift)
+C0969 Unsure - SAC with biased-attention risk prediction for safe intersection decisions
+C0970 Unsure - brain-in-the-loop risk feedback RL decisions
+C0971 Exclude EC2 LLM eco-driving
+C0972 Exclude EC1 energy management car-following
+C0973 Review EC9 book chapter
+C0974 Exclude EC4 erratum
+C0975 Unsure - CurricuVLM safety-critical curriculum for safe policy learning
+C0976 Unsure - MCTS-integrated DRL for robust decisions (check safety)
+C0977 Unsure - DQL ACC prioritising safety with headway/collision evaluation
+C0978 Review EC9
+C0979 Review EC9
+C0980 Unsure - delay-aware MARL platoon control for safety and stability
+C0981 Unsure - safety-control framework for aggressive drivers with DRL
+C0982 Exclude EC1 spectrum allocation
+C0983 Exclude EC1 UAV
+C0984 Unsure - distribution-level regularisation for robust safe RL driving
+C0985 Exclude EC2 inverse RL driver modelling
+C0986 Unsure - aggressiveness-aware DRL for safer lane change
+C0987 Exclude EC2 trajectory prediction decision (check RL)
+C0989 Exclude EC3 passenger preferences
+C0990 Exclude EC1 energy-efficient headway
+C0991 Exclude EC1 agricultural vehicles
+C0992 Unsure - enhanced integrated decision and control with real-vehicle experiments
+C0993 Unsure - racing RL with dynamics constraints against unsafe actions
+C0994 Exclude EC2 MPC with PSO-SQP (not RL)
+C0995 Review EC9
+C0996 Exclude EC10 scenario generation
+C0997 Unsure - HARL-RSS simplex architecture with RSS safety controller
+C0998 Unsure - offline CQL tactical proposals with runtime execution authority
+C0999 Unsure - MARL with optimal control for safe cooperative trajectories at intersections
+C1001 Exclude EC2 traffic signal control
+C1002 Exclude EC1 underwater vehicle
+C1003 Exclude EC2 inverse RL
+C1005 Unsure - knowledge-data traction control with actuator-feasible safety interface (check RL)
+C1006 Unsure - adversarial RL robust policy for real-world driving
+C1007 Exclude EC1 vehicle routing
+C1008 Unsure - DRL left turns with game-theoretic reasoning (check safety)
+C1009 Unsure - MARL with human intervention at uncontrolled intersection
+C1010 Exclude EC1 pipe networks
+C1011 Exclude EC1 trains
+C1012 Exclude EC8 dissertation
+C1013 Exclude EC1 eco car-following
+C1014 Exclude EC1 suspension
+C1016 Exclude EC2 benchmarking framework for intersection management
+C1017 Review EC9
+C1018 Exclude EC3 end-to-end pseudo-simulation RL
+C1019 Exclude EC1 UAV
+C1020 Unsure - uncertainty-aware RL car-following with long-tail augmentation

@@ -1,0 +1,213 @@
+# Phase 4 extraction, batch 33 (citation-search studies via institutional access, Phase 8, 2026-10-10), codebook v1.5a
+
+@@ C0517
+country: China
+problem: Uncertainty-aware decision making at an uncontrolled four-way intersection with pedestrians: a fully parameterised quantile network learns return distributions and CVaR selects risk-sensitive actions.
+task: INT; PED; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:FPQN (fully parameterised quantile network)
+method_name: FPQN-CVaR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: goal reward, collision penalty, time and comfort terms
+safety_cost: NA
+constraints: NA
+mech: L; N
+mech_primary: L
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: CVaR-based action selection lowers collision rates compared with expectation-based agents over 5 seeds; no hard constraint.
+uncertainty: ALE; INTENT; STOCH
+uncertainty_method: distributional critic with CVaR
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; TIME
+baselines: DQN, QR-DQN, IQN
+baseline_types: NSRL
+results: The CVaR-based FPQN agent achieved lower collision rates and higher success than DQN and other distributional baselines at the uncontrolled intersection.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 5
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: DEC
+limitations: R: SUMO only.
+qa: 2 2 2 2 1 2 2 2 1 2 1 1
+qa_note: Q5 only non-safe RL baselines; Q9 densities only; Q11 SUMO, no code; Q12 SUMO only
+
+@@ C0518
+country: Germany
+problem: UMBRELLA: uncertainty-aware model-based offline RL that learns stochastic dynamics from logged data and plans with MPC over multiple sampled models to account for aleatoric uncertainty in dense interactive traffic.
+task: NAV; MERGE; INT
+scenario: HWY; INTX
+traffic: REPLAY
+rl_paradigm: OFF; MB
+agents: SA
+n_agents: 1
+algorithm: OTHER:model-based offline RL with MPC planning (UMBRELLA)
+method_name: UMBRELLA
+network: CNN
+obs_type: BEV
+action_type: CONT
+action_level: CTRL
+reward: progress, collision and off-road costs
+safety_cost: NA
+constraints: NA
+mech: N; P; Q; I
+mech_primary: N
+mech_stage: EXEC
+rl_output: ACT
+safety_integration: EMBED
+control: MPC
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and success rates compared with offline baselines in NGSIM and CARLA; uncertainty is planned over but no constraint is enforced.
+uncertainty: ALE; EPI; INTENT
+uncertainty_method: stochastic forward models with latent variables; model ensembles
+simulator: CARLA; CUSTOM
+dataset: NGSIM
+vehicle_model: KIN; SIMVEH
+metrics: COLL; SUCC; OFFROAD
+baselines: behaviour cloning, MBOP, model-free offline RL
+baseline_types: NSRL; HUMAN
+results: Modelling aleatoric uncertainty improved success and reduced collisions of planning-based offline methods and improved over behaviour cloning in NGSIM I-80 and CARLA scenarios.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PRED; PLAN
+limitations: A: limitations of learned models discussed.
+qa: 2 2 2 2 1 2 2 2 0 1 1 2
+qa_note: Q5 no safe-RL baseline; Q9 none; Q10 seeds missing; Q11 public data, no code
+
+@@ C0521
+country: China
+problem: Bounded-rationality-aware PPO car-following that anticipates uncertain cut-ins of human drivers and dampens speed disturbances in traffic oscillations, with a TTC rear-end risk reward, trained on NGSIM cut-in events.
+task: CF
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: BRARL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: TTC-based rear-end risk penalty, efficiency, comfort and disturbance terms
+safety_cost: NA
+constraints: NA
+mech: A; N
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: TTC risk and success compared with MPC-based and IDM car-following under cut-ins; safety via reward only.
+uncertainty: INTENT
+uncertainty_method: bounded-rationality model of cut-in decisions
+simulator: CUSTOM
+dataset: NGSIM
+vehicle_model: PM
+metrics: TTC; SUCC; THRU; JERK
+baselines: IDM, MPC-based cut-in handling, plain PPO
+baseline_types: NSRL; CLASS
+results: BRARL reduced rear-end risk and traffic disturbances under cut-ins compared with IDM, MPC-based and plain PPO strategies.
+generalization: NONE
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: CTRL
+limitations: R: one-dimensional car-following.
+qa: 2 2 1 2 2 2 2 2 0 1 1 2
+qa_note: Q3 safety via reward only; Q9 none; Q10 seeds missing; Q11 public data, no code
+
+@@ C0524
+country: Canada
+problem: Hybrid decision making in which DQN decisions pass through a learnable rule-based safety module; CAVs collectively learn and merge safety rules in a two-stage framework to improve safety and transparency.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: collective rule learning
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed and collision terms
+safety_cost: NA
+constraints: learned rule set vetoing unsafe actions
+mech: W; D
+mech_primary: W
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: MASK
+control: RULE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The learned rule-based safety module filters DQN decisions at run time; collision rates compared with DQN and single-vehicle rule learning.
+uncertainty: STOCH
+uncertainty_method: changing highway-env traffic
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED
+baselines: DQN, individual rule learning
+baseline_types: NSRL; ABL
+results: Collective rule learning reduced collisions faster than individual learning and kept DQN efficiency while making safety decisions transparent.
+generalization: UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: R: highway-env only.
+qa: 2 2 2 2 1 2 2 1 1 1 1 1
+qa_note: Q5 ablations and DQN only; Q8 stochastic traffic only; Q9 environment changes only; Q10 seeds missing; Q11 highway-env, no code; Q12 highway-env

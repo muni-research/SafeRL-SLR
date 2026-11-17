@@ -1,0 +1,42 @@
+# batch 11 (C0601-C0660), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0601 Review EC9
+C0602 Exclude EC2 intersection management
+C0604 Exclude EC3 jam absorption
+C0605 Exclude EC2 inverse RL pedestrian modelling
+C0607 Unsure - world-model MBRL reactive urban driving (check safety)
+C0608 Unsure - adversarial RL for realistic intersections (robust safety)
+C0609 Exclude EC1 eco-driving energy
+C0610 Exclude EC1 eco-driving
+C0611 Exclude EC1 eco car-following
+C0613 Exclude EC10
+C0617 Unsure - EnduRL safety and stability of mixed traffic with RL vehicles
+C0618 Exclude EC1 energy management
+C0619 Unsure - RL adaptation to actuator variability for deployment
+C0620 Unsure - hybrid RL with classical control, real implementation
+C0621 Unsure - integrated DRL framework enhancing AV safety at high-speed cruising
+C0623 Unsure - attention DDPG ACC for safety and comfort
+C0625 Exclude EC2 driver attention EEG
+C0626 Exclude EC8 dissertation mobile robots
+C0628 Unsure - explainable adversarial DRL for robust safe driving
+C0629 Review EC9
+C0630 Exclude EC1 UAV
+C0632 Unsure - LLM-generated reward functions for highway safety (check)
+C0633 Exclude EC1 ships
+C0634 Unsure - heuristic action mask QMIX at intersections (safety)
+C0635 Exclude EC2 multi-agent task assignment
+C0636 Exclude EC1 UAV swarms
+C0638 Unsure - adaptive reward switching for occluded pedestrian safety
+C0639 Unsure - human-centred collaborative RL steering improving safety
+C0643 Unsure - human-vehicle shared steering RL for obstacle avoidance
+C0644 Unsure - risk-averse distributional RL with adaptive exploration, AD
+C0646 Unsure - SVO DRL with motion safety controller, left turn
+C0647 Unsure - planning plus DRL decision making for safety in untrained states
+C0648 Exclude EC1 task offloading
+C0649 Exclude EC1 task scheduling
+C0651 Exclude EC10
+C0652 Unsure - interpretable cognitive RL for safety
+C0654 Exclude EC1 resource allocation
+C0656 Unsure - offline BEAR lane change with support-set constraints for safety
+C0657 Review EC9
+C0658 Unsure - safe urban driving policy from real-world data
+C0660 Exclude EC8 dissertation

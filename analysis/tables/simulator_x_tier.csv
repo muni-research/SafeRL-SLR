@@ -1,0 +1,47 @@
+,SIM-LOW,SIM-HIFI,SIM-DATA,HIL,SCALED,CLOSED,ROAD,DEPLOY,row sum
+AIRSIM,0,1,0,0,0,0,0,0,1
+BULLET,0,0,0,0,1,0,0,0,1
+CARLA,1,135,0,3,4,3,0,0,146
+CARSIM,0,15,0,3,0,4,0,0,22
+COMMONROAD,1,0,9,0,0,0,0,0,10
+CUSTOM,127,7,41,2,10,4,1,0,192
+FLOW,5,0,1,0,0,0,0,0,6
+GAZEBO,0,0,0,0,0,0,1,0,1
+HWENV,100,4,1,6,1,2,0,0,114
+METADRIVE,3,19,2,0,0,1,2,0,27
+NR,2,1,1,1,1,1,1,0,8
+NUPLAN,0,0,1,0,0,0,0,0,1
+OTHER:AnyLogic,0,0,1,0,0,0,0,0,1
+OTHER:AutomotiveDrivingModels.jl,1,0,0,0,0,0,0,0,1
+OTHER:BMW/ika traffic simulation,1,0,0,0,0,0,0,0,1
+OTHER:Duckietown,0,0,0,0,1,0,0,0,1
+OTHER:EcoSim powertrain model,1,0,0,0,0,0,0,0,1
+OTHER:F1TENTH gym,0,0,0,0,1,0,0,0,1
+OTHER:F1Tenth gym,1,0,0,0,0,0,0,0,1
+OTHER:GOPS,0,0,0,0,1,0,0,0,1
+OTHER:GOPS-based multi-lane simulator,1,0,0,0,0,0,0,0,1
+OTHER:GPUDrive,0,0,1,0,0,0,0,0,1
+OTHER:IPG CarMaker,0,1,0,0,0,0,0,0,1
+OTHER:Learn-to-Race (Arrival simulator),0,2,0,0,0,0,0,0,2
+OTHER:METANET,1,0,0,0,0,0,0,0,1
+OTHER:NAVSIM (non-reactive),0,0,1,0,0,0,0,0,1
+OTHER:NS3,0,1,0,0,0,0,0,0,1
+OTHER:OpenAI Gym CarRacing-v0,1,0,0,0,0,0,0,0,1
+OTHER:OpenDS,0,1,0,0,0,1,0,0,2
+OTHER:RoadRunner,1,0,0,0,0,0,0,0,1
+OTHER:SafeBench (CARLA-based),0,0,0,0,0,0,1,0,1
+OTHER:TruckSim,0,2,0,1,0,0,0,0,3
+OTHER:Udacity highway simulator,1,0,0,0,0,0,0,0,1
+OTHER:Udacity path-planning simulator,1,0,0,0,0,0,0,0,1
+OTHER:Vissim,0,0,1,0,0,0,0,0,1
+OTHER:parking-env (gym),1,0,0,0,0,0,0,0,1
+OTHER:two further unnamed environments,0,0,0,0,0,1,0,0,1
+PRESCAN,0,8,1,3,0,1,0,0,13
+SAFETYGYM,3,3,0,1,0,2,0,0,9
+SIMULINK,24,21,2,4,0,3,0,0,54
+SMARTS,12,0,0,0,0,0,0,0,12
+SUMO,80,10,13,3,2,3,4,0,115
+TORCS,1,4,0,0,0,1,0,0,6
+UNITY,4,7,1,0,0,0,0,0,12
+WAYMAX,0,0,0,0,0,0,1,0,1
+WEBOTS,1,1,0,0,0,0,0,0,2

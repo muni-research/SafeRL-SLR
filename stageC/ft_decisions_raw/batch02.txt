@@ -1,0 +1,26 @@
+# Full-text eligibility, citation-search candidates retrieved via institutional access (stageC/dossiers batch04), 2026-10-10
+C0022 FI RL for drift counteraction optimal control maximising time before ACC headway/speed constraint violation
+C0034 FX:EC3 heuristic initialisation for sim-to-real learning efficiency; safety not addressed
+C0051 FI QR-DQN supervisor with added collision-avoidance function preventing dangerous actions; highway
+C0056 FI DQN lane change with rule-based safety check (distance/TTC) replacing unsafe actions
+C0061 FI actor-gear-critic eco-ACC with explicit safe inter-vehicle distance constraints
+C0084 FI DRL emergency braking decision to avoid accidents
+C0115 FI RL high-speed collision-avoidance active safety system with domain randomisation for sim-to-real
+C0122 FI hierarchical RL merging on NGSIM data; collision rate evaluated
+C0124 FX:EC3 ADP platoon control robust to reaction time; safety not an objective or metric
+C0125 FI RL lane selection supervised by tactical planner enforcing safety constraints
+C0128 FI DDPG car-following with TTC hard-constraint safety term; highD/SUMO
+C0153 FI DDPG pedestrian collision avoidance with trajectory tracking; Simulink
+C0154 FI RL decisions accounting for aggressive human drivers to ensure safety
+C0161 FI ATAC car-following with time-margin safety reward; NGSIM
+C0173 FI PPO vs SAC multi-vehicle rear-end collision avoidance
+C0190 FI DDPG car-following with collision-prediction feedback supervising actions; NGSIM
+C0197 FI DRL with expert-system rules for safe CAV guidance (safety distance)
+C0214 FI CVaR worst-case RL motion planning under occlusion/sensing uncertainty; SUMO
+C0217 FI CAV on-ramp merging RL with rule-based minimum gap and TTC safety constraints; NGSIM/SUMO
+C0219 FI DRL safety planning against first and multiple collisions in emergencies
+C0221 FI DRL emergency pedestrian avoidance with safety clearance; Unity
+C0228 FI action-space shaping for long-term auxiliary-cost constraints (CMDP) in DQN lane change; SUMO
+C0248 FI discrete SAC with sample filter for freeway driving safety and efficiency
+C0252 FI actor-critic rear anti-collision for commercial vehicles; RTTC and clearance metrics; SUMO
+C0274 FI RL cut-in policy nested in finite-state machine with TTC-based gap risk evaluation

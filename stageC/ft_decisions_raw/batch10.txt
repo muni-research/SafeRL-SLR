@@ -1,0 +1,6 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch13), 2026-10-10
+C0878 FX:EC3 DQN/PPO pedestrian avoidance in Webots; only training rewards reported, no safety evaluation
+C0879 FI perception-uncertainty-aware heuristic D3QN motion planning with reachable-set danger zones under occlusion; CARLA
+C0881 FI MARL PPO with TTC-based priority sequential inference for collision-avoiding highway driving
+C0883 FX:EC3 MADRL camera-attack detection for platoons; safety not an RL objective or evaluated outcome
+C0884 FI receding-horizon multi-kernel RL constrained motion planning vs CBF-MPC; CarSim and real-world experiments

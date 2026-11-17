@@ -1,0 +1,119 @@
+code,label,studies,% of 702,study IDs (if <= 5)
+PPO,PPO,123,17.5,
+SAC,SAC,105,15.0,
+DQN,DQN,88,12.5,
+DDPG,DDPG,72,10.3,
+TD3,TD3,59,8.4,
+Double DQN,Double DQN,42,6.0,
+SAC-Lagrangian,SAC-Lagrangian,23,3.3,
+Dueling double DQN,Dueling double DQN,17,2.4,
+PPO-Lagrangian,PPO-Lagrangian,16,2.3,
+Q-learning,Q-learning,15,2.1,
+Actor-critic,Actor-critic,14,2.0,
+MAPPO,MAPPO,14,2.0,
+CPO,CPO,12,1.7,
+Adaptive dynamic programming,Adaptive dynamic programming,12,1.7,
+Model-based AC,Model-based AC,8,1.1,
+A2C,A2C,8,1.1,
+Not reported,Not reported,6,0.9,
+MADDPG,MADDPG,6,0.9,
+DSAC,DSAC,6,0.9,
+TD3-Lagrangian,TD3-Lagrangian,5,0.7,A019;B0308;B0439;B0902;B1816
+TRPO,TRPO,5,0.7,B0048;B1210;B1295;B1392;B1533
+MCTS,MCTS,5,0.7,B0066;B1333;B1370;C0011;C0771
+QMIX,QMIX,5,0.7,B1778;B1787;C0634;C0903;C1009
+IQN,IQN,4,0.6,B1274;B1692;C0438;C0929
+Proxy-value actor-critic,Proxy-value actor-critic,4,0.6,B1458;B1506;C0297;C0446
+CQL,CQL,4,0.6,B1639;B1818;C0748;C0998
+Dueling DQN,Dueling DQN,4,0.6,C0030;C0171;C0283;C0385
+Model-based RL + MPC,Model-based RL + MPC,3,0.4,B0145;C0647;C0744
+Distributional DQN,Distributional DQN,3,0.4,B1356;C0517;C0666
+Adversarial robust AC,Adversarial robust AC,3,0.4,B1409;C0608;C1006
+PCPO,PCPO,2,0.3,B0118;B0490
+DRQN,DRQN,2,0.3,B0202;C0035
+Various,Various,2,0.3,B0272;B0937
+FAC,FAC,2,0.3,B0308;B1369
+Constrained decision transformer,Constrained decision transformer,2,0.3,B0524;B0700
+DreamerV3 safe AC,DreamerV3 safe AC,2,0.3,B0640;B0939
+Diffusion policy optimisation,Diffusion policy optimisation,2,0.3,B0987;C0807
+QR-DQN,QR-DQN,2,0.3,B1216;C0051
+A3C,A3C,2,0.3,B1222;B1415
+MATD3,MATD3,2,0.3,B1277;B1538
+MPO,MPO,2,0.3,B1327;B1329
+Unspecified,Unspecified,2,0.3,B1342;C0296
+MAPPO-Lagrangian,MAPPO-Lagrangian,2,0.3,B1345;B1798
+FC-AC,FC-AC,2,0.3,B1360;B1566
+Behaviour cloning (with RL),Behaviour cloning (with RL),2,0.3,C0130;C0452
+P-DQN,P-DQN,2,0.3,C0302;C0327
+Hybrid-action constrained AC,Hybrid-action constrained AC,1,0.1,A097
+FOMI,FOMI,1,0.1,A112
+BCQ,BCQ,1,0.1,B0190
+Constrained soft Q-learning,Constrained soft Q-learning,1,0.1,B0210
+REINFORCE with baseline,REINFORCE with baseline,1,0.1,B0225
+Constrained Q-learning path search,Constrained Q-learning path search,1,0.1,B0237
+PPO-PID Lagrangian (CVaR),PPO-PID Lagrangian (CVaR),1,0.1,B0276
+EPO,EPO,1,0.1,B0308
+Safety layer (Dalal),Safety layer (Dalal),1,0.1,B0308
+Recovery RL,Recovery RL,1,0.1,B0308
+MACPO,MACPO,1,0.1,B0403
+RSCPO,RSCPO,1,0.1,B0514
+Episodic policy search,Episodic policy search,1,0.1,B0516
+PPO-augmented Lagrangian,PPO-augmented Lagrangian,1,0.1,B0522
+Constrained PPO,Constrained PPO,1,0.1,B0631
+Transformer offline safe RL,Transformer offline safe RL,1,0.1,B0641
+Robust constrained AC,Robust constrained AC,1,0.1,B0656
+DDPG-augmented Lagrangian,DDPG-augmented Lagrangian,1,0.1,B0664
+Dual-constrained AC,Dual-constrained AC,1,0.1,B0741
+CRPO,CRPO,1,0.1,B0805
+TRPO-PID Lagrangian,TRPO-PID Lagrangian,1,0.1,B0805
+P3O,P3O,1,0.1,B0805
+Safe MBPO,Safe MBPO,1,0.1,B0892
+MAPCPO,MAPCPO,1,0.1,B0893
+CrossQ,CrossQ,1,0.1,B0894
+GPI,GPI,1,0.1,B0909
+Lyapunov-constrained SAC,Lyapunov-constrained SAC,1,0.1,B0916
+Diffusion policy (UADP),Diffusion policy (UADP),1,0.1,B0930
+DDPG-Lagrangian,DDPG-Lagrangian,1,0.1,B0935
+GP learning-based MPC,GP learning-based MPC,1,0.1,B0972
+Dual-policy constrained AC,Dual-policy constrained AC,1,0.1,B1007
+IQL,IQL,1,0.1,B1162
+MAA2C-Lagrangian,MAA2C-Lagrangian,1,0.1,B1171
+C51 (distributional),C51 (distributional),1,0.1,B1175
+IQN-Lagrangian,IQN-Lagrangian,1,0.1,B1189
+NFSP,NFSP,1,0.1,B1210
+Budgeted fitted-Q,Budgeted fitted-Q,1,0.1,B1220
+Model-based constrained policy search,Model-based constrained policy search,1,0.1,B1270
+CCAC,CCAC,1,0.1,B1275
+SPIL,SPIL,1,0.1,B1312
+CAAC,CAAC,1,0.1,B1321
+SMORL,SMORL,1,0.1,B1326
+VDN,VDN,1,0.1,B1346
+Constrained multi-objective AC,Constrained multi-objective AC,1,0.1,B1408
+UPPAAL Stratego,UPPAAL Stratego,1,0.1,B1469
+HCP4O,HCP4O,1,0.1,B1504
+Actor-Critic-Safety,Actor-Critic-Safety,1,0.1,B1519
+Safe-evolving ensemble AC,Safe-evolving ensemble AC,1,0.1,B1528
+IGCARL,IGCARL,1,0.1,B1612
+WCA-SAC,WCA-SAC,1,0.1,B1653
+Feasible policy iteration,Feasible policy iteration,1,0.1,B1689
+Diffusion policy (DICE),Diffusion policy (DICE),1,0.1,B1709
+CRR,CRR,1,0.1,B1747
+WCSAC,WCSAC,1,0.1,B1779
+SAC-augmented Lagrangian,SAC-augmented Lagrangian,1,0.1,B1780
+GRPO,GRPO,1,0.1,B1805
+Rainbow DQN,Rainbow DQN,1,0.1,C0088
+Value-network RL (SARL),Value-network RL (SARL),1,0.1,C0138
+Tsallis actor-critic,Tsallis actor-critic,1,0.1,C0161
+DQN (prioritised replay),DQN (prioritised replay),1,0.1,C0222
+IPPO,IPPO,1,0.1,C0328
+DQN (Ape-X),DQN (Ape-X),1,0.1,C0381
+Model-based offline RL,Model-based offline RL,1,0.1,C0518
+TD collision-probability learning,TD collision-probability learning,1,0.1,C0577
+Bootstrapped DQN,Bootstrapped DQN,1,0.1,C0621
+SARSA,SARSA,1,0.1,C0714
+Bayesian DQN,Bayesian DQN,1,0.1,C0727
+MBPO,MBPO,1,0.1,C0765
+High-confidence policy improvement,High-confidence policy improvement,1,0.1,C0777
+REINFORCE-type policy gradient,REINFORCE-type policy gradient,1,0.1,E019
+Constrained multi-objective policy gradient,Constrained multi-objective policy gradient,1,0.1,E033
+Constrained trust-region MARL,Constrained trust-region MARL,1,0.1,E074

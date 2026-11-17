@@ -1,0 +1,37 @@
+eid,decision,oa_status,url,retrieved,doi,title
+E002,Unsure,closed,,no,,"A Reinforcement Learning Approach For Efficient, Safe and Comfortable Driving"
+E015,Unsure,hybrid,,yes,10.1109/tvt.2026.3748283,Boundary Stability Control for Intelligent Vehicles Under Extreme Conditions via Reinforcement Learning Based Three-Dimensional Stability Domain Identification
+E019,Unsure,hybrid,,yes,10.1109/tits.2026.3746766,Deep Reinforcement Learning-Based Cooperative Highway Merging Sequence and Trajectory Co-Optimization With Transformer
+E021,Unsure,closed,,no,,Exploring a Learning-Based Approach to Motion Planning and Control for Over-Actuated Autonomous Vehicles
+E022,Unsure,hybrid,,yes,10.1109/tvt.2026.3731737,Fault-Tolerant Static Output-Feedback Controller for Trajectory Tracking in Distributed Driven Vehicles With Reinforcement Learning
+E024,Include,gold,,yes,10.1109/ojvt.2026.3749276,Multi-Output Control Barrier Function for Safe and Secure Control in DRL-Based Autonomous Driving
+E025,Include,hybrid,,yes,10.1109/tnsm.2026.3748969,Predictor-Enhanced Constrained Reinforcement Learning for Networked CAV Platoons: A Dual-Redundancy Scheme
+E029,Include,hybrid,,yes,10.1109/tits.2026.3741086,Toward Safe and Socialized Autonomous Driving in Lane Change Scenarios: Risk-Aware Maskable Reinforcement Learning With Pareto-Based Guidance
+E030,Unsure,hybrid,,yes,10.1109/raits68656.2026.11580225,Research on Autonomous Vehicle Merging Control Strategy Based on Hierarchical DDPG-MPC
+E032,Unsure,hybrid,,yes,10.1109/ccdc69976.2026.11560494,Meta-Reinforcement Learning for Mixed-Traffic Platoon Control under Adversarial Communication at Signalized Intersections
+E033,Include,hybrid,,yes,10.1109/ijcnn69854.2026.11729896,DSMOP-Drive: A Deep Reinforcement Learning Framework for Autonomous Driving with Decoupled Safety and Multi-Objective Optimization
+E035,Include,gold,,yes,10.1109/cvprf71909.2026.00095,Physics-Informed Reward Framework for Vision-Language Driven Safe Autonomous Driving
+E036,Unsure,hybrid,,yes,10.1109/icra57385.2026.11697070,Proactive Risk-Aware Trajectory Planning for Autonomous Driving in Unstructured Environments via Reinforcement Learning with Adaptive Reward Design
+E037,Unsure,hybrid,,yes,10.1109/ascc70886.2026.11701764,Reinforcement Learning-Guided MPC for Autonomous Racing
+E038,Unsure,hybrid,,yes,10.1109/ijcnn69854.2026.11728794,Resource Constrained Safe Reinforcement Learning for Lane Following of Wheeled Mobile Robots
+E039,Include,hybrid,,yes,10.1109/ascc70886.2026.11702402,Stability-Aware Reinforcement Learning-Based NMPC for Longitudinal Control of Autonomous Vehicles
+E040,Include,green,https://eprints.whiterose.ac.uk/id/eprint/241146/1/FUSION202-Towards%20Safe%20RL%20Based%20Traffic%20Control6.pdf,yes,10.23919/fusion67272.2026.11726389,Towards Safe Reinforcement Learning-Based Traffic Control via Safety-Layer Action Correction
+E042,Unsure,green,,no,10.5281/zenodo.20684034,Robust Pothole Avoidance in Autonomous Driving Using Multi-Task Transformer Perception and Ensemble Reinforcement Learning (2026-06-12)
+E043,Unsure,hybrid,,yes,10.1109/cisat71030.2026.11682045,H-GRPO: An Asymmetric Hierarchical Group Relative Policy Optimization Framework for Constrained Multi-Objective Control
+E044,Unsure,hybrid,,yes,10.1109/resem70152.2026.11721906,Neuro Symbolic Reinforcement Learning Framework for Safe Autonomous Electric Vehicle Control
+E046,Unsure,hybrid,,yes,10.1109/cis-ram71614.2026.11668532,Diffusion-Based Reinforcement Learning for Multi-Objective Adaptive Control in Autonomous Car-Following
+E047,Include,hybrid,,yes,10.1109/cis-ram71614.2026.11668523,Highway Ramp Merging Behavior of Autonomous Vehicles Using Human-Inspired Structured LSTM with Reward Machine Reinforcement Learning
+E048,Unsure,hybrid,,yes,10.1109/tits.2026.3714805,A Reinforcement Learning-Based Cooperative Adaptive Cruise Control Under False Data Injection Attacks
+E049,Include,hybrid,,yes,10.1109/tits.2026.3705746,Sequential-Agent Game Lane-Changing Model for CAVs Approaching Off-Ramps
+E050,Include,green,https://dspace.lib.cranfield.ac.uk/bitstreams/acb73082-3f0b-4381-aadc-b60b6c1051af/download,yes,10.1109/tsmc.2026.3721084,Enhancing Autonomous Driving With Physics-Informed and Human-Guided Reinforcement Learning
+E056,Unsure,hybrid,https://comdem.org/index.php/comdem/article/download/18757/12527,yes,10.1922/comdem.v3i4s.18757,An Integrated Safety Architecture for Learning-Based Control Systems: Experimental Evaluation with Verification and Fault Detection
+E058,Unsure,gold,https://academic.oup.com/tse/advance-article-pdf/doi/10.1093/tse/tdag062/71836843/tdag062.pdf,yes,10.1093/tse/tdag062,Safety-oriented decision-making for connected and automated vehicles in highway mixed-autonomy traffic via dynamic attention-enhanced graph reinforcement learning
+E060,Include,green,https://arxiv.org/pdf/2610.17799,yes,10.48550/arxiv.2610.17799,Beyond Safe Execution: Safe Online Reinforcement Learning for Autonomous Driving with Value Calibration and Adaptive Guidance
+E061,Unsure,gold,https://link.springer.com/content/pdf/10.1007/s44163-026-02454-y.pdf,yes,10.1007/s44163-026-02454-y,Multi-modal intelligent driving decision-making in complex traffic scenarios integrating DDQN and DDPG
+E063,Include,green,https://arxiv.org/pdf/2610.27732,yes,10.48550/arxiv.2610.27732,Prescribed Performance Guided Safe Reinforcement Learning for Roundabout Navigation of Autonomous Vehicles
+E066,Include,closed,,no,10.1142/s2301385027410196,State-Based Reinforcement Learning Safe Trajectory Tracking for Autonomous Vehicles via Geometric Safety Representation and Lagrangian-PPO
+E068,Unsure,closed,,no,10.1016/j.ins.2026.124359,Multi-agent game-integrated control with proximal policy optimization for safe and efficient unsignalized intersection navigation
+E071,Include,green,https://arxiv.org/pdf/2611.04957,yes,10.48550/arxiv.2611.04957,Safeguarding Multi-Agent Reinforcement Learning for Connected and Automated Vehicles with Recursively Feasible Control Barrier Functions
+E074,Include,green,https://arxiv.org/pdf/2611.09139,yes,10.48550/arxiv.2611.09139,CARGO: Causal Attribution and Responsibility-Guided Preventive Safe Multi-Agent Reinforcement Learning for Cooperative Driving
+E075,Unsure,gold,https://www.sciopen.com/local/article_pdf/10.26599/COMMTR.2026.9640067.pdf,yes,10.26599/commtr.2026.9640067,SAFE-AD: Socially aware field-enhanced reinforcement learning for autonomous driving in interactive traffic
+E076,Include,gold,,yes,10.3390/electronics15215179,Guiding Reinforcement Learning with LLM Knowledge Reasoning Toward Safe End-to-End Autonomous Driving

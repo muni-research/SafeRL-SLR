@@ -1,0 +1,38 @@
+# batch 18 (C1021-C1060), 2026-10-10. Any CID in range not listed = Exclude EC3
+C1021 Exclude EC1 surface vessel
+C1022 Unsure - MARL lateral emergency avoidance simulator
+C1024 Unsure - responsibility-oriented reward with traffic regulations (safety)
+C1025 Unsure - rain-aware DRL lane change for safety in adverse weather
+C1026 Review EC9
+C1027 Unsure - RL steer-by-wire curvature tracking with lateral acceleration constraint
+C1028 Unsure - RL optimal platoon control under uncertainties and cyberattacks
+C1030 Review EC9
+C1031 Exclude EC1 general multi-agent formation
+C1032 Exclude EC1 wiring harness design
+C1033 Unsure - RL prescribed-performance tracking with state constraints
+C1034 Exclude EC1 general strict-feedback systems
+C1035 Review EC9
+C1036 Exclude EC1 unmanned ground vehicle navigation (check)
+C1037 Unsure - SAC-MPC hierarchical merging with steering constraints (no abstract)
+C1038 Unsure - risk-augmented PPO loss for safer AD
+C1039 Unsure - risk-sensitive distributional PPO for safe lane change
+C1040 Unsure - risk-anticipatory SAC at unsignalised intersections
+C1041 Unsure - risk-rule filtered LSTM-dueling DQN lane change
+C1042 Unsure - causal-invariant adversarial RL robust lane change
+C1043 Unsure - SAC-D planner with HOCLF-HOCBF-QP low-level control
+C1044 Exclude EC1 surface vessels
+C1045 Exclude EC1 MEC networks
+C1046 Background EC1 fallback-controller safeguarded RL (check vehicle)
+C1047 Unsure - safety-prioritised RL collision reduction, 3D city traffic (no abstract)
+C1048 Unsure - Self-ATDDQN for safe and efficient highway driving
+C1049 Unsure - safety-oriented value estimation for E2E AD (check RL)
+C1050 Exclude EC1 urban air mobility
+C1051 Unsure - safe and robust platooning decision framework
+C1052 Exclude EC2 active inference (not RL)
+C1053 Exclude EC2 traffic signal control
+C1055 Unsure - RL obstacle avoidance under steering-angle fault
+C1056 Exclude EC3 parking perception (check)
+C1057 Review EC9
+C1058 Review EC9
+C1059 Unsure - robust adversarial RL trajectory planning under observation perturbations
+C1060 Unsure - trust-based MARL against adversarial intentions for safety

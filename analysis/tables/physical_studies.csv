@@ -1,0 +1,74 @@
+study,year,validation_tier,safety_level,mech_primary,task,real_world
+A096,2023,HIL,L3,S,TD; LC; CF,Embedded deployment on NVIDIA Jetson AGX Xavier (processor-in-the-loop)
+B0385,2023,HIL,L3,S,NAV; INT; LC,Latency measured on automotive GPU (no full production stack)
+B0575,2024,HIL,L4,B,LK; CA; INT,"Hardware-in-the-loop with real AV controller unit (TZTEK GEAC91S, Jetson AGX Xavier)"
+B0577,2024,HIL,L3,I,LC; MP,HIL with ECU and dSpace MicroLabBox
+C0647,2024,HIL,L3,D,TD; LC; CF,processor-in-the-loop timing on NVIDIA Jetson AGX Xavier
+B0793,2025,HIL,L3,I,CF; INT,Hardware-in-the-loop experiment with real-time controller
+B0878,2025,HIL,L1,L,LC; OVT; MP,HIL with automotive-grade Jetson AGX Orin domain controller
+B1512,2025,HIL,L3,I,LK; EMG,Electro-hydraulic steering and braking HIL with human drivers
+B1574,2025,HIL,L3,V,LK,Driver-in-the-loop platform with real steering components and human drivers
+C0902,2025,HIL,L1,A,EMG,hardware-in-the-loop with CarSim-generated low-adhesion scenarios
+B1093,2026,HIL,L3,N,OVT; LC,Processor-in-the-loop on EA-B500 controller with Jetson Orin NX connected to CARLA
+B1137,2026,HIL,L3,I,MP; CA; INT,HIL steer-by-wire test bench with industrial PC
+B1169,2026,HIL,L3,E,PLT; CF; EMG,automotive ECU hardware-in-the-loop with ROS 2/AUTOSAR (no vehicle)
+B1677,2026,HIL,L3,E,CF,HIL platform: NI PXI real-time controller linked via CAN with a real vehicle and CarSim traffic scenarios
+B1777,2026,HIL,L4,H,LK,cloud-based hardware-in-the-loop with NVIDIA Xavier (no vehicle)
+C1043,2026,HIL,L3,H,TD; LC; RAB; INT,hardware-in-the-loop tests of the controller
+C1051,2026,HIL,L1,O,PLT; COOP; LC,hardware-in-the-loop platform with CARLA and domain controller
+E015,2026,HIL,L3,I,LK; EMG,hardware-in-the-loop tests
+E019,2026,HIL,L3,I,MERGE; COOP,hardware-in-the-loop platform (rapid control prototyping and real-time PC)
+B0110,2020,SCALED,L4,J,LK; RACE,Robot racing car data used for reachability evaluation (policies run on own small vehicle)
+B1230,2020,SCALED,L5,T,RACE; LK,F1/10 car in a hallway track with and without reflective surfaces covered
+B1270,2021,SCALED,L5,I,EMG,Autonomous scaled race car performing J-turn on a narrow road
+B1312,2022,SCALED,L2,L,CF; CA,Mobile robot navigation avoiding a moving obstacle with uncertain/aggressive behaviour
+C0370,2022,SCALED,L3,S,RAB; CF; COOP,F1TENTH 1/10 vehicles in indoor HiL environment with augmented-reality roundabout
+B1368,2023,SCALED,L3,S,LK; RACE,F1TENTH-type small-scale indoor test vehicle demonstration
+B1409,2023,SCALED,L3,K,LC; CF,AgileX Hunter low-speed autonomous vehicle with onboard NVIDIA Jetson
+C0404,2023,SCALED,L3,S,RACE; LK; NAV,"F1TENTH-scale vehicle trained online on tracks, tested on a second track"
+B0545,2024,SCALED,L2,L,NAV; CA,Real-world obstacle-avoidance setup (platform details not specified in the text)
+B0656,2024,SCALED,L2,K,LC; MERGE; INT,Compact drive-by-wire autonomous vehicle tested with and without attacker
+B1443,2024,SCALED,L0,OTHER:safety case (assurance argument),INT; CA,Quanser QCar scaled vehicles in indoor area (evidence from prior study)
+B1479,2024,SCALED,L1,L,NAV; RACE,1/10-scale F1TENTH-based rally car trained directly on an outdoor off-road course
+C0672,2024,SCALED,L3,S,RACE; MP,F1TENTH 1:10 indoor vehicle closed-loop experiments
+B0724,2025,SCALED,L2,B,LK,Duckiebot small-scale robot car demonstrations
+B0757,2025,SCALED,L5,B,RACE,"1/10-scale F1TENTH racecar, zero-shot deployment at maximum 4 m/s"
+B0882,2025,SCALED,L5,F,LC; CF; COOP; CA,Fleet of 1/10-scale F1TENTH vehicles with Jetson Orin Nano and V2V communication on miniature highways
+C0927,2025,SCALED,L1,V,INT; PED,scaled Ackermann AGV (Agilex HUNTER-SE) navigation tests
+A112,2026,SCALED,L2,B,LK; CA,Geek+ M200 automated guided vehicle in indoor obstacle-avoidance scenarios
+B0997,2026,SCALED,L1,A,CA; EMG; INT,"1/10-scale vehicle with RPLIDAR S2 and Jetson Orin AGX at 1 m/s, 10 trials per scenario"
+B1778,2026,SCALED,L3,W,INT; COOP,Four miniature intelligent vehicles with Jetson Orin Nano at a model intersection
+B1812,2026,SCALED,L1,K,LK,NVIDIA JetRacer (Jetson Nano) robotic car on an indoor mat track
+E060,2026,SCALED,L5,F,CA; MP,"UGV experiments (bypass, 8-shaped manoeuvre, held-out cornering)"
+B0028,2018,CLOSED,L5,D,INT,Learned policy verified on Honda autonomous vehicle with IBEO sensors
+C0129,2020,CLOSED,L1,A,MP; LC; CA,"proving-ground tests at ZalaZone, Hungary"
+B0186,2021,CLOSED,L2,F,INT; CA; LK,Real autonomous vehicle with virtual surrounding vehicles from a digital-twin system
+B1256,2021,CLOSED,L1,D,PED; CF,Real vehicle experiments with the integrated ADS (Dreams4Cars)
+A140,2023,CLOSED,L5,S,LK; MP,Full-size tour vehicle in a restricted road segment without moving obstacles
+B0444,2023,CLOSED,L5,W,LC; OVT,Real-vehicle lane-change overtaking tests with industrial computer (RTX 2080 Ti)
+A074,2024,CLOSED,L5,F,LK; CA,HongQi EHS3 electric car path following with obstacle avoidance; differential-drive vehicle
+B0485,2024,CLOSED,L5,I,NAV; CA; LC,Real-vehicle test with industrial computer (scenario details limited)
+B0507,2024,CLOSED,L5,J,EMG; CA,Real vehicle tests of emergency collision avoidance scenarios
+B0640,2024,CLOSED,L2,B,NAV; CA,PIX-Hooke low-speed autonomous chassis on straight and complex test courses
+B1445,2024,CLOSED,L3,E,CF; INT,"Chery Little Ant on 1,800 m campus test route with virtual signals and virtual preceding vehicle"
+B1474,2024,CLOSED,L1,A,CA; EMG; LC,proving-ground field tests of the ISO 3888-2 double lane change with a test vehicle
+B0678,2025,CLOSED,L5,S,LC; OVT; PED,Real autonomous vehicle lane-changing overtaking tests with industrial computer
+B0896,2025,CLOSED,L5,B,CF,Autonomous HEV on an off-road test-field route
+C0822,2025,CLOSED,L3,D,PARK; MP,real-world parking tests with a UGV and a full-size SUV
+C0851,2025,CLOSED,L1,A,LK,real-vehicle path-tracking test of a four-wheel independent-drive vehicle
+C0884,2025,CLOSED,L2,F,MP; CA; OVT,real-vehicle experiments on a Hongqi E-HS3 intelligent vehicle
+C0894,2025,CLOSED,L3,S,LK,field tests with an autonomous mining truck in an open-pit mine
+C0905,2025,CLOSED,L1,K,MP; CF; LC,real-vehicle test on a Changan CS55 electric platform
+B1158,2026,CLOSED,L2,B,NAV; LC; CF,Claimed transfer to an instrumented Tesla Model 3; no experimental description provided
+B1767,2026,CLOSED,L1,V,E2E; LC; OVT; EMG,Apollo D-KIT Standard S vehicle with steer-by-wire (lane-change/overtaking trials)
+C1006,2026,CLOSED,L1,K,TD; CA; INT,full-size vehicle test at a T-junction
+B1271,2021,ROAD,L2,B,INT; MP,Real vehicle at a real intersection with digital-twin surrounding traffic
+C0315,2022,ROAD,L3,B,INT; LC; NAV; MP,real-vehicle test at a real urban intersection (eight-lane and four-lane streets)
+C0381,2023,ROAD,L1,A,LC; TD; OVT,"DRL agent deployed on a test vehicle (radars, cameras, ROS) on highways in Turkey"
+B0517,2024,ROAD,L3,C,NAV; MP,Policies run on public roads by an AV company (Nuro) after closed-loop evaluation
+B0658,2024,ROAD,L3,C,NAV,Transfer evaluated on a real autonomous delivery fleet (Nuro); details not reported
+C0720,2024,ROAD,L1,W,NAV; INT; LC,"real-vehicle driving test on roads with straight, curved and intersection segments (limit 50 km/h)"
+B0716,2025,ROAD,L5,V,NAV,Real-world training and testing on Tianjin University campus roads with an instrumented vehicle
+B0761,2025,ROAD,L5,F,CF,2021 Toyota RAV4 controlled via CAN injection through the ACC module in live urban traffic
+B1569,2025,ROAD,L1,V,NAV,"Real-world training and testing on Tianjin University campus roads with an instrumented UGV (LiDAR, camera, radar)"
+C0992,2026,ROAD,L2,B,INT; TD; MP,real-vehicle tests at a signalised urban intersection with mixed traffic

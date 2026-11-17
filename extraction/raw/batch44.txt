@@ -1,0 +1,264 @@
+@@ C0129
+country: Hungary
+problem: DDPG trajectory planner trained in simulation with a nonlinear single-track model and a reward combining safety and comfort measures, executed through a control loop and tested on the ZalaZone proving ground.
+task: MP; LC; CA
+scenario: TRACK
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: safety (path and obstacle margins) and passenger-comfort measures
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: TRAJ
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Planned trajectories are tracked on a proving ground with trajectory-following results but no separate safety statistics.
+uncertainty: MODEL
+uncertainty_method: sim-to-real vehicle model mismatch
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN; REAL
+metrics: DEV; COMF
+baselines: NR
+baseline_types: NONE
+results: The DDPG planner produced real-time trajectories that the test vehicle followed on the proving ground in the tested manoeuvres.
+generalization: S2R
+validation_tier: CLOSED
+real_world: proving-ground tests at ZalaZone, Hungary
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: PLAN
+limitations: R: few test cases.
+qa: 2 2 1 2 0 1 2 1 1 1 1 2
+qa_note: Q3 reward only; Q5 no baselines; Q6 deviation only; Q8 model mismatch only; Q9 S2R only; Q10 partial; Q11 no code
+
+@@ C0309
+country: Hungary
+problem: Hierarchical roundabout control: a cloud-level DDPG agent selects maximum speeds for automated vehicles, and a vehicle-level robust controller with a supervisor guarantees collision avoidance even when the cloud connection is lost.
+task: RAB; CF; COOP
+scenario: RAB
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: travel time with safety-related penalties
+safety_cost: NA
+constraints: collision-avoidance conditions enforced by the vehicle-level supervisor
+mech: W; K
+mech_primary: W
+mech_stage: EXEC
+rl_output: PARAM
+safety_integration: CORRECT
+control: NONE
+safety_claim: RT; EMP
+guarantee_assumptions: measured surrounding states; robust controller design bounds
+safety_level: L3
+level_note: The supervisor and robust controller override the RL speed command to keep collision-free motion at run time; demonstrated in roundabout scenarios.
+uncertainty: DIST
+uncertainty_method: robust control against disturbances; cloud connection loss
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: COLL; SPEED; TIME
+baselines: NR
+baseline_types: NONE
+results: Simulated roundabout scenarios showed collision-free, time-efficient motion including when the cloud connection was lost.
+generalization: AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; CTRL; SUPERV
+limitations: R: scenario demonstrations only.
+qa: 2 2 2 2 0 1 2 1 1 1 1 1
+qa_note: Q5 no baselines; Q6 demonstrations; Q8 disturbance by design; Q9 limited; Q10 partial; Q11 no code; Q12 custom simulation
+
+@@ C0338
+country: China
+problem: DQN-LSTM emergency obstacle-avoidance planning with a graded hazard index over braking and lane-change manoeuvres, multi-term rewards for rear-end and side collisions, safety distance and comfort, evaluated in CARLA.
+task: CA; EMG; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: NR
+network: RNN
+obs_type: VEC
+action_type: DISC
+action_level: TRAJ
+reward: collision penalties by type, safety-distance and comfort terms
+safety_cost: graded hazard index
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: TRAJ
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate, safety-distance difference and comfort indicators in CARLA obstacle-avoidance scenarios.
+uncertainty: PO
+uncertainty_method: LSTM for incomplete observations
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; DIST; COMF
+baselines: DQN without LSTM
+baseline_types: ABL
+results: The planner generated collision-avoiding paths with lateral acceleration and speed within comfort requirements.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: PLAN
+limitations: R: simulation only.
+qa: 2 2 1 2 1 2 2 1 0 1 1 2
+qa_note: Q3 reward only; Q5 ablation only; Q8 observability only; Q9 none; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0378
+country: Germany
+problem: HILEPP: a high-level RL policy outputs a cost (reward) specification for a parametric nonlinear MPC planner whose constraints and kinematics guarantee safe, feasible trajectories in multi-agent autonomous racing with competition rules.
+task: RACE; OVT; MP
+scenario: TRACK
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: NR
+method_name: HILEPP
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: race progress and overtaking outcome
+safety_cost: NA
+constraints: collision-avoidance and track constraints in the NMPC
+mech: I
+mech_primary: I
+mech_stage: BOTH
+rl_output: PARAM
+safety_integration: EMBED
+control: MPC
+safety_claim: CEXP; RT
+guarantee_assumptions: chosen vehicle model; predicted opponent behaviour
+safety_level: L3
+level_note: Every executed trajectory is constrained by the NMPC, giving safety relative to the model and opponent predictions; compared with pure RL and MPC baselines in simulated races.
+uncertainty: INTENT
+uncertainty_method: fixed opponent policies with predicted trajectories
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; SAMPLE
+baselines: pure RL, MPC planner without RL
+baseline_types: NSRL; CLASS
+results: HILEPP learned to overtake efficiently and avoid collisions with high sample efficiency, outperforming pure RL and MPC-only planners.
+generalization: AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; DEC
+limitations: A: perfect tracking assumed.
+qa: 2 2 2 2 2 2 2 1 1 1 1 1
+qa_note: Q8 opponents only; Q9 limited; Q10 seeds unclear; Q11 no code; Q12 custom simulation
+
+@@ C0389
+country: United States
+problem: Two-player zero-sum Markov game (TZMG) training of a safe highway driving policy against adversarial neighbour vehicles, with a Wolpertinger-based TZMG Q-learning algorithm that scales to multiple adversaries, tested in simulation and with humans in the loop.
+task: LC; TD
+scenario: HWY
+traffic: LEARNED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:TZMG Q-learning (Wolpertinger)
+method_name: TZMG
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: zero-sum collision and progress terms
+safety_cost: NA
+constraints: NA
+mech: K
+mech_primary: K
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: ROB; EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates against adversarial and human-controlled neighbours compared with HJI/CBF-style safety controllers and IDM/MOBIL.
+uncertainty: ADV; INTENT
+uncertainty_method: adversarial neighbour vehicles
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED
+baselines: IDM/MOBIL, safety controllers from the literature
+baseline_types: CLASS; SRL
+results: The TZMG policy achieved much lower collision rates than benchmark safety controllers against adversarial neighbours, including in human-in-the-loop tests.
+generalization: AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 2 2 2 2 2 2 2 1 1 1
+qa_note: Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env

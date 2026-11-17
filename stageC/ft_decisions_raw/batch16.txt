@@ -1,0 +1,2 @@
+# Full-text eligibility, citation-search candidate retrieved open access on the final retrieval refresh (stageC/dossiers batch19), 2026-10-10
+C0491 FX:EC3 digital-twin sim-to-real transfer of a SAC path-following controller; safety only as motivation, no safety mechanism or metric

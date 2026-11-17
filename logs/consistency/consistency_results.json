@@ -1,0 +1,16 @@
+{
+ "screen_sampled": 564,
+ "screen_decided": 559,
+ "screen_frame": 2818,
+ "screen_agree_fwd_pct": 51.5,
+ "screen_kappa_fwd": 0.16,
+ "screen_agree_4_pct": 31.8,
+ "screen_kappa_4": 0.08,
+ "screen_disagreements": 271,
+ "screen_undecided": 5,
+ "rec_rows": 276,
+ "rec_filled": 276,
+ "rec_changed": 0,
+ "rec_upheld_exclusions": 251,
+ "rec_upheld_forwarded": 25
+}

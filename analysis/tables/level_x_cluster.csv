@@ -1,0 +1,8 @@
+,L0,L1,L2,L3,L4,L5,row sum
+"M0 No mechanism (benchmark, representation, assurance case)",1,4,0,0,0,0,5
+M1 Objective shaping,8,221,87,107,10,6,439
+M2 Run-time intervention,3,49,4,203,49,11,319
+M3 Control-theoretic certificates,1,24,21,101,63,10,220
+M4 Formal methods,0,4,2,8,17,1,32
+M5 Robustness and uncertainty,3,73,18,45,27,4,170
+M6 Learning-paradigm extensions,4,108,44,97,21,13,287

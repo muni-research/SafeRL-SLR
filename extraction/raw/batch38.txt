@@ -1,0 +1,158 @@
+@@ C0879
+country: China
+problem: Adaptive heuristic D3QN (Adapt-HD3QN) motion planning under occlusion-induced perception uncertainty: search-based heuristic reward terms speed training, and forward reachable sets of the ego and potential hidden vehicles define danger zones in the state/reward.
+task: MP; INT
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: D3QN
+method_name: Adapt-HD3QN
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: heuristic progress, collision penalty and reachable-set danger-zone terms
+safety_cost: NA
+constraints: NA
+mech: A; J; N
+mech_primary: N
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate over 10,000 CARLA episodes compared with D3QN and other RL planners; reachable sets enter the reward rather than filtering actions.
+uncertainty: PO; SENS
+uncertainty_method: forward reachable sets of potential occluded vehicles
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SUCC; TIME; COMF
+baselines: DQN, DDQN, D3QN, PPO
+baseline_types: NSRL; ABL
+results: Adapt-HD3QN converged faster and achieved lower collision and higher success rates than DQN-family and PPO baselines in occluded intersection scenarios.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: PERC; PLAN
+limitations: R: simulation only, limited scenarios.
+qa: 2 2 2 2 2 2 2 2 1 1 1 2
+qa_note: Q9 limited scenario variation; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0881
+country: China
+problem: Priority sequential inference PPO (PSIPPO) for multi-agent highway on-ramp merging: agents act in TTC-based priority order and reason about higher-priority agents' future actions, with a priority-based safety supervisor.
+task: MERGE; COOP
+scenario: RAMP; HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: MAPPO
+method_name: PSIPPO
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, collision penalty, headway and merging terms
+safety_cost: NA
+constraints: NA
+mech: W; O
+mech_primary: W
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: CORRECT
+control: IDM
+safety_claim: EMP; RT
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The priority-based safety supervisor uses future reasoning to replace risky actions at run time; collision rates across densities compared with MARL baselines in highway-env.
+uncertainty: INTENT; STOCH
+uncertainty_method: HV behaviour, varied densities
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; REW; TTC
+baselines: MAPPO, MADQN, MAA2C, MAACKTR
+baseline_types: NSRL
+results: PSIPPO achieved higher rewards and average speed with considerably lower collision rates than MARL baselines across easy, medium and hard traffic densities.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC; SUPERV
+limitations: R: highway-env only.
+qa: 2 2 2 2 2 2 2 1 2 1 1 1
+qa_note: Q8 density only; Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0884
+country: China
+problem: Receding-horizon multi-kernel RL motion planning (RMRL-MP) for vehicles with unknown nonlinear dynamics: kernel-based actor-critic learning online inside a receding-horizon optimisation that encodes time-varying obstacle and road constraints through barrier functions, with adaptive horizons.
+task: MP; CA; OVT
+scenario: HWY; RURAL
+traffic: SCRIPTED
+rl_paradigm: MB
+agents: SA
+n_agents: 1
+algorithm: OTHER:receding-horizon multi-kernel ADP actor-critic
+method_name: RMRL-MP
+network: RBF
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: tracking and comfort cost with barrier-function penalties
+safety_cost: barrier-function constraint terms
+constraints: time-varying obstacle and road-boundary constraints via barrier functions
+mech: F; I
+mech_primary: F
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: EMBED
+control: MPC
+safety_claim: EMP; CEXP
+guarantee_assumptions: NA
+safety_level: L2
+level_note: Barrier-function constraints are embedded in the receding-horizon RL objective rather than enforced as hard filters; errors, minimum distances and TTC compared with MPCC, CBF-MPC and PPO in CarSim and on a real vehicle.
+uncertainty: MODEL; SENS
+uncertainty_method: unknown nonlinear dynamics learned online
+simulator: CARSIM
+dataset: NONE
+vehicle_model: DYN; REAL
+metrics: DEV; TTC; OFFROAD; COMF; COMP
+baselines: MPCC, CBF-MPC, PPO
+baseline_types: CLASS; NSRL
+results: RMRL-MP matched CBF-MPC in lateral and heading errors, performed best on other indices and reduced computation; real-vehicle experiments on a Hongqi E-HS3 confirmed feasibility.
+generalization: GEOM; S2R
+validation_tier: CLOSED
+real_world: real-vehicle experiments on a Hongqi E-HS3 intelligent vehicle
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NA
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; CTRL
+limitations: R: limited scenario variety.
+qa: 2 2 2 2 2 2 2 1 1 1 1 2
+qa_note: Q8 model uncertainty only; Q9 limited; Q10 deterministic online learning, partial setup; Q11 CarSim, no code

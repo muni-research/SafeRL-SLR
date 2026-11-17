@@ -1,0 +1,350 @@
+study_id,venue,issn,quartile,match
+A005,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+A007,Expert Systems with Applications,0957-4174,Q1,issn
+A019,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+A035,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+A036,Actuators,2076-0825,Q2,issn
+A037,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+A046,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+A052,IEEE Transactions on Neural Networks and Learning Systems,2162-237X;2162-2388,Q1,issn
+A053,IEEE Transactions on Consumer Electronics,0098-3063;1558-4127,Q1,issn
+A059,IEEE Access,2169-3536,Q2,issn
+A072,Knowledge-Based Systems,0950-7051,Q1,issn
+A074,IEEE Transactions on Industrial Electronics,0278-0046;1557-9948,Q1,issn
+A086,Sensors,1424-8220,Q2,issn
+A087,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+A089,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+A095,Sensors,1424-8220,Q2,issn
+A096,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+A099,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+A105,IEEE Transactions on Cognitive and Developmental Systems,2379-8920;2379-8939,Q1,issn
+A109,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+A112,Automotive Innovation,2096-4250;2522-8765,Q1,issn
+A129,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+A132,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+A135,"International Journal of Control, Automation and Systems",1598-6446;2005-4092,Q2,issn
+A140,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0096,IEEE Access,2169-3536,Q2,issn
+B0115,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B0170,IEEE Transactions on Cybernetics,2168-2267;2168-2275,Q1,issn
+B0199,IEEE Access,2169-3536,Q2,issn
+B0202,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0213,Applied Sciences,2076-3417,Q2,issn
+B0225,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B0226,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0230,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B0237,Robotics,2218-6581,Q2,issn
+B0240,IEEE Access,2169-3536,Q2,issn
+B0246,IEEE Access,2169-3536,Q2,issn
+B0257,Journal of Systems Architecture,1383-7621,Q1,issn
+B0284,Journal of the Franklin Institute,0016-0032,Q1,issn
+B0321,Chinese Journal of Mechanical Engineering,2192-8258,Q1,issn
+B0325,Energies,1996-1073,Q3,issn
+B0327,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0334,IEEE Transactions on Cybernetics,2168-2267;2168-2275,Q1,issn
+B0337,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+B0339,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B0373,Engineering,2095-8099,Q1,issn
+B0385,Journal of Applied Automation Technologies,3105-5524,unranked,
+B0402,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B0403,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0429,Artificial Intelligence,0004-3702,Q2,issn
+B0431,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B0432,Sensors,1424-8220,Q2,issn
+B0433,International Journal of Environmental Research and Public Health,1660-4601,unranked,
+B0438,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B0445,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0448,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0485,IEEE/ASME transactions on mechatronics,1083-4435;1941-014X,Q1,issn
+B0490,Sensors,1424-8220,Q2,issn
+B0507,Advanced Engineering Informatics,1474-0346,Q1,issn
+B0514,IEEE Transactions on Mobile Computing,1536-1233;1558-0660;2161-9875,Q1,issn
+B0522,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+B0524,Sensors,1424-8220,Q2,issn
+B0529,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0533,Electronics,2079-9292,Q2,issn
+B0545,Sensors,1424-8220,Q2,issn
+B0557,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0575,IEEE Transactions on Neural Networks and Learning Systems,2162-237X;2162-2388,Q1,issn
+B0577,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B0623,IEEE Transactions on Cybernetics,2168-2267;2168-2275,Q1,issn
+B0631,IEEE/CAA Journal of Automatica Sinica,2329-9266;2329-9274,Q1,issn
+B0634,International Journal of Engineering,1728-1431;1735-9244,Q2,issn
+B0640,Alexandria Engineering Journal,1110-0168,Q1,issn
+B0641,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+B0653,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B0656,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B0657,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B0663,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0664,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+B0668,Expert Systems with Applications,0957-4174,Q1,issn
+B0678,Accident Analysis & Prevention,0001-4575,Q1,issn
+B0700,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0705,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B0711,Electronics,2079-9292,Q2,issn
+B0718,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0750,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0754,Accident Analysis & Prevention,0001-4575,Q1,issn
+B0757,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+B0776,Electronics,2079-9292,Q2,issn
+B0793,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0845,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B0847,Electronics,2079-9292,Q2,issn
+B0878,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0883,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B0892,Expert Systems with Applications,0957-4174,Q1,issn
+B0893,IEEE Transactions on Parallel and Distributed Systems,1045-9219;1558-2183;2161-9883,Q1,issn
+B0894,IEEE Sensors Journal,1530-437X;1558-1748;2379-9153,Q1,issn
+B0896,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+B0898,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0902,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0916,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+B0930,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0935,Applied Sciences,2076-3417,Q2,issn
+B0952,Applied Sciences,2076-3417,Q2,issn
+B0972,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B0974,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B0976,Machines,2075-1702,Q2,issn
+B0981,IEEE Access,2169-3536,Q2,issn
+B0987,Applied Sciences,2076-3417,Q2,issn
+B1021,Accident Analysis & Prevention,0001-4575,Q1,issn
+B1035,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1041,Results in Engineering,2590-1230,Q1,issn
+B1046,IEEE Transactions on Pattern Analysis and Machine Intelligence,0162-8828;2160-9292;1939-3539,Q1,issn
+B1071,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1084,IEEE Transactions on Systems Man and Cybernetics Systems,2168-2216;2168-2232,Q1,issn
+B1093,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1116,Electronics,2079-9292,Q2,issn
+B1120,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B1137,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1146,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B1149,EAI Endorsed Transactions on Internet of Things,2414-1399,unranked,
+B1157,Control Engineering Practice,0967-0661,Q1,issn
+B1158,Research Digest on Engineering Management and Social Innovations,3117-4426,unranked,
+B1163,Nonlinear Dynamics,0924-090X;1573-269X,Q1,issn
+B1167,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1168,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1169,Machines,2075-1702,Q2,issn
+B1171,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1175,IEEE Access,2169-3536,Q2,issn
+B1234,Vehicular Communications,2214-2096,Q1,issn
+B1256,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1261,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1280,Sensors,1424-8220,Q2,issn
+B1289,Sensors,1424-8220,Q2,issn
+B1291,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1292,Mathematics,2227-7390,Q1,issn
+B1293,ICT Express,2405-9595,Q2,issn
+B1303,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B1312,IEEE Transactions on Neural Networks and Learning Systems,2162-237X;2162-2388,Q1,issn
+B1321,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1326,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1333,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1336,Applied Sciences,2076-3417,Q2,issn
+B1342,Journal of Applied Automation Technologies,3105-5524,unranked,
+B1349,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1350,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1356,World Electric Vehicle Journal,2032-6653,Q2,issn
+B1360,IEEE Transactions on Pattern Analysis and Machine Intelligence,0162-8828;2160-9292;1939-3539,Q1,issn
+B1369,IEEE Open Journal of Intelligent Transportation Systems,2687-7813,Q2,issn
+B1370,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1378,Energy,0360-5442,Q1,issn
+B1398,Cognitive Robotics,2667-2413,unranked,
+B1407,IEEE Access,2169-3536,Q2,issn
+B1408,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1409,Engineering,2095-8099,Q1,issn
+B1411,Automotive Innovation,2096-4250;2522-8765,Q1,issn
+B1416,Energy,0360-5442,Q1,issn
+B1418,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1427,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+B1432,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1435,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1437,Accident Analysis & Prevention,0001-4575,Q1,issn
+B1445,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+B1448,IEEE Access,2169-3536,Q2,issn
+B1450,IEEE Transactions on Industrial Informatics,1551-3203;1941-0050,Q1,issn
+B1455,Field Robotics,2771-3989,unranked,
+B1458,Communications in Transportation Research,2772-4247,Q1,issn
+B1459,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1474,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1487,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1490,Machines,2075-1702,Q2,issn
+B1492,IEEE Transactions on Artificial Intelligence,2691-4581,unranked,
+B1500,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1504,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1508,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1512,IEEE Transactions on Human-Machine Systems,2168-2291;2168-2305,Q2,issn
+B1518,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1519,Advanced Engineering Informatics,1474-0346,Q1,issn
+B1525,Sensors,1424-8220,Q2,issn
+B1528,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1534,Symmetry,2073-8994,Q2,issn
+B1536,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1538,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+B1543,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+B1544,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1563,Electronics,2079-9292,Q2,issn
+B1566,Knowledge-Based Systems,0950-7051,Q1,issn
+B1568,Journal of Intelligent Transportation Systems,1547-2450;1547-2442,Q2,issn
+B1574,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1575,IEEE Access,2169-3536,Q2,issn
+B1577,Physica A Statistical Mechanics and its Applications,0378-4371,Q2,issn
+B1583,Advanced Engineering Informatics,1474-0346,Q1,issn
+B1594,International Journal of Advanced Computer Science and Applications,2156-5570;2158-107X,Q3,issn
+B1640,Displays,0141-9382,Q2,issn
+B1642,Computer-Aided Civil and Infrastructure Engineering,1093-9687,Q1,issn
+B1645,Transportation Research Record Journal of the Transportation Research Board,0361-1981;2169-4052,Q3,issn
+B1651,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1658,Scientific Reports,2045-2322,Q1,issn
+B1659,International Journal of Robust and Nonlinear Control,1049-8923;1099-1239,Q1,issn
+B1667,Vehicles,2624-8921,Q2,issn
+B1676,IEEE Open Journal of Intelligent Transportation Systems,2687-7813,Q2,issn
+B1677,Scientific Reports,2045-2322,Q1,issn
+B1686,Applied Soft Computing,1568-4946,Q1,issn
+B1687,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1689,Advanced Engineering Informatics,1474-0346,Q1,issn
+B1697,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B1712,Green Energy and Intelligent Transportation,2773-1537,Q1,issn
+B1717,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1738,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+B1742,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1745,Transportation Research Part C Emerging Technologies,0968-090X,Q1,issn
+B1747,Journal of Intelligent and Connected Vehicles,2399-9802,Q1,issn
+B1761,Neurocomputing,0925-2312,Q1,issn
+B1764,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1765,Journal of Intelligent and Connected Vehicles,2399-9802,Q1,issn
+B1767,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1770,IEEE Transactions on Automation Science and Engineering,1545-5955;1558-3783,Q1,issn
+B1773,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1777,ISA Transactions,0019-0578,Q1,issn
+B1778,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1780,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+B1786,Expert Systems with Applications,0957-4174,Q1,issn
+B1787,Advanced Engineering Informatics,1474-0346,Q1,issn
+B1788,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1793,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+B1796,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1797,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+B1798,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+B1799,World Electric Vehicle Journal,2032-6653,Q2,issn
+B1804,Engineering Applications of Artificial Intelligence,0952-1976,Q1,issn
+B1806,IEEE Internet of Things Journal,2327-4662,Q1,issn
+B1808,Electronics,2079-9292,Q2,issn
+B1812,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+B1816,IEEE Transactions on Neural Networks and Learning Systems,2162-237X;2162-2388,Q1,issn
+B1818,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+C0022,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0051,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C0061,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0084,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0126,Applied Sciences,2076-3417,Q2,issn
+C0155,Electronics,2079-9292,Q2,issn
+C0161,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0194,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0196,IET Control Theory and Applications,1751-8644;1751-8652,Q3,issn
+C0197,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0199,Energies,1996-1073,Q3,issn
+C0217,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0219,"Emerging Technology in Computing, Communication and Electronics (ETCCE)",,unranked,
+C0248,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0252,IEEE Sensors Journal,1530-437X;1558-1748;2379-9153,Q1,issn
+C0274,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0281,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0282,Electronics,2079-9292,Q2,issn
+C0296,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0299,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+C0315,IEEE Transactions on Cybernetics,2168-2267;2168-2275,Q1,issn
+C0316,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C0321,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C0325,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0328,IEEE Transactions on Pattern Analysis and Machine Intelligence,0162-8828;2160-9292;1939-3539,Q1,issn
+C0338,Advances in Mechanical Engineering,1687-8132;1687-8140,Q2,issn
+C0341,Electronics,2079-9292,Q2,issn
+C0343,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0352,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C0366,Sustainability,2071-1050,Q2,issn
+C0377,Sensors,1424-8220,Q2,issn
+C0381,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0387,Complex & Intelligent Systems,2199-4536;2198-6053,Q2,issn
+C0419,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0438,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0442,IEEE Transactions on Fuzzy Systems,1063-6706;1941-0034,Q1,issn
+C0451,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0457,EAI/Springer Innovations in Communication and Computing,2522-8595;2522-8609,unranked,
+C0478,Frontiers in Future Transportation,2673-5210,Q3,issn
+C0480,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0481,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0482,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0493,Mathematics,2227-7390,Q1,issn
+C0504,Transportmetrica A Transport Science,2324-9935;2324-9943,Q2,issn
+C0517,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0518,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+C0521,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0524,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0528,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0530,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0557,PLoS ONE,1932-6203,Q2,issn
+C0620,Sensors,1424-8220,Q2,issn
+C0621,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0623,IEEE Access,2169-3536,Q2,issn
+C0628,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C0634,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0643,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0647,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+C0672,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0673,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0692,Machines,2075-1702,Q2,issn
+C0714,IEEE Transactions on Automation Science and Engineering,1545-5955;1558-3783,Q1,issn
+C0720,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+C0722,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0727,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0731,IEEE Access,2169-3536,Q2,issn
+C0734,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0740,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+C0743,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0744,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0748,IEEE Transactions on Industrial Electronics,0278-0046;1557-9948,Q1,issn
+C0765,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+C0778,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0783,IEEE Sensors Journal,1530-437X;1558-1748;2379-9153,Q1,issn
+C0796,IEEE Access,2169-3536,Q2,issn
+C0799,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0809,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0820,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0822,IEEE Transactions on Industrial Electronics,0278-0046;1557-9948,Q1,issn
+C0826,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+C0849,Chinese Journal of Mechanical Engineering,2192-8258,Q1,issn
+C0851,IEEE Transactions on Transportation Electrification,2332-7782;2372-2088,Q1,issn
+C0866,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+C0879,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0881,IEEE Sensors Journal,1530-437X;1558-1748;2379-9153,Q1,issn
+C0884,IEEE Transactions on Industrial Electronics,0278-0046;1557-9948,Q1,issn
+C0894,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0902,PLoS ONE,1932-6203,Q2,issn
+C0903,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0906,IET Radar Sonar & Navigation,1751-8784;1751-8792,Q4,issn
+C0915,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0927,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+C0938,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0939,Vehicles,2624-8921,Q2,issn
+C0961,Electronics,2079-9292,Q2,issn
+C0969,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C0970,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C0981,Applied Sciences,2076-3417,Q2,issn
+C0992,IEEE Transactions on Automation Science and Engineering,1545-5955;1558-3783,Q1,issn
+C0997,IET Intelligent Transport Systems,1751-956X;1751-9578,Q3,issn
+C0998,Computation,2079-3197,Q2,issn
+C0999,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C1006,IEEE Transactions on Intelligent Vehicles,2379-8904;2379-8858,unranked,
+C1009,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C1020,IEEE Internet of Things Journal,2327-4662;2372-2541,Q1,issn
+C1024,IEEE Robotics and Automation Letters,2377-3766;2377-3774,Q2,issn
+C1025,Arabian Journal for Science and Engineering,2193-567X;2191-4281,Q2,issn
+C1027,IEEE Access,2169-3536,Q2,issn
+C1033,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn
+C1038,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C1039,Applied Sciences,2076-3417,Q2,issn
+C1042,IEEE Transactions on Intelligent Transportation Systems,1524-9050;1558-0016,Q1,issn
+C1043,IEEE Open Journal of Vehicular Technology,2644-1330,Q1,issn
+C1049,IEEE Transactions on Systems Man and Cybernetics Systems,2168-2216;2168-2232,Q1,issn
+C1051,IEEE Transactions on Vehicular Technology,0018-9545;1939-9359,Q1,issn

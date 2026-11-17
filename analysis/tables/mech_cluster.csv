@@ -1,0 +1,8 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+M1 Objective shaping,M1 Objective shaping,439,62.5,
+M2 Run-time intervention,M2 Run-time intervention,319,45.4,
+M6 Learning-paradigm extensions,M6 Learning-paradigm extensions,287,40.9,
+M3 Control-theoretic certificates,M3 Control-theoretic certificates,220,31.3,
+M5 Robustness and uncertainty,M5 Robustness and uncertainty,170,24.2,
+M4 Formal methods,M4 Formal methods,32,4.6,
+"M0 No mechanism (benchmark, representation, assurance case)","M0 No mechanism (benchmark, representation, assurance case)",5,0.7,B0272;B1178;B1443;C0328;C0550

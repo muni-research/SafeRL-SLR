@@ -1,0 +1,15 @@
+Records retrieved (all sources): 2551
+Unique after de-duplication: 1624  (duplicates removed: 927)
+Unique records already in Stage A: 53
+Recall vs Stage A Include: 36/38 = 95%
+Recall vs Stage A Include+Unsure: 41/50 = 82%
+Missed Stage A Include/Unsure records:
+  A060 [Unsure] CVaR-Constrained Policy Optimization for Safe Reinforcement Learning
+  A075 [Unsure] NLBAC: A neural ODE-based algorithm for state-wise stable and safe reinforcement learning
+  A096 [Include] Towards Robust Decision-Making for Autonomous Driving on Highway
+  A112 [Unsure] Feasible Reinforcement Learning for Safety Ensurance with Stabilized Training
+  A116 [Unsure] Incentivizing Safer Actions in Policy Optimization for Constrained Reinforcement Learning
+  A158 [Unsure] Gradient Shaping for Multi-Constraint Safe Reinforcement Learning
+  A174 [Include] Safe CoR: A Dual-Expert Approach to Integrating Imitation Learning and Safe Reinforcement Learning U
+  A192 [Unsure] Certifying Safety in Reinforcement Learning under Adversarial Perturbation Attacks
+  A211 [Unsure] Velodyne LiDAR-Guided Safe Reinforcement Learning for Autonomous Navigation Quality

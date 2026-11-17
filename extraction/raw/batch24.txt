@@ -1,0 +1,691 @@
+# Phase 4 extraction, batch 24 (Elsevier/Wiley/MDPI PDFs, retrieval round 2026-10-09), codebook v1.5a, extracted 2026-10-09
+# Source: extraction/packets/batch24.txt plus targeted full-text lookups (scripts/13b_lookup.py)
+
+@@ B1697
+country: Canada
+problem: Cooperative multi-agent RL (CoopSECRM2D) for on-ramp merging of CAVs that extends a safe, efficient and comfortable car-following model with acceleration safety constraints to two-dimensional merging, studying cooperation levels and scan ranges.
+task: MERGE; COOP; CF
+scenario: RAMP
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: MADDPG
+method_name: CoopSECRM2D
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: efficiency, comfort and cooperation-weighted terms
+safety_cost: NA
+constraints: safe acceleration bounds derived from stopping-distance constraint
+mech: E; O; A
+mech_primary: E
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: leader braking and reaction-time assumptions of the safe-speed bound
+safety_level: L3
+level_note: Acceleration is bounded by a safety constraint at execution; evaluated in SUMO including a calibrated real freeway network.
+uncertainty: STOCH
+uncertainty_method: varied traffic demand
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: TIME; THRU; JERK; COMF; DIST
+baselines: SUMO default merging, non-cooperative RL
+baseline_types: CLASS; ABL
+results: The cooperative model outperformed baselines in longitudinal efficiency, comfort and mandatory lane changing and improved bottleneck outflow, with a cooperation factor of 1 performing best.
+generalization: DENS; GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC; CTRL; SUPERV
+limitations: A: safety reported indirectly; full CAV connectivity.
+qa: 2 2 2 2 1 1 2 1 2 2 0 1
+qa_note: Q5 limited RL baselines; Q6 no collision or TTC statistics; Q8 demand variation only; Q11 no code; Q12 SUMO only
+
+@@ B1712
+country: China
+problem: Lagrangian-constrained SAC with per-wheel adaptive safety cost critics (LagCriticSAC) for energy-efficient torque distribution in distributed-drive electric vehicles under longitudinal slip-ratio constraints.
+task: CF
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:LagCriticSAC (Lagrangian SAC with per-wheel cost critics)
+method_name: LagCriticSAC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: energy consumption and speed tracking
+safety_cost: per-wheel slip-ratio violation cost
+constraints: individual tyre slip ratios below limits via learnable Lagrange multipliers
+mech: B; C
+mech_primary: B
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: CEXP; EMP
+guarantee_assumptions: cost critics accurately predict long-term violations
+safety_level: L2
+level_note: Constraint enforced by Lagrangian training with cost critics; slip-ratio violations measured on driving cycles.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: ENERGY; VIOL; JERK; DEV
+baselines: SAC, MPC, dynamic programming
+baseline_types: NSRL; CLASS
+results: LagCriticSAC beat SAC and MPC in energy efficiency by 6.2% and 12.4% while keeping per-wheel slip ratios within limits.
+generalization: DYN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: N
+stack: CTRL
+limitations: A: energy-oriented longitudinal problem; stability safety only.
+qa: 2 2 2 2 2 2 2 0 1 2 0 1
+qa_note: Q8 no uncertainty; Q9 driving cycles only; Q11 no code; Q12 vehicle-model simulation without traffic
+
+@@ B1717
+country: China
+problem: Ethical-integrated RL for merging in which risk to surrounding road users is evaluated by a composite cost combining Bayesian, equality and maximin principles, with IRL-inspired context-dependent ethical weights inferred from data and Q-learning.
+task: MERGE
+scenario: RAMP
+traffic: REPLAY
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: QL
+method_name: Ethical-integrated RL
+network: NR
+obs_type: VEC
+action_type: DISC
+action_level: TRAJ
+reward: parameterised ethical risk cost with efficiency and comfort
+safety_cost: NA
+constraints: NA
+mech: L; V; A
+mech_primary: L
+mech_stage: TRAIN
+rl_output: TRAJ
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: homogeneous risk tolerance among vehicles
+safety_level: L1
+level_note: Ethical risk principles shape the objective; risk distribution among vehicles measured in NGSIM-initialised scenarios.
+uncertainty: STOCH
+uncertainty_method: initial states sampled from NGSIM distributions
+simulator: CUSTOM
+dataset: NGSIM
+vehicle_model: KIN
+metrics: RISK; TTC; COMF; TIME
+baselines: safety-only and efficiency-only RL strategies
+baseline_types: ABL
+results: The ethical strategy distributed risk more fairly among surrounding vehicles while keeping overall risk and efficiency comparable to safety-focused baselines.
+generalization: NONE
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: DEC; PLAN
+limitations: A: vehicles treated as homogeneous; no vulnerable road users.
+qa: 2 2 1 2 1 2 2 1 0 1 1 1
+qa_note: Q3 safety only in objective; Q5 ablation baselines only; Q8 sampled initial states only; Q9 no generalisation; Q10 partial settings; Q11 public data only; Q12 NGSIM-initialised merge
+
+@@ B1738
+country: Iran
+problem: Integrated hybrid RL-MPC framework for highways in which second-order Q-learning drives data-driven MPC ramp metering at the macroscopic level and, at the microscopic level, a safety selector hands on-ramp merging control from an RL policy to nonlinear MPC whenever collision risk arises.
+task: MERGE; TD
+scenario: RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: QL; SAC
+method_name: Integrated RLMPC (ramp metering + merging)
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: MIXED
+reward: flow, merge time and comfort terms
+safety_cost: NA
+constraints: MPC collision-avoidance and actuator constraints when risk detected
+mech: S; I
+mech_primary: S
+mech_stage: EXEC
+rl_output: ACT
+safety_integration: CORRECT
+control: MPC
+safety_claim: RT; EMP
+guarantee_assumptions: collision-risk detection reliable; MPC feasibility
+safety_level: L3
+level_note: Run-time switching from RL to nonlinear MPC on collision risk; collision events eliminated in SUMO merging tests.
+uncertainty: STOCH
+uncertainty_method: traffic demand scenarios
+simulator: SUMO; OTHER:METANET
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TIME; THRU; JERK; COMF; VIOL
+baselines: ALINEA, PI-ALINEA, MPC, deep RL, no ramp metering
+baseline_types: CLASS; NSRL
+results: The framework cut merge time by 34.5% under slow traffic relative to no ramp metering, eliminated collisions and improved comfort, while the RLMPC ramp meter outperformed ALINEA, MPC and deep RL.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: Y
+stack: PLAN; CTRL; RTA
+limitations: A: benchmark three-segment freeway; single ego merging vehicle.
+qa: 2 2 2 2 2 2 2 1 1 1 0 1
+qa_note: Q8 demand scenarios only; Q9 traffic conditions only; Q10 seeds not reported; Q11 no code; Q12 benchmark freeway
+
+@@ B1745
+country: China
+problem: LLM-guided DRL (LGDRL) for lane-change decisions in which an LLM driving expert guides learning through an expert-policy-constrained actor-critic and intermittent LLM interventions, so the trained agent no longer needs the LLM at deployment.
+task: LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: LLM+RL
+agents: SA
+n_agents: 1
+algorithm: OTHER:expert-policy-constrained SAC (LLM-guided)
+method_name: LGDRL
+network: MLP
+obs_type: VEC; LANG
+action_type: DISC
+action_level: BEHAV
+reward: reaching target, speed and collision terms
+safety_cost: NA
+constraints: divergence from LLM expert policy bounded via Lagrangian
+mech: X; B; S
+mech_primary: X
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: CORRECT
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: LLM expert gives safe guidance
+safety_level: L1
+level_note: LLM guidance and intervention act only during training; deployed policy runs without the expert and is evaluated empirically.
+uncertainty: STOCH
+uncertainty_method: random initial positions and speeds
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; TTC; INTERV; TIME
+baselines: SAC, other LLM- or expert-guided RL methods
+baseline_types: NSRL; ABL
+results: LGDRL improved success and reduced collisions relative to DRL baselines and kept performance without LLM guidance at test time.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: A: LLM inference cost; single highway scenario.
+qa: 2 2 2 2 2 2 2 1 0 2 0 1
+qa_note: Q8 random initialisation only; Q9 no generalisation; Q11 no code; Q12 highway-env
+
+@@ B1761
+country: China
+problem: Physics-informed residual RL (PR-EPK) for on-ramp merging in which an MPC prior gives feasible baseline controls, a Lagrangian-constrained PPO learns bounded residuals with task and safety critics, and a risk-adaptive hybrid execution regulates residual authority online.
+task: MERGE
+scenario: RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO-Lag
+method_name: PR-EPK
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: task reward with safety reward and residual smoothness terms
+safety_cost: collision-risk cost with threshold
+constraints: expected cost below threshold via Lagrangian; bounded residual authority
+mech: B; C; I; E
+mech_primary: B
+mech_stage: BOTH
+rl_output: RES
+safety_integration: CORRECT
+control: MPC
+safety_claim: CEXP; EMP
+guarantee_assumptions: MPC prior dynamically feasible; risk-adaptive authority is a soft heuristic
+safety_level: L3
+level_note: Run-time risk-adaptive regulation of residual authority over the MPC prior plus Lagrangian training; authors call the execution mechanism a soft heuristic.
+uncertainty: STOCH
+uncertainty_method: varying traffic densities
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; TIME; TTC; COMF
+baselines: PPO, SAC, PPO-Lagrangian, MPC
+baseline_types: NSRL; SRL; CLASS
+results: PR-EPK converged faster and more stably and achieved higher success, lower collision rates and shorter merge times than representative baselines across densities.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; CTRL; SUPERV
+limitations: A: soft safety heuristic; simulation only.
+qa: 2 2 2 2 2 2 2 1 1 2 0 1
+qa_note: Q8 density only; Q9 densities only; Q11 no code; Q12 highway-env merge
+
+@@ B1777
+country: China
+problem: Resilient path tracking for cloud-based intelligent connected vehicles under hybrid cyber attacks, using reachable/controllable-set analysis and a robust CLF-CBF safety controller with attack-tightened constraints embedded into RL through expert guidance, reward shaping and online action projection.
+task: LK
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: Safety-guided RL with robust CLBF projection
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: tracking error with CLBF-based safety shaping
+safety_cost: NA
+constraints: attack-tightened CLF and CBF constraints on lateral error
+mech: H; J; K; E
+mech_primary: H
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: QP
+safety_claim: FORMAL; ROB; EMP
+guarantee_assumptions: attack bounds on timing, frequency and amplitude known; linearised lateral dynamics
+safety_level: L4
+level_note: Robust CLBF projection with attack-tightened constraints gives guarantees under bounded attacks; validated in simulation and cloud HIL.
+uncertainty: ADV; DIST
+uncertainty_method: unified hybrid attack model (DoS, deception, delay) with bounds
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; OFFROAD; INTERV
+baselines: RL without safety guidance, CLBF controller alone
+baseline_types: NSRL; CLASS; ABL
+results: The safety-guided RL kept lateral error inside safe bounds and avoided lane departure under hybrid attacks where unguided RL failed, in simulation and cloud HIL experiments.
+generalization: DIST
+validation_tier: HIL
+real_world: cloud-based hardware-in-the-loop with NVIDIA Xavier (no vehicle)
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL; SUPERV
+limitations: A: lateral tracking only; attack bounds must be known.
+qa: 2 2 2 2 2 1 2 2 2 1 0 2
+qa_note: Q6 lane departure and error only; Q10 seeds not reported; Q11 no code
+
+@@ B1786
+country: China
+problem: RoC-GRL: graph RL for multi-CAV cooperative control at mixed-traffic unsignalised intersections using a local right-of-way yielding graph, a global V2V communication graph and a centralised TD3 with right-of-way constraints and action masking for safe continuous exploration.
+task: INT; COOP
+scenario: INTX
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-CEN
+n_agents: NR
+algorithm: TD3
+method_name: RoC-GRL
+network: GNN; ATT
+obs_type: GRAPH
+action_type: CONT
+action_level: CTRL
+reward: global efficiency, comfort and collision terms
+safety_cost: right-of-way violation cost
+constraints: behavioural exploration boundary from right-of-way constraints
+mech: D; O; W
+mech_primary: D
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: MASK
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: right-of-way rules and V2V communication available
+safety_level: L3
+level_note: Exploration boundary masks unsafe joint actions in training and execution; evaluated in CARLA mixed-traffic intersections.
+uncertainty: INTENT; STOCH
+uncertainty_method: human-driven vehicles with varied penetration
+simulator: CARLA
+dataset: NONE
+vehicle_model: DYN
+metrics: COLL; SUCC; TTC; COMF; TIME
+baselines: PPO, DDPG, TD3 and graph-RL variants
+baseline_types: NSRL; ABL
+results: RoC-GRL achieved higher success and lower collision rates than baseline MARL methods at mixed-traffic unsignalised intersections.
+generalization: DENS; AGENTS
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: A: requires RSU and V2V; single intersection.
+qa: 2 2 2 2 2 2 2 2 2 2 0 1
+qa_note: Q11 no code; Q12 single CARLA intersection
+
+@@ B1787
+country: South Korea
+problem: RSMIX: communication-assisted risk-screened mixing value decomposition for cooperative lane changing that learns separate reward and cost values and reuses the global cost-to-go at execution to screen joint intentions against a risk-feasible set.
+task: LC; COOP
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: 4
+algorithm: OTHER:QMIX
+method_name: RSMIX
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: team efficiency and comfort
+safety_cost: victim-aware marginal impact cost on target-lane followers
+constraints: execution-time risk-feasible set over joint intentions under a risk budget
+mech: C; D; O; B
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PID
+safety_claim: EMP; STAT
+guarantee_assumptions: learned cost-to-go accurate; reliable communication
+safety_level: L3
+level_note: Execution-time screening removes joint intentions exceeding the risk budget; eight seeds with confidence intervals.
+uncertainty: STOCH
+uncertainty_method: dense background traffic
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; VIOL; TTC; THRU; INTERV
+baselines: QMIX, MAPPO, constrained MARL and shielding baselines
+baseline_types: NSRL; SRL; ABL
+results: RSMIX reduced collisions and risk-budget violations relative to MARL and safe-MARL baselines, with ablations attributing gains to execution-time joint screening.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 8
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; SUPERV
+limitations: A: four controlled CAVs; rare high-risk intentions may still pass.
+qa: 2 2 2 2 2 2 2 1 1 2 0 1
+qa_note: Q8 traffic stochasticity only; Q9 densities only; Q11 no code; Q12 highway-env
+
+@@ B1788
+country: Portugal
+problem: Safe racing trajectory learning in which PPO optimises deviations from the track centreline while an input-to-state-safe CBF filter, a feasibility-correction step and a CLF tracking controller enforce track limits during training and deployment.
+task: RACE
+scenario: TRACK
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: PPO with ISSf-CBF filter and CLF tracking
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: progress and lap-time terms
+safety_cost: NA
+constraints: path-dependent CBF track limits; feasibility correction
+mech: F; G; E; H
+mech_primary: F
+mech_stage: BOTH
+rl_output: TRAJ
+safety_integration: FILTER
+control: QP
+safety_claim: FORMAL; ROB; EMP
+guarantee_assumptions: unicycle model; input-to-state safety margin for bounded disturbances; QP feasibility
+safety_level: L4
+level_note: ISSf-CBF filter certifies track-limit safety under bounded disturbance in training and deployment; simulation of a 1:10 unicycle model only.
+uncertainty: DIST
+uncertainty_method: bounded disturbances in ISSf formulation
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: TIME; VIOL; INTERV
+baselines: centreline tracking, PPO without filter
+baseline_types: CLASS; ABL
+results: The filtered PPO policy improved lap times over centreline tracking without track-limit violations, while unfiltered PPO violated constraints.
+generalization: GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; CTRL; SUPERV
+limitations: A: unicycle model; no physical test or opponents.
+qa: 2 2 2 2 1 2 2 2 1 2 0 0
+qa_note: Q5 limited baselines; Q9 few tracks; Q11 no code; Q12 unicycle simulation only
+
+@@ B1799
+country: China
+problem: SBF-DRL multi-vehicle safety framework in which each AV has an independent runtime-assurance module with a safety barrier function and a DDQN meta-control policy switches between learned and safe controllers.
+task: LC; CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: MA-DEC
+n_agents: NR
+algorithm: DDQN
+method_name: SBF-DRL
+network: ATT; MLP
+obs_type: GRAPH
+action_type: DISC
+action_level: BEHAV
+reward: speed and collision terms
+safety_cost: NA
+constraints: safety barrier function on spacing
+mech: S; F; O
+mech_primary: S
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: RULE
+safety_claim: RT; EMP
+guarantee_assumptions: barrier thresholds on spacing; local monitoring per vehicle
+safety_level: L3
+level_note: Runtime-assurance switching with barrier-function monitoring at execution; collision rate below 3% across scenarios.
+uncertainty: STOCH
+uncertainty_method: varying numbers of AVs and environment vehicles
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; COMF
+baselines: DQN, DDQN, graph-based MARL
+baseline_types: NSRL
+results: SBF-DRL kept collision rates below 3% across single- and multi-AV scenarios, far below baselines, with a better safety-efficiency trade-off.
+generalization: AGENTS; DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV; RTA
+limitations: A: highway-env only; barrier is spacing heuristic.
+qa: 2 2 2 2 1 2 2 1 2 1 0 1
+qa_note: Q5 no safe-RL baselines; Q8 traffic variation only; Q10 seeds not reported; Q11 no code; Q12 highway-env
+
+@@ B1804
+country: China
+problem: Hierarchical cooperative decision making for mixed traffic at unsignalised intersections using a risk-aware graph attention network that injects risk-field weights into attention, with SAC policy learning (RAT-SAC).
+task: INT; COOP
+scenario: INTX
+traffic: MIXED
+rl_paradigm: MF; HRL
+agents: MA-CEN
+n_agents: 4
+algorithm: SAC
+method_name: RAT-SAC
+network: GNN; ATT
+obs_type: GRAPH
+action_type: CONT
+action_level: CTRL
+reward: passing efficiency, risk and collision terms
+safety_cost: NA
+constraints: NA
+mech: A; L; O
+mech_primary: L
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: reliable communication with global coordinator
+safety_level: L1
+level_note: Risk enters through attention weights and reward; safety measured empirically in SUMO across penetration rates.
+uncertainty: INTENT; STOCH
+uncertainty_method: human-driven vehicle behaviour at 25-75% penetration
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; TTC; TIME; THRU; COMF
+baselines: DDPG, TD3, RSCPO
+baseline_types: NSRL; SRL
+results: RAT-SAC achieved 95.7%, 90.4% and 86.7% success in low-, medium- and high-conflict settings, above DDPG, TD3 and RSCPO, with shorter retreat and low-speed times.
+generalization: DENS; AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: Y
+code_url: https://github.com/Dingyh26/Vehicle_Coordination_for_Mixed_Traffic
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL
+limitations: A: SUMO only; authors note lack of real-world validation.
+qa: 2 2 1 2 2 2 2 2 2 1 2 1
+qa_note: Q3 safety via risk weighting only; Q10 seeds not reported; Q12 SUMO intersection
+
+@@ B1808
+country: Japan
+problem: Dual-layer safety framework for occluded pedestrian avoidance: a first-order control Lyapunov-barrier function modifies PPO's advantage during training, and at deployment a higher-order CLBF-QP safety filter projects acceleration onto the stability and safety feasible set with relative-velocity terms.
+task: PED; CA
+scenario: URB
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: CLBF-PPO with HOCLBF-QP
+network: MLP; RNN
+obs_type: LIDAR; VEC
+action_type: CONT
+action_level: CTRL
+reward: goal-reaching with CLBF advantage modifier
+safety_cost: NA
+constraints: CLBF stability and barrier constraints; HOCLBF-QP at deployment
+mech: H; F; G; E
+mech_primary: H
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: QP
+safety_claim: FORMAL; EMP
+guarantee_assumptions: bicycle model with known pedestrian state once visible; QP feasibility
+safety_level: L3
+level_note: HOCLBF-QP filter enforces barrier constraints at run time; Webots simulation over a range of pedestrian speeds.
+uncertainty: PO; INTENT
+uncertainty_method: occluded pedestrian with varied crossing speeds
+simulator: WEBOTS
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; VIOL; COMF; TIME
+baselines: PPO (MLP), PPO-LSTM, conventional HOCBF filter
+baseline_types: NSRL; CLASS
+results: The framework reliably reached the goal and avoided the occluded pedestrian across crossing speeds, improving success and constraint adherence over PPO variants and a conventional HOCBF filter.
+generalization: UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL; SUPERV
+limitations: A: single pedestrian scenario; HIL and real-vehicle tests left for future work.
+qa: 2 2 2 2 2 2 2 2 1 2 0 1
+qa_note: Q9 crossing speeds only; Q11 no code; Q12 single Webots scenario

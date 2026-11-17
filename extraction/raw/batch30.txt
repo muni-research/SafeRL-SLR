@@ -1,0 +1,372 @@
+# Phase 4 extraction, batch 30 (citation-search studies via institutional access, Phase 8, 2026-10-10), codebook v1.5a
+
+@@ C0281
+country: China
+problem: DQ-GAT: graph attention encoding of heterogeneous traffic with an asynchronous dueling double DQN for safe and efficient urban driving in left turns, merging and crossing, with zero-shot tests on real traffic data.
+task: INT; MERGE; NAV
+scenario: URB; INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: D3QN
+method_name: DQ-GAT
+network: GNN; ATT
+obs_type: GRAPH
+action_type: DISC
+action_level: BEHAV
+reward: goal reward, collision penalty, speed and time terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: PP; PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Success and collision outcomes over 300 trials per scenario compared with learning and TTC-based baselines; safety via reward only.
+uncertainty: INTENT; STOCH
+uncertainty_method: randomised CARLA traffic flows and vehicle types
+simulator: CARLA
+dataset: OWN
+vehicle_model: SIMVEH
+metrics: SUCC; COLL; TIME; COMP
+baselines: FSM-TTC rule-based, H-REIL, other DRL encoders
+baseline_types: NSRL; CLASS
+results: DQ-GAT achieved the highest success rates with a better safety-efficiency trade-off than learning-based and TTC rule baselines in CARLA, and ran in real time on real-world traffic data.
+generalization: DENS; DOMAIN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: N
+hyperparams: Y
+seeds: 200
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: R: real-world data used for runtime/zero-shot qualitative checks only.
+qa: 2 2 1 2 2 2 2 1 2 2 1 2
+qa_note: Q3 safety via reward only; Q8 stochastic traffic only; Q11 CARLA, no code
+
+@@ C0283
+country: China
+problem: DDQN lane-change decisions trained together with the downstream planning and control module, with guided training by TTC/THW safety rules, state representation and dueling architecture, to cope with action implementation errors.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: DuelingDQN; DDQN
+method_name: GRSD-DDQN
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: TTC, time-headway, speed and acceleration terms
+safety_cost: NA
+constraints: rule-based safety rules (TTC, THW) on decisions
+mech: W; D; A
+mech_primary: W
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PLANNER; PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Safety rules filter decisions passed to the planning and control module; collision-free rate rose from 81.5% to 98.6% in CARLA tests.
+uncertainty: MODEL; STOCH
+uncertainty_method: action implementation errors through the real planning/control loop
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SPEED
+baselines: DDQN and ablated variants
+baseline_types: NSRL; ABL
+results: The full GRSD-DDQN raised the collision-free rate from 81.5% (DDQN) to 98.6% and average speed from 42.6 to above 51 km/h.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: P
+compute: N
+stack: DEC; PLAN; CTRL; SUPERV
+limitations: R: one CARLA map.
+qa: 2 2 2 2 1 2 2 1 0 1 1 2
+qa_note: Q5 ablations only; Q8 implementation errors only; Q9 none; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0293
+country: USA
+problem: Risk-based route, time and day selection (probability and severity of collision) combined with a DDQN low-level controller that navigates crowds, to keep an autonomous vehicle out of risky situations.
+task: NAV; PED
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: NR
+network: CNN
+obs_type: OCC
+action_type: DISC
+action_level: CTRL
+reward: conditional reward for progress, speed limit and pedestrian collision
+safety_cost: NA
+constraints: NA
+mech: L; A
+mech_primary: L
+mech_stage: EXEC
+rl_output: ACT
+safety_integration: NONE
+control: PLANNER
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Zero pedestrian collisions over 149 traversals and risk-ranked routes; risk is used for high-level planning, not to constrain the RL controller.
+uncertainty: INTENT; STOCH
+uncertainty_method: pedestrian crowd density by time of day
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; RISK; TIME
+baselines: none
+baseline_types: NONE
+results: No pedestrian collisions in 149 traversals; the method predicted the least risky path, travel time or day in about 72% of traversals.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: N
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: PLAN; CTRL
+limitations: R: no baseline comparison.
+qa: 2 1 2 2 0 1 2 1 0 0 1 2
+qa_note: Q2 MDP from prior work; Q5 no baselines; Q6 collisions without comparison; Q8 crowd variation only; Q9 none; Q10 not reported; Q11 CARLA, no code
+
+@@ C0296
+country: China
+problem: Dynamically conservative planner: an RL planner holds candidate policies of different conservativeness, and the estimated long-tail rate of the current case (driving confidence) selects how conservative to be.
+task: MP; CF
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:RL planner with candidate policies
+method_name: DCP
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: efficiency and collision terms
+safety_cost: NA
+constraints: NA
+mech: N; S
+mech_primary: N
+mech_stage: EXEC
+rl_output: TRAJ
+safety_integration: CORRECT
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The long-tail rate estimate switches to more conservative policies at run time; safety (non-collision rate) matches the most conservative baseline with much higher efficiency.
+uncertainty: EPI; DSHIFT
+uncertainty_method: driving-confidence (long-tail rate) estimation from data coverage
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SPEED
+baselines: fixed-conservativeness planners
+baseline_types: ABL
+results: DCP kept 100% safety like the most conservative planner while raising efficiency (vs 1.019 m/s), whereas the least conservative planner reached 4.953 m/s but only 96.57% safety.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: PLAN; SUPERV
+limitations: R: long-tail estimation depends on training data coverage.
+qa: 2 2 2 2 1 2 2 2 2 1 1 2
+qa_note: Q5 fixed-level variants only; Q10 partial; Q11 CARLA, no code
+
+@@ C0299
+country: Germany
+problem: CBF-based safety layer for a PPO low-level highway motion planner: invariably safe sets define barrier constraints, a QP minimally modifies RL actions, with a relaxation when infeasible, evaluated on highD scenarios and interactive SUMO traffic.
+task: MP; LC; CF
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: goal reaching, speed and comfort terms
+safety_cost: NA
+constraints: CBF conditions on invariably safe sets (longitudinal and lateral) incl. traffic-rule safe distances
+mech: F; E; H; J
+mech_primary: F
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: QP
+safety_claim: FORMAL; RT
+guarantee_assumptions: known vehicle model and behaviour bounds of other vehicles; QP feasibility (relaxed otherwise)
+safety_level: L4
+level_note: Forward invariance of safe sets is enforced by CBF-QP at every step; collision rate falls to near zero on highD tests and interactive SUMO scenarios.
+uncertainty: INTENT
+uncertainty_method: reachable-set based invariably safe sets for other vehicles
+simulator: COMMONROAD; SUMO
+dataset: HIGHD
+vehicle_model: KIN
+metrics: COLL; OFFROAD; SUCC; INTERV
+baselines: PPO without safety layer
+baseline_types: NSRL; ABL
+results: The CBF-layer agent had (near) zero collisions on the highD test set and interactive SUMO scenarios, while the unsafe agent collided frequently; goal-reaching remained high.
+generalization: AGENTS; UNSEEN
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: PLAN; CTRL; SUPERV
+limitations: A: relaxation needed when the QP is infeasible.
+qa: 2 2 2 2 1 2 2 1 2 1 1 2
+qa_note: Q5 only unshielded PPO; Q8 behaviour bounds only; Q10 partial; Q11 public data/benchmark, no code
+
+@@ C0302
+country: Germany
+problem: Parameterised DQN behaviour planner with fuzzy hybrid action masking derived from traffic rules on a relational grid, interfacing an MPC trajectory planner in CommonRoad highway scenarios.
+task: TD; LC; OVT
+scenario: HWY; RAMP
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:P-DQN
+method_name: Fuzzy action-masked P-DQN
+network: MLP
+obs_type: GRAPH
+action_type: HYB
+action_level: BEHAV
+reward: progress, rule compliance and TTC/distance terms
+safety_cost: NA
+constraints: fuzzy action masks from traffic rules and TTC/distance relations
+mech: D; W; I
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: MPC
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Fuzzy rule-based masks remove inadmissible behaviours before execution and a constrained MPC plans trajectories; overtaking and merging behaviour evaluated in closed loop.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: COMMONROAD
+dataset: HIGHD
+vehicle_model: KIN
+metrics: SAMPLE; TTC; RULE
+baselines: P-DQN without masking
+baseline_types: NSRL; ABL
+results: Fuzzy action masking sped up convergence and produced adequate overtaking and merging behaviour compared with unmasked P-DQN.
+generalization: NONE
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: P
+compute: N
+stack: DEC; PLAN; SUPERV
+limitations: A: non-reactive traffic participants.
+qa: 2 2 2 2 1 1 2 0 0 1 1 2
+qa_note: Q5 ablation only; Q6 safety mostly qualitative; Q8 none; Q9 none; Q10 seeds missing; Q11 public benchmark, no code
+
+@@ C0307
+country: China
+problem: Hierarchical residual RL tactical planner that learns residual corrections to rule-based highway planners, trained with rule-based soft guidance, to handle intention uncertainty and observation noise safely.
+task: TD; LC; CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; IL+RL; HRL
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: HR-Planner
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: collision penalty, speed and headway terms
+safety_cost: NA
+constraints: NA
+mech: K; W
+mech_primary: K
+mech_stage: TRAIN
+rl_output: RES
+safety_integration: NONE
+control: RULE; IDM; MOBIL
+safety_claim: EMP; ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates under injected observation noise compared with rule-based and pure RL planners; no run-time safety enforcement.
+uncertainty: SENS; INTENT
+uncertainty_method: injected observation noise; stochastic intentions
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SPEED; DIST
+baselines: rule-based planners, pure RL planners
+baseline_types: NSRL; CLASS
+results: HR-Planner outperformed rule-based and pure data-driven planners in safety and efficiency under uncertainty and observation noise.
+generalization: DIST
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; PLAN
+limitations: R: highway only.
+qa: 2 2 1 2 2 2 2 2 1 1 1 2
+qa_note: Q3 robustness via residual learning only; Q9 noise levels only; Q10 partial; Q11 CARLA, no code

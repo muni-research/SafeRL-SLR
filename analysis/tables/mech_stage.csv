@@ -1,0 +1,4 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+TRAIN,TRAIN,314,44.7,
+BOTH,BOTH,284,40.5,
+EXEC,EXEC,104,14.8,

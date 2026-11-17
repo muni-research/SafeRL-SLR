@@ -1,0 +1,33 @@
+# batch 02 (C0061-C0120), 2026-10-10. Any CID in range not listed = Exclude EC3 (safety not an explicit objective, mechanism or metric)
+C0061 Unsure - eco-ACC with safe inter-vehicle distance objective
+C0062 Exclude EC2 evolution strategies, not RL
+C0063 Exclude EC10
+C0067 Exclude EC1 UAV airspace safety cases
+C0068 Unsure - DQN lane change with rule-based safety constraints
+C0070 Exclude EC2 apprenticeship / inverse RL
+C0072 Exclude EC1 wireless communication
+C0073 Unsure - DRL autonomous braking for pedestrian safety
+C0076 Exclude EC1 airspace
+C0079 Review EC9
+C0080 Unsure - RL with probabilistic LTL guarantees, intersection
+C0082 Unsure - thresholded lexicographic Q-learning with safety priority
+C0083 Unsure - CVaR worst-case policy gradients, driving
+C0084 Unsure - DRL emergency braking decision
+C0086 Background EC1 CMDP energy management (powertrain, not driving safety)
+C0088 Unsure - Rainbow DQN with safety-layer feedback reward
+C0090 Exclude EC1 UAV
+C0094 Duplicate C0095
+C0095 Unsure - PPO lane change addressing safety concerns
+C0096 Exclude EC1 battery thermal safety, powertrain
+C0098 Unsure - certified adversarial robustness for DRL, AV collision avoidance
+C0101 Duplicate C0100
+C0102 Unsure - constrained Q-learning, highway lane change
+C0105 Unsure - DRL pedestrian collision avoidance (no abstract)
+C0109 Exclude EC1 wireless communication
+C0111 Unsure - falsification-based robust adversarial RL with temporal-logic safety
+C0112 Exclude EC10
+C0115 Unsure - high-speed collision-avoidance safety system, domain randomisation
+C0116 Duplicate C0117
+C0117 Unsure - minimax distributional SAC for safety-critical generalisation
+C0118 Unsure - DRL with model-based planner and collision penalty
+C0120 Unsure - multi time-scale constraints in model-free DRL for driving

@@ -1,0 +1,558 @@
+study_id,decision,status,doi,arxiv
+B0011,Include,open access (cached),10.48550/arxiv.1612.00147,1612.00147
+B0015,Unsure,institutional (added by authors),10.1007/978-3-319-71589-6_36,
+B0027,Unsure,open access (cached),10.48550/arxiv.1803.10231,1803.10231
+B0028,Include,open access (cached),10.1109/iros.2018.8593420,1910.00399
+B0029,Unsure,open access (cached),10.1609/aaai.v32i1.12107,
+B0048,Unsure,open access (cached),10.48550/arxiv.1903.08792,1903.08792
+B0053,Include,open access (cached),10.1109/itsc.2019.8916922,1908.00177
+B0062,Include,open access (cached),10.1109/ivs.2019.8813803,1904.11483
+B0065,Unsure,institutional (added by authors),10.1007/s12065-019-00278-7,
+B0066,Include,open access (cached),10.1007/978-3-030-30281-8_20,1902.04118
+B0067,Unsure,NOT RETRIEVED,10.4271/2020-01-0138,
+B0077,Include,open access (cached),10.23919/acc45564.2020.9147626,1910.04803
+B0078,Unsure,open access (cached),,2003.04371
+B0079,Unsure,open access (cached),10.1109/tvt.2020.3026111,1912.08410
+B0085,Include,institutional (added by authors),10.1109/cvci51460.2020.9338584,
+B0089,Include,open access (cached),10.1109/iv47402.2020.9304744,1910.12905
+B0096,Unsure,open access (cached),10.1109/access.2020.3031037,
+B0110,Unsure,institutional (added by authors),10.1109/iros45743.2020.9341122,
+B0114,Include,NOT RETRIEVED,10.1007/978-3-030-50936-1_105,
+B0115,Include,open access (cached),10.1016/j.trc.2020.102662,1902.00089
+B0117,Include,institutional (added by authors),10.1109/itsc45102.2020.9294259,
+B0118,Include,open access (cached),10.1109/itsc45102.2020.9294262,2003.01303
+B0122,Include,open access (cached),10.48550/arxiv.2007.01698,2007.01698
+B0124,Include,institutional (added by authors),10.1109/icma49215.2020.9233522,
+B0133,Include,institutional (added by authors),10.1109/smc42975.2020.9283053,
+B0145,Include,open access (cached),10.48550/arxiv.2110.05556,2110.05556
+B0153,Include,institutional (added by authors),10.23919/iccas52745.2021.9649902,
+B0157,Include,institutional (added by authors),10.1109/iv48863.2021.9575328,
+B0160,Include,open access (cached),10.1109/itsc48978.2021.9564954,2011.08484
+B0162,Include,institutional (added by authors),10.1109/icivc52351.2021.9526928,
+B0166,Include,NOT RETRIEVED,10.1299/jsmemovic.2021.17.b09,
+B0170,Unsure,institutional (added by authors),10.1109/tcyb.2021.3054430,
+B0180,Unsure,institutional (added by authors),10.1007/978-3-030-89092-6_64,
+B0181,Include,institutional (added by authors),10.1007/978-3-030-82153-1_36,
+B0186,Unsure,open access (cached),10.1109/iros51168.2021.9636468,2103.01556
+B0188,Include,institutional (added by authors),10.1109/icrom54204.2021.9663449,
+B0190,Include,open access (cached),10.48550/arxiv.2110.07067,2110.07067
+B0199,Include,institutional (added by authors),10.1109/access.2021.3119915,
+B0200,Include,institutional (added by authors),10.1109/iv48863.2021.9575258,
+B0201,Unsure,NOT RETRIEVED,10.7282/t3-p2k0-0c20,
+B0202,Include,institutional (added by authors),10.1109/tits.2021.3061627,
+B0207,Include,institutional (added by authors),10.1109/tnnls.2021.3084685,
+B0208,Include,NOT RETRIEVED,10.1115/1.4053427,
+B0209,Include,open access (cached),10.13140/rg.2.2.19310.13125,2110.07699
+B0210,Unsure,institutional (added by authors),10.1109/iros51168.2021.9636672,
+B0212,Unsure,open access (cached),10.1109/iv48863.2021.9575205,2102.08539
+B0213,Include,open access (cached),10.3390/app11083464,
+B0214,Unsure,NOT RETRIEVED,10.1051/e3sconf/202123304019,
+B0219,Unsure,institutional (added by authors),10.1109/case49997.2022.9926699,
+B0221,Include,open access (cached),10.1109/itsc55140.2022.9921907,
+B0225,Unsure,institutional (added by authors),10.1109/tvt.2022.3150343,
+B0226,Unsure,institutional (added by authors),10.1109/tits.2022.3185255,
+B0229,Include,NOT RETRIEVED,10.1299/jsmermd.2022.2a2-k03,
+B0230,Unsure,institutional (added by authors),10.1016/j.trc.2022.103662,
+B0237,Include,institutional (added by authors),10.3390/robotics11040081,
+B0240,Unsure,institutional (added by authors),10.1109/access.2022.3185734,
+B0242,Include,institutional (added by authors),10.1016/j.ifacol.2022.10.519,
+B0246,Include,open access (cached),10.1109/access.2022.3167812,
+B0247,Unsure,NOT RETRIEVED,10.23919/ascc56756.2022.9828057,
+B0248,Unsure,institutional (added by authors),10.1109/tiv.2022.3167616,
+B0255,Unsure,open access (cached),10.48550/arxiv.2206.03004,2206.03004
+B0257,Include,institutional (added by authors),10.1016/j.sysarc.2022.102505,
+B0267,Unsure,institutional (added by authors),10.1016/j.ifacol.2022.09.121,
+B0268,Include,open access (cached),10.1109/itsc55140.2022.9922345,2203.08409
+B0269,Unsure,open access (cached),10.1109/iv51971.2022.9827405,2110.00645
+B0270,Include,open access (cached),10.1088/1742-6596/2234/1/012015,2108.13038
+B0272,Unsure,open access (cached),10.48550/arxiv.2205.02953,2205.02953
+B0276,Include,institutional (added by authors),10.1109/itsc55140.2022.9921880,
+B0284,Include,open access (cached),10.1016/j.jfranklin.2022.06.052,2202.09644
+B0296,Unsure,institutional (added by authors),10.1109/iceic54506.2022.9748810,
+B0299,Include,NOT RETRIEVED,10.5302/j.icros.2022.22.0187,
+B0301,Unsure,open access (cached),10.1007/978-3-031-06780-8_7,2207.07829
+B0302,Include,NOT RETRIEVED,10.1142/s0218126622502498,
+B0303,Include,institutional (added by authors),10.1109/itsc55140.2022.9922164,
+B0305,Include,institutional (added by authors),10.1109/itsc55140.2022.9922166,
+B0306,Include,institutional (added by authors),10.1016/j.rico.2022.100095,
+B0307,Include,open access (cached),10.48550/arxiv.2212.00618,2212.00618
+B0308,Include,open access (cached),10.48550/arxiv.2206.08528,2206.08528
+B0312,Unsure,institutional (added by authors),10.3390/math11010132,
+B0321,Unsure,open access (cached),10.1186/s10033-023-00904-7,
+B0324,Include,institutional (added by authors),10.1109/icus58632.2023.10318485,
+B0325,Unsure,institutional (added by authors),10.3390/en16083490,
+B0327,Include,open access (cached),10.1109/tits.2023.3336670,
+B0334,Include,institutional (added by authors),10.1109/tcyb.2023.3283771,
+B0337,Unsure,institutional (added by authors),10.1109/tte.2023.3347278,
+B0339,Unsure,institutional (added by authors),10.1109/tvt.2023.3304530,
+B0373,Include,institutional (added by authors),10.1016/j.eng.2023.03.018,
+B0374,Unsure,NOT RETRIEVED,10.1061/jtepbs.0000772,
+B0378,Unsure,institutional (added by authors),10.1109/itsc57777.2023.10422140,
+B0381,Include,open access (cached),10.1109/ictai59109.2023.00115,
+B0385,Include,open access (cached),10.64972/jaat.2023v1.314p27e:361-374,
+B0393,Include,institutional (added by authors),10.1109/cvci59596.2023.10397167,
+B0398,Include,NOT RETRIEVED,10.23919/acc55779.2023.10155918,
+B0402,Include,institutional (added by authors),10.1109/tiv.2023.3273857,
+B0403,Include,institutional (added by authors),10.1109/tits.2023.3331723,
+B0410,Unsure,institutional (added by authors),10.1007/s11431-023-2483-x,
+B0412,Include,NOT RETRIEVED,10.1177/09544070221149278,
+B0423,Include,institutional (added by authors),10.1016/j.ifacol.2023.12.005,
+B0425,Unsure,institutional (added by authors),10.1016/j.ifacol.2023.12.032,
+B0426,Include,institutional (added by authors),10.1109/icra48891.2023.10161418,
+B0429,Include,institutional (added by authors),10.1016/j.artint.2023.103923,
+B0431,Include,institutional (added by authors),10.1049/itr2.12336,
+B0432,Include,institutional (added by authors),10.3390/s23031198,
+B0433,Unsure,institutional (added by authors),10.3390/ijerph20010893,
+B0436,Include,institutional (added by authors),10.1109/iavvc57316.2023.10328041,
+B0438,Include,institutional (added by authors),10.1109/tiv.2023.3344226,
+B0439,Include,institutional (added by authors),10.1109/cac59555.2023.10450529,
+B0441,Include,institutional (added by authors),10.1109/cvci59596.2023.10397427,
+B0442,Include,institutional (added by authors),10.1109/itsc57777.2023.10421882,
+B0444,Include,institutional (added by authors),10.1109/itsc57777.2023.10422331,
+B0445,Include,institutional (added by authors),10.1109/tits.2023.3271642,
+B0446,Include,open access (cached),10.1109/itsc57777.2023.10422605,2512.03774
+B0448,Unsure,institutional (added by authors),10.1109/tits.2023.3285440,
+B0451,Include,open access (cached),10.1109/icra48891.2023.10161216,2210.02300
+B0455,Unsure,institutional (added by authors),10.1145/3583780.3615072,
+B0461,Include,open access (cached),10.1609/aaai.v37i13.26968,
+B0462,Unsure,open access (cached),10.1016/j.ifacol.2023.10.1375,2303.02267
+B0484,Include,open access (cached),10.1109/iv55156.2024.10588747,2402.02624
+B0485,Include,open access (cached),10.1109/tmech.2026.3682791,2408.12190
+B0490,Include,institutional (added by authors),10.3390/s24082657,
+B0507,Include,institutional (added by authors),10.1016/j.aei.2024.102801,
+B0514,Include,institutional (added by authors),10.1109/tmc.2024.3417441,
+B0516,Unsure,open access (cached),10.1109/icra57147.2024.10610522,2303.03723
+B0517,Include,open access (cached),10.48550/arxiv.2406.08878,2406.08878
+B0522,Include,institutional (added by authors),10.1109/jiot.2024.3487854,
+B0524,Unsure,institutional (added by authors),10.3390/s24165187,
+B0529,Include,institutional (added by authors),10.1109/tits.2024.3443397,
+B0533,Include,institutional (added by authors),10.3390/electronics13101952,
+B0545,Include,open access (cached),10.3390/s24175514,2407.06317
+B0550,Include,open access (cached),10.1109/iv55156.2024.10588668,2407.04343
+B0557,Unsure,institutional (added by authors),10.1109/tits.2023.3349198,
+B0562,Unsure,open access (cached),10.1109/icra57147.2024.10611123,2309.09408
+B0575,Unsure,open access (cached),10.1109/tnnls.2023.3348422,2111.12953
+B0577,Unsure,institutional (added by authors),10.1109/tiv.2024.3363239,
+B0581,Include,NOT RETRIEVED,10.1088/1742-6596/2813/1/012005,
+B0593,Unsure,NOT RETRIEVED,10.1007/978-3-031-70507-6_16,
+B0595,Unsure,institutional (added by authors),10.1109/iv55156.2024.10588529,
+B0603,Unsure,open access (cached),10.23919/acc60939.2024.10644713,2404.12329
+B0623,Unsure,institutional (added by authors),10.1109/tcyb.2024.3518697,
+B0624,Unsure,open access (cached),10.48550/arxiv.2409.12153,2409.12153
+B0629,Include,institutional (added by authors),10.1109/icocta64736.2024.00014,
+B0631,Include,institutional (added by authors),10.1109/jas.2024.124287,
+B0632,Unsure,institutional (added by authors),10.1109/iceeac61226.2024.10576248,
+B0634,Include,open access (cached),10.5829/ije.2025.38.01a.03,
+B0636,Include,institutional (added by authors),10.1109/icps59941.2024.10639981,
+B0639,Unsure,open access (cached),10.1109/lra.2024.3414270,2404.18326
+B0640,Include,institutional (added by authors),10.1016/j.aej.2024.10.039,
+B0641,Include,open access (cached),10.1109/lra.2024.3379805,2311.10747
+B0647,Include,institutional (added by authors),10.1109/isas61044.2024.10552571,
+B0651,Include,NOT RETRIEVED,10.1007/978-3-031-64850-2_15,
+B0653,Include,institutional (added by authors),10.1109/tvt.2024.3488749,
+B0656,Include,institutional (added by authors),10.1016/j.trc.2024.104632,
+B0657,Unsure,open access (cached),10.1109/tiv.2024.3405330,2405.13969
+B0658,Unsure,open access (cached),,2402.15650
+B0663,Unsure,open access (cached),10.1109/tits.2025.3578279,2408.08242
+B0664,Include,institutional (added by authors),10.1109/jiot.2025.3535582,
+B0668,Unsure,institutional (added by authors),10.1016/j.eswa.2025.127167,
+B0671,Unsure,institutional (added by authors),10.1109/qrs65678.2025.00068,
+B0678,Unsure,open access (cached),10.1016/j.aap.2025.107941,2408.12805
+B0700,Include,institutional (added by authors),10.1109/tits.2025.3595526,
+B0705,Unsure,open access (cached),10.1109/tvt.2025.3541401,2502.03960
+B0711,Include,institutional (added by authors),10.3390/electronics14030557,
+B0716,Unsure,open access (cached),10.48550/arxiv.2506.03568,2506.03568
+B0718,Include,institutional (added by authors),10.1109/tits.2025.3540862,
+B0722,Unsure,NOT RETRIEVED,10.1088/1742-6596/3097/1/012023,
+B0724,Include,open access (cached),10.65109/lfce1407,2503.22248
+B0733,Include,NOT RETRIEVED,10.36227/techrxiv.176413259.90567596/v1,
+B0737,Unsure,open access (cached),10.48550/arxiv.2501.18086,2501.18086
+B0738,Unsure,open access (cached),10.1109/iarce68366.2025.11485680,2605.27418
+B0739,Include,open access (cached),10.1109/iv64158.2025.11097749,2505.13532
+B0741,Include,institutional (added by authors),10.1109/cvci66304.2025.11348303,
+B0750,Include,open access (cached),10.1109/tits.2025.3627592,2411.10031
+B0754,Include,institutional (added by authors),10.1016/j.aap.2025.108265,
+B0757,Include,institutional (added by authors),10.1109/lra.2025.3566591,
+B0761,Include,institutional (added by authors),10.1109/itsc60802.2025.11423636,
+B0763,Unsure,institutional (added by authors),10.1109/decon67170.2025.11447807,
+B0766,Unsure,open access (cached),10.48550/arxiv.2511.23193,2511.23193
+B0769,Unsure,NOT RETRIEVED,10.23919/acc63710.2025.11107607,
+B0773,Include,NOT RETRIEVED,10.2139/ssrn.5679009,
+B0775,Unsure,institutional (added by authors),10.1145/3788149.3788199,
+B0776,Include,institutional (added by authors),10.3390/electronics14142776,
+B0778,Include,institutional (added by authors),10.1109/cvci66304.2025.11348539,
+B0781,Include,open access (cached),10.2139/ssrn.5212417,2503.02624
+B0793,Unsure,institutional (added by authors),10.1109/tits.2025.3559916,
+B0796,Unsure,institutional (added by authors),10.1109/cvci66304.2025.11348407,
+B0804,Unsure,NOT RETRIEVED,10.1201/9781003243731-12,
+B0805,Include,open access (cached),10.48550/arxiv.2512.17586,2512.17586
+B0828,Unsure,NOT RETRIEVED,10.5281/zenodo.17838175,
+B0835,Include,institutional (added by authors),10.1109/aiea66061.2025.11160535,
+B0837,Unsure,open access (cached),10.54254/2755-2721/2025.tj23484,
+B0845,Include,open access (cached),10.1109/tvt.2025.3610106,2509.12378
+B0847,Include,institutional (added by authors),10.3390/electronics14224446,
+B0848,Unsure,open access (cached),10.48550/arxiv.2503.22925,2503.22925
+B0870,Unsure,institutional (added by authors),10.1109/maic67965.2025.11468844,
+B0877,Include,open access (cached),10.48550/arxiv.2503.19690,2503.19690
+B0878,Include,institutional (added by authors),10.1109/tits.2025.3599260,
+B0879,Include,institutional (added by authors),10.1109/iros60139.2025.11246043,
+B0882,Include,open access (cached),10.48550/arxiv.2506.00982,2506.00982
+B0883,Include,institutional (added by authors),10.1016/j.trc.2025.105005,
+B0885,Include,NOT RETRIEVED,10.1007/978-3-031-84100-2_17,
+B0886,Include,institutional (added by authors),10.1109/itsc60802.2025.11423265,
+B0887,Include,open access (cached),10.1109/iv64158.2025.11097808,2505.01453
+B0889,Include,NOT RETRIEVED,10.23919/ecc65951.2025.11187115,
+B0891,Include,NOT RETRIEVED,10.2139/ssrn.5361834,
+B0892,Include,institutional (added by authors),10.1016/j.eswa.2025.128174,
+B0893,Include,institutional (added by authors),10.1109/tpds.2025.3580092,
+B0894,Include,institutional (added by authors),10.1109/jsen.2025.3633658,
+B0896,Unsure,institutional (added by authors),10.1109/tte.2025.3640938,
+B0897,Include,institutional (added by authors),10.1109/raaicon69033.2025.11502486,
+B0898,Include,institutional (added by authors),10.1109/tits.2025.3583083,
+B0900,Include,NOT RETRIEVED,10.23919/ccc64809.2025.11178329,
+B0902,Include,institutional (added by authors),10.1109/tits.2025.3633727,
+B0904,Include,open access (cached),10.1109/iros60139.2025.11246272,2506.22894
+B0906,Include,institutional (added by authors),10.1109/trustcom66490.2025.00160,
+B0909,Include,institutional (added by authors),10.1109/case58245.2025.11163999,
+B0910,Include,open access (cached),10.1109/icra55743.2025.11128447,2309.11057
+B0916,Include,institutional (added by authors),10.1109/lra.2025.3615032,
+B0920,Unsure,institutional (added by authors),10.1109/cvci66304.2025.11348555,
+B0922,Unsure,institutional (added by authors),10.1109/iraset64571.2025.11008102,
+B0923,Include,institutional (added by authors),10.1109/cvci66304.2025.11348431,
+B0929,Include,open access (cached),10.48550/arxiv.2505.19939,2505.19939
+B0930,Include,institutional (added by authors),10.1109/tits.2025.3587341,
+B0935,Include,institutional (added by authors),10.3390/app15105463,
+B0937,Unsure,open access (cached),10.1007/978-3-031-94533-5_17,2504.03272
+B0939,Include,open access (cached),,2505.16377
+B0944,Include,open access (cached),10.48550/arxiv.2602.10007,2602.10007
+B0950,Unsure,institutional (added by authors),10.1109/icsp69961.2026.11540643,
+B0952,Unsure,institutional (added by authors),10.3390/app16073610,
+B0957,Include,open access (cached),10.48550/arxiv.2608.17258,2608.17258
+B0962,Unsure,NOT RETRIEVED,10.1007/978-981-92-3681-7_2,
+B0968,Include,open access (cached),,2609.09650
+B0972,Include,institutional (added by authors),10.1016/j.engappai.2026.114348,
+B0974,Include,institutional (added by authors),10.1109/tits.2026.3697403,
+B0975,Unsure,NOT RETRIEVED,10.1117/12.3124350,
+B0976,Include,institutional (added by authors),10.3390/machines14060605,
+B0981,Unsure,institutional (added by authors),10.1109/access.2026.3675864,
+B0987,Unsure,institutional (added by authors),10.3390/app16083687,
+B0988,Include,NOT RETRIEVED,10.32604/cmc.2026.086535,
+B0991,Include,institutional (added by authors),10.1109/ainit70033.2026.11558085,
+B0997,Unsure,open access (cached),10.48550/arxiv.2604.16702,2604.16702
+B0999,Include,open access (cached),10.48550/arxiv.2601.21679,2601.21679
+B1001,Include,open access (cached),10.59324/ejaset.2026.4(2).10,
+B1002,Include,open access (cached),10.48550/arxiv.2604.13891,2604.13891
+B1003,Include,open access (cached),10.48550/arxiv.2605.16894,2605.16894
+B1007,Include,open access (cached),,2609.38016
+B1010,Unsure,NOT RETRIEVED,10.2139/ssrn.7243401,
+B1012,Unsure,NOT RETRIEVED,10.1007/s13177-025-00586-6,
+B1021,Unsure,institutional (added by authors),10.1016/j.aap.2026.108448,
+B1031,Include,open access (cached),10.48550/arxiv.2603.18315,2603.18315
+B1034,Include,institutional (added by authors),10.1109/icccr69988.2026.11642745,
+B1035,Include,institutional (added by authors),10.1109/tvt.2026.3652650,
+B1041,Include,institutional (added by authors),10.1016/j.rineng.2026.109912,
+B1043,Include,NOT RETRIEVED,10.3233/atde251474,
+B1044,Unsure,NOT RETRIEVED,,
+B1046,Include,open access (cached),10.1109/tpami.2026.3708405,2508.14926
+B1070,Include,open access (cached),10.48550/arxiv.2602.18097,2602.18097
+B1071,Include,institutional (added by authors),10.1109/tits.2026.3681821,
+B1072,Unsure,open access (cached),10.2139/ssrn.6451962,2605.04355
+B1074,Unsure,open access (cached),10.48550/arxiv.2601.23266,2601.23266
+B1079,Include,NOT RETRIEVED,,
+B1083,Include,NOT RETRIEVED,10.2139/ssrn.6920631,
+B1084,Include,open access (cached),10.1109/tsmc.2025.3648508,2403.18209
+B1087,Unsure,NOT RETRIEVED,10.1016/j.trb.2026.103445,
+B1093,Include,open access (cached),10.1109/tits.2025.3644417,
+B1094,Include,institutional (added by authors),10.1109/icca69928.2026.11618178,
+B1100,Include,NOT RETRIEVED,10.1007/s13177-026-00669-y,
+B1105,Unsure,NOT RETRIEVED,10.2139/ssrn.6036680,
+B1116,Include,institutional (added by authors),10.3390/electronics15102031,
+B1118,Include,NOT RETRIEVED,10.2139/ssrn.6598830,
+B1120,Unsure,institutional (added by authors),10.1049/itr2.70269,
+B1136,Unsure,open access (cached),10.21203/rs.3.rs-8815464/v1,
+B1137,Unsure,institutional (added by authors),10.1109/tvt.2026.3681139,
+B1138,Unsure,institutional (added by authors),10.3390/electronics15122577,
+B1143,Unsure,NOT RETRIEVED,10.6084/m9.figshare.33318372,
+B1146,Include,institutional (added by authors),10.1049/itr2.70230,
+B1147,Unsure,open access (cached),10.48550/arxiv.2601.11781,2601.11781
+B1148,Include,NOT RETRIEVED,10.3233/atde251472,
+B1149,Include,open access (cached),10.4108/eetiot.10944,
+B1150,Include,NOT RETRIEVED,10.1007/978-3-032-31666-0_26,
+B1157,Unsure,institutional (added by authors),10.1016/j.conengprac.2026.107141,
+B1158,Include,open access (cached),10.46647/asz5hs29,
+B1160,Unsure,institutional (added by authors),10.1109/tase.2026.3695304,
+B1162,Include,institutional (added by authors),10.1109/mesa70578.2026.11684327,
+B1163,Include,institutional (added by authors),10.1007/s11071-026-12833-w,
+B1164,Include,NOT RETRIEVED,10.1080/23307706.2026.2679989,
+B1166,Include,open access (cached),10.48550/arxiv.2606.14609,2606.14609
+B1167,Include,institutional (added by authors),10.1109/tvt.2026.3698062,
+B1168,Include,institutional (added by authors),10.1016/j.engappai.2026.115460,
+B1169,Include,institutional (added by authors),10.3390/machines14050560,
+B1171,Include,institutional (added by authors),10.1109/tvt.2026.3700644,
+B1173,Unsure,NOT RETRIEVED,10.5281/zenodo.22162393,
+B1175,Include,institutional (added by authors),10.1109/access.2026.3659797,
+B1176,Include,NOT RETRIEVED,10.2139/ssrn.6189653,
+B1178,Include,institutional (added by authors),10.1109/icsp69961.2026.11540737,
+B1189,Unsure,open access (cached),10.48550/arxiv.2605.27659,2605.27659
+B1201,Include,NOT RETRIEVED,,
+B1203,Unsure,institutional (added by authors),10.1109/itsc.2014.6957937,
+B1206,Unsure,open access (cached),10.48550/arxiv.1710.05958,1710.05958
+B1209,Include,open access (cached),10.1109/itsc.2018.8569448,
+B1210,Include,open access (cached),10.1109/ivs.2018.8500450,1903.03642
+B1211,Unsure,NOT RETRIEVED,,
+B1212,Unsure,open access (cached),10.1109/itsc.2018.8569635,1805.00983
+B1214,Unsure,open access (cached),10.48550/arxiv.1805.09994,1805.09994
+B1216,Include,open access (cached),10.1109/ivs.2019.8813791,2102.03119
+B1220,Unsure,open access (cached),10.48550/arxiv.1903.01004,1903.01004
+B1222,Include,institutional (added by authors),10.1109/ivs.2019.8814125,
+B1224,Unsure,institutional (added by authors),10.1109/rcar47638.2019.9044113,
+B1225,Include,institutional (added by authors),10.1109/itsc.2019.8917221,
+B1226,Unsure,NOT RETRIEVED,10.4399/978882553451110,
+B1230,Unsure,institutional (added by authors),10.1145/3365365.3382216,
+B1232,Include,NOT RETRIEVED,,
+B1234,Unsure,institutional (added by authors),10.1016/j.vehcom.2020.100266,
+B1235,Include,NOT RETRIEVED,10.1177/0361198120937976,
+B1237,Unsure,open access (cached),10.1145/3400302.3415676,2008.06162
+B1243,Unsure,institutional (added by authors),10.1016/j.aap.2020.105655,
+B1247,Unsure,NOT RETRIEVED,,
+B1248,Include,open access (cached),10.1109/iv47402.2020.9304606,2004.04450
+B1253,Include,open access (cached),10.48550/arxiv.2011.04702,2011.04702
+B1256,Include,institutional (added by authors),10.1109/tits.2021.3086397,
+B1257,Include,open access (cached),10.1109/icra48506.2021.9561195,2101.06778
+B1261,Unsure,institutional (added by authors),10.1016/j.trc.2021.103452,
+B1263,Unsure,NOT RETRIEVED,10.1016/j.energy.2021.121725,
+B1267,Include,NOT RETRIEVED,10.1155/2021/6117890,
+B1269,Include,open access (cached),10.1109/itsc48978.2021.9564912,2107.07413
+B1270,Unsure,institutional (added by authors),10.1109/aim46487.2021.9517458,
+B1271,Unsure,institutional (added by authors),10.1109/itsc48978.2021.9564880,
+B1272,Unsure,open access (cached),10.1609/aaai.v35i18.17904,
+B1274,Include,open access (cached),10.1109/iros51168.2021.9636847,2107.07316
+B1275,Unsure,open access (cached),10.1109/cdc45484.2021.9683748,2012.10716
+B1276,Unsure,institutional (added by authors),10.1109/cac53003.2021.9728518,
+B1277,Unsure,institutional (added by authors),10.1109/itsc48978.2021.9565126,
+B1278,Unsure,institutional (added by authors),10.1109/cvci54083.2021.9661246,
+B1280,Include,institutional (added by authors),10.3390/s21113864,
+B1281,Include,open access (cached),10.48550/arxiv.2105.06517,2105.06517
+B1284,Unsure,open access (cached),10.48550/arxiv.2102.10643,2102.10643
+B1285,Include,open access (cached),10.48550/arxiv.2104.06506,2104.06506
+B1287,Unsure,institutional (added by authors),10.1109/itsc48978.2021.9564829,
+B1289,Include,open access (cached),10.3390/s21062032,2103.09726
+B1291,Unsure,institutional (added by authors),10.1109/tits.2022.3157910,
+B1292,Unsure,institutional (added by authors),10.3390/math10091551,
+B1293,Include,institutional (added by authors),10.1016/j.icte.2022.05.004,
+B1295,Include,open access (cached),10.1145/3529399.3529432,2204.05196
+B1296,Include,NOT RETRIEVED,10.1007/s10015-022-00846-8,
+B1297,Include,open access (cached),10.1109/itsc55140.2022.9921741,2204.01024
+B1299,Include,institutional (added by authors),10.1109/cac57257.2022.10055747,
+B1300,Unsure,institutional (added by authors),10.1109/itsc55140.2022.9921781,
+B1301,Unsure,institutional (added by authors),10.1145/3557915.3561018,
+B1303,Unsure,institutional (added by authors),10.1049/itr2.12176,
+B1312,Unsure,open access (cached),10.1109/tnnls.2022.3175595,2108.11623
+B1318,Include,institutional (added by authors),10.1109/cvci56766.2022.9965018,
+B1320,Unsure,institutional (added by authors),10.1109/iros47612.2022.9981223,
+B1321,Include,institutional (added by authors),10.1109/tits.2022.3229518,
+B1322,Include,open access (cached),10.1109/icra46639.2022.9812177,2109.13446
+B1324,Include,institutional (added by authors),10.1109/icus55513.2022.9986970,
+B1325,Include,open access (cached),10.1109/itsc55140.2022.9921872,2207.00448
+B1326,Include,open access (cached),10.1109/tiv.2022.3150668,2105.11640
+B1327,Include,open access (cached),10.1016/j.ifacol.2022.11.250,2301.00904
+B1328,Include,institutional (added by authors),10.1109/ijcnn55064.2022.9892236,
+B1329,Include,open access (cached),10.1016/j.ifacol.2022.10.276,2301.00884
+B1330,Include,open access (cached),10.48550/arxiv.2201.08116,2201.08116
+B1333,Include,institutional (added by authors),10.1016/j.trc.2022.103656,
+B1336,Unsure,institutional (added by authors),10.3390/app13095272,
+B1341,Include,institutional (added by authors),10.1109/cac59555.2023.10451815,
+B1342,Unsure,open access (cached),10.64972/jaat.2023v1.282p4e:48-61,
+B1345,Include,institutional (added by authors),10.1109/icra48891.2023.10160698,
+B1346,Include,institutional (added by authors),10.1109/itsc57777.2023.10422440,
+B1347,Include,institutional (added by authors),10.1109/tvt.2023.3312495,
+B1349,Include,institutional (added by authors),10.1109/tiv.2023.3322694,
+B1350,Unsure,institutional (added by authors),10.1109/tiv.2023.3303408,
+B1356,Unsure,institutional (added by authors),10.3390/wevj14040079,
+B1358,Unsure,open access (cached),10.1007/978-3-031-25891-6_16,
+B1359,Unsure,open access (cached),10.48550/arxiv.2307.14568,2307.14568
+B1360,Include,institutional (added by authors),10.1109/tpami.2023.3322426,
+B1361,Include,institutional (added by authors),10.1109/iv55152.2023.10186804,
+B1364,Unsure,institutional (added by authors),10.1109/iwis58789.2023.10284662,
+B1365,Include,open access (cached),10.1109/iv55152.2023.10186781,2301.00650
+B1368,Include,institutional (added by authors),10.1016/j.ifacol.2023.10.1711,
+B1369,Include,open access (cached),10.1109/ojits.2023.3280573,
+B1370,Unsure,institutional (added by authors),10.1109/tiv.2023.3265311,
+B1375,Unsure,open access (cached),10.1016/j.ifacol.2023.10.1474,2211.01487
+B1377,Include,NOT RETRIEVED,10.1007/s42154-023-00235-2,
+B1378,Unsure,institutional (added by authors),10.1016/j.energy.2023.128517,
+B1381,Unsure,open access (cached),10.48550/arxiv.2306.09055,2306.09055
+B1385,Unsure,open access (cached),10.48550/arxiv.2308.16767,2308.16767
+B1388,Unsure,institutional (added by authors),10.1109/cvci59596.2023.10397271,
+B1389,Unsure,open access (cached),10.1109/iecon51785.2023.10312462,2306.03220
+B1390,Unsure,NOT RETRIEVED,10.1115/detc2023-113683,
+B1391,Include,NOT RETRIEVED,10.1177/03611981231171899,
+B1392,Unsure,open access (cached),10.1109/itsc57777.2023.10422488,2306.11465
+B1395,Unsure,open access (cached),10.48550/arxiv.2311.10735,2311.10735
+B1398,Include,institutional (added by authors),10.1016/j.cogr.2023.04.002,
+B1399,Include,institutional (added by authors),10.1109/itsc57777.2023.10422463,
+B1402,Include,NOT RETRIEVED,10.4271/2024-01-4075,
+B1403,Include,open access (cached),10.1109/icra48891.2023.10160883,2210.16575
+B1404,Include,open access (cached),10.48550/arxiv.2302.04321,2302.04321
+B1407,Unsure,institutional (added by authors),10.1109/access.2023.3245831,
+B1408,Include,institutional (added by authors),10.1016/j.trc.2023.104352,
+B1409,Include,institutional (added by authors),10.1016/j.eng.2023.10.005,
+B1411,Include,open access (cached),10.1007/s42154-023-00256-x,
+B1412,Include,institutional (added by authors),10.1109/cai54212.2023.00042,
+B1415,Unsure,institutional (added by authors),10.1109/itsc58415.2024.10919192,
+B1416,Unsure,institutional (added by authors),10.1016/j.energy.2024.134225,
+B1417,Include,institutional (added by authors),10.1145/3669721.3669735,
+B1418,Include,institutional (added by authors),10.1109/tvt.2024.3424523,
+B1421,Unsure,NOT RETRIEVED,10.1007/978-3-031-77635-9_12,
+B1422,Unsure,institutional (added by authors),10.1016/j.ifacol.2025.01.178,
+B1423,Include,institutional (added by authors),10.1109/dtpi61353.2024.10778793,
+B1427,Include,institutional (added by authors),10.1109/lra.2024.3427551,
+B1429,Unsure,institutional (added by authors),10.1109/ica63002.2024.00017,
+B1430,Include,institutional (added by authors),10.1016/j.ifacol.2024.12.037,
+B1432,Include,institutional (added by authors),10.1109/tits.2024.3516089,
+B1434,Unsure,open access (cached),10.1609/aaai.v38i19.30088,2312.10230
+B1435,Include,open access (cached),10.1109/tiv.2024.3380074,
+B1436,Include,NOT RETRIEVED,10.2139/ssrn.4889829,
+B1437,Include,institutional (added by authors),10.1016/j.aap.2024.107843,
+B1439,Include,open access (cached),10.48550/arxiv.2404.19087,2404.19087
+B1443,Include,institutional (added by authors),10.1109/rew61692.2024.00012,
+B1445,Unsure,institutional (added by authors),10.1109/tte.2024.3396122,
+B1448,Include,institutional (added by authors),10.1109/access.2024.3457901,
+B1450,Include,institutional (added by authors),10.1109/tii.2024.3423423,
+B1452,Unsure,open access (cached),10.48550/arxiv.2405.19236,2405.19236
+B1455,Unsure,open access (cached),10.55417/fr.2024002,2202.12861
+B1457,Unsure,open access (cached),,2411.11762
+B1458,Include,open access (cached),10.1016/j.commtr.2024.100127,2401.03160
+B1459,Include,open access (cached),10.1109/tits.2024.3457776,2311.10309
+B1461,Include,institutional (added by authors),10.1109/cac63892.2024.10865523,
+B1469,Unsure,open access (cached),10.4204/eptcs.411.11,2411.14375
+B1470,Include,institutional (added by authors),10.1109/confluence60223.2024.10463500,
+B1474,Unsure,institutional (added by authors),10.1016/j.engappai.2024.109870,
+B1475,Unsure,open access (cached),10.1109/icra57147.2024.10611059,2310.08674
+B1476,Include,institutional (added by authors),10.1109/icnsc62968.2024.10760015,
+B1478,Unsure,NOT RETRIEVED,10.2139/ssrn.4954704,
+B1479,Include,open access (cached),10.15607/rss.2024.xx.080,2405.04714
+B1480,Unsure,institutional (added by authors),10.1145/3643137,
+B1481,Include,institutional (added by authors),10.1109/itsc58415.2024.10920026,
+B1484,Unsure,NOT RETRIEVED,10.1117/12.3033065,
+B1485,Include,institutional (added by authors),10.1109/cec60901.2024.10611776,
+B1486,Include,NOT RETRIEVED,10.1080/21680566.2024.2439997,
+B1487,Unsure,open access (cached),10.1109/tits.2024.3458439,2401.08661
+B1490,Include,open access (cached),10.3390/machines12040252,2403.00446
+B1492,Include,open access (cached),10.1109/tai.2024.3497919,2405.18209
+B1500,Include,institutional (added by authors),10.1109/tits.2024.3420959,
+B1504,Include,institutional (added by authors),10.1109/tiv.2024.3450205,
+B1506,Include,open access (cached),10.48550/arxiv.2409.00858,2409.00858
+B1507,Include,NOT RETRIEVED,10.1177/09544070241279486,
+B1508,Unsure,institutional (added by authors),10.1109/tvt.2025.3536520,
+B1512,Unsure,institutional (added by authors),10.1109/thms.2025.3620362,
+B1518,Unsure,institutional (added by authors),10.1109/tits.2025.3631474,
+B1519,Unsure,institutional (added by authors),10.1016/j.aei.2025.103731,
+B1520,Include,institutional (added by authors),10.1109/cvci66304.2025.11348128,
+B1525,Unsure,institutional (added by authors),10.3390/s25030774,
+B1528,Include,institutional (added by authors),10.1016/j.engappai.2025.112108,
+B1532,Unsure,institutional (added by authors),10.1109/iv64158.2025.11097688,
+B1533,Include,open access (cached),10.48550/arxiv.2505.05548,2505.05548
+B1534,Include,institutional (added by authors),10.3390/sym17010132,
+B1536,Unsure,institutional (added by authors),10.1016/j.engappai.2025.113162,
+B1538,Unsure,institutional (added by authors),10.1109/tte.2025.3645050,
+B1543,Unsure,institutional (added by authors),10.1109/lra.2025.3592081,
+B1544,Include,institutional (added by authors),10.1016/j.trc.2025.105369,
+B1554,Unsure,institutional (added by authors),10.1109/spw67851.2025.00029,
+B1556,Unsure,open access (cached),10.54254/2755-2721/2025.tj21921,
+B1563,Unsure,institutional (added by authors),10.3390/electronics14050918,
+B1566,Include,institutional (added by authors),10.1016/j.knosys.2025.113433,
+B1568,Unsure,institutional (added by authors),10.1080/15472450.2025.2576907,
+B1569,Include,open access (cached),10.1109/iros60139.2025.11247057,2510.06038
+B1571,Include,open access (cached),,2510.10960
+B1572,Include,open access (cached),10.48550/arxiv.2506.16336,2506.16336
+B1574,Unsure,institutional (added by authors),10.1109/tits.2025.3631304,
+B1575,Unsure,institutional (added by authors),10.1109/access.2025.3584787,
+B1576,Unsure,NOT RETRIEVED,10.1080/23249935.2025.2602012,
+B1577,Unsure,institutional (added by authors),10.1016/j.physa.2025.131009,
+B1581,Unsure,institutional (added by authors),10.1109/cac67268.2025.11487865,
+B1583,Include,open access (cached),10.1016/j.aei.2025.103188,2410.14468
+B1584,Include,open access (cached),10.48550/arxiv.2512.05686,2512.05686
+B1585,Unsure,NOT RETRIEVED,10.1061/9780784486269.199,
+B1594,Include,open access (cached),10.14569/ijacsa.2025.0160558,
+B1600,Unsure,NOT RETRIEVED,10.1061/9780784486269.038,
+B1610,Include,institutional (added by authors),10.1109/cicn67655.2025.11368021,
+B1612,Include,open access (cached),10.48550/arxiv.2510.09041,2510.09041
+B1613,Include,NOT RETRIEVED,10.1186/s10033-024-01160-z,
+B1615,Unsure,institutional (added by authors),10.1109/tase.2025.3539340,
+B1620,Unsure,NOT RETRIEVED,10.2139/ssrn.5489306,
+B1623,Unsure,NOT RETRIEVED,10.1007/s42154-025-00362-y,
+B1630,Include,institutional (added by authors),10.1109/cvci66304.2025.11348348,
+B1632,Unsure,institutional (added by authors),10.1109/rsae65932.2025.11488131,
+B1634,Unsure,institutional (added by authors),10.1109/taes.2025.3588126,
+B1635,Unsure,institutional (added by authors),10.1109/optima67660.2025.11380381,
+B1636,Include,open access (cached),10.2139/ssrn.5599504,2605.28583
+B1639,Include,open access (cached),10.48550/arxiv.2509.13956,2509.13956
+B1640,Include,institutional (added by authors),10.1016/j.displa.2025.103041,
+B1642,Unsure,institutional (added by authors),10.1111/mice.13503,
+B1645,Include,open access (cached),10.1177/03611981251357006,2307.01316
+B1647,Unsure,institutional (added by authors),10.1016/j.aap.2025.108161,
+B1651,Include,open access (cached),10.1016/j.trc.2025.105321,2412.15544
+B1653,Include,institutional (added by authors),10.1109/itsc60802.2025.11423260,
+B1658,Include,open access (cached),10.1038/s41598-026-67186-6,
+B1659,Include,institutional (added by authors),10.1002/rnc.70552,
+B1662,Include,institutional (added by authors),10.1016/j.trc.2026.105674,
+B1667,Include,institutional (added by authors),10.3390/vehicles8030058,
+B1669,Include,NOT RETRIEVED,10.23919/cje.2025.00.214,
+B1676,Include,institutional (added by authors),10.1109/ojits.2026.3726139,
+B1677,Unsure,open access (cached),10.1038/s41598-026-67302-6,
+B1679,Unsure,NOT RETRIEVED,10.5220/0014358100004052,
+B1684,Unsure,NOT RETRIEVED,10.1007/978-981-95-8988-3_19,
+B1686,Include,institutional (added by authors),10.1016/j.asoc.2026.116528,
+B1687,Unsure,institutional (added by authors),10.1016/j.engappai.2026.113998,
+B1689,Include,institutional (added by authors),10.1016/j.aei.2026.104985,
+B1691,Include,NOT RETRIEVED,10.1177/09544070261487116,
+B1692,Include,open access (cached),10.48550/arxiv.2603.20230,2603.20230
+B1693,Include,NOT RETRIEVED,10.1016/j.engappai.2026.113938,
+B1695,Unsure,NOT RETRIEVED,10.1080/21680566.2026.2677019,
+B1697,Include,institutional (added by authors),10.1049/itr2.70256,
+B1700,Include,open access (cached),10.22266/ijies2026.0331.14,
+B1709,Include,open access (cached),10.2139/ssrn.7466142,2609.01609
+B1712,Unsure,institutional (added by authors),10.1016/j.geits.2026.100424,
+B1717,Unsure,institutional (added by authors),10.1016/j.trc.2026.105761,
+B1723,Include,NOT RETRIEVED,10.1177/09544070261421459,
+B1724,Unsure,NOT RETRIEVED,10.2139/ssrn.7437539,
+B1735,Include,NOT RETRIEVED,10.1177/09544070261475535,
+B1738,Unsure,institutional (added by authors),10.1049/itr2.70149,
+B1742,Include,institutional (added by authors),10.1109/tvt.2026.3724655,
+B1745,Include,institutional (added by authors),10.1016/j.trc.2025.105511,
+B1747,Include,open access (cached),10.26599/jicv.2026.9210085,
+B1748,Include,NOT RETRIEVED,10.1007/s44163-025-00812-w,
+B1755,Unsure,NOT RETRIEVED,10.1049/icp.2025.4805,
+B1759,Unsure,open access (cached),10.3389/ffutr.2026.1953597,
+B1761,Include,institutional (added by authors),10.1016/j.neucom.2026.134631,
+B1764,Include,institutional (added by authors),10.1109/tits.2026.3675752,
+B1765,Unsure,open access (cached),10.26599/jicv.2026.9210090,
+B1767,Include,institutional (added by authors),10.1109/tits.2026.3656268,
+B1770,Include,institutional (added by authors),10.1109/tase.2026.3675659,
+B1773,Unsure,institutional (added by authors),10.1109/tits.2026.3657609,
+B1776,Include,NOT RETRIEVED,10.1007/978-981-92-3566-7_58,
+B1777,Include,institutional (added by authors),10.1016/j.isatra.2026.07.008,
+B1778,Unsure,institutional (added by authors),10.1109/tvt.2026.3670026,
+B1779,Include,institutional (added by authors),10.1109/codit70676.2026.11631303,
+B1780,Include,institutional (added by authors),10.1109/jiot.2026.3676898,
+B1786,Include,institutional (added by authors),10.1016/j.eswa.2026.134435,
+B1787,Unsure,institutional (added by authors),10.1016/j.aei.2026.105142,
+B1788,Include,institutional (added by authors),10.1016/j.engappai.2026.116313,
+B1790,Unsure,open access (cached),10.48550/arxiv.2607.13348,2607.13348
+B1793,Include,institutional (added by authors),10.1109/tte.2026.3724597,
+B1796,Include,institutional (added by authors),10.1109/tits.2026.3670584,
+B1797,Include,institutional (added by authors),10.1109/tvt.2026.3736850,
+B1798,Include,institutional (added by authors),10.1109/tits.2026.3729124,
+B1799,Include,institutional (added by authors),10.3390/wevj17010024,
+B1802,Include,NOT RETRIEVED,10.1007/978-3-032-19929-4_9,
+B1804,Unsure,institutional (added by authors),10.1016/j.engappai.2026.114787,
+B1805,Unsure,open access (cached),10.48550/arxiv.2609.25831,2609.25831
+B1806,Include,open access (cached),10.1109/jiot.2026.3717687,2601.01800
+B1808,Include,institutional (added by authors),10.3390/electronics15143026,
+B1810,Unsure,open access (cached),10.48550/arxiv.2605.22748,2605.22748
+B1812,Include,open access (cached),10.1109/tiv.2026.3733200,2512.12987
+B1813,Include,open access (cached),10.48550/arxiv.2608.10403,2608.10403
+B1815,Include,NOT RETRIEVED,10.2139/ssrn.7072039,
+B1816,Unsure,institutional (added by authors),10.1109/tnnls.2026.3726595,
+B1818,Unsure,institutional (added by authors),10.1109/jiot.2026.3699213,

@@ -1,0 +1,26 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch12), 2026-10-10
+C0740 FI predictive DRL longitudinal CAV control with TTC safety in mixed-traffic lane changes
+C0743 FI robust distributed RL platoon control under uncertain dynamics and disturbances
+C0744 FI self-evolving RL with constrained optimisation (MPC) guaranteeing collision-free policy learning
+C0748 FI transformer offline RL planner combined with constrained trajectory optimisation for merging safety
+C0765 FI adaptive-rollout MBPO car-following with TTC safety reward
+C0771 FI bi-level interactive search tree with DRL for safety-critical decisions, MPC tracking
+C0777 FI high-confidence policy improvement RL planner based on a CMDP
+C0778 FI convergent harmonious RL lane change with explicit safety cost
+C0783 FI DRL with path-constraint-based action compensation ensuring safe final actions
+C0794 FX:EC3 domain-adaptive RL navigation; safety not evaluated
+C0799 FI DRL human-machine shared steering for emergency obstacle avoidance with MPC automation controller
+C0803 FX:EC3 validation of multi-objective sufficiency; no safety mechanism or safety evaluation of a policy
+C0807 FI DACER++ multimodal distributional RL with risk-sensitive (CVaR) policies for vehicles
+C0809 FI hybrid DRL-kinematic autopilot where rule-based policy enforces safety constraints
+C0820 FI game-theoretic RL merging for safety in mixed traffic
+C0822 FI hierarchical RL parking with kinematic constraints on subgoals
+C0826 FI adversarial training and uncertainty-aware DDPG car-following; collision rate and TTC
+C0828 FI robustness of RL driving through abnormally behaving traffic actors
+C0837 FI occlusion-aware RL with safe interaction mechanism
+C0851 FI hybrid DRL-Stanley control for stability and safety of 4WID vehicles
+C0866 FI dual-buffer SAC balancing safety (safety rate, TTC) at unsignalised intersections
+C0870 FX:EC3 MARL coordination training framework; safety not evaluated specifically
+C0871 FX:EC3 personalised lane keeping from driver interventions; safety not an objective
+C0874 FI DRL roundabout entry with TTC-based safety and comfort constraints
+C0876 FI option-policy hierarchical DRL obstacle avoidance with traffic safety rules

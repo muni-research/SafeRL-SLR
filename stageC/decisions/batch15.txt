@@ -1,0 +1,42 @@
+# batch 15 (C0841-C0900), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0847 Review EC9
+C0849 Unsure - mixture-of-experts SAC with safety guarantee for CAV highway decisions
+C0850 Exclude EC3 racing MPC speed profile
+C0851 Unsure - hybrid DRL+Stanley for stability and safety of 4WID vehicles
+C0852 Unsure - crash avoidance modelling with TTC and DRL (no abstract)
+C0853 Review EC9
+C0854 Exclude EC1 resource allocation
+C0856 Review EC9
+C0859 Exclude EC2 perception and path planning (check RL)
+C0860 Exclude EC1 mining trucks off-road (check)
+C0861 Exclude EC1 UAV crowdsensing
+C0863 Exclude EC1 UAV-UGV
+C0865 Unsure - lane-free MARL avoiding catastrophic failures
+C0866 Unsure - dual-buffer SAC balancing safety at unsignalised intersections
+C0867 Unsure - quantum DRL collision-free navigation of self-driving cars
+C0868 Exclude EC1 maritime
+C0869 Exclude EC3 self-adaptive systems (check domain)
+C0870 Unsure - coordination-aware MARL addressing latent risks
+C0871 Unsure - driver-intervention guided online RL lane keeping
+C0872 Exclude EC1 regenerative braking energy
+C0874 Unsure - DRL roundabout entry with safety and comfort constraints (TTC)
+C0875 Exclude EC2 neuroevolution racing
+C0876 Unsure - option-policy hierarchical DRL obstacle avoidance safety-critical
+C0878 Unsure - DRL pedestrian avoidance simulation
+C0879 Unsure - perceptual-uncertainty-aware adaptive heuristic RL planning
+C0880 Exclude EC1 UAV
+C0881 Unsure - priority sequential inference MARL for safe highway driving
+C0883 Unsure - MADRL camera-attack detection and correction in platoons
+C0884 Unsure - receding-horizon multi-kernel RL motion planning with constraints
+C0885 Unsure - receding-horizon RL shared control with stability guarantee
+C0886 Review EC9
+C0888 Unsure - red-team MARL for emergency braking safety-critical decisions
+C0891 Exclude EC2 ramp metering
+C0892 Review EC9
+C0893 Unsure - RL static output feedback lateral control with stability during learning
+C0894 Unsure - RL adaptive safety tracking controller, mining trucks
+C0895 Exclude EC1 surface vessels
+C0896 Exclude EC1 charging dispatch
+C0898 Unsure - RL path tracking with safety under varying conditions
+C0899 Exclude EC1 planetary landing
+C0900 Review EC9

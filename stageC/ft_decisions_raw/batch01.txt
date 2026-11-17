@@ -1,0 +1,60 @@
+# Full-text eligibility, citation-search candidates (stageC/dossiers batch01-03), 2026-10-10.
+# FI = include; FX:<code> = exclude with reason; FB = background pool; FD:<id> = additional report of the same study
+C0009 FI DQN autonomous braking against pedestrian collision risk; collision rate per TTC
+C0011 FI hierarchical RL options + MCTS under LTL safety specifications; self-driving intersection
+C0030 FI dueling DQN with heuristic action masking of unsafe actions; TTC, safety metrics
+C0032 FI DQN as heuristic in search to remove DRL failure rate; safety-critical planning
+C0035 FI DQN/DRQN intersection negotiation; collision rate primary outcome
+C0060 FI DQN lane-change decision with safety criterion + pure pursuit
+C0068 FI DQN with rule-based safety constraints on trajectory; lane change
+C0073 FI PPO/DDPG braking for pedestrian safety, naturalistic VR dataset
+C0080 FI probabilistic LTL guarantees via model-checked safe action sets; intersection
+C0082 FI thresholded lexicographic DQN with safety (collision/TTC) objective priority; SUMO
+C0083 FI CVaR worst-case policy gradients; driving, CARLA transfer
+C0088 FI Rainbow DQN with TTC safety layer feedback reward; lane change
+C0095 FI PPO lane change, collision rate vs TTC rule baseline; SUMO
+C0098 FB certified robustness for DQN; evaluated on robot collision avoidance among pedestrians (non-road), cartpole
+C0102 FI constrained Q-learning (CMDP, safe action sets); SUMO + highD
+C0111 FI falsification-based robust adversarial RL with MTL safety requirements; ACC/braking
+C0117 FI minimax distributional SAC (robust/risk-aware); intersection
+C0118 FX:EC3 collision penalty only; no safety mechanism or safety evaluation beyond collisions
+C0120 FD:C0102 same arXiv report (retitled version of Deep Constrained Q-learning)
+C0130 FI H-REIL hierarchical RL/IL for near-accident safety; CARLA
+C0132 FI ensemble RPF epistemic uncertainty with confidence criterion; intersection
+C0138 FI value-based crowd navigation with multimodal prediction and kinematic constraints; collision rate
+C0141 FI Bayesian ensemble RL classifying safe actions, fallback; SUMO highway
+C0164 FI Q-learning over trajectory-planner proposals satisfying safety constraints; SUMO
+C0171 FI training on collision-prone adversarial scenarios for safer agents; highway-env
+C0178 FI shielded distributional SAC, barrier-function shield via one-step MPC; on-ramp
+C0194 FI program-triggered hierarchical RL with LTL safety shield; CARLA NHTSA pre-crash
+C0222 FI DQN/DDQN pedestrian collision avoidance; collision-free episodes; CARLA
+C0234 FX:EC1 output-constraint network; vehicles not a substantive application
+C0297 FI HACO human-in-the-loop safe RL with safety cost; MetaDrive/CARLA
+C0314 FI PEARL+ prior-policy safety regularisation for meta-RL; merging
+C0316 FI SVO-DRL pedestrian collision avoidance; CARLA
+C0330 FI DMARL pedestrian crash avoidance mitigation under uncertainty; TTC
+C0370 FI cloud DDPG with robust controller and supervisor guaranteeing collision avoidance; F1TENTH HiL
+C0385 FI DQN with action screening and safety constraints; lane change
+C0387 FI model-based actor-critic objective penalty for state-wise constrained tracking; CARLA-SUMO
+C0396 FI MAPPO with V2V features for safe navigation in occlusion; CARLA
+C0426 FX:EC3 collision avoidance only as task success; no safety formulation or metrics
+C0438 FI ensemble quantile networks, aleatoric/epistemic uncertainty, CVaR; SUMO
+C0446 FI guarded policy optimisation (teacher intervention) with safety guarantee; MetaDrive
+C0447 FX:EC3 Q-learning tracking control; safety not addressed
+C0478 FI offline RL parameters for rule-based trajectory generator; critical scenarios
+C0495 FX:EC3 dynamics randomisation for tracking accuracy; safety not evaluated
+C0539 FX:EC3 RL tuning of analytical planner; safety only as motivation
+C0557 FI Lyapunov-based safety actor-critic with driver-style inference; CARLA
+C0607 FX:EC3 world-model MBRL; safety not an objective or mechanism
+C0639 FI TD3 human-machine shared steering correcting risky actions; obstacle avoidance
+C0703 FX:EC1 formal verification patterns; vehicle not a substantive case study
+C0796 FI TTC-based dynamic safety reward car-following; collision frequency; NGSIM/highD
+C0849 FI mixture-of-experts SAC with heuristic expert to avoid collisions; highway-env
+C0867 FX:EC3 quantum RL for training efficiency; safety not addressed beyond task
+C0888 FX:EC10 red-team MARL for generating corner cases to test AVs
+C0902 FI PPO lateral stability control for active safety on low adhesion; CarSim + HIL
+C0906 FI robust constrained MARL with CBF risk network against adversarial states; CARLA
+C0955 FX:EC3 ACC training efficiency; safety not an objective
+C0968 FX:EC3 offline RL distribution-shift control; safety not evaluated
+C1025 FI rain-aware DQN lane change with safety-augmented reward; highway-env
+C1047 FX:EC2 RL agent controls the traffic environment (traffic management)

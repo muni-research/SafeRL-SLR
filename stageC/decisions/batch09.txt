@@ -1,0 +1,47 @@
+# batch 09 (C0481-C0540), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0481 Unsure - ADP integrated decision and control in constrained dynamic environment
+C0482 Unsure - prediction-aware altruistic cooperative driving for safe navigation
+C0483 Unsure - robust merging under inaccurate observations (multimodal RL)
+C0484 Unsure - RL-driven MPPI constrained control
+C0486 Exclude EC2 intersection coordination (check RL)
+C0487 Review EC9
+C0489 Exclude EC1 surface vessels
+C0490 Unsure - MARL with distributed MPC for safe conflict resolution
+C0491 Unsure - digital-twin sim-to-real RL driving
+C0492 Unsure - RL collision prediction and avoidance system
+C0493 Unsure - RL lane change under low visibility, mixed traffic
+C0494 Unsure - RL navigation on downscaled vehicle (check safety)
+C0495 Unsure - path following with dynamics randomisation for safety-critical robustness
+C0498 Unsure - robust MARL against sensor noise and perception errors
+C0499 Exclude EC1 surface vessel
+C0500 Exclude EC1 VTOL
+C0501 Background EC1 safe DRL constrained HEV energy management
+C0502 Unsure - formal verification of RL in SystemC (automotive) with timed contracts
+C0503 Background EC1 barrier-function safe RL obstacle avoidance (check vehicle)
+C0504 Unsure - MAPPO safe manoeuvring with emergency vehicles
+C0505 Exclude EC2 traffic signal control
+C0506 Exclude EC2 simulator platform
+C0507 Exclude EC2 speed advisory
+C0508 Background EC1 barrier-Lyapunov actor-critic (check vehicle case)
+C0509 Unsure - hybrid rule/RL pedestrian avoidance with confidence
+C0510 Exclude EC10 attacks on driving agents
+C0511 Exclude EC1 general control
+C0512 Exclude EC2 variable speed limit
+C0516 Background EC1 offline RL uncertain action constraint (check AV)
+C0517 Unsure - quantile network uncertainty-aware intersection decisions
+C0518 Unsure - uncertainty-aware model-based offline RL for AD
+C0519 Exclude EC2 traffic simulation agents
+C0520 Exclude EC2 simulator
+C0521 Unsure - bounded-rationality RL car-following handling cut-ins for safety
+C0522 Review EC9
+C0524 Unsure - DRL with learnable rule-based safety module
+C0525 Unsure - robust DRL car-following under cut-ins with safety
+C0526 Review EC9
+C0527 Unsure - cooperative CAV merging control improving safety
+C0528 Unsure - local attention safety DRL at unsignalised intersection
+C0530 Unsure - beyond-the-limit hybrid RL control balancing safety
+C0534 Exclude EC2 freeway traffic control
+C0536 Exclude EC1 EV routing
+C0538 Exclude EC3 fleet optimisation
+C0539 Unsure - RL-informed analytical motion planner for safety/generalisation
+C0540 Review EC9

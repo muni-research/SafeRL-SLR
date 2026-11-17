@@ -1,0 +1,20 @@
+Similarity check against the Sample Article (Phase 8), 2026-10-09
+Sample: Sample Article/s10462-026-11621-7.pdf (Redhu et al., AI Review 2026)
+Manuscript: SLR_Workspace/manuscript/main.pdf (full draft incl. references)
+Method: lower-cased word n-grams (letters only), set overlap as share of the manuscript's n-grams.
+
+5-gram shared: 52 (0.19% of manuscript 5-grams)
+8-gram shared: 9 (0.03%)
+12-gram shared: 2 (0.01%)
+
+All shared 8-grams are reference-list strings: the title of the PRISMA 2020 statement
+(Page et al. 2021, BMJ), "in proceedings of the ... international conference on" and the journal
+name/DOI prefix "Expert Systems with Applications https doi org j eswa". No running text is shared.
+Conclusion: no text reused from the Sample Article (CLAUDE.md §3.2).
+
+Re-run 2026-10-10 (N = 676 manuscript, 92 pages, same method):
+5-gram shared: 47 (0.16% of manuscript 5-grams)
+8-gram shared: 8 (0.03%)
+12-gram shared: 2 (0.01%)
+All shared 8-grams are again reference-list strings (PRISMA 2020 statement title; "Expert Systems with
+Applications https doi org j eswa"). No running text is shared with the Sample Article.

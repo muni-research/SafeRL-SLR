@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\caption{Database searches (final strategy). Concept blocks: [S] Safe-RL terms, [V] vehicle terms, [R] ``reinforcement learning'', [M] safety/control-mechanism terms; full strings in Supplementary Table S1}\label{tab:search}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}llLr@{}}
+\toprule
+Source & Query & Fields & Hits \\
+\midrule
+OpenAlex & Q1: [S] AND [V] & title+abstract & 409 \\
+OpenAlex & Q2: [R] AND [M] AND [V] & title+abstract & 1188 \\
+OpenAlex & Q3: RL AND safety terms AND vehicle terms & title & 632 \\
+Semantic Scholar & [S] AND [V] (abridged) & title+abstract & 177 \\
+arXiv & 91 phrase combinations of [S]/[M] with [V] & abstract & 262 (145 unique) \\
+\midrule
+\multicolumn{3}{@{}l}{Records retrieved (all database queries)} & 2551 \\
+\multicolumn{3}{@{}l}{Duplicates removed across database results} & 927 \\
+\multicolumn{3}{@{}l}{Unique database records (of which in seed corpus: 53)} & 1624 \\
+\botrule
+\end{tabularx}
+\end{table}

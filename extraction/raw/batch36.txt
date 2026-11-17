@@ -1,0 +1,902 @@
+# Phase 4 extraction, batch 36 (citation-search studies via institutional access, Phase 8, 2026-10-10), codebook v1.5a
+
+@@ C0740
+country: USA
+problem: Predictive DDPG longitudinal control for CAVs in mixed traffic with lane changes: a physics-informed network predicts surrounding HDV motion so the CAV can anticipate disruptions, with TTC-based safety and comfort rewards.
+task: CF; COOP
+scenario: HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: inverse-TTC safety term, gap efficiency and jerk comfort
+safety_cost: NA
+constraints: NA
+mech: A; N
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: TTC distributions and comfort compared with non-predictive DRL and classical controllers; safety via reward only.
+uncertainty: INTENT; PRED
+uncertainty_method: physics-structure-informed trajectory prediction
+simulator: CUSTOM
+dataset: NGSIM
+vehicle_model: PM
+metrics: TTC; JERK; SPEED
+baselines: non-predictive DDPG, linear feedback and MPC controllers
+baseline_types: NSRL; CLASS
+results: The predictive controller improved safety (fewer low-TTC events) and efficiency during adjacent lane changes compared with non-predictive DRL and classical controllers.
+generalization: NONE
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: PRED; CTRL
+limitations: R: longitudinal control only.
+qa: 2 2 1 2 2 2 2 1 0 1 1 2
+qa_note: Q3 safety via reward only; Q8 prediction of HDVs only; Q9 none; Q10 partial; Q11 public data, no code
+
+@@ C0743
+country: Australia
+problem: Fully distributed model-free robust RL for heterogeneous CAV platoons under uncertain dynamics and external disturbances, combining a nominal RL controller with a robust compensator, validated in a SUMO-MATLAB co-simulation.
+task: PLT; CF
+scenario: HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-DEC
+n_agents: NR
+algorithm: SAC
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: spacing and velocity tracking errors, control effort
+safety_cost: NA
+constraints: NA
+mech: K
+mech_primary: K
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: NONE
+control: OTHER:robust disturbance compensator
+safety_claim: ROB; EMP
+guarantee_assumptions: bounded disturbances
+safety_level: L1
+level_note: Spacing tracking and oscillation damping under uncertain dynamics compared with baselines; safety evidence via spacing errors only.
+uncertainty: MODEL; DIST
+uncertainty_method: robust compensation of unknown dynamics and disturbances
+simulator: SUMO; SIMULINK
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; DIST; COMF
+baselines: nominal RL controller, MPC, distributed controllers
+baseline_types: NSRL; CLASS
+results: The robust RL framework improved tracking, damped traffic oscillations and maintained spacing under uncertain dynamics better than nominal RL and classical controllers.
+generalization: DIST; DYN
+validation_tier: SIM-LOW
+real_world: NA
+code: Y
+code_url: https://github.com/eyb225/vehicle-platoon-RL.git
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: CTRL
+limitations: R: safety proxy only.
+qa: 2 2 2 2 2 1 2 2 2 1 2 1
+qa_note: Q6 spacing errors as safety proxy; Q10 seeds missing; Q12 SUMO-MATLAB co-simulation
+
+@@ C0744
+country: China
+problem: Safe and efficient self-evolving RL that treats decision making and planning control as one constrained nonlinear optimisation solved in an MPC-style receding horizon with the learned value as terminal cost, keeping policy learning collision-free.
+task: TD; MP; LC
+scenario: HWY; URB
+traffic: SCRIPTED
+rl_paradigm: MF; MB
+agents: SA
+n_agents: 1
+algorithm: OTHER:RL with MPC-embedded policy optimisation
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: efficiency and comfort terms
+safety_cost: NA
+constraints: collision-avoidance constraints in the receding-horizon optimisation
+mech: I; E; Q
+mech_primary: I
+mech_stage: BOTH
+rl_output: PARAM
+safety_integration: EMBED
+control: MPC
+safety_claim: RT; EMP
+guarantee_assumptions: accurate prediction model and feasible optimisation
+safety_level: L3
+level_note: Actions come from a constrained optimisation that enforces collision avoidance at every step during learning and execution; collision rate 0 reported in CARLA.
+uncertainty: STOCH
+uncertainty_method: random traffic
+simulator: CARLA
+dataset: NONE
+vehicle_model: KIN; SIMVEH
+metrics: COLL; SPEED; SAMPLE; COMF
+baselines: SAC, PPO, MPC
+baseline_types: NSRL; CLASS
+results: The self-evolving algorithm learned collision-free with faster convergence and higher efficiency than model-free RL and MPC baselines.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; PLAN; CTRL; SUPERV
+limitations: R: model-dependent constraints.
+qa: 2 2 2 2 2 2 2 1 2 1 1 2
+qa_note: Q8 stochastic traffic only; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0748
+country: China
+problem: Transformer optimised planner (TOP) for on-ramp merging: a transformer trained with offline RL (CQL) generates an initial trajectory that an online optimisation refines to satisfy safety and dynamic constraints.
+task: MERGE; MP
+scenario: RAMP
+traffic: SCRIPTED
+rl_paradigm: OFF
+agents: SA
+n_agents: 1
+algorithm: CQL
+method_name: TOP
+network: ATT
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: merging progress, collision and comfort terms
+safety_cost: NA
+constraints: collision and kinematic constraints in the online trajectory optimisation
+mech: E; P; I
+mech_primary: E
+mech_stage: EXEC
+rl_output: TRAJ
+safety_integration: FILTER
+control: OTHER:trajectory optimisation
+safety_claim: RT; EMP
+guarantee_assumptions: feasible optimisation and accurate prediction of traffic
+safety_level: L3
+level_note: The learned trajectory is refined by a constrained optimisation at every planning step; collision rates and t-tests compared with baselines.
+uncertainty: STOCH
+uncertainty_method: SUMO traffic-density variation via random seeds
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; JERK; DIST
+baselines: offline RL without optimisation, optimisation-only planner, rule-based merging
+baseline_types: NSRL; CLASS; ABL
+results: TOP achieved lower collision rates and smoother merging than offline-RL-only and optimisation-only planners, with significance tests.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PLAN; SUPERV
+limitations: R: SUMO only.
+qa: 2 2 2 2 2 2 2 1 1 1 1 1
+qa_note: Q8 stochastic traffic only; Q9 densities only; Q10 seeds unclear; Q11 SUMO, no code; Q12 SUMO only
+
+@@ C0765
+country: China
+problem: Adaptive-rollout model-based policy optimisation (AR-MBPO) for economic car-following of electric vehicles, with a TTC-based safety reward, energy and efficiency objectives.
+task: CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MB
+agents: SA
+n_agents: 1
+algorithm: MBPO
+method_name: AR-MBPO
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: log-TTC safety term below 3 s, headway efficiency, energy consumption, jerk
+safety_cost: NA
+constraints: NA
+mech: A; Q
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Zero collisions in test scenarios with TTC distributions compared; safety via reward only.
+uncertainty: MODEL
+uncertainty_method: model ensemble with adaptive rollout length
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: COLL; TTC; ENERGY; JERK
+baselines: SAC, MBPO, PPO, DDPG
+baseline_types: NSRL
+results: AR-MBPO converged faster than model-free RL with 0% collisions in testing and 8.2% lower energy consumption than baselines.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL
+limitations: R: car-following only.
+qa: 2 2 1 2 1 2 2 1 0 1 0 1
+qa_note: Q3 safety via reward only; Q5 only non-safe RL baselines; Q8 model uncertainty only; Q9 none; Q10 seeds missing; Q11 custom; Q12 two-vehicle model
+
+@@ C0771
+country: China
+problem: Bi-level interaction decision-making (BIDA) that integrates an interactive Monte Carlo tree search with a DRL value/policy for safety-critical decisions on multi-lane highways and unsignalised T-intersections, with MPC trajectory tracking.
+task: TD; INT; LC
+scenario: HWY; INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: MCTS; PPO
+method_name: BIDA
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress, collision and off-road penalties
+safety_cost: NA
+constraints: NA
+mech: Q; A
+mech_primary: Q
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: NONE
+control: MPC
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and off-road rates with confidence intervals compared with DRL and search baselines in closed-loop simulation; no hard constraint.
+uncertainty: INTENT
+uncertainty_method: interactive search over predicted reactions
+simulator: HWENV; CARLA
+dataset: NONE
+vehicle_model: KIN; SIMVEH
+metrics: COLL; OFFROAD; SUCC
+baselines: PPO, SAC, MCTS variants
+baseline_types: NSRL; ABL
+results: BIDA achieved lower collision and off-road rates than DRL-only and search-only baselines in dynamic highway and T-intersection scenarios.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; PLAN; CTRL
+limitations: R: two scenario types.
+qa: 2 2 2 2 1 2 2 1 0 1 1 2
+qa_note: Q5 no safe-RL baseline; Q8 interaction uncertainty only; Q9 none; Q10 seeds missing; Q11 public simulators, no code
+
+@@ C0777
+country: China
+problem: High-confidence policy improvement RL (HCPI-RL) planner based on a CMDP so that each policy update is accepted only when it improves performance with high confidence, enabling monotonic evolution of automated driving.
+task: TD; MP
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:high-confidence policy improvement RL
+method_name: HCPI-RL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: efficiency and comfort terms
+safety_cost: risk cost
+constraints: high-confidence lower bound on improvement under CMDP risk constraints
+mech: B; L
+mech_primary: B
+mech_stage: TRAIN
+rl_output: TRAJ
+safety_claim: STAT; CEXP
+safety_integration: NONE
+control: MPC
+guarantee_assumptions: statistical confidence bounds from evaluation data
+safety_level: L2
+level_note: Policy updates must satisfy high-confidence constraints of a CMDP; risk and success compared with standard RL under repeated evolution rounds.
+uncertainty: STOCH
+uncertainty_method: confidence intervals on policy performance
+simulator: PRESCAN
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: SUCC; RISK; COMF
+baselines: DDPG, PPO, SAC, TD3
+baseline_types: NSRL
+results: HCPI-RL improved performance monotonically across evolution rounds without risk deterioration, unlike conventional RL updates.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PLAN
+limitations: R: statistical guarantees depend on evaluation data.
+qa: 2 2 2 2 1 2 2 1 2 1 0 2
+qa_note: Q5 only non-safe RL baselines; Q8 stochasticity only; Q10 seeds missing; Q11 commercial simulator, no code
+
+@@ C0778
+country: China
+problem: Convergent harmonious RL for lane changing: a P-Critic criticises disharmony toward surrounding vehicles and a harmony guidance module, with explicit lateral and longitudinal safety costs, to reduce driving risk and oscillations.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: CHRL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: ego reward with TTC safety term and harmony reward for surrounding vehicles
+safety_cost: weighted lateral and longitudinal safety costs
+constraints: safety cost penalised in harmony-aware objective
+mech: A; C
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates, TTC and disharmony compared with egocentric RL; safety costs shape training without enforcement.
+uncertainty: STOCH
+uncertainty_method: random traffic
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TTC; COMF
+baselines: DDQN, SAC, game-based lane change
+baseline_types: NSRL; CLASS
+results: CHRL reduced collision risk and oscillations of surrounding vehicles compared with egocentric RL lane-change policies.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 2 2 2 2 2 1 1 1 1 1
+qa_note: Q8 stochastic traffic only; Q9 densities only; Q10 seeds missing; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0783
+country: China
+problem: DRL decision making with a path-constraint-based action compensation module that adjusts the policy's actions so that final actions satisfy safety path constraints, improving reliability in CARLA.
+task: TD; LC; NAV
+scenario: URB; HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: D3QN
+method_name: NR
+network: CNN
+obs_type: BEV
+action_type: DISC
+action_level: BEHAV
+reward: progress, collision and lane terms
+safety_cost: NA
+constraints: path constraints derived from road geometry and obstacles
+mech: E; W
+mech_primary: E
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: FILTER
+control: NONE
+safety_claim: EMP; RT
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Action compensation corrects actions at run time so that outputs meet path constraints; collision and intervention outcomes compared in CARLA.
+uncertainty: STOCH
+uncertainty_method: random traffic
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; INTERV; SUCC
+baselines: DQN, DDQN, D3QN without compensation
+baseline_types: NSRL; ABL
+results: Path-constraint compensation reduced collisions and improved reliability compared with DQN-family baselines.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: R: compensation rules hand-designed.
+qa: 2 2 2 2 1 2 2 1 0 1 1 2
+qa_note: Q5 ablations and DQN-family only; Q8 stochastic traffic only; Q9 none; Q10 seeds missing; Q11 CARLA, no code
+
+@@ C0799
+country: China
+problem: DRL human-machine shared steering under emergency obstacle avoidance: a reward learned from expert demonstrations trains DDPG to allocate authority between the driver and an MPC automation controller to improve safety and stability.
+task: EMG; CA
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: demonstration-derived reward for safety, stability and driver agreement
+safety_cost: NA
+constraints: NA
+mech: V; I
+mech_primary: V
+mech_stage: EXEC
+rl_output: PARAM
+safety_integration: NONE
+control: MPC
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Safety and stability indices compared with fuzzy and game-based shared control in emergency avoidance; authority allocation without hard constraint.
+uncertainty: INTENT
+uncertainty_method: driver models in emergencies
+simulator: PRESCAN; SIMULINK
+dataset: NONE
+vehicle_model: DYN
+metrics: RISK; DEV
+baselines: fuzzy-based HMSSC, game-theory-based HMSSC
+baseline_types: CLASS
+results: The DRL-based shared steering improved vehicle safety and stability by 43.56% and 82.96% over the fuzzy-based method in a highway merging emergency avoidance condition.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: CTRL; SUPERV
+limitations: R: driver models simulated.
+qa: 2 2 2 2 1 2 2 1 1 1 0 2
+qa_note: Q5 only classical baselines; Q8 driver behaviour only; Q9 conditions only; Q10 partial; Q11 commercial simulator, no code
+
+@@ C0807
+country: China
+problem: DACER++: an online diffusion-based actor-critic with multimodal Q-value distributions supporting risk-sensitive (CVaR and power distortion) policies for stochastic vehicle environments.
+task: CF; LK
+scenario: GENERIC
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:DACER++ (diffusion actor-critic, distributional)
+method_name: DACER++
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: tracking and safety penalty terms
+safety_cost: NA
+constraints: NA
+mech: L
+mech_primary: L
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Risk-sensitive multimodal policies compared with distributional baselines in stochastic vehicle tasks; no explicit constraint.
+uncertainty: ALE; STOCH
+uncertainty_method: multimodal distributional critic
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: REW; COLL
+baselines: DSAC, SAC, TD3, PPO
+baseline_types: NSRL
+results: DACER++ modelled multimodal return distributions and produced adaptable risk-sensitive policies outperforming unimodal distributional baselines.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: P
+compute: N
+stack: CTRL
+limitations: R: vehicle task details limited.
+qa: 2 2 2 1 1 1 2 1 0 1 0 1
+qa_note: Q4 vehicle environment partly described; Q5 only non-safe RL baselines; Q6 safety outcomes limited; Q8 stochasticity only; Q9 none; Q10 seeds missing; Q11 custom; Q12 simple vehicle environment
+
+@@ C0809
+country: United Kingdom
+problem: Hybrid DRL-kinematic autopilot for complex motorway scenes: a DRL policy proposes behaviour, a kinematic co-pilot evaluates it, and a rule-based policy selects the final action so that safety constraints are respected.
+task: TD; LC; MERGE
+scenario: HWY; RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress, collision, off-road and comfort terms
+safety_cost: NA
+constraints: kinematic safety checks and rule-based final action selection
+mech: W; S
+mech_primary: W
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: RULE
+safety_claim: EMP; RT
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The rule-based layer chooses safe final actions at run time from DRL and kinematic proposals; collision, off-road and success rates compared in SMARTS.
+uncertainty: STOCH
+uncertainty_method: varied motorway traffic
+simulator: SMARTS
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; OFFROAD; SUCC; TTC
+baselines: DQN, DDPG, PPO, rule-based autopilot
+baseline_types: NSRL; CLASS
+results: The hybrid autopilot achieved higher success with lower collision and off-road rates than DRL-only and rule-only autopilots across motorway scenes.
+generalization: GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; SUPERV
+limitations: R: SMARTS only.
+qa: 2 2 2 2 2 2 2 1 2 1 1 1
+qa_note: Q8 stochastic traffic only; Q10 seeds unclear; Q11 SMARTS, no code; Q12 SMARTS
+
+@@ C0820
+country: China
+problem: Game-theoretic RL for behaviour-aware merging in mixed traffic: leader-follower and Nash cooperative interactions between AVs and HVs are embedded in a dueling double DQN decision model with safety costs.
+task: MERGE; COOP
+scenario: RAMP
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: D3QN
+method_name: GTRL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: merging success, collision penalty, headway and travel-time terms, game payoffs
+safety_cost: collision-risk cost
+constraints: NA
+mech: A; O
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and success rates across merging scenarios compared with DRL and game baselines; safety via cost in the objective.
+uncertainty: INTENT
+uncertainty_method: behaviour-aware game model of HVs
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; THRU; TIME
+baselines: D3QN, game-theoretic MPC merging, rule-based
+baseline_types: NSRL; CLASS
+results: GTRL achieved higher merging success and lower collision rates than baselines in leader-follower and cooperative merging scenarios.
+generalization: AGENTS; DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC
+limitations: R: highway-env only.
+qa: 2 2 2 2 2 2 2 1 2 1 1 1
+qa_note: Q8 driver behaviour only; Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0822
+country: China
+problem: Hierarchical RL with kinematic constraints for adaptive parking (HRL-KCAP): a high-level policy selects subgoals within an adaptive turning boundary that enforces kinematic feasibility, with low-level control, tested on a UGV and an SUV.
+task: PARK; MP
+scenario: PARKLOT
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: HRL-KCAP
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: MIXED
+reward: parking progress, collision and boundary penalties
+safety_cost: NA
+constraints: kinematic reachable turning-area constraints on subgoals
+mech: D; R
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PLANNER
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Subgoals outside the kinematically reachable turning area are masked at every step; parking success above 97.8% in simulation and real tests, without separate safety statistics for the physical runs.
+uncertainty: STOCH
+uncertainty_method: background vehicles and vehicle types
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN; REAL
+metrics: SUCC; COLL; TIME
+baselines: flat RL, hybrid A*-based parking
+baseline_types: NSRL; CLASS
+results: HRL-KCAP achieved parking success above 97.8% across vehicle types and dynamic scenarios, including real-world tests with a UGV and an SUV.
+generalization: DYN; S2R
+validation_tier: CLOSED
+real_world: real-world parking tests with a UGV and a full-size SUV
+code: Y
+code_url: https://github.com/pearlxy/HRL-KCAP
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; CTRL
+limitations: R: parking scenarios only.
+qa: 2 2 2 2 2 1 2 1 2 1 2 2
+qa_note: Q6 collisions partly reported; Q8 background vehicles only; Q10 seeds missing
+
+@@ C0826
+country: China
+problem: Human-like car-following combining GAIL-based adversarial reward learning with an uncertainty-aware DDPG (ensemble critics) to handle uncertainty in motion prediction, evaluated by MSE, collision rate, TTC and jerk.
+task: CF
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: NR
+network: ATT; MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: adversarially learned human-likeness reward
+safety_cost: NA
+constraints: NA
+mech: N; V
+mech_primary: N
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate and TTC intervals compared with RL and IL car-following models; uncertainty-aware critics without constraints.
+uncertainty: EPI; PRED
+uncertainty_method: critic ensemble for motion-prediction uncertainty
+simulator: CUSTOM
+dataset: NGSIM
+vehicle_model: PM
+metrics: COLL; TTC; JERK
+baselines: DDPG, GAIL, IDM, other RL car-following models
+baseline_types: NSRL; CLASS; HUMAN
+results: The method achieved the best MSE and collision rate among compared car-following models and ran in real time on an embedded Jetson platform.
+generalization: NONE
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL
+limitations: R: car-following only.
+qa: 2 2 1 2 2 2 2 2 0 1 1 2
+qa_note: Q3 safety indirect; Q9 none; Q10 partial; Q11 public data, no code
+
+@@ C0828
+country: Indonesia
+problem: Robust DQN highway driving trained with abnormally behaving traffic actors (random lane changes) wrapped around highway-env, evaluated across abnormality levels.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: highway-env default rewards
+safety_cost: NA
+constraints: NA
+mech: K
+mech_primary: K
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM; MOBIL
+safety_claim: ROB; EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates across 0-75% abnormality levels compared with normally trained agents; behavioural perturbation in training only.
+uncertainty: INTENT
+uncertainty_method: injected abnormal lane-change behaviour
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; REW
+baselines: DQN trained in normal environment
+baseline_types: NSRL; ABL
+results: Agents trained with abnormal actors had lower collision rates in abnormal test environments while keeping performance in normal traffic.
+generalization: AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC
+limitations: A: lightweight perturbations only.
+qa: 2 2 1 2 1 2 2 2 2 1 1 1
+qa_note: Q3 perturbation method simple; Q5 ablation only; Q10 seeds missing; Q11 highway-env, no code; Q12 highway-env
+
+@@ C0837
+country: China
+problem: Pad-AI: occlusion-aware decision making that learns from agent interaction via active perception, with a vectorised occluded-state representation, semantic motion primitives and prediction-integrated RL with a safe interaction mechanism.
+task: INT; TD; PED
+scenario: INTX; URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: Pad-AI
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress, collision and risk terms
+safety_cost: NA
+constraints: safe interaction mechanism limiting risky exploration of conflict zones
+mech: N; W; A
+mech_primary: N
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: A prediction-based safe interaction mechanism restricts entry into conflict zones under occlusion; collision and success rates compared with reachability-based and RL baselines in CARLA.
+uncertainty: PO; INTENT
+uncertainty_method: active perception and prediction of occluded agents
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SUCC; TIME
+baselines: reachable-set conservative planner, DQN, PPO
+baseline_types: NSRL; CLASS
+results: Pad-AI reduced collisions with occluded agents while being less conservative than reachability-based planners across static and dynamic occlusion scenarios.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PERC; PRED; DEC
+limitations: R: simulation only.
+qa: 2 2 2 2 2 2 2 2 2 1 1 2
+qa_note: Q10 seeds unclear; Q11 CARLA, no code

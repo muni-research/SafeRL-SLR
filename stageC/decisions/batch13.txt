@@ -1,0 +1,41 @@
+# batch 13 (C0721-C0780), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0722 Unsure - RL with expert priors for safe proactive unprotected turns
+C0723 Unsure - robust RL car-following for rare emergency events
+C0725 Exclude EC1 surface vessel
+C0726 Duplicate C0727
+C0727 Unsure - Bayesian uncertainty and noise aware DRL decisions for safety
+C0728 Exclude EC10 vehicle dynamics limit analysis
+C0729 Exclude EC1 UAV
+C0730 Exclude EC2 traffic signal control
+C0731 Unsure - game theory + RL pedestrian interaction decisions (check safety)
+C0732 Exclude EC1 vessels
+C0733 Exclude EC1 eco speed optimisation
+C0734 Unsure - mixture-of-experts DRL with rule model for security/safety
+C0735 Exclude EC2 trajectory prediction
+C0738 Exclude EC1 underwater vehicle
+C0739 Exclude EC1 multi-agent encirclement
+C0740 Unsure - predictive DRL CAV longitudinal control for safety under lane changes
+C0741 Review EC9
+C0742 Review EC9 (power systems)
+C0743 Unsure - robust RL platoon control under uncertain dynamics
+C0744 Unsure - safe and efficient self-evolving RL decision and control
+C0745 Exclude EC1 agricultural vehicles
+C0747 Unsure - hierarchical DRL with MPC tracking for safe lane changes
+C0748 Unsure - transformer planner with optimisation for trajectory safety (check RL)
+C0749 Exclude EC2 MCTS, not RL (check)
+C0751 Unsure - MARL on-ramp merging improving safety
+C0752 Review EC9
+C0753 Review EC9
+C0754 Exclude EC10
+C0756 Unsure - double SAC platooning for rare safety-critical events
+C0759 Exclude EC10
+C0764 Unsure - safety-aware AH-DDQN highway decisions
+C0765 Unsure - adaptive rollout MBPO car-following addressing safety
+C0767 Review EC9
+C0770 Exclude EC1 AGV
+C0771 Unsure - bi-level MCTS + RL interaction decisions, safety-critical
+C0776 Review EC9
+C0777 Unsure - high-confidence policy improvement RL planner (risk)
+C0778 Unsure - harmonious lane change reducing driving risk
+C0779 Exclude EC1 eco-driving
+C0780 Unsure - dynamic estimation RL path following with stability/safety

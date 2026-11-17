@@ -1,0 +1,80 @@
+# Stage E (pre-submission update search, 2026-11-13) title/abstract screening, E001-E078, 2026-11-13
+# format: EID DECISION [REASON] [note]; same criteria and rules as Stages A-C (protocol v1.2 + amendments)
+E001 Exclude EC2 self-adaptive software engineering, no RL policy
+E002 Unsure - no abstract; RL for safe and comfortable driving (conference, repository record)
+E003 Exclude EC1 logistics
+E004 Exclude EC8 thesis
+E005 Exclude EC8 thesis (also EC11, Turkish)
+E006 Exclude EC4 guest editorial
+E007 Exclude EC1 edge computing
+E008 Exclude EC1 robot navigation, no safe RL method
+E009 Exclude EC9 review of AV control strategies
+E010 Exclude EC8 thesis (also EC11)
+E011 Background EC1 off-road vehicle (rule v1.2: off-road -> Background); MPC + DRL compensator
+E012 Background EC1 UAV safe RL
+E013 Exclude EC2 PSO-MPC, no RL
+E014 Exclude EC1 IoT honeypot
+E015 Unsure - RL identifies vehicle stability boundary for a boundary controller; check role of RL and safety
+E016 Exclude EC1 communication resource allocation
+E017 Exclude EC1 packet delivery
+E018 Exclude EC8 thesis
+E019 Unsure - RL merging sequence + DMPC trajectory with safety constraints
+E020 Exclude EC1 generic nonlinear control
+E021 Unsure - RL adapts MPC weights, safety constraints inside MPC (role iii)
+E022 Unsure - DDPG torque redistribution on Lyapunov fault-tolerant controller; check safety role
+E023 Exclude EC3 VLM end-to-end driving with RL fine-tuning, safety only motivational
+E024 Include - multi-output CBF safety filter for DRL ACC
+E025 Include - constrained RL platoon with prescribed spacing and PD fallback
+E026 Exclude EC2 inverse RL car-following generation
+E027 Background EC1 launch vehicles, safe MARL
+E028 Background EC1 microgrids with EVs, safe MARL
+E029 Include - risk-aware action masking RL for lane change
+E030 Unsure - hierarchical DDPG-MPC merging; check safety mechanism
+E031 Exclude EC10 safety-critical scenario generation
+E032 Unsure - meta-RL platoon under communication attacks "maintaining safety constraints"
+E033 Include - decoupled safety rectification in multi-objective policy optimisation
+E034 Exclude EC2 inverse RL trajectory planning
+E035 Include - VLM physics-informed reward with CBF
+E036 Unsure - risk-aware RL trajectory planning with risk-zone avoidance
+E037 Unsure - RL tunes MPC cost for racing; check safety role
+E038 Unsure - safe RL (HJI) lane following of wheeled mobile robots; check vehicle type
+E039 Include - RL adapts NMPC cost, MPC safety guarantees kept
+E040 Include - safety-layer action correction for RL AV control in mixed traffic
+E041 Exclude EC4 corrigendum (also EC1 task offloading)
+E042 Unsure - uncertainty-aware perception + ensemble RL pothole avoidance (repository preprint)
+E043 Unsure - constrained multi-objective control (H-GRPO), driving metrics; check domain
+E044 Unsure - neuro-symbolic safe RL for autonomous EV control
+E045 Exclude EC3 energy management, battery constraints
+E046 Unsure - TD3 diffusion actor tunes MPC weights for car following
+E047 Include - DQN with safe-distance constraints and reward machine, ramp merging
+E048 Unsure - adaptive critic CACC under FDI attacks with Lyapunov analysis
+E049 Include - LSTM-DQN game lane-changing with explicit safety constraints
+E050 Include - physics-informed human-guided RL with risk-aware delegation
+E051 Exclude EC3 congestion/traffic stability, not driving safety
+E052 Exclude EC8 thesis
+E053 Background EC1 EV charging dispatch, safe RL
+E054 Background EC1 V2X communications, safety-aware MARL
+E055 Exclude EC1 cooperative sensing networks
+E056 Unsure - integrated safety architecture (safe RL, anomaly detection, Z3) for AV control
+E057 Exclude EC1 IoV resource allocation
+E058 Unsure - safety-oriented graph RL decision making for CAVs, weaving
+E059 Exclude EC4 software/data deposit
+E060 Include - CBF-MPC filter for safe online RL fine-tuning (preprint, Oct 2026, technically complete)
+E061 Unsure - DDQN+DDPG decision and control, safety-constraint satisfaction reported
+E062 Background EC1 home energy management, chance-constrained RL
+E063 Include - RL trajectory generation + PPC-MPC-CBF for roundabouts (preprint, Oct 2026)
+E064 Exclude EC4 software/data deposit
+E065 Exclude EC8 thesis
+E066 Include - Lagrangian PPO safe trajectory tracking with geometric safety representation
+E067 Exclude EC3 theoretical sim-to-real framework for ground robot, no safety role
+E068 Unsure - no abstract; multi-agent PPO for safe unsignalized intersection navigation
+E069 Exclude EC4 software deposit (also signal priority)
+E070 Exclude EC3 motion-sickness comfort
+E071 Include - backup-horizon CBF safeguarding MARL for CAVs (preprint, Nov 2026)
+E072 Exclude EC3 EV charging navigation, grid constraints
+E073 Exclude EC9 review of RL decision making in risk scenarios
+E074 Include - preventive safe MARL, on-ramp merging (preprint, Nov 2026)
+E075 Unsure - RL with risk costs and interaction field; check safety role
+E076 Include - LLM knowledge reasoning guiding RL toward safe end-to-end driving
+E077 Background EC1 flight vehicles, Lyapunov safe RL
+E078 Exclude EC8 thesis

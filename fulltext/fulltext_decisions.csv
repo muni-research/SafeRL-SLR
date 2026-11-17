@@ -1,0 +1,829 @@
+study_id,ta_decision,ft_decision,reason_code,linked_to,note,assessed_on
+A005,Include,Include,,,Lagrangian safe RL + HOCBF model-based constraint + worst-case cost; CARLA Town03,2026-10-07
+A007,Include,Include,,,"multi-agent projection-based CPO, CAV intersection; CARLA+SUMO+NS3",2026-10-07
+A019,Include,Include,,,safe MARL (SAC-Lagrangian) decoupled lat/long lane change; SUMO,2026-10-07
+A020,Unsure,Exclude,EC2,,IRL used to model human vehicle-following from highD; no RL control policy or safety mechanism,2026-10-07
+A035,Include,Include,,,SAC + DOB-CBF safety filter (+ predictive CBF); Gymnasium-based physics sim,2026-10-07
+A036,Include,Include,,,TD3 + action mapping (traction constraints) + guidance policy for safe exploration; racing sim,2026-10-07
+A037,Include,Include,,,"event-triggered safe RL, CBF/CLF QP correction; NGSIM-calibrated car-following",2026-10-07
+A046,Include,Include,,,DDPG with analytic headway-based hard safety constraints; SUMO (QEW network),2026-10-07
+A052,Include,Include,,,ADP actor-critic with barrier Lyapunov functions (optimized backstepping); AV motion control sim,2026-10-07
+A053,Include,Include,,,CBF-DDPG with runtime-monitored CBF parameters; highway-env + CARLA weather,2026-10-07
+A059,Include,Include,,,CMDP multi-level CPO (MLSCPO) highway decision making; CARLA 0.9.12,2026-10-07
+A060,Unsure,Background,EC1,,general CVaR-CPO; SafeMetaDrive is 1 of 3 benchmark domains (AV not primary target),2026-10-07
+A072,Include,Include,,,"SAC-based interactive safe RL (action editing) + NMPC for on-ramp merging; MATLAB/Simulink, NGSIM-calibrated",2026-10-07
+A074,Include,Include,,,"barrier-force policy structure safe RL, time-varying constraints; Safety Gym + real intelligent-vehicle experiment",2026-10-07
+A075,Unsure,Background,EC1,,general NLBAC; car-following is 1 of several benchmark tasks,2026-10-07
+A078,Unsure,Background,EC1,,"generic control-affine 'vehicle' encirclement (target pursuit), MATLAB; not road driving",2026-10-07
+A080,Unsure,Background,EC1,,"generic 'vehicle' target enclosing with CBF-RL, MATLAB; not road driving",2026-10-07
+A086,Include,Include,,,state-wise safe PPO with CBF + latent dynamics; CARLA (BEV),2026-10-07
+A087,Include,Include,,,uncertainty-augmented Lagrangian (Lag-U) + intervention; MetaDrive safety-critical maps,2026-10-07
+A089,Include,Include,,,tube-MPC-certified TD3 eco-driving in mixed traffic; NGSIM-calibrated sim,2026-10-07
+A095,Include,Include,,,RECPO (replay-buffer CPO) highway decisions; CARLA,2026-10-07
+A096,Include,Include,,,ensemble-DDPG uncertainty runtime monitor with IDM+MOBIL fallback; highway-env,2026-10-07
+A097,Include,Include,,,hybrid-action constrained RL (CMDP) parking with adaptive safety thresholds,2026-10-07
+A099,Include,Include,,,TD3 with approximate safe action; MetaDrive + SpeedLimit,2026-10-07
+A105,Include,Include,,,safety experience replay + safety evaluation network (TD3); CARLA,2026-10-07
+A109,Include,Include,,,"PPO + differentiable CBF-QP safety layer + learned HDV model, mixed-autonomy platoon",2026-10-07
+A112,Unsure,Include,,,FOMI feasible constrained RL; vehicle obstacle-avoidance task + real AGV experiment,2026-10-07
+A116,Unsure,Background,EC1,,general IP3O; MetaDrive only as a secondary multi-agent demo (Safety Gym primary),2026-10-07
+A120,Unsure,Background,EC1,,general neural barrier certificate RL; AD is 1 of several benchmark tasks,2026-10-07
+A127,Include,Include,,,Q-learning with first-order-logic action filtering; highD-based highway lane changing,2026-10-07
+A129,Include,Include,,,PPO with CLF-CBF-QP correction (S2RL) for ACC/lane-keeping/manoeuvres; custom Gym sim,2026-10-07
+A132,Include,Include,,,robust CBF (GP uncertainty) + model-based SAC trajectory tracking of uncertain AVs,2026-10-07
+A135,Include,Include,,,Q-learning with FSM safety layer (shield-like) for highway driving; MATLAB/Simulink,2026-10-07
+A139,Include,Include,,,PPO-Lagrangian with transformer interaction encoder for AD decision making,2026-10-07
+A140,Include,Include,,,safe RL trajectory tracker with MPC expert takeover; sim-to-real on a full-size vehicle,2026-10-07
+A144,Include,Include,,,"actor-critic-Lagrangian with CBF in cost, AV lateral dynamics",2026-10-07
+A157,Unsure,Exclude,EC1,,RL controls traffic signals (SUMO); no vehicle is controlled by the safe RL policy,2026-10-07
+A158,Unsure,Background,EC1,,general GradS multi-constraint safe RL; driving only as motivating example (Bullet/Safety Gym),2026-10-07
+A164,Include,Include,,,adversarial attack on PPO ACC agent protected by CBF filter (robustness of safe RL),2026-10-07
+A167,Include,Include,,,Lyapunov-based SAC (CMDP) for connected-vehicle platooning; SUMO,2026-10-07
+A174,Include,Background,EC1,,Safe CoR; driving (MetaDrive) is 1 of 3 domains with Safety Gym and Jackal robot,2026-10-07
+A181,Include,Additional report,EC5,B0750,"ACC 2025 conference version of B0750 (T-ITS 2025, same group; journal adds conformal-prediction robust CBF)",2026-10-07
+A187,Include,Include,,,ShieldNN closed-form CBF shield for kinematic bicycle model + PPO; CARLA,2026-10-07
+A188,Include,Include,,,SAC with neural Lyapunov constraints (Lagrangian); highway-env,2026-10-07
+A192,Unsure,Background,EC1,,adversarial safety certification of RL (POMDP); AD only motivational,2026-10-07
+A193,Include,Include,,,dynamic residual safe RL (weak-to-strong correction) multi-agent safety-critical scenarios; SUMO,2026-10-07
+A198,Include,Include,,,"Lyapunov-based SAC with Koopman-learned dynamics, automated parking; highway-env parking",2026-10-07
+A204,Include,Include,,,RL-tuned MPC-CBF (adaptive CBF parameters) for CAV merging,2026-10-07
+A210,Include,Include,,,risk-probability-prediction SAC for platooning; SUMO,2026-10-07
+A211,Unsure,Exclude,EC3,,generic LiDAR navigation with TD3/PPO; no explicit safety mechanism or safety evaluation beyond reward,2026-10-07
+B0011,Include,Include,,,DDPG driving policy combined with artificial-potential-field safety controller; TORCS,2026-10-07
+B0015,Unsure,Include,,,CMDP survival-oriented DDPG with negative-avoidance constraint; TORCS lane keeping,2026-10-07
+B0027,Unsure,Exclude,EC2,,primarily Bayesian imitation learning of MPC with uncertainty-triggered fallback; RL only tunes a threshold,2026-10-07
+B0028,Include,Include,,,prediction-based action masking (shield) for intersection handling; real-vehicle sensor data,2026-10-07
+B0029,Unsure,Include,,,formal verification + verified runtime monitoring (justified speculative control) for RL; adaptive cruise control case study,2026-10-07
+B0048,Unsure,Include,,,RL-CBF (TRPO/DDPG + CBF + GP); dedicated car-following with V2V experiment (co-primary task),2026-10-07
+B0053,Include,Include,,,"DQN high-level decision + MPC low-level safe trajectory, intersections",2026-10-07
+B0062,Include,Include,,,"model-checker-based safe RL + scene decomposition + learned belief updater, urban intersections",2026-10-07
+B0065,Unsure,Exclude,EC1,,"constrained RL predicts intersection signal phases (waiting time); RL controls signals, not vehicles",2026-10-07
+B0066,Include,Include,,,WiseMove framework: hierarchical RL with LTL runtime verification for safe AD,2026-10-07
+B0077,Include,Include,,,DDQN within safety set from regret-based human lane-change prediction; CARLA,2026-10-07
+B0078,Unsure,Additional report,EC5,B0327,arXiv preprint of B0327 (same study: MARL behaviour planning with CBF-QP safe action mapping),2026-10-07
+B0079,Unsure,Exclude,EC3,,"MA-PPO centralized intersection coordination; safety only via collision penalty, focus on computation/efficiency",2026-10-07
+B0085,Include,Include,,,DDQN with CTRA-prediction TTC/MSD safety check overriding unsafe actions; SUMO,2026-10-07
+B0089,Include,Include,,,"DDQN with handcrafted TTC safety rule + learned lookahead safety module, highway",2026-10-07
+B0096,Unsure,Include,,,TD3 generates evasive-manoeuvre path parameters + MPC tracking (ISO double lane change emergency),2026-10-07
+B0110,Unsure,Include,,,ReachFlow online reachability monitor with fallback controller for CPO waypoint-following racing car,2026-10-07
+B0115,Include,Include,,,DDPG car-following with TTC-based safety feature in reward; NGSIM (safety-aware reward design),2026-10-07
+B0117,Include,Include,,,"safety layer from set-based prediction masks unsafe lane changes, verified fail-safe; highD",2026-10-07
+B0118,Include,Include,,,"parallel constrained policy optimisation (risk network + trust region), lane keeping and intersection",2026-10-07
+B0122,Include,Include,,,"DDQN with heuristic + MD-RNN predictive safety modules, highway (preprint; related to B0306)",2026-10-07
+B0124,Include,Include,,,hierarchical DRL suggestions with policy-guided trajectory planner handling safety,2026-10-07
+B0133,Include,Include,,,two-stage safe RL with Lyapunov-based safeguard for high-speed racing; TORCS,2026-10-07
+B0145,Include,Include,,,"model-based RL (learned prediction + MPC-style planner, TTC cost) for crash-imminent situations; CARLA",2026-10-07
+B0153,Include,Include,,,barrier Lyapunov function safe RL (optimized backstepping) for AV motion control,2026-10-07
+B0157,Include,Include,,,"SafeVIPER: verifiable, interpretable decision-tree policies extracted from CMDP-trained policy; highway-env",2026-10-07
+B0160,Include,Include,,,DDPG blended with MPC (space-time solver) for on-ramp merging; SUMO,2026-10-07
+B0162,Include,Exclude,EC6,,CPO for autonomous driving described generically; no driving experiment reported,2026-10-07
+B0170,Unsure,Include,,,viability-theory capture basin with RL for constrained multi-vehicle differential graphical game,2026-10-07
+B0180,Unsure,Include,,,intelligent safety decision-making for highway AV (MSMC SAC/TD3); paper inside LNAI volume (p. ~714),2026-10-07
+B0181,Include,Include,,,CPO actor-critic lane keeping with safety cost; paper inside LNAI volume (p. ~454),2026-10-07
+B0186,Unsure,Include,,,model-based constrained RL with generalized CBF; intersection sim + real vehicle,2026-10-07
+B0188,Include,Include,,,Q-learning obstacle-free path generator with MPC (recursive feasibility) execution,2026-10-07
+B0190,Include,Include,,,offline RL (enhanced BCQ) with Lyapunov-based safety regulation; highway + parking,2026-10-07
+B0199,Include,Include,,,DDPG with NMPC safety filter during training/testing at urban merge; SUMO+Simulink,2026-10-07
+B0200,Include,Include,,,TD3 ACC with RSS-derived state-specific safe sets as policy output layer,2026-10-07
+B0202,Include,Include,,,"RL + MCTS to reduce unsafe behaviours, TTC/headway safety constraints; SUMO, NGSIM comparison",2026-10-07
+B0207,Include,Background,EC1,,Lyapunov risk-sensitive safe RL motion planning on Jackal ground robot (gym-gazebo); not road vehicle,2026-10-07
+B0209,Include,Include,,,HJ reachability safety critic in CMDP (SAGE) for vision-based autonomous racing (L2R primary),2026-10-07
+B0210,Unsure,Include,,,constrained soft RL within max-entropy IRL for lane-change decisions; SUMO,2026-10-07
+B0212,Unsure,Additional report,EC5,B1312,"IV 2021 conference version of B1312 (TNNLS 2022, same SPIL chance-constrained RL study)",2026-10-07
+B0213,Include,Include,,,"DDPG with QP environment model giving collision-avoidance guarantees, unsignalised intersection",2026-10-07
+B0219,Unsure,Include,,,DQN routing with MPC platoon control enforcing collision-free link constraints; SUMO+MATLAB,2026-10-07
+B0221,Include,Include,,,"constrained RL (PPO-Lag, CPO) vs reward engineering for merging; highway-env",2026-10-07
+B0225,Unsure,Include,,,RL decisions rectified by rule-based safety module; NGSIM-mapped highway scenarios,2026-10-07
+B0226,Unsure,Include,,,D3QN lane change with dangerous-action shielding + DDPG car following; SUMO/NGSIM,2026-10-07
+B0230,Unsure,Include,,,TD3 decisions coupled with MPC and a safety module at unsignalized intersections; CARLA,2026-10-07
+B0237,Include,Include,,,constrained RL motion planning with topological reachability analysis,2026-10-07
+B0240,Unsure,Include,,,DDPG CAV-pedestrian coordination with safety-oriented reward; MATLAB/Simulink,2026-10-07
+B0242,Include,Include,,,DQN merging-spot decisions with MPC control and a safety layer,2026-10-07
+B0246,Include,Include,,,PPO/SAC/DDPG chain-collision avoidance with safety-shaped reward and safety efficiency analysis,2026-10-07
+B0248,Unsure,Exclude,EC3,,NMPC assists DDPG training for sample efficiency; safety not an explicit design objective,2026-10-07
+B0255,Unsure,Exclude,EC2,,MaxEnt IRL trajectory-scoring planner learned from demonstrations (imitation); safety filter is not part of an RL policy,2026-10-07
+B0257,Include,Include,,,DRL-GAT-SA simplex runtime assurance switching to a safety controller; highway-env,2026-10-07
+B0267,Unsure,Include,,,hierarchical DRL decisions with MPC collision-avoidance constraints,2026-10-07
+B0268,Include,Include,,,"SafeDQN: Lagrangian DQN with explicit risk estimation, interpretable risk-utility; SUMO with CARLA Town03 maps",2026-10-07
+B0269,Unsure,Exclude,EC2,,constraint inference from demonstrations for an optimisation planner; no RL policy,2026-10-07
+B0270,Include,Include,,,integrated decision and control (model-based RL solving constrained OCP) at mixed-traffic intersections; SUMO,2026-10-07
+B0272,Unsure,Include,,,"Learn-to-Race challenge: benchmark of safe RL agents (safety constraints, generalisation) in autonomous racing",2026-10-07
+B0276,Include,Include,,,distributionally (CVaR) constrained PPO-Lagrangian for traffic-rule compliance; highD,2026-10-07
+B0284,Include,Include,,,"TD3 with learned safety layer + social attention, multi-task intersection navigation; SUMO + CARLA",2026-10-07
+B0296,Unsure,Exclude,EC3,,DDPG imitates MPC path for computation speed (4 pages); no safety mechanism,2026-10-07
+B0301,Unsure,Include,,,"DDQN high-level decisions + CBF-based collision-avoidance correction, highway (book chapter)",2026-10-07
+B0303,Include,Include,,,DQN with RSS-based safety checker and traffic-rule monitor; CARLA-SUMO,2026-10-07
+B0305,Include,Include,,,provably safe RL with safety layer from invariably safe braking sets; inD urban,2026-10-07
+B0306,Include,Additional report,EC5,B0122,journal version of the MD-RNN predictive safety module study (cite journal version),2026-10-07
+B0307,Include,Include,,,RL with probabilistic CBFs for ramp merging; CARLA + NGSIM (preprint; related to B0426),2026-10-07
+B0308,Include,Include,,,SafeRL-Kit benchmark + exact penalty optimisation for safe AD; SpeedLimit + MetaDrive,2026-10-07
+B0312,Unsure,Exclude,EC3,,Lyapunov stability used only to evaluate a trained DDPG navigation agent; no safety design,2026-10-07
+B0321,Unsure,Include,,,SAC tunes MPC weights with risk-threshold scene model for car-following (RL provides controller parameters),2026-10-07
+B0324,Include,Include,,,finite-time CBF safety filter for an RL driving controller; CarSim,2026-10-07
+B0325,Unsure,Include,,,DDQN decisions with NMPC trajectory layer and collision constraints; SUMO/MATLAB,2026-10-07
+B0327,Include,Include,,,MARL with truncated Q and CBF-QP safe action mapping for CAV behaviour planning; CARLA (journal version),2026-10-07
+B0334,Include,Include,,,"adaptive safe RL with full-state constraints (BLF, constrained adaptation) for AV motion control",2026-10-07
+B0337,Unsure,Include,,,PPO planning with optimization-based safety guarantee layer for on-ramp merging; SUMO,2026-10-07
+B0339,Unsure,Include,,,ESA-DQN with lightweight data-driven SVM safety layer; highway-env,2026-10-07
+B0373,Include,Include,,,DRL decisions with MPC and predictive safe-driving envelope for safe exploration,2026-10-07
+B0378,Unsure,Exclude,EC3,,GNN-RL curriculum for rule-aware goal reaching; safety only via reward terms,2026-10-07
+B0381,Include,Include,,,"hierarchical RL (PPO) guided by ASP rules with safety rule layer, urban driving; CARLA NoCrash",2026-10-07
+B0385,Include,Include,,,adaptive risk-constrained RL with mixture of experts and CBF shield under domain shift,2026-10-07
+B0393,Include,Include,,,SAC lane keeping with model predictive safety filter,2026-10-07
+B0402,Include,Include,,,fixed-horizon constrained RL (Lagrangian) motion planner; SUMO,2026-10-07
+B0403,Include,Include,,,MACPO conflict-free CAV management at unsignalized intersection; CARLA,2026-10-07
+B0410,Unsure,Background,EC1,,Lyapunov-critic RL for a differential-drive mobile robot (not a road vehicle),2026-10-07
+B0423,Include,Include,,,RL learns model uncertainty for CDBF/TCBF/CLF-QP safety-critical tracking; CarSim,2026-10-07
+B0425,Unsure,Exclude,EC3,,RL shared-driving decisions; safety not part of method or evaluation,2026-10-07
+B0426,Include,Additional report,EC5,B0307,ICRA 2023 version of preprint B0307 (same probabilistic-CBF ramp-merging study; cite ICRA version),2026-10-07
+B0429,Include,Include,,,risk-aware RL with GP collision-prediction model; inD-sampled scenarios,2026-10-07
+B0431,Include,Include,,,rule-constrained TD3 left turn with multi-constraint MPC tracking; CARLA,2026-10-07
+B0432,Include,Include,,,formal safe RL with reward machine and CBF monitoring of decisions,2026-10-07
+B0433,Unsure,Include,,,DDPG speed control with TTC safety reward on rough pavements; NGSIM,2026-10-07
+B0436,Include,Include,,,game theory + HJ reachability + RL overtaking with adversarial drivers; MATLAB,2026-10-07
+B0438,Include,Include,,,online reachability-based safety layer for PPO motion planning; highD,2026-10-07
+B0439,Include,Include,,,TD3 with TTC and lane-boundary cost constraints (CMDP); CARLA,2026-10-07
+B0441,Include,Include,,,DDQN with incomplete-information game safety constraint for lane change,2026-10-07
+B0442,Include,Include,,,SAC with safety-detection constraints for lane change; CARLA,2026-10-07
+B0444,Include,Include,,,D3QN with rule-based risk-fused state-wise constraint; real-vehicle test,2026-10-07
+B0445,Include,Include,,,Safari: hierarchical RL with state-wise CMDP safety module; SUMO,2026-10-07
+B0446,Include,Include,,,PPO-Lagrangian with safety index provides reference to MPC (SRMPC); highway-env,2026-10-07
+B0448,Unsure,Include,,,hierarchical SAC behaviour planner with MPC ensuring feasibility at left turns; CARLA,2026-10-07
+B0451,Include,Include,,,constrained MA2C with CBF safety shield and GCN-Transformer encoder for CAVs; CARLA,2026-10-07
+B0455,Unsure,Include,,,rule-aided RL with rule revision supervising lane decisions; SUMO,2026-10-07
+B0461,Include,Exclude,EC6,,two-page student abstract; insufficient methodological detail,2026-10-07
+B0462,Unsure,Exclude,EC2,,imitation learning (DAgger) end-to-end racing controller with CBF safeguard; not RL,2026-10-07
+B0484,Include,Include,,,PPO adapts MPC cost weights with action limits for safe learning (weights-varying MPC),2026-10-07
+B0485,Include,Include,,,SAC self-learning with receding-horizon safe actor approximator; MetaDrive + real vehicle,2026-10-07
+B0490,Include,Include,,,SFRL-ACC: projected constrained policy optimisation CMDP for ACC; CARLA,2026-10-07
+B0507,Include,Include,,,reachability-guided RL extreme collision-avoidance controller with real-vehicle data,2026-10-07
+B0514,Include,Include,,,SafeR-ADAIM risk-aware safe MARL centralized intersection management; CARLA,2026-10-07
+B0516,Unsure,Include,,,curriculum RL generates high-level MPC references for chance-aware lane change; CARLA validation,2026-10-07
+B0517,Include,Include,,,CIMRL: SAC over imitative motion proposals with safety constraints/recovery for AD,2026-10-07
+B0522,Include,Include,,,augmented-Lagrangian PPO for cooperative intersection management (CMDP),2026-10-07
+B0524,Unsure,Include,,,constraint-guided behaviour transformer safe RL for intersection coordination; CARLA,2026-10-07
+B0529,Include,Include,,,COOP-SRL CVaR pessimistic constraint + NMPC at occluded intersections,2026-10-07
+B0533,Include,Include,,,hierarchical DDQN collision avoidance for vulnerable road users; CARLA,2026-10-07
+B0545,Include,Include,,,VaR-based SAC with augmented Lagrangian and latent diffusion world model (CMDP); CARLA,2026-10-07
+B0550,Include,Include,,,Q-learning with representation-based shield (minimal interference) at occluded intersections,2026-10-07
+B0557,Unsure,Include,,,interactive RL with human feedback + MPC and safety-guarantee envelope; CarSim HIL,2026-10-07
+B0562,Unsure,Background,EC1,,general guided online distillation; MetaDrive one of several benchmark domains,2026-10-07
+B0575,Unsure,Include,,,"safe set actor-critic (learned energy function, zero violation); Safety Gym + hardware-in-loop AV experiment",2026-10-07
+B0577,Unsure,Include,,,learning-based MPC (DDQN) for off-ramp diverging with safety constraints; HIL,2026-10-07
+B0595,Unsure,Include,,,MARL collaborative lane changing with action masking for safety,2026-10-07
+B0603,Unsure,Exclude,EC2,,"practical discrete-time CBF safety-filter implementation; RL only as motivating uncertified policy, no RL in method/experiments",2026-10-07
+B0623,Unsure,Include,,,risk-conscious jump-start RL with NMPC for autonomous racing,2026-10-07
+B0624,Unsure,Background,EC1,,reach-avoid dynamic game solved with SAC for safe robot influence; experiments mainly non-road (manipulation),2026-10-07
+B0629,Include,Include,,,DQN decisions with MPC safety constraints for highway lane change,2026-10-07
+B0631,Include,Include,,,safe efficient policy optimization with collision-risk cost (CMDP) at intersections; SUMO,2026-10-07
+B0632,Unsure,Exclude,EC3,,DQN navigation in CARLA; safety only via collision sensor and reward,2026-10-07
+B0634,Include,Include,,,TD3 with reachable-zonotope shield for highway driving; MATLAB/Simulink,2026-10-07
+B0636,Include,Include,,,Lyapunov-based safe RL for CAV platooning,2026-10-07
+B0639,Unsure,Exclude,EC3,,"counterfactual explainer for DRL driving agents; explainability only, no safety mechanism or safety evaluation (cite for RQ10)",2026-10-07
+B0640,Include,Include,,,Safedrive Dreamer: CMDP world-model safe RL with sim-to-real and real vehicle tests,2026-10-07
+B0641,Include,Include,,,offline safe RL with safety-aware causal representation (FUSION); MetaDrive distribution shift,2026-10-07
+B0647,Include,Include,,,DQN with RSS-based safety model for lane changing; highway-env,2026-10-07
+B0653,Include,Include,,,SAC with reliability-based filtering and risk-adaptive MPC backup; SUMO occluded intersection,2026-10-07
+B0656,Include,Include,,,DARRL robust CMDP against worst-case observation perturbations; SUMO,2026-10-07
+B0657,Unsure,Include,,,PPO crowd navigation for low-speed AV with uncertainty-aware prediction and pedestrian-safety reward; MPC baselines,2026-10-07
+B0658,Unsure,Include,,,uniformly constrained MDP with objective suppression; Safe Bench (CARLA) driving is co-primary domain,2026-10-07
+B0663,Unsure,Include,,,"KAN-DQN with action inspector (unsafe-action filter) + MPC execution, roundabouts",2026-10-07
+B0664,Include,Include,,,augmented-Lagrangian safe RL for CAV-based dynamic speed limits in tunnels with crash-risk constraint; SUMO,2026-10-07
+B0668,Unsure,Include,,,RL tactical planner with MPC and driving-risk surrogate for ramp merging,2026-10-07
+B0671,Unsure,Include,,,reward-machine RL with UPPAAL formal verification of turning decisions; CARLA,2026-10-07
+B0678,Unsure,Include,,,safe self-evolution actor-critic with data-driven risk model and adjustable safety limits; CARLA + real vehicle,2026-10-07
+B0700,Include,Include,,,offline-to-online multi-agent constrained decision transformer for AIM; CARLA,2026-10-07
+B0705,Unsure,Include,,,"hierarchical RL provides interaction-aware references to MPC under SV uncertainty, intersections; CARLA",2026-10-07
+B0711,Include,Include,,,DRL decisions with CLF-CBF-QP collision-avoidance controller,2026-10-07
+B0716,Unsure,Include,,,human-AI collaborative DSAC with confidence-guided shared control for safe exploration; MetaDrive + real vehicle,2026-10-07
+B0718,Include,Include,,,CBF-guided PPO + MPC hierarchical on-ramp merging,2026-10-07
+B0724,Include,Include,,,constrained RL (learned Lagrange weights) for lane keeping; Duckiebot real demo (extended abstract),2026-10-07
+B0737,Unsure,Include,,,DIAL: learned multi-task safety constraint distributions with CVaR risk adaptation; urban-driving (highway-env intersection) primary,2026-10-07
+B0738,Unsure,Include,,,MAPPO with differentiable model-predictive safety critic for AVs and robots at intersections; CARLA,2026-10-07
+B0739,Include,Include,,,"DSAC with harmonic gradient for constraint handling (DSAC-H), multi-lane driving",2026-10-07
+B0741,Include,Include,,,dual-constrained actor-critic robust to perception noise (CMDP); SUMO,2026-10-07
+B0750,Include,Include,,,"MAPPO with cooperative CBF + conformal-prediction robust safety layer, mixed-autonomy platoons (journal version of A181)",2026-10-07
+B0754,Include,Include,,,friction-adaptive shield RL (GTTC risk) for lane changes; CARLA,2026-10-07
+B0757,Include,Include,,,CPO/PPO-Lag racing with rollover-dynamics shield; F1TENTH sim + real 1/10 car,2026-10-07
+B0761,Include,Include,,,"RL AV controller supervised by CBF filter, experimental deployment on real vehicle",2026-10-07
+B0763,Unsure,Include,,,PPO/SAC with attention encoding and safety layers on Lyft-derived environment,2026-10-07
+B0766,Unsure,Include,,,"fault-tolerant MARL with adversarial fault injection and observation reconstruction, on-ramp merging (robust safe MARL)",2026-10-07
+B0775,Unsure,Include,,,hierarchical D3QN/PPO with action shielding; MetaDrive,2026-10-07
+B0776,Include,Include,,,DDQN lane decisions with HOCLF-HOCBF-QP tracking; highway-env,2026-10-07
+B0778,Include,Include,,,"Reach-RL: SAC intentions verified by forward reachable sets, executed by MPC; CARLA",2026-10-07
+B0781,Include,Include,,,"CMDP SAC-Lagrangian with human risk-preference cost limits + MPC action shielding, on-ramp merging; highway-env",2026-10-07
+B0793,Unsure,Include,,,MPC-assisted TD3 eco-driving with collision/red-light safety constraints; HIL,2026-10-07
+B0796,Unsure,Include,,,interaction-reasoning risk module as safety layer filtering unsafe actions,2026-10-07
+B0805,Include,Include,,,predictive safety representations (SRPL) with CPO/PPO-Lag etc. on WOMD and NuPlan via MetaDrive/ScenarioNet,2026-10-07
+B0835,Include,Include,,,actor-critic-identifier optimal tracking with asymmetric BLF state constraints,2026-10-07
+B0837,Unsure,Include,,,soft- and hard-constrained PPO for highway driving; highway-env,2026-10-07
+B0845,Include,Include,,,"MAPPO with CBF-QP for car-following and red-light safety, platoon GLOSA",2026-10-07
+B0847,Include,Include,,,safety-potential predictive risk reward for SAC; CARLA roundabout,2026-10-07
+B0848,Unsure,Include,,,"actor replaced by motion planner, critic trained on traffic-rule robustness (rule compliance); highD",2026-10-07
+B0870,Unsure,Include,,,"DRL waypoint planner with action shield and CBF/QP projection (short paper, grid simulator)",2026-10-07
+B0877,Include,Include,,,"risk-aware SAC with safe critics, Lagrangian projection to safe region, intersections",2026-10-07
+B0878,Include,Include,,,risk-aware POMDP RL with Bayesian aleatoric uncertainty; CARLA + HIL,2026-10-07
+B0879,Include,Include,,,group-opinion risk-aware RL for collision avoidance with pedestrians,2026-10-07
+B0882,Include,Include,,,robust safe MARL with CBF shield and CBF/CLF-MPC backend; CARLA + 1/10-scale hardware (real-sim-real),2026-10-07
+B0883,Include,Include,,,safety-aware multi-agent adversarial RL lane change with action masking; SUMO,2026-10-07
+B0886,Include,Include,,,risk-aware optimistic-pessimistic dual-actor RL with action masking,2026-10-07
+B0887,Include,Include,,,MARL with decentralised hybrid safety shield (CBF + rules) for CAV lane changes; highway-env-based,2026-10-07
+B0892,Include,Include,,,safe MBPO with Lagrangian safety constraints and rollout safety check; highway-env,2026-10-07
+B0893,Include,Include,,,MAPCPO safe MARL for intersection management; CARLA,2026-10-07
+B0894,Include,Include,,,SAFE-Q end-to-end CrossQ with safety reasoning waypoint generator; CARLA,2026-10-07
+B0896,Unsure,Include,,,Lagrangian SAC with MPC action shield for off-road HEV eco-driving; real vehicle,2026-10-07
+B0897,Include,Include,,,"comparison of PPO, DQN and CPO under safety constraints; CARLA",2026-10-07
+B0898,Include,Include,,,adaptive-critic safe RL with CBF safety filter and provable guarantees for motion planning,2026-10-07
+B0902,Include,Include,,,multi-constrained safe RL with event-triggered optimized backstepping for FCHEV autonomous driving,2026-10-07
+B0904,Include,Include,,,DDPG drift motion planner with predictive safety filter (model-based drift dynamics),2026-10-07
+B0906,Include,Include,,,reachability-analysis-based safety risk constraints in DRL training; highway-env,2026-10-07
+B0909,Include,Include,,,Safe-GPI policy composition with physics-based safety layer,2026-10-07
+B0910,Include,Include,,,robust MAPPO (worst-case Q) high level + MPC with robust CBFs low level for CAVs under state uncertainty; CARLA,2026-10-07
+B0916,Include,Include,,,Lyapunov-constrained SAC with dynamics-augmented state; CARLA,2026-10-07
+B0920,Unsure,Include,,,risk-driven SAC with TTC-based risk replay for left turns; CARLA,2026-10-07
+B0922,Unsure,Exclude,EC9,,comparative/bibliometric analysis of conflict-management algorithms; not a primary Safe RL study,2026-10-07
+B0923,Include,Include,,,safe RL with predictive risk safety layer correcting actions at intersections,2026-10-07
+B0929,Include,Include,,,risk-aware ensemble distributional RL with uncertainty-embedded HOCBF safety filter at intersections,2026-10-07
+B0930,Include,Include,,,uncertainty-based alternative diffusion policy for offline safe RL; DSRL MetaDrive,2026-10-07
+B0935,Include,Include,,,augmented-Lagrangian DDPG CMDP lateral tracking; CarSim,2026-10-07
+B0937,Unsure,Include,,,"differential-dynamic-logic (KeYmaera X) verification, runtime monitoring and shielding of a neural (RL) highway controller; highway-env ABZ'25 case study",2026-10-07
+B0939,Include,Include,,,offline safe RL with VLM safety scoring and safety-aware world model (Lagrangian actor-critic); CarDreamer/CARLA,2026-10-07
+B0944,Include,Include,,,MARL (MAPPO) with collaborative multi-agent CBF safety shield for congested merging; highway-env,2026-10-07
+B0950,Unsure,Include,,,G-MAPPO eco-safe platooning with kinematic safety supervisor; SUMO,2026-10-07
+B0952,Unsure,Include,,,physics-informed potential-field TD3 for collision-free planning; CARLA,2026-10-07
+B0957,Include,Include,,,"SAC blended with constrained linear MPC for lateral control (hybrid), robustness study",2026-10-07
+B0968,Include,Include,,,"risk-sensitive distributional RL + ensemble uncertainty + uncertainty-adaptive HOCBF with learned residual, intersections",2026-10-07
+B0972,Include,Include,,,"safe self-learning lateral control with safety trajectory MPC, real-world learning",2026-10-07
+B0974,Include,Include,,,safe multi-task DRL car following with differentiable CBF layer,2026-10-07
+B0976,Include,Include,,,Lagrangian discrete SAC with MPC action shielding and human risk preferences; merging,2026-10-07
+B0981,Unsure,Include,,,adversarial-training robust RL tracking with CVaR objective and Lyapunov monitor; CARLA,2026-10-07
+B0987,Unsure,Include,,,action-masked diffusion policy optimisation for merging,2026-10-07
+B0991,Include,Include,,,ASC-DDQN with dynamic TTC-based safety constraint layer; highway-env (short paper),2026-10-07
+B0997,Unsure,Include,,,"DRL collision-avoidance policy with physics-informed reward, zero-shot transfer to 1/10-scale hardware",2026-10-07
+B0999,Include,Include,,,"Bayesian adaptive-priority multi-constraint PPO-Lagrangian motion planning, mixed-traffic intersection; CARLA",2026-10-07
+B1001,Include,Exclude,EC9,,benchmark-oriented review of safe RL for AD (review article),2026-10-07
+B1002,Include,Include,,,"coupled MPC-RL (RL speed references, MPC constraint enforcement) at intersections; zero-shot merging",2026-10-07
+B1003,Include,Include,,,"CBF-informed reward design for MAPPO, CAV intersection (code available)",2026-10-07
+B1007,Include,Include,,,Brain-SAD dual-policy constrained RL with dynamic fear-oriented constraints and reachability; SUMO,2026-10-07
+B1021,Unsure,Include,,,risk-aware SAC for risky pedestrian crossings with occlusion; CARLA,2026-10-07
+B1031,Include,Include,,,DriveVLM-RL: VLM-based semantic safety rewards for RL driving; CARLA,2026-10-07
+B1034,Include,Include,,,TD3 with friction-coupled prioritized relaxed CBF filter for pedestrian evasion,2026-10-07
+B1035,Include,Include,,,event-triggered optimal constraint control with asymmetric BLF via actor-critic RL,2026-10-07
+B1041,Include,Include,,,MPC-DRL-SMC hybrid with formal guarantees and crash-data risk model; CARLA,2026-10-07
+B1046,Include,Include,,,"hierarchical SAC-Lagrangian with ethics-aware risk cost (collision probability x harm), risk-sensitive PER, VRU protection",2026-10-07
+B1070,Include,Include,,,DQN with Hamilton-Jacobi reachability value as structured safety reward for AV-cyclist interaction,2026-10-07
+B1071,Include,Include,,,Safe-SAC eco-driving with safety constraints for speed and lane change; SUMO,2026-10-07
+B1072,Unsure,Exclude,EC2,,"end-to-end sensor-fusion driving model (InterFuser, imitation) with heuristic safety controller; no RL",2026-10-07
+B1074,Unsure,Include,,,IL+IRL initialisation then PPO fine-tuning with diffusion-planner runtime safety shield; Webots,2026-10-07
+B1084,Include,Include,,,"long- and short-term constraint safe RL (dual-constraint optimisation); MetaDrive, SafeRL-Kit baselines",2026-10-07
+B1093,Include,Include,,,uncertainty-aware SAC-Lagrangian (ensemble cost critics) + MPC for highway overtaking; highway-env + CARLA,2026-10-07
+B1094,Include,Include,,,model-based SAC with HOCBF safety layer for trajectory planning,2026-10-07
+B1116,Include,Include,,,DDPG-HOCBF safety filter with MPC feedback for path tracking; CarSim,2026-10-07
+B1120,Unsure,Include,,,physics-informed TD3 platoon control with physical-rule safety penalty,2026-10-07
+B1136,Unsure,Include,,,"tabular RL high-level decisions + safe path handler + dynamic-programming planner (overtaking, left turn); MATLAB",2026-10-07
+B1137,Unsure,Include,,,RL solver for tube nonlinear MPC with tightened collision constraints; SUMO + HIL,2026-10-07
+B1138,Unsure,Background,EC1,,PPO-tuned NMPC with CBF on a differential-drive robot (not a road vehicle),2026-10-07
+B1146,Include,Include,,,risk-aware federated hierarchical RL with Lyapunov safety constraints; CARLA,2026-10-07
+B1147,Unsure,Include,,,"SAC with intrusion-risk-triggered shields, human override and risk-prioritised replay; MetaDrive + CARLA",2026-10-07
+B1149,Include,Include,,,risk-aware MARL with Bayesian risk estimation and adaptive risk sensitivity; SUMO/CARLA/NGSIM/INTERACTION,2026-10-07
+B1157,Unsure,Include,,,RSS-enhanced RL-guided adaptive MPC shared control; CARLA and DIL,2026-10-07
+B1158,Include,Include,,,safety-constrained SAC (Lagrangian CMDP) across highway/urban environments,2026-10-07
+B1160,Unsure,Background,EC1,,Safe Fuzzy-CBF monitor for DRL agents; MetaDrive is one of several benchmark domains (AV not primary),2026-10-07
+B1162,Include,Include,,,offline safe RL with causal risk features and HJ-reachability cost; DSRL MetaDrive,2026-10-07
+B1163,Include,Include,,,safe RL optimal tracking with barrier Lyapunov constraints and obstacle avoidance,2026-10-07
+B1166,Include,Include,,,"MoE of DQNs with safe-distance gating and reward machines (rule-aware), highway; CARLA + driver-in-the-loop VR",2026-10-07
+B1167,Include,Include,,,preference-aligned DDQN with MPC safety-prioritized driving area; CarSim,2026-10-07
+B1168,Include,Include,,,constrained SAC with CBF enforcer and CLF stabiliser for CAV planning and control,2026-10-07
+B1169,Include,Include,,,safety-filtered residual PPO over MPC for platooning; CARLA and HIL,2026-10-07
+B1171,Include,Include,,,"adversarially constrained MARL (CMDP, adaptive safety threshold) for ramp merging",2026-10-07
+B1175,Include,Include,,,DiStaK distributional Stackelberg safe MARL with chance-constrained safety layer; highway-env,2026-10-07
+B1178,Include,Include,,,structured state encoding to reduce PPO crash rate (safety-motivated design); MetaDrive,2026-10-07
+B1189,Unsure,Include,,,latent-context distributional constrained RL with risk-adaptive deployment for safe sim-to-real; AD task co-primary with Safety Gym,2026-10-07
+B1203,Unsure,Exclude,EC2,,IRL models human risk-anticipation driving; no RL control policy,2026-10-07
+B1206,Unsure,Exclude,EC2,,gradient-free architecture search with behaviour cloning and evolutionary adaptation; not an RL policy-learning method,2026-10-07
+B1209,Include,Include,,,DQN lane-change decisions with formal-verification safety layer (only verified-safe actions),2026-10-07
+B1210,Include,Include,,,robust adversarial RL (RARL/NFSP) for AV control under disturbances and model mismatch,2026-10-07
+B1212,Unsure,Include,,,adversarial deep RL (game-theoretic) for robust AV spacing control under cyber-physical sensor attacks,2026-10-07
+B1214,Unsure,Exclude,EC2,,learned search heuristic for an optimal motion planner (3-page preliminary work); no RL,2026-10-07
+B1216,Include,Include,,,distributional RL (QR-DQN) with CVaR/Wang risk measures for risk-sensitive intersection behaviour,2026-10-07
+B1220,Unsure,Include,,,budgeted MDP (continuous-state constrained RL with adjustable budget); highway-env is co-primary application,2026-10-07
+B1222,Include,Include,,,HyLEAP hybrid POMDP planning + DRL for pedestrian-collision-free navigation,2026-10-07
+B1224,Unsure,Exclude,EC3,,supervised learning and DQN for highway driving; safety not addressed by design,2026-10-07
+B1225,Include,Include,,,DDQN/DQfD with preemptive shielding of unsafe semantic lane-change actions,2026-10-07
+B1230,Unsure,Include,,,verification of RL-trained NN racing controllers with real F1/10 experiments,2026-10-07
+B1234,Unsure,Include,,,adversarial DRL keeping safe spacing under sensor data-injection attacks,2026-10-07
+B1237,Unsure,Include,,,DDQN controller-switching among verified controllers with invariant-set safety guarantee; ACC case study,2026-10-07
+B1243,Unsure,Exclude,EC1,,RL controls traffic signals; no vehicle controlled by the RL policy,2026-10-07
+B1248,Include,Include,,,risk-aware DQN with risk-based reward at occluded intersections,2026-10-07
+B1253,Include,Include,,,PPO trajectory planner with pre-execution safety constraint check; self-driving simulator,2026-10-07
+B1256,Include,Include,,,RL learns safe speed function for distracted pedestrians; transferred to real vehicle,2026-10-07
+B1257,Include,Include,,,DDQN high-level coordinator over low-level safe optimisation/sampling controllers (H-CtRL),2026-10-07
+B1261,Unsure,Include,,,risk-aware DQN variants for lane-change decisions; CARLA,2026-10-07
+B1269,Include,Include,,,"DQN high-level decisions from a safe manoeuvre catalogue with MPC planner enforcing safety, merging",2026-10-07
+B1270,Unsure,Include,,,model-based safe RL (CMDP) + NMPC for J-turn emergency manoeuvre; scaled vehicle,2026-10-07
+B1271,Unsure,Include,,,model-based RL (GEP) selects safest path with collision constraints at intersections,2026-10-07
+B1272,Unsure,Exclude,EC6,,two-page student abstract; insufficient methodological detail,2026-10-07
+B1274,Include,Include,,,"distributional RL with proactive safety verification (fail-safe), minimising safety interference",2026-10-07
+B1275,Unsure,Include,,,model-based chance-constrained actor-critic; stochastic car-following experiment vs SMPC and shielding,2026-10-07
+B1276,Unsure,Include,,,layered DQN scheduling with MPC-based CACC safety constraints; miniature platform,2026-10-07
+B1277,Unsure,Include,,,MATD3 reference velocities with NMPC for collision-free intersection management; CARLA,2026-10-07
+B1278,Unsure,Include,,,DDPG car following with TTC/headway safety terms; SUMO,2026-10-07
+B1280,Include,Include,,,DDPG speed advisories for connected vehicles minimising conflicts at intersections,2026-10-07
+B1281,Include,Include,,,DQN with robust Q-masking for collision-free highway tactical decisions,2026-10-07
+B1284,Unsure,Include,,,neural fitted Q-learning with robust action governor (set-theoretic safety supervisor); ACC,2026-10-07
+B1285,Include,Include,,,dual-agent DRL adapting TTC threshold and inter-vehicle gap (safety-aware ACC); SUMO+Veins,2026-10-07
+B1287,Unsure,Include,,,Q-learning safe car following from trajectory data with TTC-based safety design,2026-10-07
+B1289,Include,Include,,,DDPG with rule-based virtual safety cages as safety layer and weak supervision; vehicle following,2026-10-07
+B1291,Unsure,Include,,,roadside DRL recommends safe actions to vehicles in merging zone; SUMO,2026-10-07
+B1292,Unsure,Include,,,"DDPG lane change with safety rules, safety prediction and trauma memory; PreScan",2026-10-07
+B1293,Include,Include,,,ADAS-RL with shield and sync-penalty for partially observed mixed traffic; FLOW,2026-10-07
+B1295,Include,Include,,,DQN learning fallback strategies for safety-critical intersection driving,2026-10-07
+B1297,Include,Include,,,"SAC-Discrete with motion-predictive safety controller (action substitution), on-ramp merging",2026-10-07
+B1299,Include,Include,,,DQN with attention and rule-based TTC safety constraint replacing unsafe actions; highway-env,2026-10-07
+B1300,Unsure,Include,,,comparison of DRL methods for safe CAV behaviour at pedestrian crossings,2026-10-07
+B1301,Unsure,Include,,,deep RL autonomous intersection management optimising safety (DTTC) and flow,2026-10-07
+B1303,Unsure,Include,,,DDPG direct yaw-moment control for active safety of distributed-drive EVs; CarSim,2026-10-07
+B1312,Unsure,Include,,,model-based chance-constrained RL (separated PI Lagrangian); car-following simulation + experimental validation (journal version of B0212),2026-10-07
+B1318,Include,Include,,,risk-aware DDQN with risk observation/reward and safe trajectory planning; SUMO,2026-10-07
+B1320,Unsure,Exclude,EC2,,distributional IRL costmap with risk-sensitive MPC; no RL policy,2026-10-07
+B1321,Include,Include,,,constrained adversarial RL for robust on-ramp merging; SUMO,2026-10-07
+B1322,Include,Include,,,Simplex-Drive: DRL controller + verified baseline controller with formally proven mode switching (runtime assurance); highway-env,2026-10-07
+B1324,Include,Include,,,DDPG car following with DRAC safety and jerk constraints; NGSIM,2026-10-07
+B1325,Include,Include,,,D3QN with human safe demonstrations in replay buffer for safe lane change; CARLA,2026-10-07
+B1326,Include,Include,,,safe off-policy model-based RL (trajectory optimiser + learned safe set) for eco-driving of CAHEVs,2026-10-07
+B1327,Include,Include,,,"MPO actor-critic with exponential CBF safety filter (projection) for driver-assist powertrain control, car following",2026-10-07
+B1328,Include,Include,,,RL longitudinal decisions with TTC-based safety-aware module at crosswalks,2026-10-07
+B1329,Include,Include,,,exponential CBF safety filter for RL-based ACC with actuation saturation (truck model),2026-10-07
+B1330,Include,Include,,,"attention-DQN for junction driving evaluated with explicit safety metrics (collision, freezing)",2026-10-07
+B1333,Include,Include,,,trustworthy RL guaranteeing no worse safety than a rule-based policy,2026-10-07
+B1336,Unsure,Include,,,DDPG ACC with TTC-based safety and comfort; CoMoVe/SUMO,2026-10-07
+B1341,Include,Include,,,AG2RL guardian prevents lane departure during SAC exploration,2026-10-07
+B1342,Unsure,Include,,,"SAC bounded residual policy over economic MPC with hard safety projection, ACC",2026-10-07
+B1345,Include,Include,,,conflict-constrained MARL (Lagrangian) for parking trajectory planning,2026-10-07
+B1346,Include,Include,,,constrained MARL with action-space constraints for cooperative intersection navigation; SMARTS,2026-10-07
+B1347,Include,Exclude,EC3,,"meta-RL constrained adaptation concerns performance transfer, not safety",2026-10-07
+B1349,Include,Include,,,counterfactual evolutionary reasoning for safe virtual-driver RL with accident early warning,2026-10-07
+B1350,Unsure,Include,,,DDPG car-following control adapted to risk levels with conflict-based safety metric; NGSIM,2026-10-07
+B1356,Unsure,Include,,,risk-assessment DRL decisions at intersections; SUMO,2026-10-07
+B1358,Unsure,Include,,,hard state-dependent action bounds on DRL policies (safety); highway driving environment,2026-10-07
+B1359,Unsure,Include,,,PPO vs Lagrangian-PPO safety constraints for AV navigation with kinematic bicycle model (short paper),2026-10-07
+B1360,Include,Include,,,fear-neuro-inspired RL (FNI-RL) for safe driving; SUMO + human-in-the-loop,2026-10-07
+B1361,Include,Include,,,filling action selection to correct unsafe DQN choices; highway-env,2026-10-07
+B1364,Unsure,Include,,,hybrid parameterized DRL for safe CAV behaviour at pedestrian crossings,2026-10-07
+B1365,Include,Include,,,SAC assisted by risk-aware hybrid planner (interposed learning) for collision-free navigation; CARLA-CTS,2026-10-07
+B1368,Include,Include,,,RL agent with H-infinity robust control and QP supervisor; F1TENTH scaled vehicle,2026-10-07
+B1369,Include,Include,,,RL-synthesised energy-function safety certificate with magnitude regularisation; Safety Gym + SUMO AV intersection,2026-10-07
+B1370,Unsure,Include,,,level-K game + DRL + MCTS for safe lane change and speed management,2026-10-07
+B1375,Unsure,Include,,,"MARL (DQN) conflict-resolution strategies feeding optimal control with exact collision-avoidance constraints, confined spaces",2026-10-07
+B1378,Unsure,Include,,,safety-model-based DRL eco-driving in urban traffic; SUMO/Simulink,2026-10-07
+B1381,Unsure,Exclude,EC3,,"PPO manoeuvre planning with prediction; safety only via collision penalty, no safety mechanism",2026-10-07
+B1385,Unsure,Exclude,EC3,,PPO path-following/obstacle-avoidance for a mobile test robot; no explicit safety mechanism,2026-10-07
+B1388,Unsure,Include,,,reward machine formalizing traffic rules and safe distance; highway-env,2026-10-07
+B1389,Unsure,Include,,,risk-aware reward shaping for DQN/DDPG/PPO driving agents (safety-aware reward design); CarRacing,2026-10-07
+B1392,Unsure,Include,,,DDPG/PPO/TRPO roundabout driving with TTC-based safety reward and safety evaluation; highway-env,2026-10-07
+B1395,Unsure,Exclude,EC3,,DQN navigation in CARLA; safety via collision sensor/reward only,2026-10-07
+B1398,Include,Include,,,viability-theory supervisor for safe RL training in racing; F1Tenth,2026-10-07
+B1399,Include,Additional report,EC5,A109,ITSC 2023 conference version of A109 (same differentiable CBF safety layer for mixed platoons),2026-10-07
+B1403,Include,Include,,,"black-box verification finds failure scenarios, PPO ACC agent retrained to improve safety; highway-env",2026-10-07
+B1404,Include,Additional report,EC5,B0327,arXiv version overlapping B0327 (same CBF safe action mapping MARL; identical unsafe-action results),2026-10-07
+B1407,Unsure,Include,,,human-like ACC DRL with action masking and TTC-based safety reward,2026-10-07
+B1408,Include,Include,,,constrained multi-objective RL personalised decisions; SUMO merging,2026-10-07
+B1409,Include,Include,,,robust RL with RSS safety mask; SUMO and real autonomous vehicle,2026-10-07
+B1411,Include,Include,,,observation-robust actor-critic against adversarial observation attacks for safe decisions; SUMO,2026-10-07
+B1412,Include,Exclude,EC6,,two-page abstract; insufficient methodological detail,2026-10-07
+B1415,Unsure,Include,,,PSA3C cooperative MARL with embedded TTC safety rules; highway-env,2026-10-07
+B1416,Unsure,Include,,,risk-prediction-guided DRL eco-driving for platoons avoiding dynamic obstacles,2026-10-07
+B1417,Include,Include,,,predictive position security control: safe RL ramp merging; SUMO,2026-10-07
+B1418,Include,Include,,,DRL + dimensionality-reduction MCTS with MPC safety for left turns,2026-10-07
+B1422,Unsure,Include,,,RL adapts CBF design parameter for ACC,2026-10-07
+B1423,Include,Include,,,SAC with safety-rule constraints on action sampling; highway-env,2026-10-07
+B1427,Include,Include,,,attention-based distributional SAC for safe efficient urban driving; CARLA,2026-10-07
+B1429,Unsure,Include,,,attention DQN reducing collision and freezing at junctions (safety-motivated design),2026-10-07
+B1430,Include,Include,,,PPO with stochastic RSS chance constraints in occluded merges,2026-10-07
+B1432,Include,Include,,,CDRP3 cascade perception-prediction-planning PPO for urban driving safety; CARLA,2026-10-07
+B1434,Unsure,Background,EC1,,constrained meta-RL with differentiable convex programming; Safety Gym only (AD motivational),2026-10-07
+B1435,Include,Include,,,"risk-aware TD3 with risk potential fields and task decomposition, lane change/overtaking; CARLA",2026-10-07
+B1437,Include,Include,,,risk-aware DRL for interactions with jaywalkers,2026-10-07
+B1439,Include,Include,,,DDPG longitudinal control for collision avoidance considering leading and following vehicles (AEB/ACC),2026-10-07
+B1443,Include,Include,,,safety case for an RL-enabled component of a Quanser autonomous vehicle,2026-10-07
+B1445,Unsure,Include,,,constraint-enforced RL eco-driving with QP safety layer; field test,2026-10-07
+B1448,Include,Include,,,end-to-end safe RL with safety critic and Lagrangian constraint; CARLA,2026-10-07
+B1450,Include,Include,,,Safe-TD3 with safe action mask and pre-exploration in parallel imaginary environments,2026-10-07
+B1452,Unsure,Exclude,EC1,,"DQN controls traffic signals; CAV behaviour from default models, not RL",2026-10-07
+B1455,Unsure,Include,,,hierarchical racing controller: rule-encoding high-level game planner + MARL low-level controller under safety rules,2026-10-07
+B1457,Unsure,Exclude,EC3,,"TD3 drift-cornering control with MPC fusion; performance-oriented, safety not an explicit objective",2026-10-07
+B1458,Include,Include,,,"human-as-AI-mentor HITL RL (reward-free, human takeover in danger) for mixed-traffic platoon; MetaDrive + CARLA",2026-10-07
+B1459,Include,Include,,,imagination-augmented hierarchical RL for safe interactive urban driving; CARLA,2026-10-07
+B1461,Include,Include,,,hybrid automata + DQN for verifiable ACC mode switching,2026-10-07
+B1469,Unsure,Include,,,model checking (UPPAAL/CommonUppRoad) incl. synthesised safety shield for RL in AD,2026-10-07
+B1470,Include,Include,,,Stackelberg MARL on-ramp merging with collision-avoidance constraints,2026-10-07
+B1474,Unsure,Include,,,RL path planning with MPC tracking for evasive manoeuvres; field tests,2026-10-07
+B1475,Unsure,Exclude,EC2,,"learned dynamics model with risk-aware MPPI (CVaR) for off-road robot; no RL policy, non-road",2026-10-07
+B1476,Include,Include,,,safe RL online PID tuning for lateral control with stability check,2026-10-07
+B1479,Include,Include,,,"epistemic risk-sensitive RL (CVaR distributional ensemble, adaptive action limits); real 1/10-scale vehicle",2026-10-07
+B1480,Unsure,Exclude,EC3,,defence against poisoning in cooperative MARL payload delivery; no driving safety mechanism,2026-10-07
+B1481,Include,Include,,,DR2L action filter removing dangerous actions in continuous space; highway-env,2026-10-07
+B1485,Include,Include,,,safe action generation with risk prediction for autonomous racing; TORCS,2026-10-07
+B1487,Unsure,Include,,,hierarchical PPO with risk-field indicator weighted by vehicle mass (risk-anticipatory); SUMO + highD comparison,2026-10-07
+B1490,Include,Include,,,parameterised SAC with PID-Lagrangian (hybrid action) for discretionary lane change,2026-10-07
+B1492,Include,Include,,,constrained Stackelberg Q-learning / MADDPG (bilevel safe MARL) with convergence analysis; highway-env safe MARL benchmark,2026-10-07
+B1500,Include,Include,,,safety-aware human-in-the-loop RL with APF safety assessment,2026-10-07
+B1504,Include,Include,,,safe MARL (CMDP) for heterogeneous CAV cooperation,2026-10-07
+B1506,Include,Include,,,physics-enhanced RLHF with guaranteed lower-bound safety via traffic-flow model and action selection; MetaDrive,2026-10-07
+B1508,Unsure,Include,,,DRL tunes BLF-constrained backstepping platoon controller,2026-10-07
+B1512,Unsure,Include,,,DDPG human-machine cooperative steering/braking for heavy-vehicle stability safety; HIL,2026-10-07
+B1518,Unsure,Include,,,DRL decentralized eco-safe mixed platooning with safety-oriented design; SUMO/NGSIM,2026-10-07
+B1519,Unsure,Include,,,long-term safety reward with action correction and adjustable preferences; SUMO,2026-10-07
+B1520,Include,Include,,,risk-barrier SAC with CBF hard distance constraint for cruise control; SUMO,2026-10-07
+B1525,Unsure,Include,,,driving-risk-informed DRL behaviour decisions; CARLA,2026-10-07
+B1528,Include,Include,,,uncertainty-aware safe-evolving RL with reachability-based action projection,2026-10-07
+B1532,Unsure,Include,,,risk-aware objective (RSS-based) for DQN at intersections,2026-10-07
+B1533,Include,Include,,,discrete-time barrier-function overrides for non-convex dynamics; self-driving merging/ACC co-primary with fixed-wing,2026-10-07
+B1534,Include,Include,,,DDPG decisions verified with UPPAAL stochastic hybrid automata,2026-10-07
+B1536,Unsure,Include,,,model-guided RL docking control with robust predictive safety filter; TruckSim,2026-10-07
+B1538,Unsure,Include,,,lambda-PPO lane change with safety constraints + MATD3 energy management; SUMO,2026-10-07
+B1543,Unsure,Include,,,coupled DE-D3QN + barrier-function TD3 risk-aware control; highway-env,2026-10-07
+B1544,Include,Include,,,mixed curriculum RL with dynamic safety intervention between agents; highway-env,2026-10-07
+B1554,Unsure,Exclude,EC6,,three-page demo abstract; insufficient methodological detail,2026-10-07
+B1556,Unsure,Include,,,PPO reward design with dynamic collision-penalty strategies (safety-aware reward); MetaDrive,2026-10-07
+B1563,Unsure,Include,,,HRA-DDQN lane change with safety-oriented reward; collision rate evaluated,2026-10-07
+B1566,Include,Include,,,fear-constrained CMDP personalised car-following; CARLA human-in-the-loop,2026-10-07
+B1568,Unsure,Include,,,DDPG car-following with TTC safety reward and energy objectives,2026-10-07
+B1569,Include,Include,,,human-guided distributional SAC (proxy value propagation) for safe real-world learning; MetaDrive + real UGV,2026-10-07
+B1571,Include,Include,,,game-theoretic world model with uncertainty-aware barrier/reachability risk shaping (GTR2L); SUMO + CARLA,2026-10-07
+B1572,Include,Include,,,"goal-conditioned hierarchical RL with collision-prediction module choosing safe subgoals, intersections",2026-10-07
+B1574,Unsure,Include,,,hierarchical RL shared steering with driver-vehicle-road risk assessment; DIL,2026-10-07
+B1575,Unsure,Include,,,hierarchical TD3 Stackelberg with safety reward reducing violation rate; INTERACTION,2026-10-07
+B1577,Unsure,Include,,,asymmetric risk-field lane change with DQN-calibrated risk threshold,2026-10-07
+B1581,Unsure,Exclude,EC2,,MaxEnt IRL for personalized trajectory planning; no RL policy,2026-10-07
+B1583,Include,Include,,,teacher-student safe RL (teacher intervention) with ACPPO+ and safety cost; highway-env + CARLA,2026-10-07
+B1584,Include,Include,,,"LLM-informed actor-critic with MPC-DCBF safety-critical planner, highway",2026-10-07
+B1594,Include,Include,,,neuro-symbolic DQN with symbolic traffic-rule/safety constraints; Lyft Level 5 data,2026-10-07
+B1610,Include,Include,,,RHAC-BGI hierarchical actor-critic with CBF-guided imagination and CVaR for AEB; CARLA,2026-10-07
+B1612,Include,Include,,,"general-sum constrained adversarial RL (RCMDP, Lagrangian) for robust AD against strategic attacks; SUMO",2026-10-07
+B1615,Unsure,Exclude,EC2,,transformer deep IRL planner with MPC tracking; no RL policy,2026-10-07
+B1630,Include,Include,,,TD3 with safe layer for urban eco-driving; SUMO,2026-10-07
+B1632,Unsure,Exclude,EC3,,Q-learning trust evaluation for path/data selection; not driving-safety control,2026-10-07
+B1634,Unsure,Background,EC1,,RL-ESN formation control of electric vehicle fleet with collision avoidance; not road traffic,2026-10-07
+B1635,Unsure,Include,,,PPO eco-safe longitudinal control with legality/feasibility safety shield for heavy EVs,2026-10-07
+B1636,Include,Include,,,LLM-assisted hybrid RL with collision-prediction safety layer; highway-env,2026-10-07
+B1639,Include,Include,,,offline RL (conservative regularisation) with safety penalty for interaction-aware parking; CARLA,2026-10-07
+B1640,Include,Include,,,SGLPER end-to-end SAC with Gipps safe-speed model; CARLA,2026-10-07
+B1642,Unsure,Include,,,continual RL with safety reward via vehicle-cloud collaboration; car-following,2026-10-07
+B1645,Include,Include,,,"DQN with first-order-logic symbolic safety rules (DRLSL) for real-time safe learning, highway (highD); vs MPS",2026-10-07
+B1647,Unsure,Exclude,EC1,,RL controls traffic signals for pedestrian safety; no vehicle controlled by RL,2026-10-07
+B1651,Include,Include,,,VLM contrasting-language-goal rewards with SAC for safe driving; CARLA,2026-10-07
+B1653,Include,Include,,,worst-case-aware policy-constrained SAC robust to perturbations; highway,2026-10-07
+B1658,Include,Include,,,"SAC upper level + MPC hard safety/physical constraints, longitudinal control with V2G; SUMO/MATLAB",2026-10-07
+B1659,Include,Include,,,model-free non-zero-sum game IRL with CBF for platooning; CarSim,2026-10-07
+B1662,Include,Exclude,EC10,,"DRL used to build a provable safety metric for evaluating AVs, not a driving policy",2026-10-07
+B1667,Include,Include,,,rule-guided DSAC with safety shield for lane changing; CARLA,2026-10-07
+B1676,Include,Include,,,adaptive action-constraint PPO for safe driving; CARLA,2026-10-07
+B1677,Unsure,Include,,,"constraint-aware DRL (adaptive slip and following-safety bounds, Lagrangian) for regenerative braking; HIL tests",2026-10-07
+B1686,Include,Include,,,safety-critical evolution knowledge-fusion RL for racing,2026-10-07
+B1687,Unsure,Include,,,observation-uncertainty-constrained PPO with feasible value function; CARLA,2026-10-07
+B1689,Include,Include,,,AEGIS adaptive expert guidance safe RL; highway-env,2026-10-07
+B1692,Include,Include,,,"distributional RL with preordered objectives (safety first, quantile dominance); CARLA",2026-10-07
+B1697,Include,Include,,,cooperative MARL merging with safety constraints on acceleration; SUMO,2026-10-07
+B1700,Include,Additional report,EC5,B1149,"CRUISE-RL reports per-scenario results identical to B1149 (RARL, same evaluation); treated as one study (possible duplicate publication)",2026-10-07
+B1709,Include,Include,,,risk-aware hierarchical diffusion with distribution-corrected safe offline RL (DiDrive); CARLA,2026-10-07
+B1712,Unsure,Include,,,Lagrangian SAC with cost critics enforcing tyre slip constraints,2026-10-07
+B1717,Unsure,Include,,,ethical risk-management Q-network trained on NGSIM,2026-10-07
+B1738,Unsure,Include,,,integrated RL-MPC ramp metering and merging with safety threshold; SUMO,2026-10-07
+B1742,Include,Include,,,ISRL with adaptive CBF safety constraints; CARLA,2026-10-07
+B1745,Include,Include,,,LLM-guided expert-constrained DRL with TTC safety checker; highway-env,2026-10-07
+B1747,Include,Include,,,"offline RL (critic-regularised regression) with TTC safety reward for speed guidance at signalised intersections; SUMO, real trajectories",2026-10-07
+B1759,Unsure,Exclude,EC1,,PPO controls traffic signals (pedestrian-safety-aware); no vehicle controlled by RL,2026-10-07
+B1761,Include,Include,,,physics-informed residual RL over MPC with risk-aware constraints and fallback,2026-10-07
+B1764,Include,Include,,,predictive risk-aware MARL cooperative driving,2026-10-07
+B1765,Unsure,Include,,,"TD3 guided by DMPC prior with CBF/CLF-QP safety filter, platoon cut-in; driver-in-the-loop experiment",2026-10-07
+B1767,Include,Include,,,human-guided RL with Q-advantage integration for safe end-to-end driving; CARLA,2026-10-07
+B1770,Include,Include,,,RL backstepping platoon tracking under velocity/acceleration state constraints,2026-10-07
+B1773,Unsure,Include,,,risk-aware expert policy and conditional diffusion data for safe generalization; CARLA,2026-10-07
+B1777,Include,Include,,,safety-guided RL with robust CLBF under cyber attacks; cloud HIL,2026-10-07
+B1778,Unsure,Include,,,risk-aware multi-task QMIX with local decision corrector at intersections,2026-10-07
+B1779,Include,Include,,,risk-constrained hierarchical RL (D3QN + WCSAC) with TTC cost; CARLA,2026-10-07
+B1780,Include,Include,,,SARMI augmented-Lagrangian SAC-Discrete + MPC with action masking for merging,2026-10-07
+B1786,Include,Include,,,graph RL with TTC-based behavioural boundary for intersections; CARLA,2026-10-07
+B1787,Unsure,Include,,,risk-screened value decomposition MARL for cooperative lane change,2026-10-07
+B1788,Include,Include,,,PPO racing with CBF safety filter and CLF tracking,2026-10-07
+B1790,Unsure,Include,,,RL (PPO) adapts discrete-time CBF decay in Frenet NMPC-CBF for safe racing overtakes; F1TENTH hardware demo,2026-10-07
+B1793,Include,Include,,,safety-aware predictive RL with adaptive safety boundaries for EV platoon; PreScan,2026-10-07
+B1796,Include,Include,,,DSG-DRL with state-wise CMDP safety guidance for lane change,2026-10-07
+B1797,Include,Include,,,ACST-SRL with TTC-based safety constraint correcting TD3 actions; CARLA,2026-10-07
+B1798,Include,Include,,,safety-regulated curriculum MARL with CVaR tail-risk constraints for merging,2026-10-07
+B1799,Include,Include,,,multi-vehicle runtime assurance with safety barrier function; highway-env,2026-10-07
+B1804,Unsure,Include,,,risk-aware graph attention SAC for mixed-traffic intersection coordination; SUMO,2026-10-07
+B1805,Unsure,Include,,,GRPO RL fine-tuning of VLM driving planner with two-stage progress/safety reward scheduling; NAVSIM/nuScenes,2026-10-07
+B1806,Include,Include,,,criticality-aware adversarial robust RL (asymmetric attacker/defender SAC) for sparse safety-critical risks; SUMO,2026-10-07
+B1808,Include,Include,,,CLBF-PPO with HOCLBF-QP safety filter for occluded pedestrian avoidance; Webots,2026-10-07
+B1810,Unsure,Background,EC1,,multi-agent RL for quadrotor (drone) racing safety; non-road,2026-10-07
+B1812,Include,Include,,,action-robust recurrent/attention DPG for lane keeping on snow; CARLA + JetRacer robotic car,2026-10-07
+B1813,Include,Include,,,threat-guided policy-aware scene perturbation for safe online RL; NAVSIM v2,2026-10-07
+B1816,Unsure,Include,,,trajectory-constrained human-guided RL reducing unsafe exploration; CARLA,2026-10-07
+B1818,Unsure,Include,,,uncertainty-risk-adaptive offline RL for end-to-end driving; CARLA,2026-10-07
+C0009,Unsure,Include,,,DQN autonomous braking against pedestrian collision risk; collision rate per TTC,2026-10-10
+C0011,Unsure,Include,,,hierarchical RL options + MCTS under LTL safety specifications; self-driving intersection,2026-10-10
+C0022,Unsure,Include,,,RL for drift counteraction optimal control maximising time before ACC headway/speed constraint violation,2026-10-10
+C0030,Unsure,Include,,,"dueling DQN with heuristic action masking of unsafe actions; TTC, safety metrics",2026-10-10
+C0032,Unsure,Include,,,DQN as heuristic in search to remove DRL failure rate; safety-critical planning,2026-10-10
+C0034,Unsure,Exclude,EC3,,heuristic initialisation for sim-to-real learning efficiency; safety not addressed,2026-10-10
+C0035,Unsure,Include,,,DQN/DRQN intersection negotiation; collision rate primary outcome,2026-10-10
+C0051,Unsure,Include,,,QR-DQN supervisor with added collision-avoidance function preventing dangerous actions; highway,2026-10-10
+C0056,Unsure,Include,,,DQN lane change with rule-based safety check (distance/TTC) replacing unsafe actions,2026-10-10
+C0060,Unsure,Include,,,DQN lane-change decision with safety criterion + pure pursuit,2026-10-10
+C0061,Unsure,Include,,,actor-gear-critic eco-ACC with explicit safe inter-vehicle distance constraints,2026-10-10
+C0068,Unsure,Include,,,DQN with rule-based safety constraints on trajectory; lane change,2026-10-10
+C0073,Unsure,Include,,,"PPO/DDPG braking for pedestrian safety, naturalistic VR dataset",2026-10-10
+C0080,Unsure,Include,,,probabilistic LTL guarantees via model-checked safe action sets; intersection,2026-10-10
+C0082,Unsure,Include,,,thresholded lexicographic DQN with safety (collision/TTC) objective priority; SUMO,2026-10-10
+C0083,Unsure,Include,,,"CVaR worst-case policy gradients; driving, CARLA transfer",2026-10-10
+C0084,Unsure,Include,,,DRL emergency braking decision to avoid accidents,2026-10-10
+C0088,Unsure,Include,,,Rainbow DQN with TTC safety layer feedback reward; lane change,2026-10-10
+C0095,Unsure,Include,,,"PPO lane change, collision rate vs TTC rule baseline; SUMO",2026-10-10
+C0098,Unsure,Background,EC1,,"certified robustness for DQN; evaluated on robot collision avoidance among pedestrians (non-road), cartpole",2026-10-10
+C0102,Unsure,Include,,,"constrained Q-learning (CMDP, safe action sets); SUMO + highD",2026-10-10
+C0111,Unsure,Include,,,falsification-based robust adversarial RL with MTL safety requirements; ACC/braking,2026-10-10
+C0115,Unsure,Include,,,RL high-speed collision-avoidance active safety system with domain randomisation for sim-to-real,2026-10-10
+C0117,Unsure,Include,,,minimax distributional SAC (robust/risk-aware); intersection,2026-10-10
+C0118,Unsure,Exclude,EC3,,collision penalty only; no safety mechanism or safety evaluation beyond collisions,2026-10-10
+C0120,Unsure,Additional report,EC5,C0102,same arXiv report (retitled version of Deep Constrained Q-learning),2026-10-10
+C0122,Unsure,Include,,,hierarchical RL merging on NGSIM data; collision rate evaluated,2026-10-10
+C0124,Unsure,Exclude,EC3,,ADP platoon control robust to reaction time; safety not an objective or metric,2026-10-10
+C0125,Unsure,Include,,,RL lane selection supervised by tactical planner enforcing safety constraints,2026-10-10
+C0126,Unsure,Include,,,Q-learning drivers trained with and without traffic-rule enforcement; safety and efficiency compared,2026-10-10
+C0128,Unsure,Include,,,DDPG car-following with TTC hard-constraint safety term; highD/SUMO,2026-10-10
+C0129,Unsure,Include,,,DDPG trajectory planner with safety and comfort reward; proving-ground real-vehicle tests,2026-10-10
+C0130,Unsure,Include,,,H-REIL hierarchical RL/IL for near-accident safety; CARLA,2026-10-10
+C0132,Unsure,Include,,,ensemble RPF epistemic uncertainty with confidence criterion; intersection,2026-10-10
+C0138,Unsure,Include,,,value-based crowd navigation with multimodal prediction and kinematic constraints; collision rate,2026-10-10
+C0141,Unsure,Include,,,"Bayesian ensemble RL classifying safe actions, fallback; SUMO highway",2026-10-10
+C0153,Unsure,Include,,,DDPG pedestrian collision avoidance with trajectory tracking; Simulink,2026-10-10
+C0154,Unsure,Include,,,RL decisions accounting for aggressive human drivers to ensure safety,2026-10-10
+C0155,Unsure,Include,,,DQN driving with a collision-prevention model; AirSim,2026-10-10
+C0161,Unsure,Include,,,ATAC car-following with time-margin safety reward; NGSIM,2026-10-10
+C0164,Unsure,Include,,,Q-learning over trajectory-planner proposals satisfying safety constraints; SUMO,2026-10-10
+C0171,Unsure,Include,,,training on collision-prone adversarial scenarios for safer agents; highway-env,2026-10-10
+C0173,Unsure,Include,,,PPO vs SAC multi-vehicle rear-end collision avoidance,2026-10-10
+C0176,Unsure,Include,,,domain-randomisation DRL surfacing corner cases with safety reward; collision outcomes,2026-10-10
+C0178,Unsure,Include,,,"shielded distributional SAC, barrier-function shield via one-step MPC; on-ramp",2026-10-10
+C0190,Unsure,Include,,,DDPG car-following with collision-prediction feedback supervising actions; NGSIM,2026-10-10
+C0194,Unsure,Include,,,program-triggered hierarchical RL with LTL safety shield; CARLA NHTSA pre-crash,2026-10-10
+C0196,Unsure,Include,,,hierarchical DRL speed decisions with robust low-level control; safety term in reward under disturbances,2026-10-10
+C0197,Unsure,Include,,,DRL with expert-system rules for safe CAV guidance (safety distance),2026-10-10
+C0199,Unsure,Include,,,physics-guided SAC adaptive cruise control with jam-avoiding-distance safety constraint as soft constraint,2026-10-10
+C0214,Unsure,Include,,,CVaR worst-case RL motion planning under occlusion/sensing uncertainty; SUMO,2026-10-10
+C0217,Unsure,Include,,,CAV on-ramp merging RL with rule-based minimum gap and TTC safety constraints; NGSIM/SUMO,2026-10-10
+C0219,Unsure,Include,,,DRL safety planning against first and multiple collisions in emergencies,2026-10-10
+C0221,Unsure,Include,,,DRL emergency pedestrian avoidance with safety clearance; Unity,2026-10-10
+C0222,Unsure,Include,,,DQN/DDQN pedestrian collision avoidance; collision-free episodes; CARLA,2026-10-10
+C0228,Unsure,Include,,,action-space shaping for long-term auxiliary-cost constraints (CMDP) in DQN lane change; SUMO,2026-10-10
+C0234,Unsure,Exclude,EC1,,output-constraint network; vehicles not a substantive application,2026-10-10
+C0248,Unsure,Include,,,discrete SAC with sample filter for freeway driving safety and efficiency,2026-10-10
+C0252,Unsure,Include,,,actor-critic rear anti-collision for commercial vehicles; RTTC and clearance metrics; SUMO,2026-10-10
+C0274,Unsure,Include,,,RL cut-in policy nested in finite-state machine with TTC-based gap risk evaluation,2026-10-10
+C0276,Unsure,Exclude,EC3,,MARL for CACC efficiency and cyber-attack detection; vehicle safety not an objective or metric,2026-10-10
+C0281,Unsure,Include,,,"DQN with graph attention for safe and efficient urban driving; collision rate; CARLA, real-data zero-shot",2026-10-10
+C0282,Unsure,Include,,,uncertainty-aware DRL detecting unlearned situations for risk-aware decisions; SUMO,2026-10-10
+C0283,Unsure,Include,,,DDQN decisions combined with planning and control and TTC/THW rule-guided training; CARLA,2026-10-10
+C0293,Unsure,Include,,,risk-aware (TTC/severity) decision framework over RL low-level control; CARLA,2026-10-10
+C0296,Unsure,Include,,,RL planner with candidate policies of different conservativeness selected by estimated long-tail rate; CARLA,2026-10-10
+C0297,Unsure,Include,,,HACO human-in-the-loop safe RL with safety cost; MetaDrive/CARLA,2026-10-10
+C0299,Unsure,Include,,,CBF safety layer on invariably safe sets for RL motion planner; highD + SUMO,2026-10-10
+C0302,Unsure,Include,,,"P-DQN with fuzzy hybrid action masking for traffic rules, MPC trajectory planner",2026-10-10
+C0307,Unsure,Include,,,residual RL tactical planner robust to intention uncertainty and observation noise; safety and efficiency; CARLA,2026-10-10
+C0309,Unsure,Include,,,hierarchical cloud-level RL speed design with robust vehicle-level control for safe roundabout motion,2026-10-10
+C0311,Unsure,Exclude,EC3,,human-like left-turn policy for efficiency (face-off avoidance); safety not evaluated,2026-10-10
+C0314,Unsure,Include,,,PEARL+ prior-policy safety regularisation for meta-RL; merging,2026-10-10
+C0315,Unsure,Include,,,integrated decision and control with multistep safety shield; SUMO and real-vehicle intersection test,2026-10-10
+C0316,Unsure,Include,,,SVO-DRL pedestrian collision avoidance; CARLA,2026-10-10
+C0319,Unsure,Include,,,interpretable SAC with safety awareness for lane-change decisions; CARLA,2026-10-10
+C0320,Unsure,Exclude,EC3,,driver-input DRL lane change; safety not evaluated,2026-10-10
+C0321,Unsure,Include,,,transformer DRL lane change with risk evaluation (TTC/THW); CARLA,2026-10-10
+C0325,Unsure,Include,,,DRL interaction-aware velocity guidance for MPC with collision constraints; highway-env,2026-10-10
+C0327,Unsure,Include,,,DRL mandatory lane change with action mask of TTC/traffic-rule safety constraints,2026-10-10
+C0328,Unsure,Include,,,"MetaDrive benchmark incl. safe-exploration benchmark (Lagrangian methods, cost)",2026-10-10
+C0330,Unsure,Include,,,DMARL pedestrian crash avoidance mitigation under uncertainty; TTC,2026-10-10
+C0338,Unsure,Include,,,DRL emergency obstacle avoidance with graded hazard index; CARLA,2026-10-10
+C0339,Unsure,Exclude,EC3,,offline RL benchmark on real data; safety not evaluated,2026-10-10
+C0341,Unsure,Include,,,TD3 online trajectory planning for pedestrian emergency avoidance with MPC execution,2026-10-10
+C0343,Unsure,Include,,,perception-uncertainty-aware decisions bounded by rule-based safety policy; CARLA,2026-10-10
+C0352,Unsure,Include,,,observation-adversarial RL with constrained robust MDP for lane change; SUMO,2026-10-10
+C0361,Unsure,Exclude,EC3,,supervised-RL path planning efficiency; safety not evaluated,2026-10-10
+C0365,Unsure,Include,,,TD3 path planner trained with Intel RSS safety rules; CARLA validation,2026-10-10
+C0366,Unsure,Include,,,criticality metrics analysed as SAC reward components for safe car following,2026-10-10
+C0370,Unsure,Include,,,cloud DDPG with robust controller and supervisor guaranteeing collision avoidance; F1TENTH HiL,2026-10-10
+C0376,Unsure,Include,,,DRL ACC with safe following distance and rear-end risk objectives,2026-10-10
+C0377,Unsure,Include,,,DDPG lane keeping from surrounding-vehicle motion as fail-safe under degraded lane sensing; CarMaker,2026-10-10
+C0378,Unsure,Include,,,RL strategy policy parameterising a constrained NMPC guaranteeing safe feasible racing trajectories,2026-10-10
+C0381,Unsure,Include,,,real-world DRL framework for safe tactical lane changes with TTC reward; real vehicle,2026-10-10
+C0382,Unsure,Include,,,set-theoretic receding-horizon control with invariant sets plus DRL routing for platoons,2026-10-10
+C0385,Unsure,Include,,,DQN with action screening and safety constraints; lane change,2026-10-10
+C0387,Unsure,Include,,,model-based actor-critic objective penalty for state-wise constrained tracking; CARLA-SUMO,2026-10-10
+C0389,Unsure,Include,,,two-player zero-sum Markov game Q-learning against adversarial neighbour vehicles; human-in-the-loop tests,2026-10-10
+C0396,Unsure,Include,,,MAPPO with V2V features for safe navigation in occlusion; CARLA,2026-10-10
+C0403,Unsure,Exclude,EC3,,blockchain federated RL for data/training security; driving safety not evaluated,2026-10-10
+C0404,Unsure,Include,,,supervisor (pure-pursuit fallback) ensuring safety during online DRL on a scaled vehicle,2026-10-10
+C0406,Unsure,Include,,,DDPG collision avoidance with e-bikes at occluded intersections; fuzzy TTC evaluation,2026-10-10
+C0419,Unsure,Include,,,MARL on-ramp merging with priority-based safety supervisor and action masking; highway-env,2026-10-10
+C0426,Unsure,Exclude,EC3,,collision avoidance only as task success; no safety formulation or metrics,2026-10-10
+C0436,Unsure,Exclude,EC3,,DWA used only as training guidance; safety not evaluated,2026-10-10
+C0438,Unsure,Include,,,"ensemble quantile networks, aleatoric/epistemic uncertainty, CVaR; SUMO",2026-10-10
+C0441,Unsure,Exclude,EC3,,sim-to-real lane-change learning efficiency study; safety not an objective or metric,2026-10-10
+C0442,Unsure,Include,,,RL (actor-critic fuzzy ADP) platoon control with prescribed-performance spacing bounds and barrier-type cost,2026-10-10
+C0443,Unsure,Include,,,drone-assisted DQN lane change with safety-weighted dynamic reward and adaptive MPC; NGSIM-based,2026-10-10
+C0446,Unsure,Include,,,guarded policy optimisation (teacher intervention) with safety guarantee; MetaDrive,2026-10-10
+C0447,Unsure,Exclude,EC3,,Q-learning tracking control; safety not addressed,2026-10-10
+C0451,Unsure,Include,,,uncertainty-bound RL identifying and protecting unreliable DRL decisions with a fallback planner; CARLA,2026-10-10
+C0452,Unsure,Include,,,BC-SAC combining imitation with RL safety reward on real-world driving data,2026-10-10
+C0457,Unsure,Include,,,local RL agent with global drone cooperation for collision-free lane change; NGSIM-based scenarios,2026-10-10
+C0458,Unsure,Include,,,TD3 lateral obstacle-avoidance control with dynamic driving risk field; CARLA,2026-10-10
+C0467,Unsure,Include,,,LSTM-attention TD3 car-following with safety (TTC/safety factor) objective; NGSIM,2026-10-10
+C0478,Unsure,Include,,,offline RL parameters for rule-based trajectory generator; critical scenarios,2026-10-10
+C0479,Unsure,Exclude,EC3,,SAC parking path planning accuracy under deviations; safety not an RL objective or metric,2026-10-10
+C0480,Unsure,Include,,,hybrid RL/SL car-following with safety reward and real-vehicle data,2026-10-10
+C0481,Unsure,Include,,,constrained ADP within integrated decision and control for constrained dynamic environments; SUMO,2026-10-10
+C0482,Unsure,Include,,,prediction-aware altruistic cooperative driving with TTC safety thresholds; highway-env,2026-10-10
+C0483,Unsure,Include,,,robust multimodal RL on-ramp merging under inaccurate observations with safety-staged reward,2026-10-10
+C0484,Unsure,Exclude,EC1,,RL-driven MPPI control; vehicles not a substantive application,2026-10-10
+C0490,Unsure,Include,,,MARL reference policy with distributed MPC ensuring collision avoidance in constrained spaces,2026-10-10
+C0491,Unsure,Exclude,EC3,,"digital-twin sim-to-real transfer of a SAC path-following controller; safety only as motivation, no safety mechanism or metric",2026-10-10
+C0492,Unsure,Exclude,EC6,,"collision prediction and avoidance system described without method, set-up or evaluation details",2026-10-10
+C0493,Unsure,Include,,,RL lane change for CAVs in mixed traffic under low visibility with safety-condition checks,2026-10-10
+C0494,Unsure,Exclude,EC3,,RL navigation on downscaled vehicle; safety not evaluated,2026-10-10
+C0495,Unsure,Exclude,EC3,,dynamics randomisation for tracking accuracy; safety not evaluated,2026-10-10
+C0502,Unsure,Background,EC1,,timed contracts and model checking for RL components in SystemC with runtime monitor; traffic-light case study (non-vehicle),2026-10-10
+C0504,Unsure,Include,,,MAPPO with collision-avoidability risk model for manoeuvring around emergency vehicles vs MPC baseline,2026-10-10
+C0517,Unsure,Include,,,fully parameterised quantile network with CVaR risk-sensitive decisions at uncontrolled intersections; SUMO,2026-10-10
+C0518,Unsure,Include,,,"uncertainty-aware model-based offline RL (UMBRELLA) planning with aleatoric uncertainty; NGSIM, CARLA",2026-10-10
+C0521,Unsure,Include,,,bounded-rationality-aware RL car-following handling cut-ins with TTC rear-end risk reward; NGSIM,2026-10-10
+C0524,Unsure,Include,,,DRL with learnable rule-based safety module for driving safety and transparency; highway-env,2026-10-10
+C0525,Unsure,Include,,,DRL car-following with TTC safety reward and cut-in trajectory prediction,2026-10-10
+C0527,Unsure,Exclude,EC3,,cooperative merging control; safety not evaluated beyond task success,2026-10-10
+C0528,Unsure,Include,,,local-attention safety DRL at unsignalised intersections compared with TTC rule,2026-10-10
+C0530,Unsure,Include,,,hybrid RL beyond-the-limit control with Lyapunov obstacle function balancing safety,2026-10-10
+C0539,Unsure,Exclude,EC3,,RL tuning of analytical planner; safety only as motivation,2026-10-10
+C0545,Unsure,Include,,,AF-DQN with safe action filter at unsignalised intersections,2026-10-10
+C0548,Unsure,Include,,,constrained DRL (CMDP) with headway safety constraint for adaptive autopilot,2026-10-10
+C0549,Unsure,Exclude,EC3,,"adaptive multi-objective RL; safety only one weighted objective, not evaluated separately",2026-10-10
+C0550,Unsure,Include,,,DQN learning adaptive risk-feature (TTC) thresholds for ADS risk assessment,2026-10-10
+C0551,Unsure,Exclude,EC3,,hierarchical SAC lane change; safety not evaluated,2026-10-10
+C0552,Unsure,Include,,,federated RL with augmented observations for sim-to-real car following; TTC-based safety reward and evaluation,2026-10-10
+C0555,Unsure,Include,,,"RL-adaptive MPC acting as constraint-enforcing safety filter, longitudinal control",2026-10-10
+C0557,Unsure,Include,,,Lyapunov-based safety actor-critic with driver-style inference; CARLA,2026-10-10
+C0566,Unsure,Include,,,DQN with heuristic-rule action filter at roundabouts,2026-10-10
+C0570,Unsure,Include,,,RL safety-first prioritisation under cyber attacks keeping collision avoidance,2026-10-10
+C0576,Unsure,Exclude,EC3,,interpretable cognitive RL; safety not evaluated,2026-10-10
+C0577,Unsure,Include,,,temporal-difference learning of collision-probability distributions (safety value estimation) for AD,2026-10-10
+C0581,Unsure,Include,,,TD3 risk-based collision avoidance as minimum-risk optimisation,2026-10-10
+C0598,Unsure,Exclude,EC9,,narrative review of DRL for accident prevention,2026-10-10
+C0607,Unsure,Exclude,EC3,,world-model MBRL; safety not an objective or mechanism,2026-10-10
+C0608,Unsure,Include,,,adversarial RL with safety cost for realistic urban intersections (sim-to-real),2026-10-10
+C0617,Unsure,Include,,,RL robot vehicles improving TTC/DRAC safety and stability in mixed traffic,2026-10-10
+C0619,Unsure,Include,,,RL adaptation to actuator errors that make policies dangerous,2026-10-10
+C0620,Unsure,Include,,,DRL decisions with classical LQR/MPC execution under constraints; CARLA,2026-10-10
+C0621,Unsure,Include,,,"integrated DRL decision, path planning and MPC control for AV safety in high-speed cruising",2026-10-10
+C0623,Unsure,Include,,,attention DDPG ACC with TTC and safe-distance reward,2026-10-10
+C0628,Unsure,Include,,,explainable adversarial-detection DRL for robust safe driving against observation attacks,2026-10-10
+C0632,Unsure,Exclude,EC3,,LLM-generated reward functions; safety not a specific objective or metric,2026-10-10
+C0634,Unsure,Include,,,heuristic action-mask QMIX with safety restrictions at non-signalised intersections,2026-10-10
+C0638,Unsure,Include,,,attention-based adaptive reward for occluded pedestrian crossing safety,2026-10-10
+C0639,Unsure,Include,,,TD3 human-machine shared steering correcting risky actions; obstacle avoidance,2026-10-10
+C0643,Unsure,Include,,,RL human-vehicle shared steering for reference-free obstacle collision avoidance,2026-10-10
+C0646,Unsure,Include,,,SVO-PPO with motion safety controller for unprotected left turns,2026-10-10
+C0647,Unsure,Include,,,model-based RL integrating online planning with a safety shield; no collisions; embedded controller timing,2026-10-10
+C0652,Unsure,Exclude,EC3,,interpretable cognitive RL; safety not evaluated,2026-10-10
+C0658,Unsure,Include,,,actor-critic safe urban driving policy trained from real-world data,2026-10-10
+C0666,Unsure,Include,,,hierarchical distributional RL motion planning with occlusion collision risk,2026-10-10
+C0667,Unsure,Exclude,EC3,,MARL platoon motion control; safety not an evaluated objective,2026-10-10
+C0672,Unsure,Include,,,RL agent integrated with robust controller guaranteeing safe motion,2026-10-10
+C0673,Unsure,Include,,,critic-only ADP path tracking with prescribed-performance safety constraints (Lyapunov),2026-10-10
+C0680,Unsure,Exclude,EC2,,DNN impact-severity predictor for simulators; no RL method proposed,2026-10-10
+C0686,Unsure,Exclude,EC6,,Q-learning collision avoidance framework without reported metrics or evaluation protocol,2026-10-10
+C0692,Unsure,Include,,,RL with robust controller and disturbance estimator for car following; safety metrics on highD,2026-10-10
+C0698,Unsure,Include,,,SAC collision avoidance with multiple two-wheelers at occluded intersections; TTC-based evaluation,2026-10-10
+C0703,Unsure,Exclude,EC1,,formal verification patterns; vehicle not a substantive case study,2026-10-10
+C0705,Unsure,Include,,,risk-aware TD3 with risk barrier-function constraints in the loss,2026-10-10
+C0708,Unsure,Include,,,DRL with Bayesian particle-filter world model for robust decisions under noise,2026-10-10
+C0709,Unsure,Include,,,intention-based robust DRL off-ramp decisions reducing collision risk,2026-10-10
+C0711,Unsure,Include,,,SAC collision-avoidance control with efficient experience replay,2026-10-10
+C0714,Unsure,Include,,,SARSA with collision-likelihood risk cost and SVO for ego-bicycle interaction,2026-10-10
+C0720,Unsure,Include,,,curriculum residual hierarchical RL guided by rule-based planner for safety and rule compliance,2026-10-10
+C0722,Unsure,Include,,,RL with expert priors and minimum safety acceleration constraints for unprotected turns,2026-10-10
+C0727,Unsure,Include,,,Bayesian noise-aware DRL decisions reducing safety hazards,2026-10-10
+C0731,Unsure,Include,,,game theory and RL speed decisions for safe pedestrian interaction on unstructured roads,2026-10-10
+C0734,Unsure,Include,,,dual-layer mixture-of-experts DRL with rule model for safe human-like velocity control,2026-10-10
+C0740,Unsure,Include,,,predictive DRL longitudinal CAV control with TTC safety in mixed-traffic lane changes,2026-10-10
+C0743,Unsure,Include,,,robust distributed RL platoon control under uncertain dynamics and disturbances,2026-10-10
+C0744,Unsure,Include,,,self-evolving RL with constrained optimisation (MPC) guaranteeing collision-free policy learning,2026-10-10
+C0748,Unsure,Include,,,transformer offline RL planner combined with constrained trajectory optimisation for merging safety,2026-10-10
+C0764,Unsure,Include,,,attention double DQN with human-value safety layer at runtime for highway decisions,2026-10-10
+C0765,Unsure,Include,,,adaptive-rollout MBPO car-following with TTC safety reward,2026-10-10
+C0771,Unsure,Include,,,"bi-level interactive search tree with DRL for safety-critical decisions, MPC tracking",2026-10-10
+C0777,Unsure,Include,,,high-confidence policy improvement RL planner based on a CMDP,2026-10-10
+C0778,Unsure,Include,,,convergent harmonious RL lane change with explicit safety cost,2026-10-10
+C0783,Unsure,Include,,,DRL with path-constraint-based action compensation ensuring safe final actions,2026-10-10
+C0794,Unsure,Exclude,EC3,,domain-adaptive RL navigation; safety not evaluated,2026-10-10
+C0796,Unsure,Include,,,TTC-based dynamic safety reward car-following; collision frequency; NGSIM/highD,2026-10-10
+C0799,Unsure,Include,,,DRL human-machine shared steering for emergency obstacle avoidance with MPC automation controller,2026-10-10
+C0803,Unsure,Exclude,EC3,,validation of multi-objective sufficiency; no safety mechanism or safety evaluation of a policy,2026-10-10
+C0807,Unsure,Include,,,DACER++ multimodal distributional RL with risk-sensitive (CVaR) policies for vehicles,2026-10-10
+C0809,Unsure,Include,,,hybrid DRL-kinematic autopilot where rule-based policy enforces safety constraints,2026-10-10
+C0820,Unsure,Include,,,game-theoretic RL merging for safety in mixed traffic,2026-10-10
+C0822,Unsure,Include,,,hierarchical RL parking with kinematic constraints on subgoals,2026-10-10
+C0826,Unsure,Include,,,adversarial training and uncertainty-aware DDPG car-following; collision rate and TTC,2026-10-10
+C0828,Unsure,Include,,,robustness of RL driving through abnormally behaving traffic actors,2026-10-10
+C0837,Unsure,Include,,,occlusion-aware RL with safe interaction mechanism,2026-10-10
+C0849,Unsure,Include,,,mixture-of-experts SAC with heuristic expert to avoid collisions; highway-env,2026-10-10
+C0851,Unsure,Include,,,hybrid DRL-Stanley control for stability and safety of 4WID vehicles,2026-10-10
+C0866,Unsure,Include,,,"dual-buffer SAC balancing safety (safety rate, TTC) at unsignalised intersections",2026-10-10
+C0867,Unsure,Exclude,EC3,,quantum RL for training efficiency; safety not addressed beyond task,2026-10-10
+C0870,Unsure,Exclude,EC3,,MARL coordination training framework; safety not evaluated specifically,2026-10-10
+C0871,Unsure,Exclude,EC3,,personalised lane keeping from driver interventions; safety not an objective,2026-10-10
+C0874,Unsure,Include,,,DRL roundabout entry with TTC-based safety and comfort constraints,2026-10-10
+C0876,Unsure,Include,,,option-policy hierarchical DRL obstacle avoidance with traffic safety rules,2026-10-10
+C0878,Unsure,Exclude,EC3,,"DQN/PPO pedestrian avoidance in Webots; only training rewards reported, no safety evaluation",2026-10-10
+C0879,Unsure,Include,,,perception-uncertainty-aware heuristic D3QN motion planning with reachable-set danger zones under occlusion; CARLA,2026-10-10
+C0881,Unsure,Include,,,MARL PPO with TTC-based priority sequential inference for collision-avoiding highway driving,2026-10-10
+C0883,Unsure,Exclude,EC3,,MADRL camera-attack detection for platoons; safety not an RL objective or evaluated outcome,2026-10-10
+C0884,Unsure,Include,,,receding-horizon multi-kernel RL constrained motion planning vs CBF-MPC; CarSim and real-world experiments,2026-10-10
+C0885,Unsure,Exclude,EC3,,"receding-horizon RL for shared-control authority; stability, tracking and workload evaluated, safety not an objective or metric",2026-10-10
+C0888,Unsure,Exclude,EC10,,red-team MARL for generating corner cases to test AVs,2026-10-10
+C0893,Unsure,Include,,,model-based RL static output feedback for lateral control with Lyapunov stability during learning to avoid unsafe actions,2026-10-10
+C0894,Unsure,Include,,,RL path-tracking controller with Lyapunov-based safety layer for autonomous mining trucks; real-vehicle data,2026-10-10
+C0901,Unsure,Exclude,EC3,,adversarially constrained PPO for generalisation in CARLA; safety not evaluated,2026-10-10
+C0902,Unsure,Include,,,PPO lateral stability control for active safety on low adhesion; CarSim + HIL,2026-10-10
+C0903,Unsure,Include,,,resilient MARL with safe-braking-distance risk model for tiered mixed autonomy; Flow,2026-10-10
+C0905,Unsure,Include,,,constrained zero-sum robust policy iteration for motion control under coupled uncertainties; real vehicle,2026-10-10
+C0906,Unsure,Include,,,robust constrained MARL with CBF risk network against adversarial states; CARLA,2026-10-10
+C0908,Unsure,Include,,,DRL vehicle control with action smoothing and prediction under delayed offloading; collision and emergency stop outcomes in CARLA,2026-10-10
+C0914,Unsure,Include,,,"scenario-based hierarchical RL with shielding safety layer; CommonRoad, highD",2026-10-10
+C0915,Unsure,Include,,,multi-task offline-to-online RL with safe-distance rewards; TTC distributions evaluated,2026-10-10
+C0927,Unsure,Include,,,trust-calibrated human-in-the-loop RL for safe unprotected left turns; CARLA with driving-simulator HIL,2026-10-10
+C0928,Unsure,Exclude,EC6,,GNN-PPO decision model on PEMS-BAY traffic data; driving task and safety evaluation insufficiently described,2026-10-10
+C0929,Unsure,Include,,,ensemble quantile uncertainty-aware RL with conservative fallback policy; MetaDrive,2026-10-10
+C0932,Unsure,Include,,,visual risk-field SAC decision making; CARLA,2026-10-10
+C0933,Unsure,Include,,,PPO-LSTM pedestrian collision avoidance under hesitation uncertainty; collision rates,2026-10-10
+C0938,Unsure,Include,,,dual-aligned SAC with adaptive risk threshold and CBF/CLF-QP safety for motion planning; CARLA,2026-10-10
+C0939,Unsure,Include,,,hybrid MARL urban decision framework with arbitration and SHAP explainability; collision rates in CARLA,2026-10-10
+C0944,Unsure,Include,,,risk-aware SAC suppressing exploration variance in dangerous states; Simulink co-simulation,2026-10-10
+C0946,Unsure,Include,,,"safety-conscious double DQN with collision, TTC and hard-braking reward terms; SUMO",2026-10-10
+C0955,Unsure,Exclude,EC3,,ACC training efficiency; safety not an objective,2026-10-10
+C0961,Unsure,Include,,,adversarial RL with MPGD worst-case perception errors and SAC-Lag safety costs at on-ramps,2026-10-10
+C0968,Unsure,Exclude,EC3,,offline RL distribution-shift control; safety not evaluated,2026-10-10
+C0969,Unsure,Include,,,SAC with biased-attention risk prediction for unsignalised intersections; SUMO,2026-10-10
+C0970,Unsure,Include,,,brain-in-the-loop RL using fNIRS risk perception with TTC safety-layer action adjustment; CARLA,2026-10-10
+C0977,Unsure,Include,,,DQN adaptive cruise control with collision-rate and headway evaluation; CARLA,2026-10-10
+C0981,Unsure,Include,,,DRL longitudinal control against aggressive drivers with TTC/THW safety evaluation; Flow/SUMO,2026-10-10
+C0992,Unsure,Include,,,enhanced integrated decision and control with constrained RL; real-vehicle experiments,2026-10-10
+C0997,Unsure,Include,,,hierarchical attention RL with RSS-based Simplex switching to a safety controller,2026-10-10
+C0998,Unsure,Include,,,offline CQL dueling DQN with runtime execution-authority gating and rule fallback,2026-10-10
+C0999,Unsure,Include,,,MARL-initialised optimal-control cooperative trajectory planning with collision-free constraints at unstructured intersections,2026-10-10
+C1006,Unsure,Include,,,adversarial RL with data-bounded adversary for sim-to-real robust driving; full-size vehicle test,2026-10-10
+C1009,Unsure,Include,,,MARL with human intervention at uncontrolled intersections; highway-env safety outcomes,2026-10-10
+C1020,Unsure,Include,,,long-tail augmentation and uncertainty-aware RL car-following; highD,2026-10-10
+C1022,Unsure,Include,,,multi-agent RL lateral emergency avoidance; collision and success rates in Unity,2026-10-10
+C1024,Unsure,Include,,,responsibility-oriented reward design from collision attribution; MetaDrive,2026-10-10
+C1025,Unsure,Include,,,rain-aware DQN lane change with safety-augmented reward; highway-env,2026-10-10
+C1027,Unsure,Include,,,SAC curvature-tracking steer-by-wire control with lateral-acceleration-bounded targets for stability on low friction,2026-10-10
+C1033,Unsure,Include,,,actor-critic prescribed-performance path tracking with state constraints via barrier Lyapunov functions,2026-10-10
+C1037,Unsure,Include,,,SAC-MPC hierarchical merging with steering-angle constraints; highway-env,2026-10-10
+C1038,Unsure,Include,,,PPO with risk-augmented loss and attention for highway driving; highway-env,2026-10-10
+C1039,Unsure,Include,,,risk-sensitive distributional PPO for lane-change decisions; highway-env,2026-10-10
+C1042,Unsure,Include,,,causal-invariant adversarial RL for robust lane-change decisions; SUMO,2026-10-10
+C1043,Unsure,Include,,,SAC-D planner with HOCLF-HOCBF-QP constrained control; hardware-in-the-loop,2026-10-10
+C1047,Unsure,Exclude,EC2,,RL agent controls the traffic environment (traffic management),2026-10-10
+C1048,Unsure,Include,,,self-attention double DQN for safe highway driving; highway-env,2026-10-10
+C1049,Unsure,Include,,,RL safety value estimation with world model for trajectory rescoring in end-to-end driving; Bench2Drive,2026-10-10
+C1051,Unsure,Include,,,self-organising cooperative platooning decisions with safety mechanisms; HIL platform,2026-10-10
+E015,Unsure,Include,,,RL identifies a 3-D vehicle stability boundary that constrains an MPC boundary-stability controller; CarSim/PreScan and HIL,2026-11-13
+E019,Unsure,Include,,,RL (attention encoder-decoder) selects merging sequence; DMPC with spacing constraints guarantees collision avoidance; HIL tests,2026-11-13
+E022,Unsure,Include,,,DDPG torque redistribution on a Lyapunov/H-infinity fault-tolerant tracking controller; vehicle stability under actuator faults,2026-11-13
+E024,Include,Include,,,"multi-output CBF safety filter with fallback for PPO ACC; PreScan-based REVEAL, disturbances and attacks",2026-11-13
+E025,Include,Include,,,continuous-time actor-critic platoon control with prescribed spacing constraints and PD fallback under FDI attacks; boundedness analysis,2026-11-13
+E029,Include,Include,,,PPO with friction-aware GTTC action pre-masking and Pareto-based post-guidance; CARLA lane changes,2026-11-13
+E030,Unsure,Include,,,DDPG longitudinal gap selection with safety reward + MPC lateral tracking for ramp merging; collision-free merging reported,2026-11-13
+E032,Unsure,Include,,,Meta-DDQN corrective actions for mixed platoons under DoS/spoofing with minimum-spacing and collision penalty,2026-11-13
+E033,Include,Include,,,constrained multi-objective policy optimisation with constraint rectification (CRPO-style switching) for merging; highway-env,2026-11-13
+E035,Include,Include,,,"SAC with VLM semantic reward, IDM prior and CBF-constrained control optimiser; CARLA",2026-11-13
+E036,Unsure,Include,,,"PPO trajectory planner with predicted trajectories and ghost-probe risk zones, large-model reward tuning; CARLA campus, collision rates",2026-11-13
+E037,Unsure,Include,,,PPO tunes MPCC cost weights and safety margin with ellipsoidal collision-avoidance constraints; head-to-head racing,2026-11-13
+E038,Unsure,Background,EC1,,"wheeled mobile robot (unicycle) lane following with barrier-penalised event-triggered ADP; generic robotics setting, no road-vehicle model (rule v1.1 d/e)",2026-11-13
+E039,Include,Exclude,EC3,,"RL adapts NMPC tracking weights; 'safety' refers to recursive feasibility, stability and actuator limits of the tracking MPC; no safety-related constraint or safety evaluation",2026-11-13
+E040,Include,Include,,,PPO with learned linearised safety layer projecting actions onto longitudinal/lateral constraints; SUMO mixed-autonomy rings,2026-11-13
+E043,Unsure,Exclude,EC3,,"hierarchical GRPO for ramp merging; safety only as a crash/failure penalty in the reward, no safety mechanism, safety metric limited to combined success rate",2026-11-13
+E044,Unsure,Exclude,EC6,,"neuro-symbolic distributional RL for EV control; environment, data and evaluation protocol not specified (accuracy-style results only)",2026-11-13
+E046,Unsure,Include,,,diffusion-actor TD3 tunes weights of a car-following MPC with barrier-type spacing constraints; NGSIM and emergency braking,2026-11-13
+E047,Include,Include,,,"DQN with Vienna-Convention safe-distance action mask and reward machine, structured LSTM; highway-env ramp merging",2026-11-13
+E048,Unsure,Include,,,RISE-based adaptive critic CACC with NN FDI-attack estimator and Lyapunov stability; inter-vehicle distance under attacks in Simulink,2026-11-13
+E049,Include,Include,,,agent-oriented LSTM-DQN lane changing in a sequential game with hard acceleration bounds as safety constraints; MTTC and conflicts in SUMO calibrated on field data,2026-11-13
+E050,Include,Include,,,human-guided RL with APF risk assessment delegating to an IDM/MOBIL physics model in high-risk states during training; MetaDrive and CARLA,2026-11-13
+E056,Unsure,Exclude,EC6,,"generic ""autonomous vehicle control"" with unspecified environment and vehicle model; fault data are network-traffic features; verification step not described reproducibly",2026-11-13
+E058,Unsure,Include,,,"multi-agent graph RL (multi-critic PPO) for CAV decisions in weaving sections with safety-prioritised reward; collisions, TTC and DRAC in SUMO",2026-11-13
+E060,Include,Include,,,safe online fine-tuning of offline flow policy under CBF-MPC filter; simulation and UGV experiments,2026-11-13
+E061,Unsure,Include,,,hierarchical DDQN/DDPG with safety-distance reward; collision rate and safety-constraint satisfaction reported,2026-11-13
+E063,Include,Include,,,PPO trajectory generator + prescribed-performance MPC with CBF collision constraints; MetaDrive roundabouts,2026-11-13
+E071,Include,Include,,,MAPPO safeguarded by recursively feasible backup-horizon CBF filter (proofs); rounD/inD maps,2026-11-13
+E074,Include,Include,,,preventive constrained MARL with responsibility-guided risk constraints; highway-env on-ramp merging,2026-11-13
+E075,Unsure,Include,,,SAC with interaction-risk field observations and risk/externality costs; MetaDrive and HighwayEnv,2026-11-13
+E076,Include,Include,,,"DDQN guided during training by VLM/LLM knowledge reasoning with a rule-based safety-constraint module; CARLA intersections, collision and violation rates",2026-11-13

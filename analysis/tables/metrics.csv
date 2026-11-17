@@ -1,0 +1,57 @@
+code,label,studies,% of 702,study IDs (if <= 4)
+COLL,COLL,410,58.4,
+SUCC,SUCC,302,43.0,
+REW,REW,218,31.1,
+SPEED,SPEED,174,24.8,
+TIME,TIME,167,23.8,
+TTC,TTC,160,22.8,
+COMF,COMF,138,19.7,
+JERK,JERK,126,17.9,
+DEV,DEV,110,15.7,
+VIOL,VIOL,103,14.7,
+DIST,DIST,96,13.7,
+COMP,COMP,82,11.7,
+INTERV,INTERV,59,8.4,
+SAMPLE,SAMPLE,54,7.7,
+ENERGY,ENERGY,50,7.1,
+THRU,THRU,38,5.4,
+OFFROAD,OFFROAD,38,5.4,
+ACC,ACC,33,4.7,
+RISK,RISK,24,3.4,
+RULE,RULE,21,3.0,
+PET,PET,9,1.3,
+DSCORE,DSCORE,8,1.1,
+OTHER:state-constraint satisfaction,OTHER:state-constraint satisfaction,2,0.3,B0153;B0334
+UNSAFE,UNSAFE,2,0.3,B0327;B0896
+OTHER:safe probability,OTHER:safe probability,2,0.3,B1275;B1312
+OTHER:control effort,OTHER:control effort,1,0.1,A052
+OTHER:path length,OTHER:path length,1,0.1,A097
+OTHER:CLF/CBF violations,OTHER:CLF/CBF violations,1,0.1,A129
+OTHER:engine torque,OTHER:engine torque,1,0.1,A164
+OTHER:Lyapunov violations,OTHER:Lyapunov violations,1,0.1,A198
+OTHER:infeasibility count,OTHER:infeasibility count,1,0.1,A204
+OTHER:steady-state outcomes,OTHER:steady-state outcomes,1,0.1,B0029
+OTHER:reachable-set enclosure rate,OTHER:reachable-set enclosure rate,1,0.1,B0110
+OTHER:state convergence,OTHER:state convergence,1,0.1,B0170
+OTHER:feature matching,OTHER:feature matching,1,0.1,B0210
+OTHER:admissible path,OTHER:admissible path,1,0.1,B0219
+OTHER:decision accuracy,OTHER:decision accuracy,1,0.1,B0225
+OTHER:number of safety infractions,OTHER:number of safety infractions,1,0.1,B0272
+OTHER:ADE,OTHER:ADE,1,0.1,B0517
+OTHER:stuck rate,OTHER:stuck rate,1,0.1,B0517
+OTHER:harsh braking,OTHER:harsh braking,1,0.1,B0658
+OTHER:travel distance,OTHER:travel distance,1,0.1,B0724
+OTHER:route completion,OTHER:route completion,1,0.1,B0805
+OTHER:episode length,OTHER:episode length,1,0.1,B0837
+OTHER:frozen rate,OTHER:frozen rate,1,0.1,B0929
+OTHER:merging percentage,OTHER:merging percentage,1,0.1,B0944
+OTHER:steering effort,OTHER:steering effort,1,0.1,B0957
+OTHER:collision severity,OTHER:collision severity,1,0.1,B1031
+OTHER:attack success rate,OTHER:attack success rate,1,0.1,B1147
+OTHER:scenario-recognition accuracy,OTHER:scenario-recognition accuracy,1,0.1,B1149
+OTHER:oscillation ratio,OTHER:oscillation ratio,1,0.1,B1189
+OTHER:safe control rate,OTHER:safe control rate,1,0.1,B1237
+OTHER:freezing rate,OTHER:freezing rate,1,0.1,B1330
+OTHER:collision-free feasibility,OTHER:collision-free feasibility,1,0.1,B1375
+OTHER:rare-event probability,OTHER:rare-event probability,1,0.1,B1403
+GEN,GEN,1,0.1,C0328

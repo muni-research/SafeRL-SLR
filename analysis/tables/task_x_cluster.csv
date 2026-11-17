@@ -1,0 +1,20 @@
+,"M0 No mechanism (benchmark, representation, assurance case)",M1 Objective shaping,M2 Run-time intervention,M3 Control-theoretic certificates,M4 Formal methods,M5 Robustness and uncertainty,M6 Learning-paradigm extensions,row sum
+Collision avoidance,2,66,29,39,2,25,45,208
+Car following / ACC,1,110,92,57,12,47,58,377
+Cooperative driving,1,43,27,18,0,16,58,163
+End-to-end driving,0,13,4,0,0,4,8,29
+Emergency manoeuvre,0,33,13,20,3,10,25,104
+Intersection,2,113,63,43,8,36,72,337
+Lane changing,0,138,121,54,17,46,86,462
+Lane keeping,0,28,23,35,2,18,19,125
+On-ramp merging,0,53,37,31,1,19,39,180
+Motion / trajectory planning,0,38,34,43,3,19,36,173
+Urban / route navigation,1,68,36,20,4,21,49,199
+OTHER:eco-driving,0,0,0,1,0,0,1,2
+Overtaking,0,18,13,14,2,5,12,64
+Parking,0,3,3,5,0,1,8,20
+Pedestrian interaction,0,38,17,7,2,13,23,100
+Platooning,0,8,14,17,0,11,11,61
+Roundabout,0,17,10,6,0,3,10,46
+Autonomous racing,1,12,15,13,1,5,8,55
+Tactical decision making,0,79,73,24,9,32,42,259

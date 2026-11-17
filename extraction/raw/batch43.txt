@@ -1,0 +1,423 @@
+@@ C0176
+country: China
+problem: DR2L: domain-randomisation DRL that surfaces corner cases by randomising simulator parameters during training, with a reward whose safety and arrival terms are bounded so collisions are never worth risking, to robustify driving policies against the sim-to-real gap.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: DR2L
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, arrival and collision terms with bounded trade-off
+safety_cost: NA
+constraints: reward-design inequality making collisions dominated
+mech: A; K; U
+mech_primary: K
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP; ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and efficiency outcomes on randomised corner cases compared with policies trained without domain randomisation in SUMO.
+uncertainty: DSHIFT; DIST
+uncertainty_method: randomised simulator parameters
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; SUCC
+baselines: DQN without domain randomisation
+baseline_types: ABL
+results: DR2L-trained vehicles generalised better with higher efficiency and safety in corner cases than conventionally trained agents.
+generalization: DOMAIN; UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC
+limitations: R: SUMO only.
+qa: 2 2 1 2 1 2 2 2 2 1 1 1
+qa_note: Q3 reward bound only; Q5 ablation only; Q10 seeds missing; Q11 SUMO, no code; Q12 SUMO
+
+@@ C0196
+country: China
+problem: Hierarchical speed control for autonomous electric vehicles: a DRL decision layer chooses target speeds under a multi-objective reward (efficiency, energy, safety, smoothness) and a robust LMI-based low-level controller tracks them under uncertainty and disturbance, trained in SUMO with a 7-DOF vehicle model.
+task: CF; TD
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: DMEPPO
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: efficiency, energy, safety distance and smoothness terms
+safety_cost: NA
+constraints: NA
+mech: A; K
+mech_primary: A
+mech_stage: TRAIN
+rl_output: PARAM
+safety_integration: NONE
+control: NONE
+safety_claim: EMP; ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Speed tracking, energy and safety-distance outcomes under disturbances compared with DRL-only and conventional speed control.
+uncertainty: DIST; MODEL
+uncertainty_method: disturbances and model uncertainty handled by robust control
+simulator: SUMO
+dataset: NONE
+vehicle_model: DYN
+metrics: SPEED; ENERGY; DIST; COMF
+baselines: PPO, SAC, PID speed control
+baseline_types: NSRL; CLASS
+results: The hierarchical DRL-robust controller selected appropriate speeds and tracked them robustly with better efficiency, energy use and smoothness than baselines.
+generalization: DYN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC; CTRL
+limitations: R: simulation only.
+qa: 2 2 1 2 2 1 2 2 1 2 1 1
+qa_note: Q3 reward only; Q6 distance only; Q9 limited; Q11 no code; Q12 SUMO
+
+@@ C0319
+country: China
+problem: Interpretable SAC with safety awareness for lane-change decisions: attention refines features of surrounding vehicles and road information, and a safety-awareness component penalises risky lane changes, in static and stochastic CARLA scenarios.
+task: LC
+scenario: HWY; URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: NR
+network: ATT
+obs_type: VEC
+action_type: CONT
+action_level: BEHAV
+reward: progress, lane-change success and safety-awareness penalties
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: PID
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Lane-change success and collisions in static and stochastic CARLA scenarios compared with DQN-family and PPO baselines.
+uncertainty: STOCH
+uncertainty_method: stochastic dynamic traffic
+simulator: CARLA
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: SUCC; COLL; REW
+baselines: DQN, DDQN, PPO, SAC
+baseline_types: NSRL
+results: The safety-aware interpretable SAC achieved effective and feasible lane changes in static and stochastic scenarios.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: DEC
+limitations: R: two scenarios.
+qa: 2 2 1 2 2 2 2 1 0 1 1 2
+qa_note: Q3 reward only; Q8 stochastic traffic only; Q9 none; Q10 partial; Q11 CARLA, no code
+
+@@ C0457
+country: France
+problem: Joint local DQN lane-change agent and global drone cooperation (GL-DEAR): drones relay global traffic information to vehicles so local agents can make collision-free lane changes, tested with NGSIM-based lane-change models in SUMO.
+task: LC; COOP
+scenario: HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: GL-DEAR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: collision penalty, speed and comfort terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate, travel time and comfort compared with and without drone cooperation in SUMO and NGSIM-based scenarios.
+uncertainty: PO
+uncertainty_method: limited local perception extended by drone information
+simulator: SUMO
+dataset: NGSIM
+vehicle_model: KIN
+metrics: COLL; TIME; COMF
+baselines: local agent without drone cooperation
+baseline_types: ABL
+results: Drone cooperation reduced collisions and improved lane-change efficiency relative to local-only agents.
+generalization: DENS
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: PERC; DEC
+limitations: R: idealised communication.
+qa: 2 2 1 2 1 2 2 1 1 1 1 1
+qa_note: Q3 reward only; Q5 ablation only; Q8 observability only; Q9 density only; Q10 partial; Q11 public data, no code; Q12 SUMO
+
+@@ C0504
+country: United Kingdom
+problem: MAPPO for safe and efficient manoeuvring of autonomous traffic around emergency vehicles, with a risk model estimating collision avoidability that shapes rewards, compared against an MPC-based ACC baseline in a custom Gym environment.
+task: COOP; LC; EMG
+scenario: HWY; URB
+traffic: LEARNED
+rl_paradigm: MF
+agents: MA-CTDE
+n_agents: NR
+algorithm: MAPPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: emergency-vehicle travel time, collision-avoidability risk and comfort
+safety_cost: NA
+constraints: NA
+mech: A; O
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate, risk index, headway and jerk compared with Gipps car following and MPC-based ACC.
+uncertainty: STOCH
+uncertainty_method: varied traffic and emergency-vehicle arrivals
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; RISK; TIME; JERK
+baselines: Gipps car following, MPC-based ACC
+baseline_types: CLASS; HUMAN
+results: MAPPO reduced emergency-vehicle travel time while maintaining low collision rates and risk compared with MPC and car-following baselines.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL
+limitations: R: custom simulator.
+qa: 2 2 2 2 2 2 2 1 2 2 1 1
+qa_note: Q8 traffic only; Q11 no code; Q12 custom simulation
+
+@@ C0552
+country: China
+problem: Systematic evaluation of DRL car-following policies under heterogeneous vehicle dynamics (actuation delay and time constant), and federated RL with augmented state observations to reduce the sim-to-real gap, with TTC-based safety reward.
+task: CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: MA-DEC
+n_agents: NR
+algorithm: TD3
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: TTC-based safety, headway efficiency and jerk terms
+safety_cost: NA
+constraints: NA
+mech: A; U
+mech_primary: U
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: TTC, headway and jerk across heterogeneous dynamics compared with centrally trained DDPG/TD3 policies in simulation.
+uncertainty: MODEL; DSHIFT
+uncertainty_method: heterogeneous delays and time constants
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: TTC; JERK; DIST
+baselines: DDPG, TD3 trained centrally
+baseline_types: NSRL
+results: Federated training with augmented observations reduced performance degradation across heterogeneous vehicle dynamics.
+generalization: DYN; S2R
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: CTRL
+limitations: R: simulated dynamics only.
+qa: 2 2 1 2 1 2 2 2 2 1 1 1
+qa_note: Q3 reward only; Q5 non-safe RL only; Q10 partial; Q11 no code; Q12 simple simulation
+
+@@ C0764
+country: China
+problem: AH-DDQN: attention-based double DQN for highway decisions with a human-value feature incorporated at run time as a safety layer that adjusts risky actions.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: AH-DDQN
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: collision, speed and right-lane terms
+safety_cost: NA
+constraints: human-value safety rules at run time
+mech: W; A
+mech_primary: W
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: IDM; MOBIL
+safety_claim: EMP; RT
+guarantee_assumptions: NA
+safety_level: L3
+level_note: The human-value safety layer overrides risky decisions at run time; collision rates compared with DQN-family and PPO/SAC baselines in highway-env.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; REW; SPEED
+baselines: DQN, DDQN, Dueling DQN, PPO, SAC
+baseline_types: NSRL
+results: AH-DDQN improved training efficiency and reduced collision rates relative to baselines.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: R: highway-env only.
+qa: 2 2 1 1 2 2 2 0 0 1 1 1
+qa_note: Q3 safety layer briefly described; Q4 limited; Q8 none; Q9 none; Q10 partial; Q11 no code; Q12 highway-env
+
+@@ C0997
+country: China
+problem: HARL-RSS: Simplex architecture in which a hierarchical attention RL planner is the advanced controller, an RSS-based decision module monitors safety and switches to a conventional safety controller when unsafe conditions are detected.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: HARL-RSS
+network: ATT
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, lane and collision terms
+safety_cost: NA
+constraints: RSS longitudinal and lateral safe distances
+mech: S; W; R
+mech_primary: S
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: RULE
+safety_claim: RT; EMP
+guarantee_assumptions: other vehicles respect RSS rules
+safety_level: L3
+level_note: RSS-based Simplex switching enforces safe distances at run time; collision rates and efficiency compared with RL-only and safety-controller-only baselines in highway-env, with residual collisions attributed to other vehicles violating RSS.
+uncertainty: STOCH
+uncertainty_method: varied traffic
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; COMF
+baselines: HARL without RSS, PPO, safety controller only
+baseline_types: NSRL; CLASS; ABL
+results: HARL-RSS balanced safety and efficiency, lowering collisions relative to RL alone while being faster than the safety controller alone.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; SUPERV; RTA
+limitations: A: relies on RSS compliance of others.
+qa: 2 2 2 2 2 2 2 1 2 1 1 1
+qa_note: Q8 traffic only; Q10 seeds unclear; Q11 highway-env, no code; Q12 highway-env

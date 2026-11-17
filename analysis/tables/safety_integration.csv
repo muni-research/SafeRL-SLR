@@ -1,0 +1,6 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+NONE,NONE,346,49.3,
+CORRECT,CORRECT,119,17.0,
+FILTER,FILTER,86,12.3,
+EMBED,EMBED,78,11.1,
+MASK,MASK,73,10.4,

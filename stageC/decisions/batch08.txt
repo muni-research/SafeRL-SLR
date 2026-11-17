@@ -1,0 +1,44 @@
+# batch 08 (C0421-C0480), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0423 Exclude EC1 UGV mapless navigation
+C0424 Exclude EC1 energy-efficient decisions (check safety)
+C0426 Unsure - DRL lane keeping and overtaking with collision avoidance
+C0432 Exclude EC3 offline RL replay (general)
+C0434 Exclude EC1 wheeled mobile robot
+C0436 Unsure - DRL guided by dynamic window approach collision-free guarantee
+C0437 Unsure - DRL ride comfort with expert soft-hard constraints (no abstract)
+C0438 Unsure - ensemble quantile networks aleatoric/epistemic uncertainty, driving
+C0440 Exclude EC3 high-speed RC driving
+C0441 Unsure - DRQfD lane change sim-to-real study
+C0442 Unsure - RL fuzzy prescribed-performance platoon control with barrier cost
+C0443 Unsure - drone-assisted RL lane change for risk prevention
+C0445 Review EC9
+C0446 Unsure - guarded policy optimisation with teacher intervention (MetaDrive)
+C0447 Unsure - RL-based predictive control for planning and tracking
+C0449 Exclude EC1 UGV navigation
+C0451 Unsure - identify, estimate and bound DRL uncertainty to protect unreliable decisions
+C0452 Unsure - IL+RL improving safety and reliability in challenging scenarios
+C0454 Exclude EC3 serious-game NPCs
+C0455 Exclude EC2 inverse RL
+C0456 Review EC9
+C0457 Unsure - local RL with drone cooperation for collision-free lane change (no abstract)
+C0458 Unsure - TD3 lateral obstacle avoidance with risk field
+C0459 Exclude EC2 macroscopic lane assignment
+C0460 Exclude EC2 motion prediction model
+C0461 Exclude EC2 behaviour cloning (check RL)
+C0462 Exclude EC8 dissertation
+C0463 Exclude EC1 battery energy management
+C0464 Exclude EC2 GPT sequence model (offline imitation) (check)
+C0465 Exclude EC1 braking energy
+C0466 Review EC9
+C0467 Unsure - safe and smooth car-following TD3
+C0468 Exclude EC2 inverse RL
+C0471 Exclude EC1 energy health
+C0472 Exclude EC1 communications-control co-design (check)
+C0473 Unsure - caution-aware distributional RL under perceptual uncertainty
+C0474 Exclude EC1 factory AGV
+C0475 Exclude EC1 UGV task planning
+C0476 Exclude EC3 path-tracking optimal control
+C0477 Background EC1 CBF safe RL for powertrain control
+C0478 Unsure - offline RL trajectory optimisation with safety and feasibility
+C0479 Unsure - SAC parking under non-ideal scenarios with safety threat
+C0480 Unsure - hybrid RL/SL car-following ensuring safety

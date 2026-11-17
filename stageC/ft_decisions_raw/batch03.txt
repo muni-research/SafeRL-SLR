@@ -1,0 +1,10 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch05-06), 2026-10-10
+C0276 FX:EC3 MARL for CACC efficiency and cyber-attack detection; vehicle safety not an objective or metric
+C0281 FI DQN with graph attention for safe and efficient urban driving; collision rate; CARLA, real-data zero-shot
+C0283 FI DDQN decisions combined with planning and control and TTC/THW rule-guided training; CARLA
+C0293 FI risk-aware (TTC/severity) decision framework over RL low-level control; CARLA
+C0296 FI RL planner with candidate policies of different conservativeness selected by estimated long-tail rate; CARLA
+C0299 FI CBF safety layer on invariably safe sets for RL motion planner; highD + SUMO
+C0302 FI P-DQN with fuzzy hybrid action masking for traffic rules, MPC trajectory planner
+C0307 FI residual RL tactical planner robust to intention uncertainty and observation noise; safety and efficiency; CARLA
+C0311 FX:EC3 human-like left-turn policy for efficiency (face-off avoidance); safety not evaluated

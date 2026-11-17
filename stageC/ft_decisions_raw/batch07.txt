@@ -1,0 +1,26 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch10), 2026-10-10
+C0525 FI DRL car-following with TTC safety reward and cut-in trajectory prediction
+C0527 FX:EC3 cooperative merging control; safety not evaluated beyond task success
+C0528 FI local-attention safety DRL at unsignalised intersections compared with TTC rule
+C0530 FI hybrid RL beyond-the-limit control with Lyapunov obstacle function balancing safety
+C0545 FI AF-DQN with safe action filter at unsignalised intersections
+C0548 FI constrained DRL (CMDP) with headway safety constraint for adaptive autopilot
+C0549 FX:EC3 adaptive multi-objective RL; safety only one weighted objective, not evaluated separately
+C0550 FI DQN learning adaptive risk-feature (TTC) thresholds for ADS risk assessment
+C0551 FX:EC3 hierarchical SAC lane change; safety not evaluated
+C0555 FI RL-adaptive MPC acting as constraint-enforcing safety filter, longitudinal control
+C0566 FI DQN with heuristic-rule action filter at roundabouts
+C0570 FI RL safety-first prioritisation under cyber attacks keeping collision avoidance
+C0576 FX:EC3 interpretable cognitive RL; safety not evaluated
+C0577 FI temporal-difference learning of collision-probability distributions (safety value estimation) for AD
+C0581 FI TD3 risk-based collision avoidance as minimum-risk optimisation
+C0598 FX:EC9 narrative review of DRL for accident prevention
+C0608 FI adversarial RL with safety cost for realistic urban intersections (sim-to-real)
+C0617 FI RL robot vehicles improving TTC/DRAC safety and stability in mixed traffic
+C0619 FI RL adaptation to actuator errors that make policies dangerous
+C0621 FI integrated DRL decision, path planning and MPC control for AV safety in high-speed cruising
+C0623 FI attention DDPG ACC with TTC and safe-distance reward
+C0628 FI explainable adversarial-detection DRL for robust safe driving against observation attacks
+C0632 FX:EC3 LLM-generated reward functions; safety not a specific objective or metric
+C0634 FI heuristic action-mask QMIX with safety restrictions at non-signalised intersections
+C0638 FI attention-based adaptive reward for occluded pedestrian crossing safety

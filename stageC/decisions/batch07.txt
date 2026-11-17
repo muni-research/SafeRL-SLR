@@ -1,0 +1,39 @@
+# batch 07 (C0361-C0420), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0361 Unsure - supervised-RL local planner for high vehicle safety
+C0363 Exclude EC10 adversarial attack on DRL driving (check: attack only)
+C0364 Background EC1 safety editor policy, general safe RL (check AV experiments)
+C0365 Unsure - TD3 modular path planner with safety standards
+C0366 Unsure - criticality metrics as RL safety reward components
+C0367 Exclude EC10 scenario generation
+C0368 Exclude EC1 radar-communication resource optimisation
+C0370 Unsure - hierarchical learning control with safe motion, indoor platform
+C0375 Exclude EC1 eco-driving energy (constraints check)
+C0376 Unsure - DRL ACC with safe following distance
+C0377 Unsure - DRL lane keeping fail-safe under sensor failure
+C0378 Unsure - RL high-level policy with NMPC guaranteeing safe racing trajectories
+C0379 Exclude EC1 UAV
+C0381 Unsure - real-world RL framework for safe tactical lane-change
+C0382 Unsure - set-theoretic receding horizon control with DRL routing, platoons
+C0383 Review EC9
+C0384 Exclude EC3 braking temperature control
+C0385 Unsure - heuristic-action safe lane change with multiple constraints
+C0387 Unsure - actor-critic objective penalty for constrained trajectory tracking
+C0388 Exclude EC1 edge computing
+C0389 Unsure - two-player zero-sum adversarial learning for safe highway driving
+C0390 Exclude EC10
+C0391 Review EC9 book chapter
+C0393 Exclude EC3
+C0394 Exclude EC1 power grid
+C0396 Unsure - V2V collaborative RL preventing collisions in occlusion
+C0398 Exclude EC1 surface vessel
+C0401 Exclude EC1 UAV
+C0402 Exclude EC3 POMDP belief actor-critic (general)
+C0403 Unsure - blockchain federated RL for lane-change traffic and training safety
+C0404 Unsure - online RL with supervisor bypassing sim-to-real gap (check vehicle)
+C0405 Exclude EC3 ride-service dispatch
+C0406 Unsure - RL collision avoidance with e-bikes at occluded intersections
+C0407 Exclude EC1 ship
+C0408 Unsure - collision-free motion control with RL feature, roundabouts
+C0412 Exclude EC2 inverse RL
+C0414 Exclude EC2 CNN supervised lane change
+C0419 Unsure - MARL merging with priority-based safety supervisor and action masking

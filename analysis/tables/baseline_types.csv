@@ -1,0 +1,7 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+NSRL,NSRL,492,70.1,
+CLASS,CLASS,287,40.9,
+ABL,ABL,272,38.7,
+SRL,SRL,144,20.5,
+HUMAN,HUMAN,54,7.7,
+NONE,NONE,27,3.8,

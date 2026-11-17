@@ -1,0 +1,21 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch07), 2026-10-10
+C0315 FI integrated decision and control with multistep safety shield; SUMO and real-vehicle intersection test
+C0320 FX:EC3 driver-input DRL lane change; safety not evaluated
+C0321 FI transformer DRL lane change with risk evaluation (TTC/THW); CARLA
+C0325 FI DRL interaction-aware velocity guidance for MPC with collision constraints; highway-env
+C0327 FI DRL mandatory lane change with action mask of TTC/traffic-rule safety constraints
+C0328 FI MetaDrive benchmark incl. safe-exploration benchmark (Lagrangian methods, cost)
+C0339 FX:EC3 offline RL benchmark on real data; safety not evaluated
+C0343 FI perception-uncertainty-aware decisions bounded by rule-based safety policy; CARLA
+C0352 FI observation-adversarial RL with constrained robust MDP for lane change; SUMO
+C0361 FX:EC3 supervised-RL path planning efficiency; safety not evaluated
+C0365 FI TD3 path planner trained with Intel RSS safety rules; CARLA validation
+C0376 FI DRL ACC with safe following distance and rear-end risk objectives
+C0381 FI real-world DRL framework for safe tactical lane changes with TTC reward; real vehicle
+C0382 FI set-theoretic receding-horizon control with invariant sets plus DRL routing for platoons
+C0403 FX:EC3 blockchain federated RL for data/training security; driving safety not evaluated
+C0404 FI supervisor (pure-pursuit fallback) ensuring safety during online DRL on a scaled vehicle
+C0406 FI DDPG collision avoidance with e-bikes at occluded intersections; fuzzy TTC evaluation
+C0419 FI MARL on-ramp merging with priority-based safety supervisor and action masking; highway-env
+C0436 FX:EC3 DWA used only as training guidance; safety not evaluated
+C0441 FX:EC3 sim-to-real lane-change learning efficiency study; safety not an objective or metric

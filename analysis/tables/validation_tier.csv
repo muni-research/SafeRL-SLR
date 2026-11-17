@@ -1,0 +1,9 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+SIM-LOW,Low-fidelity simulation,358,51.0,
+SIM-HIFI,High-fidelity simulation,196,27.9,
+SIM-DATA,Data-driven simulation,75,10.7,
+HIL,Hardware-in-the-loop,19,2.7,
+SCALED,Scaled vehicle,22,3.1,
+CLOSED,Closed course (full size),22,3.1,
+ROAD,Public road,10,1.4,B0517;B0658;B0716;B0761;B1271;B1569;C0315;C0381;C0720;C0992
+DEPLOY,Deployment,0,0.0,

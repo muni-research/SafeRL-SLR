@@ -1,0 +1,46 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+NONE,NONE,368,52.4,
+MPC,MPC,103,14.7,
+QP,QP,54,7.7,
+PLANNER,PLANNER,41,5.8,
+RULE,RULE,39,5.6,
+IDM,IDM,38,5.4,
+PID,PID,31,4.4,
+MOBIL,MOBIL,16,2.3,
+BACKSTEP,BACKSTEP,11,1.6,A052;B0153;B0334;B0835;B0902;B1035;B1163;B1508;B1770;C0442;C1033
+PP,PP,8,1.1,B0441;B0634;B0847;B1398;C0060;C0281;C0404;C0894
+APF,APF,6,0.9,B0011;B0577;B0952;B1157;B1435;B1500
+LQR,LQR,5,0.7,B0972;B0981;B1237;B1257;C0893
+SMC,SMC,3,0.4,B1041;C0442;C0692
+OTHER:robust H-infinity controller,OTHER:robust H-infinity controller,3,0.4,C0370;C0672;E022
+STANLEY,STANLEY,2,0.3,B0441;B1046
+OTHER:model-based reference controller,OTHER:model-based reference controller,1,0.1,A132
+OTHER:fallback steering controller,OTHER:fallback steering controller,1,0.1,B0110
+OTHER:verified fail-safe controller,OTHER:verified fail-safe controller,1,0.1,B0117
+OTHER:safety actor (HJ-based recovery),OTHER:safety actor (HJ-based recovery),1,0.1,B0209
+OTHER:robust cruise control,OTHER:robust cruise control,1,0.1,B0213
+OTHER:fail-safe braking planner,OTHER:fail-safe braking planner,1,0.1,B0305
+OTHER:6-DOF model-based target-state controller,OTHER:6-DOF model-based target-state controller,1,0.1,B0324
+OTHER:HJ reachability controller,OTHER:HJ reachability controller,1,0.1,B0436
+OTHER:reachability-based trajectory projection,OTHER:reachability-based trajectory projection,1,0.1,B0438
+OTHER:linear model-based controller,OTHER:linear model-based controller,1,0.1,B0737
+OTHER:DDPG neural controller,OTHER:DDPG neural controller,1,0.1,B1237
+OTHER:ACC gap controller,OTHER:ACC gap controller,1,0.1,B1285
+OTHER:ORCA velocity-obstacle controller,OTHER:ORCA velocity-obstacle controller,1,0.1,B1322
+OTHER:H-infinity robust control,OTHER:H-infinity robust control,1,0.1,B1368
+OTHER:vehicle speed controller,OTHER:vehicle speed controller,1,0.1,B1378
+OTHER:speed tracking controller,OTHER:speed tracking controller,1,0.1,B1416
+OTHER:Gipps model,OTHER:Gipps model,1,0.1,B1640
+OTHER:expert driver model,OTHER:expert driver model,1,0.1,B1686
+OTHER:acceleration controller for short-term goals,OTHER:acceleration controller for short-term goals,1,0.1,C0035
+OTHER:ACC/LKAS driver-assistance functions,OTHER:ACC/LKAS driver-assistance functions,1,0.1,C0051
+OTHER:low-level trajectory controller,OTHER:low-level trajectory controller,1,0.1,C0122
+OTHER:differential-equation collision predictor,OTHER:differential-equation collision predictor,1,0.1,C0190
+OTHER:vehicle ACC/lane-change controllers,OTHER:vehicle ACC/lane-change controllers,1,0.1,C0381
+OTHER:Lyapunov-based safety controller,OTHER:Lyapunov-based safety controller,1,0.1,C0530
+OTHER:motion safety controller,OTHER:motion safety controller,1,0.1,C0646
+OTHER:RBF compensator,OTHER:RBF compensator,1,0.1,C0673
+OTHER:robust disturbance compensator,OTHER:robust disturbance compensator,1,0.1,C0743
+OTHER:trajectory optimisation,OTHER:trajectory optimisation,1,0.1,C0748
+OTHER:linear car-following feedback,OTHER:linear car-following feedback,1,0.1,E032
+OTHER:RISE robust control,OTHER:RISE robust control,1,0.1,E048

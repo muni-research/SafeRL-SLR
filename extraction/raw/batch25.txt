@@ -1,0 +1,1115 @@
+# Phase 4 extraction, batch 25 (citation-search studies, Phase 8, 2026-10-10), codebook v1.5a
+# Source: extraction/packets/batch25.txt plus targeted full-text lookups (scripts/13b_lookup.py)
+
+@@ C0009
+country: South Korea
+problem: DQN-based autonomous braking that decides brake intensity when a pedestrian crossing creates collision risk, with a trauma memory to learn from rare collisions.
+task: EMG; PED; CA
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: CTRL
+reward: penalty for collision weighted by speed, penalty for early or excessive braking
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate evaluated over 10,000 trials per TTC value and Euro NCAP AEB scenarios; safety only via reward design.
+uncertainty: INTENT; STOCH
+uncertainty_method: random pedestrian crossing/staying behaviour and initial TTC
+simulator: PRESCAN
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; TTC; COMF
+baselines: none (scenario sweeps)
+baseline_types: NONE
+results: Zero collisions for TTC of 1.5 s and above in the tested scenarios; collisions only at very short initial TTC; consistent behaviour in Euro NCAP AEB pedestrian tests.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: CTRL
+limitations: A: pedestrian position assumed known from sensors. R: no comparison with AEB baselines.
+qa: 2 1 1 2 0 1 1 1 1 1 1 2
+qa_note: Q2 MDP partly defined; Q3 safety via reward only; Q5 no baselines; Q6 collision rate without comparison; Q7 comfort qualitative; Q8 stochastic pedestrian behaviour only; Q9 Euro NCAP scenarios only; Q10 seeds missing; Q11 commercial simulator, no code
+
+@@ C0011
+country: USA
+problem: Combine Monte Carlo tree search with hierarchical neural option policies learned by RL so that a self-driving car respects linear temporal logic (LTL) rules of the road and avoids collisions at an all-way stop intersection.
+task: INT; TD; NAV
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DQN; DDPG; MCTS
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: MIXED
+reward: progress, goal completion, penalties for collisions and LTL violations
+safety_cost: NA
+constraints: LTL specifications of road rules checked on search branches
+mech: T; R; A
+mech_primary: T
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PLANNER
+safety_claim: EMP
+guarantee_assumptions: LTL monitor over abstract features; no guarantee for learned low-level options
+safety_level: L3
+level_note: Tree search prunes branches that violate LTL constraints at every decision; constraint violations and collisions counted over 100 random worlds.
+uncertainty: STOCH
+uncertainty_method: random numbers and placement of other vehicles
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: VIOL; COLL; REW
+baselines: manual policy, simple action set, flat NN policies
+baseline_types: NSRL; CLASS; ABL
+results: Learned options with learned high-level policy gave 0 violations and 0 collisions without a stopped car and 3 total failures with a stopped car, versus 33-45 for flat NN policies.
+generalization: DENS; UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; PLAN; SUPERV
+limitations: A: low-level policies sometimes oscillate; options and features chosen manually.
+qa: 2 1 2 1 2 2 2 1 2 1 0 1
+qa_note: Q2 reward/cost informal; Q4 simulator details sparse; Q8 stochastic traffic only; Q10 seeds missing; Q11 custom simulator; Q12 simplified 2-D world
+
+@@ C0030
+country: China
+problem: Practical ingredients for DQN-based tactical decision making (non-uniform action skipping, right-of-road penalty, inference-time heuristic action masking of unsafe actions) evaluated on safety, efficiency and comfort.
+task: TD; LC; INT
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DuelingDQN
+method_name: NR
+network: CNN
+obs_type: BEV
+action_type: DISC
+action_level: BEHAV
+reward: speed, progress, right-of-road counter penalty, collision and TTC penalties
+safety_cost: NA
+constraints: NA
+mech: D; A; W
+mech_primary: D
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: MASK
+control: RULE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: A rule-based masker removes apparently unsafe actions at inference; its effect is shown in an ablation of safety metrics.
+uncertainty: STOCH
+uncertainty_method: randomised traffic in simulator
+simulator: UNITY
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; TTC; RULE; SUCC; SPEED; COMF
+baselines: random and rule-based agents, ablated agent configurations
+baseline_types: CLASS; ABL
+results: Combining action skipping, the right-of-road penalty and action masking gave the best safety, efficiency and comfort scores among tested configurations.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: R: proprietary simulator; masking rules not specified in detail.
+qa: 2 1 1 1 1 2 2 1 0 0 0 2
+qa_note: Q2 partly defined; Q3 masking heuristics informal; Q4 simulator settings partial; Q5 no RL baseline other than ablations; Q8 stochastic traffic only; Q9 none; Q10 hyperparameters/seeds incomplete; Q11 in-house simulator
+
+@@ C0032
+country: Germany
+problem: Use a DQN learned offline as the heuristic of a hybrid A* search so that search removes the statistical failure rate of a pure DRL planner in valet-parking path planning.
+task: PARK; MP
+scenario: PARKLOT
+traffic: NONE
+rl_paradigm: MF; IL+RL
+agents: SA
+n_agents: 1
+algorithm: DDQN; DQN
+method_name: Experience-Based Heuristic Search (EBHS)
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: CTRL
+reward: goal reward, collision penalty with boundaries or occupied lots
+safety_cost: NA
+constraints: collision-free and non-holonomic feasibility checked by search
+mech: E; W
+mech_primary: E
+mech_stage: EXEC
+rl_output: PARAM
+safety_integration: EMBED
+control: PLANNER
+safety_claim: EMP
+guarantee_assumptions: search completeness within iteration limit; static obstacles
+safety_level: L3
+level_note: Every plan is produced by a collision-checking search that uses the DQN only as heuristic, so failures of the learned policy are corrected at run time; evaluated on 1000 test samples.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; COMP
+baselines: pure DQN planner, Hybrid A* with Reeds-Shepp heuristic
+baseline_types: NSRL; CLASS
+results: EBHS succeeded in samples where the DQN planner collided, and expanded fewer nodes with lower planning time than the Hybrid A* baseline.
+generalization: UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 3
+eval_protocol: Y
+stats: P
+compute: Y
+stack: PLAN; SUPERV
+limitations: A: overestimation errors of DQN affect heuristic accuracy. R: static parking scenes only.
+qa: 2 2 2 2 2 1 2 0 1 2 0 0
+qa_note: Q6 collisions reported qualitatively; Q8 no uncertainty; Q9 interpolated start states and one added obstacle; Q11 custom environment; Q12 static single-agent setting
+
+@@ C0035
+country: Sweden
+problem: Learn intersection negotiation with crossing vehicles of unknown intentions by DQN and DRQN controlling short-term acceleration goals.
+task: INT; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN; DRQN
+method_name: NR
+network: MLP; RNN
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: success reward, collision penalty, comfort/time terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: OTHER:acceleration controller for short-term goals
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rate is the main reported outcome (DRQN 0.85% vs DQN 1.75%); safety only via reward.
+uncertainty: INTENT; PO
+uncertainty_method: recurrent network over observation history (POMDP)
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; REW
+baselines: DQN vs DRQN, ablations (dropout, replay)
+baseline_types: ABL
+results: DRQN collision rate 0.85% versus 1.75% for DQN; policy crossed safely about 98% of the time without being overly passive.
+generalization: AGENTS; DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC
+limitations: A: same controller tuning for all actions; future real-car test. R: abstract simulator.
+qa: 2 2 1 2 1 2 2 2 1 0 0 1
+qa_note: Q3 safety via reward only; Q5 ablations only; Q9 driver types vary within training range; Q10 hyperparameters/seeds incomplete; Q11 custom simulator; Q12 simple intersection model
+
+@@ C0060
+country: USA
+problem: Hierarchical DQN for lane change that first decides when to change lane under a safety-distance criterion, then selects a gap with quadratic Q-functions, followed by polynomial trajectory and pure-pursuit tracking.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: MIXED
+reward: deviation from safety-derived desired gaps and relative speeds
+safety_cost: NA
+constraints: NA
+mech: A; R
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: PP
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L0
+level_note: Safety enters through safe-distance terms in the reward, but only convergence and example trajectories are reported.
+uncertainty: STOCH
+uncertainty_method: random initial speeds and gaps
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: REW; SPEED; ACC
+baselines: none
+baseline_types: NONE
+results: Losses and returns converged and example episodes show smooth gap adjustment and lane changes; no quantitative safety comparison.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: N
+stats: N
+compute: N
+stack: DEC; PLAN; CTRL
+limitations: A: simulation environment simple; SUMO suggested for future work.
+qa: 2 2 1 1 0 0 1 1 0 0 0 1
+qa_note: Q3 safety only via reward; Q4 environment partly described; Q5 no baselines; Q6 no safety metric; Q7 example trajectories only; Q8 random initial states only; Q9 none; Q10 partial hyperparameters only; Q11 custom simulator; Q12 simple highway model
+
+@@ C0068
+country: China
+problem: DQN lateral lane-change decision combined with rule-based longitudinal control and trajectory modification that blocks unsafe manoeuvres on a three-lane highway.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: rule-based DQN
+network: CNN
+obs_type: OCC
+action_type: DISC
+action_level: BEHAV
+reward: speed term, penalties for invalid lane change (-5) and collision (-10)
+safety_cost: NA
+constraints: rule-based safe-gap checks before executing lane changes
+mech: W; A
+mech_primary: W
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: RULE; PLANNER
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: Rule-based constraints modify or cancel unsafe lane-change decisions at run time; collisions and speed compared over 10 evaluation runs.
+uncertainty: STOCH
+uncertainty_method: randomised traffic of up to 12 vehicles
+simulator: OTHER:Udacity highway simulator
+dataset: NONE
+vehicle_model: SIMVEH
+metrics: COLL; SPEED; JERK
+baselines: rule-based method, plain DQN
+baseline_types: NSRL; CLASS
+results: Rule-based DQN achieved higher average speed than the rule-based approach and fewer collisions than plain DQN over 10 runs.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: A: no historical trajectory information in the state.
+qa: 2 2 1 1 2 1 2 1 1 0 1 1
+qa_note: Q3 rules informally described; Q4 simulator settings partial; Q6 collisions without full statistics; Q8 stochastic traffic only; Q9 dense/sparse traffic in the same map; Q10 hyperparameters and seeds incomplete; Q11 public simulator, no code; Q12 simple highway
+
+@@ C0073
+country: Canada
+problem: Multi-objective DRL autonomous braking that balances pedestrian safety and passenger comfort, trained against naturalistic pedestrian crossing trials collected in virtual reality.
+task: EMG; PED
+scenario: URB
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO; DDPG
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: penalty for entering pedestrian safe box, progress, jerk penalty
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Accident (safe-box intrusion) outcomes reported for replayed naturalistic crossings; safety only through reward.
+uncertainty: INTENT; STOCH
+uncertainty_method: naturalistic variability of pedestrian crossing trials
+simulator: UNITY
+dataset: OWN
+vehicle_model: SIMVEH
+metrics: COLL; JERK; COMF
+baselines: PPO vs DDPG, with and without jerk term
+baseline_types: ABL
+results: Including jerk in the reward halved jerk while braking remained safe; PPO trained more efficiently than DDPG.
+generalization: AGENTS
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: CTRL
+limitations: A: perfect pedestrian detection assumed; single pedestrian, braking only.
+qa: 2 2 1 2 1 1 2 1 1 1 1 2
+qa_note: Q3 safety via reward only; Q5 algorithm and ablation comparison only; Q6 accidents reported without full comparison; Q8 pedestrian variability only; Q9 held-out trials only; Q10 seeds missing; Q11 dataset described, no code
+
+@@ C0080
+country: USA
+problem: Enforce probabilistic LTL safety guarantees on an RL driving policy by model checking acceptable actions before training and restricting exploration and execution to them at an unsignalised intersection.
+task: INT; PED; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF; MB
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: goal reward and time penalty (collision handled by specification)
+safety_cost: NA
+constraints: Pr(G not collision and reach goal) above threshold lambda per state-action
+mech: T; D; J
+mech_primary: T
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: NONE
+safety_claim: PROB; RT
+guarantee_assumptions: known discretised MDP model of the scenario for model checking; route perfectly observable
+safety_level: L4
+level_note: A probabilistic satisfaction bound is computed by model checking and transferred to the policy through action restriction; evaluated with 10,000 Monte Carlo runs.
+uncertainty: INTENT; STOCH
+uncertainty_method: probabilistic transition model of car and pedestrian
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TIME
+baselines: rule-based policy, RL with reward shaping, model-checking-only policy
+baseline_types: NSRL; CLASS
+results: The constrained RL policy reached the goal faster than the rule-based policy while keeping collision rates within the specified risk level over 10,000 simulations.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: DEC; SUPERV
+limitations: A: discretisation needed for model checking; intentions assumed observable; scaling left for future work.
+qa: 2 2 2 2 2 2 2 1 0 1 0 1
+qa_note: Q8 stochastic agents only; Q9 none; Q10 seeds missing; Q11 custom simulator; Q12 abstract intersection
+
+@@ C0082
+country: Canada
+problem: Thresholded lexicographic DQN that prioritises safety (collision/TTC) over traffic rules and speed for urban driving, with factored Q-functions as auxiliary features.
+task: NAV; INT; LC
+scenario: URB; INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: TLfDQN
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: separate objectives: safety (collision or TTC below 3 s), road priority rules, speed and comfort
+safety_cost: NA
+constraints: lexicographic thresholds on the safety Q-value
+mech: A; D
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Lower-priority objectives may only choose among actions within the safety threshold; collision and rule-violation rates are reported but no hard guarantee.
+uncertainty: STOCH
+uncertainty_method: random traffic in SUMO
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; RULE; SUCC; SAMPLE
+baselines: TLDQN without factored features, scalar-reward DQN
+baseline_types: NSRL; ABL
+results: Factored features cut required training steps about six-fold; the agent drove most of the time safely and lawfully and transferred zero-shot to a ring road.
+generalization: GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: Y
+code_url: https://gitlab.com/sumo-rl/sumo_openai_gym
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: DEC
+limitations: A: simplified reward description; speed maintained during lane changes.
+qa: 2 2 2 2 1 1 2 1 2 1 2 1
+qa_note: Q5 no safe-RL or classical baseline; Q6 rates without full comparison; Q8 stochastic traffic only; Q10 seeds missing; Q12 SUMO only
+
+@@ C0083
+country: USA
+problem: Worst-case policy gradients: an actor-critic with a Gaussian return distribution that optimises CVaR at selectable risk levels for safety-critical driving manoeuvres.
+task: INT; MERGE
+scenario: INTX; RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: WCPG
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: success reward decaying with time, -50 for collision
+safety_cost: NA
+constraints: NA
+mech: L
+mech_primary: L
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP; ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Risk-averse CVaR policies lowered collision rates over 100 random trials and under shifted simulation parameters; no explicit constraint.
+uncertainty: ALE; DSHIFT; STOCH
+uncertainty_method: distributional (Gaussian) critic with CVaR
+simulator: CUSTOM; CARLA
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; TIME
+baselines: DDPG, PPO, distributional RL variants
+baseline_types: NSRL
+results: Lower alpha gave more conservative policies with fewer collisions; risk-averse policies generalised better than baselines under very different simulation parameters and transferred to CARLA scenarios.
+generalization: DYN; DOMAIN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: CTRL
+limitations: A: training directly in CARLA left for future work because of simulation speed.
+qa: 2 2 2 2 1 2 2 2 2 1 1 2
+qa_note: Q5 only non-safe RL baselines; Q10 seeds not stated; Q11 code not released
+
+@@ C0088
+country: Turkey
+problem: Rainbow DQN for tactical lane-change decisions with a TTC-based safety layer that blocks unsafe lane changes and feeds a penalty back into the reward to improve sample efficiency.
+task: LC; TD
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: RainbowDQN
+method_name: Rainbow DQN with safety feedback
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed and lane terms, penalty when the safety layer rejects an action
+safety_cost: NA
+constraints: TTC thresholds to leader and follower in target lane
+mech: D; A; W
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: IDM; MOBIL
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: A TTC-based safety layer rejects unsafe lane changes at every step, and its feedback is compared with plain Rainbow and Double DQN.
+uncertainty: SENS; INTENT; STOCH
+uncertainty_method: injected position/velocity measurement noise and random driver profiles
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: REW; SPEED; SAMPLE; INTERV
+baselines: rule-based agent, Double DQN, Rainbow DQN without safety feedback
+baseline_types: NSRL; CLASS; ABL
+results: Rainbow DQN with safety feedback learned faster and reached higher performance than Double DQN and rule-based agents in scenarios with 20 vehicles, within 200,000 training steps.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 3
+eval_protocol: P
+stats: P
+compute: N
+stack: DEC; SUPERV
+limitations: A: future combination with expert demonstrations. R: no collision statistics because the layer prevents unsafe actions.
+qa: 2 2 2 2 2 1 2 2 0 2 0 1
+qa_note: Q6 safety-layer activity shown without collision comparison; Q9 no held-out conditions; Q11 custom simulator; Q12 2-D simulator
+
+@@ C0095
+country: USA
+problem: PPO-based mandatory lane-change policy deciding when and how to change lanes in dense highway traffic, with near-collision penalties and comparison to a TTC rule.
+task: LC; MERGE
+scenario: HWY; RAMP
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: NR
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: MIXED
+reward: success, collision and near-collision (10 m) penalties, comfort and time terms
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: IDM
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision and success rates are compared with a tuned TTC rule-based agent; safety only through reward.
+uncertainty: STOCH
+uncertainty_method: probabilistic traffic generation
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SUCC; REW; JERK
+baselines: TTC/gap rule-based agent
+baseline_types: CLASS
+results: The PPO agent achieved lower collision rate and higher success rate in testing than the best rule-based agent (6.31% collisions, 92.62% success).
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: DEC
+limitations: A: mandatory lane change only.
+qa: 2 2 1 2 1 2 2 1 0 1 1 1
+qa_note: Q3 safety via reward only; Q5 only a classical baseline; Q8 stochastic traffic only; Q9 none; Q10 seeds missing; Q11 SUMO named, no code; Q12 SUMO only
+
+@@ C0102
+country: Germany
+problem: Constrained Q-learning restricts the action set inside the Q-update to safe actions for single-step and multi-step (truncated value-function) constraints, solving the induced CMDP for highway lane changes.
+task: LC; TD
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: Constrained DQN (CDQN)
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed towards desired velocity
+safety_cost: safety distance violation and multi-step lane-change/keep-right costs
+constraints: safe action set S(s) = {a | c_safe(s,a) + c_lane(s,a) <= 0}; multi-step constraints on truncated value functions
+mech: B; D
+mech_primary: B
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: NONE
+safety_claim: CEXP; RT
+guarantee_assumptions: single-step safety rule correctly identifies unsafe actions
+safety_level: L3
+level_note: Safe action sets restrict both the update and execution so safety-constraint violations are zero; other constraints compared against reward shaping and Lagrangian methods.
+uncertainty: STOCH
+uncertainty_method: random SUMO traffic; real highD transitions
+simulator: SUMO
+dataset: HIGHD
+vehicle_model: KIN
+metrics: VIOL; SPEED; SAMPLE
+baselines: DQN with reward shaping, Lagrangian loss, safe policy extraction
+baseline_types: NSRL; SRL
+results: CDQN outperformed reward shaping, Lagrangian optimisation and safe policy extraction in final speed with the fewest constraint violations; ten times more sample-efficient than reward shaping in the tabular case.
+generalization: DENS
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: 10
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; SUPERV
+limitations: A: multi-step constraints approximate under the current policy.
+qa: 2 2 2 2 2 2 2 1 1 2 1 2
+qa_note: Q8 stochastic traffic only; Q9 traffic densities 20-80 vehicles only; Q11 public simulator/dataset, no code
+
+@@ C0111
+country: Germany
+problem: Falsification-based robust adversarial RL that uses temporal-logic falsification to generate adversarial disturbances during training, avoiding a separate adversary reward, for braking assistance and ACC.
+task: CF; EMG
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: FRARL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: system-specific rewards for safe distance and desired speed
+safety_cost: NA
+constraints: MTL specification G(not collision and not reverse driving) used by the falsifier
+mech: K; T
+mech_primary: K
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP; ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Safety specifications drive adversarial training; reported safe-distance violations in random test scenarios, no run-time enforcement.
+uncertainty: ADV; DIST
+uncertainty_method: falsification-generated worst-case leading-vehicle behaviour
+simulator: COMMONROAD
+dataset: HIGHD
+vehicle_model: KIN
+metrics: VIOL; REW
+baselines: PPO without adversary, RARL
+baseline_types: NSRL; SRL
+results: Policies trained with the falsification adversary generalised better and violated the safety specification less than PPO and RARL in random test scenarios.
+generalization: UNSEEN
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: CTRL
+limitations: R: one-dimensional longitudinal systems only.
+qa: 2 2 2 2 2 2 2 2 2 1 1 1
+qa_note: Q10 seeds not stated; Q11 public benchmark, no code; Q12 longitudinal highD-based scenarios only
+
+@@ C0117
+country: China
+problem: Minimax distributional SAC in which a protagonist competes with an adversarial disturbance policy to improve generalisation and robustness of intersection decision making against environment variations.
+task: INT; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: Minimax DSAC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: tracking and passing efficiency with collision penalty
+safety_cost: NA
+constraints: NA
+mech: K; L
+mech_primary: K
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: ROB
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Robustness to adversarial environment variations evaluated in distinct test environments; no explicit safety constraint.
+uncertainty: ADV; ALE; DSHIFT
+uncertainty_method: adversary policy and distributional critic with variance penalty
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: REW; COLL
+baselines: DSAC, SAC
+baseline_types: NSRL
+results: Minimax DSAC was significantly more robust than DSAC and SAC to environmental variations at an intersection (t-test reported).
+generalization: DIST; UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: Y
+compute: N
+stack: CTRL
+limitations: R: abstract intersection simulator; safety outcome reported mainly through return.
+qa: 2 2 2 1 1 1 2 2 2 1 0 1
+qa_note: Q4 simulator details limited; Q5 only non-safe RL baselines; Q6 collision outcome not compared in detail; Q10 seeds missing; Q11 custom environment; Q12 simple intersection
+
+@@ C0130
+country: USA
+problem: Hierarchical reinforcement and imitation learning (H-REIL) for near-accident driving: imitation-learned low-level policies for aggressive and timid modes and a PPO high-level policy that switches modes.
+task: EMG; CA; NAV
+scenario: MIXED
+traffic: SCRIPTED
+rl_paradigm: MF; HRL; IL+RL
+agents: SA
+n_agents: 1
+algorithm: PPO; BC
+method_name: H-REIL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: collision penalty, progress and time terms
+safety_cost: NA
+constraints: NA
+mech: R; A
+mech_primary: R
+mech_stage: TRAIN
+rl_output: DEC
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Collision rates and completion times compared across near-accident scenarios, plus a user study; no run-time safety enforcement.
+uncertainty: INTENT; STOCH
+uncertainty_method: stochastic behaviour of other agents in near-accident scenarios
+simulator: CUSTOM; CARLA
+dataset: NONE
+vehicle_model: KIN; SIMVEH
+metrics: COLL; TIME; REW
+baselines: IL-only modes, pure RL, mode-switching heuristics
+baseline_types: NSRL; ABL
+results: H-REIL achieved a better trade-off of collision rate and completion time than IL or RL alone across five near-accident scenarios and was preferred by users.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: NA
+code: Y
+code_url: https://github.com/Stanford-ILIAD/CARLO
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC
+limitations: A: only two driving modes considered.
+qa: 2 2 2 2 1 2 2 1 0 1 2 2
+qa_note: Q5 no safe-RL or classical baseline; Q8 stochastic agents only; Q9 none; Q10 hyperparameters/seeds incomplete
+
+@@ C0132
+country: Sweden
+problem: Ensemble of DQNs with randomized prior functions estimates epistemic uncertainty of intersection decisions; a confidence criterion falls back to a safe action when uncertainty is high.
+task: INT; TD
+scenario: INTX
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: Ensemble RPF
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: goal reward, collision and near-collision penalties, jerk term
+safety_cost: NA
+constraints: coefficient of variation of Q-values below threshold
+mech: N; S
+mech_primary: N
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: An uncertainty criterion replaces uncertain decisions with a safe fallback at every step; removed all collisions within the training distribution and most outside it.
+uncertainty: EPI; DSHIFT; INTENT
+uncertainty_method: bootstrapped ensemble with randomized prior functions
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; TIME; SUCC
+baselines: DQN without uncertainty
+baseline_types: NSRL; ABL
+results: With the confidence criterion, collisions inside the training distribution were removed and most collisions in out-of-distribution situations avoided, unlike DQN.
+generalization: UNSEEN; AGENTS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 5
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; SUPERV
+limitations: A: safe fallback action assumed available.
+qa: 2 2 2 2 1 2 2 2 2 2 0 1
+qa_note: Q5 only non-safe RL baseline; Q11 custom simulator; Q12 abstract intersection
+
+@@ C0138
+country: Australia
+problem: Socially aware attentive value network combined with multimodal (GAN) pedestrian trajectory prediction and vehicle kinematic constraints for an autonomous vehicle navigating through pedestrian crowds.
+task: PED; NAV; CA
+scenario: URB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:value-network RL (SARL)
+method_name: SARL-SGAN-KCE
+network: ATT; RNN
+obs_type: VEC
+action_type: DISC
+action_level: CTRL
+reward: goal reward, collision penalty, discomfort-distance penalty
+safety_cost: NA
+constraints: vehicle kinematic constraints on the action set
+mech: A; N
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L1
+level_note: Success and collision outcomes compared with crowd-navigation baselines; safety comes from reward and prediction-aware value estimation.
+uncertainty: PRED; INTENT
+uncertainty_method: multimodal GAN trajectory prediction of pedestrians
+simulator: CUSTOM
+dataset: OWN
+vehicle_model: KIN
+metrics: SUCC; COLL; TIME
+baselines: ORCA, CADRL, LSTM-RL, SARL variants
+baseline_types: NSRL; CLASS
+results: SARL-SGAN achieved higher success rates than ORCA, CADRL, LSTM-RL and SARL variants with similar travel time in scenarios with 5 and 10 pedestrians.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: N
+hyperparams: N
+seeds: NR
+eval_protocol: Y
+stats: N
+compute: N
+stack: PRED; PLAN
+limitations: A: discrete action space limited by computation.
+qa: 2 1 1 2 1 1 2 2 1 0 0 1
+qa_note: Q2 MDP partly defined; Q3 safety only through reward/prediction; Q5 no safe-RL baseline; Q6 collisions not reported separately; Q9 pedestrian count varied only; Q10 hyperparameters/seeds missing; Q11 custom simulator; Q12 simplified crowd simulator
+
+@@ C0141
+country: Sweden
+problem: Bayesian RL via an ensemble with randomized prior functions estimates decision uncertainty for highway tactical driving of a truck and classifies uncertain actions as unsafe, falling back to safe actions.
+task: TD; LC
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: Ensemble RPF
+network: CNN
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed reward, collision and near-collision penalties, lane-change cost
+safety_cost: NA
+constraints: uncertainty (coefficient of variation) below threshold
+mech: N; S
+mech_primary: N
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: CORRECT
+control: IDM
+safety_claim: EMP
+guarantee_assumptions: NA
+safety_level: L3
+level_note: An uncertainty criterion triggers a fallback to safe actions at run time; collisions out of distribution are avoided while DQN collides.
+uncertainty: EPI; DSHIFT
+uncertainty_method: bootstrapped ensemble with randomized prior functions
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; REW
+baselines: DQN
+baseline_types: NSRL; ABL
+results: The ensemble agent was more efficient and stable than DQN in distribution and avoided collisions outside the training distribution by falling back to safe actions.
+generalization: UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: Y
+code_url: NR
+data_avail: NA
+hyperparams: Y
+seeds: 10
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; SUPERV
+limitations: A: functional safety likely needs an underlying safety layer.
+qa: 2 2 2 2 1 2 2 2 2 2 2 1
+qa_note: Q5 only non-safe RL baseline; Q12 SUMO only
+
+@@ C0164
+country: Germany
+problem: Amortized Q-learning in which an optimal-control trajectory planner proposes reachable-gap manoeuvres satisfying physical and safety constraints, and RL selects among them for long-term optimal highway driving.
+task: LC; TD; MP
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; MB
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: AQL-MAP
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: TRAJ
+reward: speed relative to desired velocity, lane-change and comfort penalties
+safety_cost: NA
+constraints: planned trajectories satisfy physical and safety (distance/TTC) constraints within 6 s horizon
+mech: E; I; Q
+mech_primary: E
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PLANNER
+safety_claim: EMP; RT
+guarantee_assumptions: planner model of surrounding traffic over the horizon
+safety_level: L3
+level_note: RL can only choose among trajectories that the planner has verified against safety constraints at every decision.
+uncertainty: STOCH
+uncertainty_method: random SUMO traffic
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: SPEED; REW
+baselines: random, greedy, IDM-based SUMO agent, discrete high-level RL agent
+baseline_types: NSRL; CLASS
+results: The option-selecting agent achieved higher average speed than random, greedy, IDM and discrete RL agents in common and dense highway scenarios.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: DEC; PLAN; SUPERV
+limitations: R: no collision statistics reported because safety is delegated to the planner.
+qa: 2 2 2 2 2 0 2 1 1 1 1 1
+qa_note: Q6 no safety metric reported; Q8 stochastic traffic only; Q9 dense scenario variant only; Q10 seeds missing; Q11 SUMO, no code; Q12 SUMO only

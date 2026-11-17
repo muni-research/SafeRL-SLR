@@ -1,0 +1,16 @@
+code,label,studies,% of 702,study IDs (if <= 12)
+MLP,MLP,564,80.3,
+ATT,ATT,70,10.0,
+CNN,CNN,63,9.0,
+RNN,RNN,43,6.1,
+NR,NR,28,4.0,
+GNN,GNN,18,2.6,
+RBF,RBF,12,1.7,A052;A144;B0153;B0170;B0334;B0835;B1035;B1770;C0022;C0673;C0884;C1033
+OTHER:KAN,OTHER:KAN,1,0.1,B0663
+OTHER:Gaussian process,OTHER:Gaussian process,1,0.1,B0972
+OTHER:diffusion model,OTHER:diffusion model,1,0.1,B0987
+OTHER:critic-only NN,OTHER:critic-only NN,1,0.1,B1163
+OTHER:GAN,OTHER:GAN,1,0.1,B1234
+OTHER:critic NN,OTHER:critic NN,1,0.1,B1659
+OTHER:fuzzy logic systems,OTHER:fuzzy logic systems,1,0.1,C0442
+OTHER:diffusion policy,OTHER:diffusion policy,1,0.1,E046

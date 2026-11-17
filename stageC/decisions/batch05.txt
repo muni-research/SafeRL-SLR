@@ -1,0 +1,29 @@
+# batch 05 (C0241-C0300), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0242 Review EC9
+C0243 Exclude EC1 energy management
+C0248 Unsure - discrete SAC with sample filter for freeway safety
+C0250 Exclude EC2 intersection cooperative management
+C0252 Unsure - DRL rear anti-collision decisions, commercial vehicles
+C0253 Review EC9 (safe RL review; background citation)
+C0255 Review EC9
+C0256 Unsure - learning behaviour planning with optimisation-based trajectory planning for safety
+C0258 Exclude EC1 battery degradation
+C0259 Exclude EC2 intersection management
+C0263 Exclude EC2 traffic signal control
+C0264 Exclude EC2 intersection management
+C0274 Unsure - RL cut-in policy nested in finite-state machine for safety
+C0276 Unsure - MARL CACC security against attacks
+C0277 Exclude EC1 energy management with ACC (check)
+C0278 Exclude EC2 traffic signal control
+C0279 Exclude EC1 industrial AGV
+C0281 Unsure - DQ-GAT safe and efficient driving
+C0282 Unsure - DRL with uncertainty indication of improper decisions
+C0283 Unsure - DDQN decisions with planning and control module for safety
+C0284 Unsure - distributional RL hedging risk under occlusion
+C0286 Exclude EC2 imitation learning perception
+C0291 Exclude EC3 driver recommendations (no abstract)
+C0293 Unsure - risk-aware decision making with RL low-level control
+C0295 Unsure - DDPG with artificial-force safety border, lane-free traffic
+C0296 Unsure - dynamically conservative planner for long-tail safety
+C0297 Unsure - HACO human-in-the-loop safe driving policy
+C0299 Unsure - CBF safety layer for RL motion planner, highway

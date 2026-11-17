@@ -1,0 +1,33 @@
+# Full-text eligibility, second update search (stageE), batch 01 (open-access reports), 2026-11-13.
+# FI = include; FX:<code> = exclude with reason; FB = background pool; FD:<id> = additional report of the same study
+E040 FI PPO with learned linearised safety layer projecting actions onto longitudinal/lateral constraints; SUMO mixed-autonomy rings
+E056 FX:EC6 generic "autonomous vehicle control" with unspecified environment and vehicle model; fault data are network-traffic features; verification step not described reproducibly
+E060 FI safe online fine-tuning of offline flow policy under CBF-MPC filter; simulation and UGV experiments
+E061 FI hierarchical DDQN/DDPG with safety-distance reward; collision rate and safety-constraint satisfaction reported
+E063 FI PPO trajectory generator + prescribed-performance MPC with CBF collision constraints; MetaDrive roundabouts
+E071 FI MAPPO safeguarded by recursively feasible backup-horizon CBF filter (proofs); rounD/inD maps
+E074 FI preventive constrained MARL with responsibility-guided risk constraints; highway-env on-ramp merging
+E075 FI SAC with interaction-risk field observations and risk/externality costs; MetaDrive and HighwayEnv
+E015 FI RL identifies a 3-D vehicle stability boundary that constrains an MPC boundary-stability controller; CarSim/PreScan and HIL
+E019 FI RL (attention encoder-decoder) selects merging sequence; DMPC with spacing constraints guarantees collision avoidance; HIL tests
+E022 FI DDPG torque redistribution on a Lyapunov/H-infinity fault-tolerant tracking controller; vehicle stability under actuator faults
+E024 FI multi-output CBF safety filter with fallback for PPO ACC; PreScan-based REVEAL, disturbances and attacks
+E025 FI continuous-time actor-critic platoon control with prescribed spacing constraints and PD fallback under FDI attacks; boundedness analysis
+E029 FI PPO with friction-aware GTTC action pre-masking and Pareto-based post-guidance; CARLA lane changes
+E030 FI DDPG longitudinal gap selection with safety reward + MPC lateral tracking for ramp merging; collision-free merging reported
+E032 FI Meta-DDQN corrective actions for mixed platoons under DoS/spoofing with minimum-spacing and collision penalty
+E033 FI constrained multi-objective policy optimisation with constraint rectification (CRPO-style switching) for merging; highway-env
+E035 FI SAC with VLM semantic reward, IDM prior and CBF-constrained control optimiser; CARLA
+E036 FI PPO trajectory planner with predicted trajectories and ghost-probe risk zones, large-model reward tuning; CARLA campus, collision rates
+E037 FI PPO tunes MPCC cost weights and safety margin with ellipsoidal collision-avoidance constraints; head-to-head racing
+E038 FB wheeled mobile robot (unicycle) lane following with barrier-penalised event-triggered ADP; generic robotics setting, no road-vehicle model (rule v1.1 d/e)
+E039 FX:EC3 RL adapts NMPC tracking weights; 'safety' refers to recursive feasibility, stability and actuator limits of the tracking MPC; no safety-related constraint or safety evaluation
+E043 FX:EC3 hierarchical GRPO for ramp merging; safety only as a crash/failure penalty in the reward, no safety mechanism, safety metric limited to combined success rate
+E044 FX:EC6 neuro-symbolic distributional RL for EV control; environment, data and evaluation protocol not specified (accuracy-style results only)
+E046 FI diffusion-actor TD3 tunes weights of a car-following MPC with barrier-type spacing constraints; NGSIM and emergency braking
+E047 FI DQN with Vienna-Convention safe-distance action mask and reward machine, structured LSTM; highway-env ramp merging
+E048 FI RISE-based adaptive critic CACC with NN FDI-attack estimator and Lyapunov stability; inter-vehicle distance under attacks in Simulink
+E049 FI agent-oriented LSTM-DQN lane changing in a sequential game with hard acceleration bounds as safety constraints; MTTC and conflicts in SUMO calibrated on field data
+E050 FI human-guided RL with APF risk assessment delegating to an IDM/MOBIL physics model in high-risk states during training; MetaDrive and CARLA
+E076 FI DDQN guided during training by VLM/LLM knowledge reasoning with a rule-based safety-constraint module; CARLA intersections, collision and violation rates
+E058 FI multi-agent graph RL (multi-critic PPO) for CAV decisions in weaving sections with safety-prioritised reward; collisions, TTC and DRAC in SUMO

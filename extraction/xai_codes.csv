@@ -1,0 +1,93 @@
+study_id,explainability,note
+B0268,VIS,separate risk and utility estimators; saliency maps used to assess risk and utility
+B0284,VIS,social-attention weights visualised on ego and surrounding vehicles (Fig. 8)
+B0641,VIS,attention maps of the safety-aware causal transformer visualised over 30 trajectories
+B1459,VIS,attention-weight visualisation of interactions inferred from imagined behaviours
+B0678,VIS,risk-quantification model outputs visualised in dense and mixed traffic scenes
+B1594,DESIGN,symbolic traffic-rule reasoning claimed to make decisions explainable; no explanation evaluated
+B1645,DESIGN,first-order-logic safety predicates presented as an interpretable safety filter
+A127,DESIGN,first-order-logic rules presented as interpretable hard constraints
+B1289,DESIGN,rule-based safety cage presented as fully interpretable supervisor
+B1506,DESIGN,interpretable physics-based (IDM-MOBIL) policy provides a performance floor
+B0848,DESIGN,motion planner replaces the actor to give interpretable trajectories
+B1253,DESIGN,RL plans trajectories instead of controls for an interpretable modular system
+B1533,DESIGN,predictable barrier-function override argued to aid interpretability and trust
+B1147,DESIGN,risk cues converted into interpretable cue-specific control adjustments
+B1636,DESIGN,LLM reflection module intended to improve decision interpretability
+B1093,DESIGN,policy switching presented as giving interpretable overtaking manoeuvres
+B1572,DESIGN,goal-conditioned collision prediction claimed to make interactions interpretable
+B1074,DESIGN,learnable attention mask claimed to give interpretable attention allocation
+A193,DESIGN,conflict zones claimed to give interpretable decision support
+B0737,DESIGN,interpretable constraint learning from demonstrations
+B1651,DESIGN,language-goal reward claimed to be interpretable
+B0763,VIS,LIME explanations of attention-based PPO/SAC driving decisions
+B1427,VIS,perturbation-based saliency maps of the BEV input shown for the driving policy
+B1797,VIS,spatiotemporal social-attention weights visualised during left-turn decisions
+B1778,VIS,hybrid-attention weights visualised against driving tasks at the intersection
+B1178,VIS,evolution of encoder attention patterns visualised (authors avoid semantic claims)
+B1818,VIS,context variable from semantic-attention encoder analysed against risk field across traffic density
+B0157,DESIGN,decision-tree policies extracted (SafeVIPER) to be interpretable and verifiable
+B0339,DESIGN,two-dimensional linear SVM safety layer chosen for interpretability
+B1461,DESIGN,hybrid automata describe ADAS modes; action probabilities presented as interpretable
+B0796,DESIGN,neurosymbolic interaction-reasoning policy claimed inherently interpretable
+B0671,DESIGN,reward machine states presented as interpretable decision structure
+B0337,DESIGN,optimisation-based planning layer presented as the explainable component of the RL pipeline
+B1448,DESIGN,sequential latent model claimed to make end-to-end decisions interpretable for debugging
+B0577,DESIGN,MPC with learned terminal cost presented as an interpretable strategy
+B1418,DESIGN,DRMCTS planner introduced to improve interpretability of DRL decisions
+B0909,DESIGN,composition of rule-based and planning policies claimed interpretable
+B1816,DESIGN,trajectory-similarity constraint claimed to make the influence of human guidance transparent
+B1635,DESIGN,interpretable legality shield over the PPO policy
+B0445,DESIGN,hierarchical decomposition argued to improve interpretability over end-to-end RL
+B0257,VIS,attention weights between ego and surrounding vehicles visualised over time (Fig. 9)
+B1356,VIS,attention weights to surrounding vehicles and state dimensions visualised
+B1146,VIS,integrated-gradient attributions over latent inputs with reported explainability confidence
+B0640,VIS,interpretability of the world-model policy examined as a research question with visualised results
+B0429,DESIGN,explicit risk model claimed to increase post-hoc explainability
+B0423,DESIGN,learning effects discussed through explainable QP constraints
+B0431,DESIGN,structure claimed to improve interpretability of end-to-end control
+B0754,DESIGN,interpretable GTTC risk margins in the shield
+B0972,DESIGN,Gaussian-process model claimed to give probabilistic interpretability
+B0976,DESIGN,fuzzy rule table for cost limits designed to be interpretable
+B1041,DESIGN,RL restricted to MPC weight adaptation for interpretability
+B1120,DESIGN,physics rules in actor loss claimed to improve interpretability
+B1169,DESIGN,bounded residual over MPC described as interpretable at signal level
+B1333,DESIGN,rule-based policy provides an explainable performance lower bound
+B1409,DESIGN,safety mask built on the interpretable RSS model
+B1534,DESIGN,rule-based formal environment model claimed to improve interpretability
+B1640,DESIGN,interpretability of the Gipps-based safety strategy discussed
+B1717,DESIGN,physically interpretable and ethically grounded reward space
+B1738,DESIGN,physically interpretable states and convex MPC cost
+B1787,DESIGN,risk-screening of joint intentions described as interpretable
+C0281,VIS,saliency maps (Jacobian of Q w.r.t. BEV input) visualised to explain decisions
+C0315,DESIGN,integrated decision and control framework claimed as interpretable by decomposition (not evaluated)
+C0194,DESIGN,program-triggered hierarchy claimed more interpretable and verifiable than flat DRL (not evaluated with users)
+C0197,DESIGN,expert-system rules claimed to open the DRL black box (not evaluated)
+C0524,DESIGN,learnable rule-based safety module claimed to give decision transparency (not evaluated with users)
+C0577,DESIGN,collision-probability distributions presented as an explainable safety value (not evaluated with users)
+C0628,VIS,saliency-map explanation of detected perception attacks intended to flag danger to users (not evaluated with users)
+C0866,VIS,attention weights visualised to show which vehicles drive decisions
+C0518,VIS,predicted rollouts of the learned dynamics model inspected as interpretable plans
+C0638,DESIGN,visual attention maps of pedestrians steer the adaptive reward (not evaluated as explanations)
+C0102,DESIGN,decoupled fixed-horizon constraints claimed to make learned behaviour interpretable (not evaluated)
+C0228,DESIGN,truncated-value auxiliary costs claimed to give interpretable constraints (not evaluated)
+C0722,DESIGN,HMM with expert-derived interpretable parameters in the decision strategy (not evaluated)
+C0482,DESIGN,interpretable kinematic predictions used by the safety prioritiser (not evaluated)
+C0557,DESIGN,attention-based mid-to-mid planner claimed more interpretable (not evaluated)
+C0720,DESIGN,stepwise mid-level tactical planning claimed to improve interpretability (not evaluated)
+C0783,DESIGN,path-constraint action compensation claimed to improve interpretability (not evaluated)
+C0621,DESIGN,learned driver reward used to make lane-change decisions human-like and interpretable (not evaluated)
+C0799,DESIGN,linear reward features of maximum-entropy IRL claimed to give interpretability (not evaluated)
+C0969,VIS,raw and biased attention scores visualised for the intersection risk predictor
+C1006,VIS,attention weights over surrounding road users visualised in test scenes
+C0992,DESIGN,IDC correspondence to constrained optimal control claimed to ensure interpretability (not evaluated)
+C0933,DESIGN,discrete four-action LSTM-PPO policy claimed to support interpretable decisions (not evaluated)
+C1043,DESIGN,hierarchical SAC-D with HOCLF-HOCBF-QP claimed interpretable (not evaluated)
+C0932,DESIGN,risk-field state and reward claimed to make decisions interpretable (not evaluated)
+C1027,DESIGN,curvature-based target claimed to give an interpretable RL steering strategy (not evaluated)
+C0939,VIS,SHAP explanations of agent decisions generated with an explainability indicator (not evaluated with users)
+C0319,DESIGN,attention-based feature refinement claimed to make SAC lane-change decisions interpretable (not evaluated)
+C0998,DESIGN,execution-authority decisions with recorded reasons positioned as decision provenance (usability not evaluated)
+C0997,DESIGN,white-box RSS decision module claimed to give security interpretability (not evaluated)
+C0378,DESIGN,RL-parameterised NMPC cost claimed highly interpretable (not evaluated)
+C0620,DESIGN,modular DRL-plus-classical-control architecture claimed to enhance interpretability (not evaluated)

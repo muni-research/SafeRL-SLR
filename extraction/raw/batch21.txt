@@ -1,0 +1,1062 @@
+# Phase 4 extraction, batch 21 (MDPI/Elsevier/Wiley/Springer PDFs, retrieval round 2026-10-09), codebook v1.5a, extracted 2026-10-09
+# Source: extraction/packets/batch21.txt plus targeted full-text lookups (scripts/13b_lookup.py)
+
+@@ B0711
+country: USA
+problem: Progressive development of a CLF-CBF-QP collision-avoidance controller for a unicycle vehicle model, with a feasibility study of a DQN high-level planner that selects waypoints for the low-level CLF-CBF-QP.
+task: CA; MP
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DQN
+method_name: DQN + CLF-CBF-QP hierarchical controller
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: progress to goal with collision and boundary penalties
+safety_cost: NA
+constraints: ellipse-based CBF obstacle constraints; CLF goal-reaching constraint; input limits
+mech: H; F; G; R
+mech_primary: H
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: EMBED
+control: QP
+safety_claim: FORMAL; EMP
+guarantee_assumptions: unicycle kinematics; elliptical vehicle and obstacle shapes; static or known obstacles; QP feasibility
+safety_level: L3
+level_note: CLF-CBF-QP enforces barrier constraints on every low-level command; DRL layer evaluated only as a feasibility study in simple obstacle layouts.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: SIMULINK; CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; TIME
+baselines: CLF-CBF-QP alone with different configurations
+baseline_types: ABL; CLASS
+results: CLF-CBF-QP avoided all obstacles in model-in-the-loop and real-time Simulink tests; the DQN planner found collision-free paths with lower training cost than end-to-end DRL.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: PLAN; CTRL; SUPERV
+limitations: A: unicycle model; simple static obstacle layouts; DRL layer only preliminary.
+qa: 2 1 2 1 1 1 1 0 0 1 0 0
+qa_note: Q2 DRL formulation only sketched; Q4 DRL experiment details thin; Q5 no external baselines; Q6 collision avoidance shown qualitatively; Q7 limited performance metrics; Q8 no uncertainty; Q9 no generalisation; Q10 partial settings; Q11 no code; Q12 unicycle model with static obstacles
+
+@@ B0754
+country: China
+problem: Friction-adaptive shielded RL (FA-SRL) for lane changing in weaving segments under variable road friction, using a generalised-TTC risk assessment that corrects risky actions and gives graded risk rewards.
+task: LC
+scenario: HWY
+traffic: REPLAY
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO; SAC; TD3
+method_name: FA-SRL
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: progress, lane, arrival, violation, collision, timeout and graded GTTC risk rewards
+safety_cost: NA
+constraints: friction-dependent GTTC risk thresholds
+mech: D; A; N
+mech_primary: D
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: CORRECT
+control: NONE
+safety_claim: EMP; STAT
+guarantee_assumptions: friction coefficient estimated with 5% error; constant-velocity prediction of surrounding vehicles
+safety_level: L3
+level_note: Shield monitors and corrects unsafe throttle/steer at execution; safety assessed empirically against PPO/SAC/TD3 and human drivers with t-tests.
+uncertainty: MODEL; STOCH; SENS
+uncertainty_method: stochastic friction coefficient (wet-road distribution) with estimation error
+simulator: CARLA
+dataset: OTHER:CitySim
+vehicle_model: DYN
+metrics: SUCC; COLL; TTC; PET; TIME; REW; INTERV
+baselines: PPO, SAC, TD3, human drivers from CitySim
+baseline_types: NSRL; HUMAN; ABL
+results: FA-SRL improved final reward by 11.31% and convergence by 34.76%; FA-SRL (SAC) reached 100% success at low density and 97.33% at high density with slightly lower efficiency.
+generalization: DENS; UNSEEN; DOMAIN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: A: conservative shield reduces efficiency; friction assumed observable; single weaving segment.
+qa: 2 2 2 2 2 2 2 2 2 1 1 2
+qa_note: Q10 seeds not reported; Q11 no code (dataset public)
+
+@@ B0775
+country: China
+problem: Two-layer DRL lane-change and speed control in which D3QN chooses the target lane under action shielding and PPO (with an online expert) regulates speed while PID steers.
+task: LC; CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: D3QN; PPO
+method_name: Hierarchical D3QN-PPO with action shielding
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: BEHAV
+reward: success, speed and collision terms
+safety_cost: NA
+constraints: shield removes unsafe lane-change decisions
+mech: D; R; A
+mech_primary: D
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: PID
+safety_claim: EMP
+guarantee_assumptions: rule-based shield conditions on gaps
+safety_level: L3
+level_note: Action shielding blocks unsafe lane-change decisions at execution; evaluated by success rate only.
+uncertainty: STOCH
+uncertainty_method: procedurally generated scenes with random seeds
+simulator: METADRIVE
+dataset: NONE
+vehicle_model: DYN
+metrics: SUCC; SPEED; SAMPLE
+baselines: end-to-end PPO, variants without shield or expert
+baseline_types: NSRL; ABL
+results: The hierarchical framework converged faster than end-to-end PPO and improved success rate and speed; shielding increased lane-change safety.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: DEC; CTRL; SUPERV
+limitations: A: rule-based traffic; future multi-agent study.
+qa: 2 1 1 1 1 1 2 0 0 1 0 0
+qa_note: Q2 shield rules briefly described; Q3 shield conditions not formalised; Q4 short conference paper; Q5 only PPO and ablations; Q6 success rate as only safety proxy; Q8 no uncertainty; Q9 no generalisation; Q10 seeds not reported; Q11 no code; Q12 MetaDrive with rule-based traffic
+
+@@ B0776
+country: USA
+problem: Hierarchical lane-change obstacle avoidance in which a DDQN planner selects lane-level manoeuvres and a high-order CLF-CBF-QP tracks the path with a single-track dynamic model.
+task: LC; CA
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: DDQN
+method_name: DDQN + HOCLF-HOCBF-QP
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, lane and collision terms
+safety_cost: NA
+constraints: high-order CBF obstacle constraints; HOCLF tracking constraint; steering limits
+mech: H; F; G; R
+mech_primary: H
+mech_stage: EXEC
+rl_output: DEC
+safety_integration: EMBED
+control: QP
+safety_claim: FORMAL; EMP
+guarantee_assumptions: single-track lateral dynamics with constant longitudinal speed; known obstacle positions; QP feasibility
+safety_level: L3
+level_note: HOCBF constraints enforced in the low-level QP at every step; evaluated in highway-env scenarios.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: HWENV; CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: COLL; DEV; REW; TIME
+baselines: HOCLF-QP without barrier, end-to-end RL discussed
+baseline_types: ABL; CLASS
+results: The HOCLF-HOCBF-QP controller avoided obstacles that the tracking-only HOCLF-QP collided with; DDQN learned collision-free lane choices in a three-lane environment with low computation time on CPU.
+generalization: GEOM
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: DEC; PLAN; CTRL; SUPERV
+limitations: A: lateral model only; HIL and vehicle-in-virtual-environment tests left for future work.
+qa: 2 2 2 2 1 1 2 0 1 1 0 0
+qa_note: Q5 no external RL baselines; Q6 collision outcomes mostly qualitative; Q8 no uncertainty; Q9 two layouts only; Q10 seeds not reported; Q11 no code; Q12 highway-env with lateral model only
+
+@@ B0847
+country: South Korea
+problem: Predictive risk-aware reward shaping with Safety Potential (time-weighted path-overlap forecast) for longitudinal control at an unsignalised CARLA roundabout, with an optional reactive guard at inference.
+task: RAB; CF
+scenario: RAB
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: Safety Potential reward shaping
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: speed, progress, arrival and Safety Potential risk penalty
+safety_cost: NA
+constraints: NA
+mech: A; W
+mech_primary: A
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: CORRECT
+control: PP
+safety_claim: EMP; STAT
+guarantee_assumptions: full-state access to surrounding vehicle paths
+safety_level: L1
+level_note: Main contribution is reward shaping; the reactive hard guard is only an ablation, so the study is coded at the empirical level.
+uncertainty: STOCH; INTENT
+uncertainty_method: randomised NPC headway, speed and yielding violations
+simulator: CARLA
+dataset: NONE
+vehicle_model: DYN
+metrics: SUCC; COLL; TTC
+baselines: No-Safe, distance shaping, TTC shaping, CARLA BehaviorAgent
+baseline_types: NSRL; CLASS; ABL
+results: Safety Potential gave 94% success and 3% collisions, 5.75 points higher success and 7.25 points fewer collisions than TTC shaping; the inference guard cut collisions below 1%.
+generalization: DENS; UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: Y
+code_url: https://github.com/JinhoChoi-study/
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: Y
+compute: N
+stack: DEC; CTRL
+limitations: A: full-state assumption; reward alone underpenalises atypical risk; single roundabout.
+qa: 2 2 2 2 2 2 2 1 2 1 1 1
+qa_note: Q8 only behavioural randomisation; Q10 seeds not reported; Q11 partial code release; Q12 single CARLA roundabout
+
+@@ B0883
+country: China
+problem: Robust multi-agent lane-change decisions in mixed highway traffic in which action disturbances are modelled as adversarial agents and a safety-aware action mask filters unsafe lane changes.
+task: LC
+scenario: HWY
+traffic: MIXED
+rl_paradigm: MF
+agents: MA-DEC
+n_agents: NR
+algorithm: OTHER:adversarial multi-agent recurrent D3QN (ARMD2QN)
+method_name: ARMD2QN
+network: RNN; MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, comfort, efficiency and collision terms
+safety_cost: NA
+constraints: safety-aware action mask on lane changes
+mech: K; D; O
+mech_primary: K
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: IDM
+safety_claim: ROB; EMP
+guarantee_assumptions: no V2X; parameter sharing; adversary bounded to action interference
+safety_level: L3
+level_note: Action mask removes unsafe lane changes at execution; robustness to adversarial action interference evaluated over 36 and 24 scenario sets.
+uncertainty: ADV; STOCH
+uncertainty_method: adversarial agents perturbing actions; varying penetration and adversary probabilities
+simulator: SUMO
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; REW; COMF; ENERGY; ACC
+baselines: MAA2C, MADQN, MASAC, SUMO LC2013
+baseline_types: NSRL; CLASS
+results: ARMD2QN reduced collision counts by 98.8-99.7% relative to MAA2C, MADQN and MASAC and improved speed and comfort across low, medium and high densities.
+generalization: DENS; DOMAIN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; SUPERV
+limitations: A: no V2X; simplified adversary model; simulation only.
+qa: 2 2 2 2 2 2 2 2 2 1 0 1
+qa_note: Q10 seeds not reported; Q11 no code; Q12 SUMO lane-change model only
+
+@@ B0892
+country: China
+problem: Safe model-based policy optimisation (SMBPO) for integrated speed and lane-change control, combining hierarchical discrete lateral decisions, Lagrangian-constrained SAC on model rollouts and a shield.
+task: LC; CF
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MB; HRL
+agents: SA
+n_agents: 1
+algorithm: OTHER:SMBPO (Lagrangian SAC with model rollouts)
+method_name: SMBPO
+network: MLP
+obs_type: VEC
+action_type: HYB
+action_level: CTRL
+reward: speed, lane, comfort and collision terms
+safety_cost: unsafe-state indicator cost with threshold
+constraints: expected safety cost below threshold via Lagrange multiplier; shield rules
+mech: B; Q; D; R
+mech_primary: B
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: MASK
+control: RULE
+safety_claim: CEXP; EMP
+guarantee_assumptions: probabilistic ensemble dynamics model accurate over short branched rollouts
+safety_level: L3
+level_note: Lagrangian constraint during training plus a shield acting on decisions at execution; collision rate compared with ablations over three seeds.
+uncertainty: MODEL; STOCH
+uncertainty_method: probabilistic ensemble dynamics model
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; SPEED; REW; SAMPLE
+baselines: MBPO, SAC, D3QN, ablations without safety module
+baseline_types: NSRL; ABL
+results: SMBPO cut collisions while keeping high average speed relative to variants without the safety mechanism and outperformed SAC in training efficiency; generalised to other densities.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 3
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: A: highway-env kinematics; three-lane highway only.
+qa: 2 2 2 2 2 2 2 1 2 2 0 1
+qa_note: Q8 model uncertainty only; Q11 no code; Q12 highway-env
+
+@@ B0935
+country: China
+problem: Augmented-Lagrangian DDPG for lateral trajectory-tracking control of a four-wheel-steering vehicle formulated as a CMDP with lane-boundary constraints.
+task: LK; CA
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:augmented-Lagrangian DDPG
+method_name: AL-DDPG
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: lateral and heading tracking error with control effort
+safety_cost: lane-boundary violation cost
+constraints: lane-boundary constraint via augmented Lagrangian
+mech: B
+mech_primary: B
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: CEXP; EMP
+guarantee_assumptions: constant longitudinal speed; dry asphalt with fixed friction
+safety_level: L2
+level_note: Constraint enforced through the augmented Lagrangian during training; authors note training safety is not fully guaranteed.
+uncertainty: NONE
+uncertainty_method: NA
+simulator: CARSIM; SIMULINK
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; VIOL; OFFROAD; COMF
+baselines: DDPG, MPC
+baseline_types: NSRL; CLASS
+results: AL-DDPG trained faster and tracked ISO 3888-1 lane-change paths more accurately with no boundary violations at test speeds where baseline DRL struggled.
+generalization: DYN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: N
+stack: CTRL
+limitations: A: training safety not fully guaranteed; simple road conditions.
+qa: 2 2 2 2 2 2 2 0 1 1 0 1
+qa_note: Q8 no uncertainty; Q9 speed variation only; Q10 hyperparameters partial; Q11 no code; Q12 single manoeuvre type
+
+@@ B0952
+country: China
+problem: Hierarchical path planning (PIPF-TD3) in which Hybrid A* gives a reference path and TD3 tracks it while avoiding obstacles using physics-informed potential-field features and a multi-objective reward.
+task: MP; CA; INT
+scenario: HWY; INTX
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: TD3
+method_name: PIPF-TD3
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: path tracking, collision avoidance and comfort
+safety_cost: NA
+constraints: NA
+mech: A
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: APF; PLANNER
+safety_claim: EMP
+guarantee_assumptions: perfect perception of obstacle states
+safety_level: L1
+level_note: Safety comes from potential-field state features and reward; no constraint or filter.
+uncertainty: STOCH
+uncertainty_method: varied obstacle configurations; parameter sensitivity analysis
+simulator: CARLA
+dataset: NONE
+vehicle_model: DYN
+metrics: SUCC; COLL; DEV; ACC; JERK; DIST
+baselines: TD3-PID, rule-based FSM
+baseline_types: NSRL; CLASS; ABL
+results: PIPF-TD3 achieved 100% completion with zero collisions while TD3 without potential fields collided in 90% of runs; cross-track error fell 72.1% relative to the FSM.
+generalization: GEOM
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: N
+stack: PLAN; CTRL
+limitations: A: no CBF guarantee yet; no sensor noise; few baselines.
+qa: 2 2 1 2 1 2 2 1 1 1 0 1
+qa_note: Q3 safety only via features and reward; Q5 weak baselines; Q8 sensitivity analysis only; Q9 two scenarios; Q10 seeds not reported; Q11 no code; Q12 two CARLA scenarios
+
+@@ B0972
+country: China
+problem: Safe self-learning lateral control using learning-based MPC with Gaussian-process model-error learning, uncertainty-propagating safety tubes and a backup controller that keeps the vehicle in an invariant region.
+task: LK
+scenario: HWY
+traffic: NONE
+rl_paradigm: MB
+agents: SA
+n_agents: 1
+algorithm: OTHER:GP-based learning MPC (safe self-learning)
+method_name: Safe learning-based MPC (SMPC-Vehicle)
+network: OTHER:Gaussian process
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: lateral tracking cost
+safety_cost: NA
+constraints: lateral offset, velocity, heading and yaw-rate bounds; terminal set in backup controller region
+mech: Q; I; N; J; S
+mech_primary: I
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: EMBED
+control: MPC; LQR
+safety_claim: PROB; FORMAL
+guarantee_assumptions: GP error bounds hold with chosen confidence; backup controller region known; linearised constraints
+safety_level: L4
+level_note: Recursive feasibility with backup controller gives a probabilistic safety guarantee under GP error bounds; tested in highway-env with embedded timing on an NVIDIA platform.
+uncertainty: MODEL; EPI
+uncertainty_method: Gaussian-process posterior with ellipsoidal uncertainty propagation
+simulator: HWENV
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; VIOL; SAMPLE; TIME
+baselines: LQR, CPO discussed, nominal MPC
+baseline_types: CLASS; SRL
+results: The method learned online from few episodes without leaving the safe set, falling back to the backup controller when the MPC was infeasible, and ran in real time on an NVIDIA embedded platform.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: embedded timing test on NVIDIA platform only (no vehicle)
+code: Y
+code_url: https://github.com/scott-xiao-wu/SMPC-Vehicle
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: Y
+stats: P
+compute: Y
+stack: CTRL; SUPERV
+limitations: A: linearisation for invariant sets; title claims real-world learning but tests are in simulation.
+qa: 2 2 2 2 1 2 2 2 0 2 2 1
+qa_note: Q5 limited baselines; Q9 no generalisation test; Q12 highway-env with embedded timing only
+
+@@ B0976
+country: China
+problem: Risk-aware personal-preference safe RL (RAPRL) for on-ramp merging: CMDP high-level decisions solved by Lagrangian discrete SAC, fuzzy logic sets the cost limit from driver risk preference and density, an action shield removes unsafe decisions, and MPC executes.
+task: MERGE
+scenario: RAMP
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: SAC-Lag
+method_name: RAPRL
+network: MLP
+obs_type: VEC
+action_type: DISC
+action_level: BEHAV
+reward: speed, merging success and comfort
+safety_cost: TTC- and headway-based risk cost
+constraints: expected cost below fuzzy-adapted limit; shield removes unsafe or infeasible decisions
+mech: B; D; I; V; R
+mech_primary: B
+mech_stage: BOTH
+rl_output: DEC
+safety_integration: MASK
+control: MPC
+safety_claim: CEXP; EMP
+guarantee_assumptions: following vehicles follow IDM-like behaviour; preference membership functions set by experts
+safety_level: L3
+level_note: Shield replaces unsafe decisions at execution with a theoretical argument on sampling efficiency; evaluated over five seeds.
+uncertainty: STOCH
+uncertainty_method: three traffic densities
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; VIOL; REW; COMF; TTC
+baselines: Dueling DQN, SAC-Discrete, PPO
+baseline_types: NSRL
+results: RAPRL improved success by 4.76% and reduced collisions by 70% relative to SAC-Discrete, and kept high success at high density where Dueling DQN fell to 87%.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 5
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: A: preferences not inferred from drivers; deceleration fallback can increase rear-end risk.
+qa: 2 2 2 2 1 2 2 1 1 2 0 1
+qa_note: Q5 no safe-RL baselines; Q8 density only; Q9 densities only; Q11 no code; Q12 highway-env
+
+@@ B0987
+country: China
+problem: Action-masked diffusion-implicit policy optimisation (AM-DIMPO) for dense on-ramp merging, combining DDIM sampling with a state-dependent continuous action mask whose correction signal is fed back into training.
+task: MERGE
+scenario: RAMP
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:diffusion implicit policy optimisation (DIMPO)
+method_name: AM-DIMPO
+network: OTHER:diffusion model
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: speed, merging success, comfort and collision terms
+safety_cost: NA
+constraints: state-dependent feasible action bounds (road boundaries, speed limits, actuator limits)
+mech: D; A
+mech_primary: D
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: MASK
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: approximate feasible-set bounds; authors state no formal guarantee
+safety_level: L3
+level_note: Continuous action mask clips actions at execution; mask activation rate reported; authors stress no formal guarantee.
+uncertainty: STOCH; INTENT
+uncertainty_method: stochastic non-cooperative human-driven vehicles; two densities
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: SUCC; COLL; SPEED; JERK; INTERV; TTC
+baselines: PPO, SAC, DIPO, diffusion RL without mask, Safe-PPO
+baseline_types: NSRL; SRL; ABL
+results: AM-DIMPO matched Safe-PPO's low collision rate with higher speed and success, and reduced mask activations as training internalised safety.
+generalization: DENS
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 3
+eval_protocol: Y
+stats: P
+compute: Y
+stack: DEC; CTRL; SUPERV
+limitations: A: clipping mask without formal guarantee; Gym-based merging simulator only.
+qa: 2 2 2 2 2 2 2 1 1 2 0 1
+qa_note: Q8 behavioural stochasticity only; Q9 two densities; Q11 no code; Q12 Gym-based simulator
+
+@@ B1021
+country: China
+problem: Risk-aware SAC longitudinal decision making for an AV facing diverse risky midblock pedestrian crossings with occlusion, combining polar-sector visibility modelling, risk-shaped rewards and an execution-time safety filter.
+task: PED; CA
+scenario: URB
+traffic: MIXED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: Risk-aware SAC with safety filter
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: risk-scaled progress, comfort and terminal collision penalties
+safety_cost: NA
+constraints: safety filter suppresses hazardous accelerations
+mech: A; E; N
+mech_primary: E
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: NONE
+safety_claim: EMP; STAT
+guarantee_assumptions: pedestrian behaviour models calibrated from field observation; visibility model from eye-height geometry
+safety_level: L3
+level_note: Safety filter corrects or replaces unsafe actions at execution; evaluated against rule-based and risk-unaware DRL with five seeds and t-tests.
+uncertainty: PO; INTENT; STOCH
+uncertainty_method: occlusion-based visibility modelling and diverse risky pedestrian crossing behaviours
+simulator: CARLA
+dataset: OWN
+vehicle_model: DYN
+metrics: COLL; TTC; PET; SPEED; COMF; TIME
+baselines: rule-based policy, risk-unaware SAC
+baseline_types: CLASS; ABL
+results: The risk-aware policy showed stronger anticipatory behaviour and fewer collisions than rule-based and risk-unaware baselines with a better safety-efficiency balance across scenario types.
+generalization: UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: N
+hyperparams: Y
+seeds: 5
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PERC; DEC; CTRL; SUPERV
+limitations: A: longitudinal control only; one midblock site.
+qa: 2 2 2 2 1 2 2 2 1 2 0 1
+qa_note: Q5 no safe-RL baselines; Q9 scenario types of one site; Q11 no code or data; Q12 single CARLA midblock
+
+@@ B1041
+country: Ethiopia
+problem: Triple-layer MPC-DRL-SMC controller in which a PPO policy modulates MPC cost weights in real time from a coherent risk measure calibrated on California DMV crash records, with sliding-mode control for robustness.
+task: CA; LK; EMG
+scenario: URB; HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: PPO
+method_name: MPC-DRL-SMC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: PARAM
+reward: risk score, tracking error and control effort
+safety_cost: NA
+constraints: MPC state, input and safety-distance constraints
+mech: I; K; L
+mech_primary: I
+mech_stage: EXEC
+rl_output: PARAM
+safety_integration: EMBED
+control: MPC; SMC
+safety_claim: FORMAL; EMP
+guarantee_assumptions: convexity of MPC cost, bounded disturbances for SMC; theorems cover convergence and bounded tracking error, not collision freedom
+safety_level: L3
+level_note: MPC constraints and SMC act at run time; formal results concern convergence and tracking error, not safety sets.
+uncertainty: DIST; STOCH
+uncertainty_method: disturbances handled by SMC; varied road conditions and crash-reconstructed scenarios
+simulator: CARLA
+dataset: OTHER:California DMV collision reports
+vehicle_model: DYN
+metrics: RISK; DEV; COLL; SUCC; COMF; TIME
+baselines: standard MPC, MPC-DRL
+baseline_types: CLASS; ABL
+results: Compared with standard MPC the framework improved safety risk score by 78%, tracking error by 71% and control effort by 35%, and kept above 90% success on five unseen scenario categories.
+generalization: UNSEEN; DOMAIN
+validation_tier: SIM-HIFI
+real_world: embedded inference timing on NVIDIA Xavier only
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: P
+seeds: Y
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PLAN; CTRL; SUPERV
+limitations: A: simulation-based reconstruction of crashes; no RL baselines.
+qa: 2 1 2 2 1 2 2 2 2 1 1 1
+qa_note: Q2 RL weight-tuning formulation briefly specified; Q5 no RL or safe-RL baselines; Q10 hyperparameters partial; Q11 no code (crash data public); Q12 CARLA reconstructions only
+
+@@ B1116
+country: China
+problem: Hybrid path tracking (CRL-MPC) in which DDPG gives feedforward steering that a high-order CBF-QP safety filter corrects online, while MPC supplies feedback correction.
+task: LK
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: DDPG
+method_name: CRL-MPC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: lateral and heading error penalties
+safety_cost: NA
+constraints: HOCBF constraints on lateral and heading error and physical limits
+mech: F; E; I
+mech_primary: F
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: QP; MPC
+safety_claim: FORMAL; EMP
+guarantee_assumptions: small-tyre-angle bicycle model; authors claim only practical (bounded) safety, not strict invariance
+safety_level: L3
+level_note: HOCBF-QP filter corrects actions in training and execution; formal invariance explicitly not claimed.
+uncertainty: MODEL
+uncertainty_method: model mismatch handled by MPC feedback
+simulator: CARSIM; SIMULINK
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; INTERV; SAMPLE
+baselines: MPC, RL-MPC without HOCBF
+baseline_types: CLASS; ABL
+results: CRL-MPC reduced maximum lateral error by 54.1% and its RMSE by 62.7% relative to MPC and avoided simulator failures during training; it also held on an out-of-distribution test path.
+generalization: GEOM; UNSEEN
+validation_tier: SIM-HIFI
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: 1
+eval_protocol: Y
+stats: N
+compute: N
+stack: CTRL; SUPERV
+limitations: A: single seed; no obstacles or traffic.
+qa: 2 2 2 2 2 1 2 1 2 2 0 1
+qa_note: Q6 tracking error as safety proxy; Q8 model mismatch only; Q11 no code; Q12 co-simulation without traffic
+
+@@ B1120
+country: China
+problem: Physics-informed TD3 for CAV platoon control in which physical car-following rules enter the actor loss to improve stability, comfort and interpretability under disturbances.
+task: PLT; CF
+scenario: HWY
+traffic: NONE
+rl_paradigm: MF
+agents: MA-CEN
+n_agents: NR
+algorithm: TD3
+method_name: PI-TD3
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: spacing error, speed difference, comfort and efficiency
+safety_cost: NA
+constraints: NA
+mech: A; W
+mech_primary: A
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: perfect V2V without packet loss; constant time-headway policy
+safety_level: L1
+level_note: Physics rules regularise the actor during training only; safety assessed through spacing and string stability.
+uncertainty: DIST
+uncertainty_method: low- and high-amplitude leader disturbances
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: KIN
+metrics: DEV; JERK; COMF; REW; TIME
+baselines: PI-PPO, TD3, PPO, MPC, rule-based
+baseline_types: NSRL; CLASS; ABL
+results: PI-TD3 gave the most balanced control under both disturbance levels with string stability and much lower computation time than MPC.
+generalization: DIST
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: P
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: CTRL
+limitations: A: ideal communication; single disturbance type.
+qa: 2 2 1 2 2 1 2 2 1 1 0 0
+qa_note: Q3 safety only through loss regularisation; Q6 no collision or TTC metrics; Q9 two disturbance levels; Q10 partial settings; Q11 no code; Q12 simple custom platoon simulation
+
+@@ B1146
+country: Pakistan
+problem: Five-phase federated hierarchical DRL framework for cooperative collision avoidance with uncertainty-aware multimodal perception (retentive vision transformer), Lyapunov-regularised safe policy learning, V2X and safety filters.
+task: CA; COOP
+scenario: URB
+traffic: REPLAY
+rl_paradigm: MF; HRL
+agents: MA-DEC
+n_agents: NR
+algorithm: PPO
+method_name: Risk-aware federated hierarchical RL
+network: ATT; CNN
+obs_type: IMG; LIDAR
+action_type: CONT
+action_level: CTRL
+reward: context-adaptive risk, progress and comfort reward
+safety_cost: Lyapunov-based constraint cost
+constraints: Lyapunov safety constraints in policy updates
+mech: G; B; E; N; O; U
+mech_primary: G
+mech_stage: BOTH
+rl_output: ACT
+safety_integration: FILTER
+control: NONE
+safety_claim: EMP
+guarantee_assumptions: not stated
+safety_level: L2
+level_note: Lyapunov-regularised constrained updates; safety filter and HIL claims described without separable safety analysis.
+uncertainty: SENS; EPI; DSHIFT
+uncertainty_method: uncertainty-aware perception fusion; domain randomisation and MMD alignment
+simulator: CUSTOM
+dataset: OTHER:Udacity self-driving car dataset
+vehicle_model: NR
+metrics: COLL; TIME; REW; COMF
+baselines: state-of-the-art DRL baselines and ablations
+baseline_types: NSRL; ABL
+results: The framework reported a 37% lower collision rate, 24% faster reaction and 13.4% shorter travel time than baselines with a safety score of 0.98.
+generalization: DOMAIN
+validation_tier: SIM-DATA
+real_world: NA
+code: N
+code_url: NA
+data_avail: Y
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: PERC; DEC; CTRL; SUPERV
+limitations: A: Udacity dataset-based environment; many components integrated without isolated safety evidence.
+qa: 1 1 1 1 1 1 2 1 1 1 0 1
+qa_note: Q1 broad multi-component objective; Q2 constrained formulation only briefly stated; Q3 safety filter not specified; Q4 environment unclear; Q5 baselines not clearly named; Q6 aggregate safety score; Q8 uncertainty not separately evaluated; Q9 limited generalisation evidence; Q10 seeds not reported; Q11 no code; Q12 dataset-driven environment
+
+@@ B1157
+country: China
+problem: RSS-enhanced shared driving control in which a SAC policy guides an adaptive-weight APF-MPC planner, an uncertainty-aware weight shields the planner from unreliable RL guidance, and an RSS-based arbitration blends human and automation steering.
+task: CA; LC; EMG
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF; HRL
+agents: SA
+n_agents: 1
+algorithm: SAC
+method_name: RSS-enhanced APF-RLMPC
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: TRAJ
+reward: strategic progress and risk terms
+safety_cost: NA
+constraints: MPC soft safety constraints from potential field; RSS safe distances
+mech: I; W; V; N
+mech_primary: I
+mech_stage: EXEC
+rl_output: TRAJ
+safety_integration: EMBED
+control: MPC; APF
+safety_claim: EMP
+guarantee_assumptions: RSS worst-case braking assumptions; point-mass planning model
+safety_level: L3
+level_note: MPC with RSS-based authority arbitration acts at run time; validated in CARLA and driver-in-the-loop simulator tests without collision statistics over many runs.
+uncertainty: EPI; INTENT
+uncertainty_method: uncertainty-aware weighting of RL guidance in out-of-distribution states; diverse human intentions
+simulator: CARLA
+dataset: NONE
+vehicle_model: DYN
+metrics: TTC; ACC; JERK; COMF; DEV
+baselines: fixed-weight APF-MPC, driver model, autonomous mode
+baseline_types: CLASS; HUMAN; ABL
+results: The framework improved safety by 34.58%, reduced peak lateral acceleration by 7.5% and reduced jerk in CARLA and driver-in-the-loop tests.
+generalization: NONE
+validation_tier: SIM-HIFI
+real_world: driver-in-the-loop simulator with human volunteers (no vehicle)
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NR
+eval_protocol: P
+stats: N
+compute: Y
+stack: PLAN; CTRL; SUPERV
+limitations: A: few scripted scenarios; DIL tests on desktop simulator.
+qa: 2 2 2 2 1 1 2 1 0 1 0 1
+qa_note: Q5 no RL baselines; Q6 aggregate safety improvement only; Q8 OOD weighting not stress-tested; Q9 no generalisation; Q10 seeds not reported; Q11 no code; Q12 scripted CARLA and DIL scenarios
+
+@@ B1163
+country: China
+problem: Safe RL-based optimal path tracking with obstacle avoidance under multiple prescribed constraints, using a unified barrier-Lyapunov backstepping controller plus a critic-only fixed-time ADP policy that minimally modifies it.
+task: LK; CA
+scenario: GENERIC
+traffic: NONE
+rl_paradigm: MB
+agents: SA
+n_agents: 1
+algorithm: OTHER:critic-only ADP (fixed-time learning)
+method_name: UBF-PPC with ADP safety-modified policy
+network: OTHER:critic-only NN
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: quadratic cost with barrier penalty
+safety_cost: barrier function on obstacle distance
+constraints: prescribed tracking-error tunnel; velocity and yaw-rate limits; obstacle barrier
+mech: F; G; K
+mech_primary: G
+mech_stage: BOTH
+rl_output: RES
+safety_integration: EMBED
+control: BACKSTEP
+safety_claim: FORMAL
+guarantee_assumptions: bounded lumped dynamics; feasible initial conditions; known obstacle position
+safety_level: L4
+level_note: Barrier-Lyapunov analysis proves constraint satisfaction and bounded learning error; numerical simulation only.
+uncertainty: MODEL; DIST
+uncertainty_method: system dynamics estimator for unknown dynamics and disturbances
+simulator: CUSTOM
+dataset: NONE
+vehicle_model: DYN
+metrics: DEV; VIOL
+baselines: baseline controller without ADP, tunnel PPF variants
+baseline_types: CLASS; ABL
+results: The controller kept tracking errors, velocities and yaw rate within prescribed bounds while avoiding the obstacle, with lower lateral and heading RMSE than the comparison method.
+generalization: NONE
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: NA
+eval_protocol: P
+stats: N
+compute: N
+stack: CTRL
+limitations: A: perception uncertainty and latency not considered; numerical study only.
+qa: 2 2 2 2 1 1 1 2 0 1 0 0
+qa_note: Q5 only ablation-style comparisons; Q6 constraint plots without rates; Q7 RMSE only; Q9 no generalisation; Q10 numerical setup only; Q11 no code; Q12 single numerical scenario
+
+@@ B1168
+country: China
+problem: Safety-critical closed-loop planning and control (SCCL) for CAVs amid prospective hazards: constrained SAC with a risk-oriented evaluator, control-barrier enforcer and control-Lyapunov stabiliser embedded as residual losses through augmented-Lagrangian optimisation.
+task: LC; CF; CA
+scenario: HWY
+traffic: SCRIPTED
+rl_paradigm: MF
+agents: SA
+n_agents: 1
+algorithm: OTHER:constrained SAC with CBF/CLF residual losses (SAC-CC)
+method_name: SCCL (SAC-CC)
+network: MLP
+obs_type: VEC
+action_type: CONT
+action_level: CTRL
+reward: efficiency, comfort and risk terms
+safety_cost: risk-oriented evaluator cost with distance and TTC violations
+constraints: augmented-Lagrangian cost constraint; CBF and CLF residual losses
+mech: B; F; G; L
+mech_primary: B
+mech_stage: TRAIN
+rl_output: ACT
+safety_integration: NONE
+control: NONE
+safety_claim: CEXP; EMP; STAT
+guarantee_assumptions: synchronised state feedback; certificates used as learning signals rather than run-time filters
+safety_level: L2
+level_note: CBF and CLF enter only as training losses within a constrained objective; no run-time enforcement.
+uncertainty: STOCH; INTENT
+uncertainty_method: prospective hazards from unpredictable surrounding vehicles; densities
+simulator: HWENV
+dataset: NONE
+vehicle_model: KIN
+metrics: COLL; VIOL; TTC; SPEED; COMF; DEV
+baselines: SAC, PPO, DDPG and their CC-augmented variants
+baseline_types: NSRL; ABL
+results: No collisions occurred in the reported evaluations and hazardous-event triggers fell sharply; SAC-CC improved comfort by 26.7% and kept violation frequency low with significance testing.
+generalization: DENS; UNSEEN
+validation_tier: SIM-LOW
+real_world: NA
+code: N
+code_url: NA
+data_avail: NA
+hyperparams: Y
+seeds: Y
+eval_protocol: Y
+stats: Y
+compute: Y
+stack: PLAN; CTRL
+limitations: A: certificates do not filter actions at run time; highway-env kinematics.
+qa: 2 2 2 2 1 2 2 1 2 2 0 1
+qa_note: Q5 no safe-RL baselines beyond ablations; Q8 behavioural stochasticity only; Q11 no code; Q12 highway-env

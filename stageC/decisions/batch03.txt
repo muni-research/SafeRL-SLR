@@ -1,0 +1,37 @@
+# batch 03 (C0121-C0180), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0122 Unsure - hierarchical RL merging with low-level controller for safety
+C0123 Duplicate C0070
+C0124 Unsure - ADP/RL car-following robust to driver reaction time (platoon stability)
+C0125 Unsure - RL lane selection complying with deterministic safety requirements
+C0126 Unsure - traffic-rule compliance and safety in RL driving
+C0127 Exclude EC1 unmanned ground robot MPC cost learning
+C0128 Unsure - DRL car-following with safety regulation (unsafe headway)
+C0129 Unsure - DDPG trajectory planner, safety reward, proving-ground test
+C0130 Unsure - H-REIL for near-accident driving
+C0131 Duplicate C0130
+C0132 Unsure - ensemble RPF uncertainty, confidence criterion, intersection
+C0134 Exclude EC2 traffic control (variable speed limit), not vehicle policy
+C0136 Exclude EC1 UAV
+C0137 Background EC1 CBF safe RL general method
+C0138 Unsure - crowd navigation for AV with kinematic safety constraints
+C0141 Unsure - Bayesian RL uncertainty to classify safe actions, highway
+C0143 Exclude EC1 energy management
+C0144 Exclude EC1 mobile robots
+C0149 Background EC1 dynamic penalty constraint handling (process control)
+C0150 Exclude EC1 resource allocation
+C0153 Unsure - DDPG pedestrian collision avoidance
+C0154 Unsure - RL decisions considering aggressive human drivers for safety
+C0155 Unsure - DQN with collision-prevention model
+C0156 Review EC9
+C0157 Review EC9
+C0160 Exclude EC1 marine vehicle
+C0161 Unsure - car-following with time-margin safety reward
+C0162 Background EC1 adaptive shielding under uncertainty (general)
+C0163 Exclude EC3 action oscillation smoothness
+C0164 Unsure - Q-learning with provably safe trajectory-planner action proposals
+C0171 Unsure - robust agents trained on collision-prone adversarial scenarios
+C0172 Exclude EC1 robot among pedestrians
+C0173 Unsure - PPO vs SAC multi-vehicle collision avoidance
+C0176 Unsure - domain-randomisation adversarial corner cases for robust DRL driving
+C0178 Unsure - shielded distributional SAC with barrier-function shield, on-ramp
+C0180 Duplicate C0419

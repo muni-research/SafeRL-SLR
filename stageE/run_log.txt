@@ -1,0 +1,6 @@
+run 2026-11-13 (no date filter; de-duplicated against Stages A, B and C)
+OpenAlex OA-Q1v2: 361 reported, 361 retrieved
+OpenAlex OA-Q2v2: 817 reported, 817 retrieved
+OpenAlex OA-Q3v2: 599 reported, 599 retrieved
+arXiv: 91 queries, 268 records retrieved
+record flow: {"raw": 2045, "already_handled": 1927, "duplicate_within_update": 26, "keyword_filter": 14}; new candidates: 78

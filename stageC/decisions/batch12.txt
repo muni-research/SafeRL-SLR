@@ -1,0 +1,47 @@
+# batch 12 (C0661-C0720), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0661 Exclude EC2 book chapter, V2V negotiation (no RL)
+C0662 Duplicate C0852
+C0664 Exclude EC2 behaviour modelling
+C0665 Exclude EC2 inverse RL
+C0666 Unsure - hierarchical distributional RL motion planning with occlusion collision risk
+C0667 Unsure - MARL platoon motion control with safe spacing
+C0668 Exclude EC1 crowdsensing
+C0669 Exclude EC1 UAV
+C0670 Exclude EC1 mobile robots
+C0671 Exclude EC1 order dispatching
+C0672 Unsure - RL agent integrated with robust controller for safe motion
+C0673 Unsure - ADP path tracking with prescribed-performance safety constraints
+C0676 Exclude EC1 railway
+C0677 Exclude EC2 overtaking feasibility prediction
+C0680 Unsure - impact-severity prediction for RL reward/safety
+C0681 Exclude EC3 PPO tuning MPC horizon (check safety)
+C0682 Exclude EC2 routing
+C0684 Exclude EC3 vehicle pursuit
+C0685 Exclude EC3 visual control generalisation
+C0686 Unsure - Q-learning collision detection and avoidance framework
+C0690 Review EC9
+C0691 Exclude EC1 UAV
+C0692 Unsure - RL-tuned robust controller with disturbance estimator, car-following
+C0693 Exclude EC1 UAV
+C0694 Exclude EC1 surface vessels
+C0696 Exclude EC2 variable speed limit
+C0697 Exclude EC1 surface vessels
+C0698 Unsure - DRL collision avoidance with two-wheelers at occluded intersections
+C0699 Exclude EC1 UAV
+C0701 Unsure - PPO with human intervention for safe AD training
+C0702 Unsure - robust on-ramp decisions avoiding catastrophic collisions
+C0703 Unsure - specification patterns for verifying resilience of RL hybrid systems (AD)
+C0705 Unsure - risk-aware attention TD3 guaranteeing decision safety
+C0706 Exclude EC1 federated learning IoV
+C0707 Exclude EC1 energy storage
+C0708 Unsure - robust DRL with Bayesian particle-filter world model in noise
+C0709 Unsure - robust off-ramp decisions with intention recognition
+C0710 Exclude EC1 surface vessels
+C0711 Unsure - SAC collision avoidance control
+C0712 Exclude EC9 book chapter overview
+C0713 Exclude EC1 UAV
+C0714 Unsure - SARSA with collision risk cost and SVO, ego-bicycle
+C0715 Unsure - soft collision avoidance car-following RL (no abstract)
+C0717 Exclude EC2 supervised steering prediction
+C0718 Exclude EC1 agricultural machines
+C0720 Unsure - curriculum residual hierarchical RL with rule-based planner for safety

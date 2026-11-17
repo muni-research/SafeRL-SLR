@@ -1,0 +1,8 @@
+assumption theme,studies,% of 274,study IDs (if <= 12)
+known or accurate dynamics model,85,31.0,
+predictable other road users,86,31.4,
+perfect perception or state,32,11.7,
+optimisation feasibility,54,19.7,
+bounded disturbance or error,49,17.9,
+reliable communication,18,6.6,
+correct learned component or rule set,37,13.5,

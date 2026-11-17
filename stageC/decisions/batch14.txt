@@ -1,0 +1,41 @@
+# batch 14 (C0781-C0840), 2026-10-10. Any CID in range not listed = Exclude EC3
+C0781 Exclude EC1 mining-truck energy coordination
+C0782 Unsure - hybrid rule/RL decisions with confidence evaluation for safety
+C0783 Unsure - DRL with path-constraint action compensation ensuring safety
+C0784 Unsure - decision making considering road adhesion safety risk (check RL)
+C0785 Review EC9
+C0786 Review EC9 book chapter
+C0787 Exclude EC1 eco-driving speed prediction
+C0788 Exclude EC1 logistics scheduling
+C0791 Exclude EC10 VRU development pipeline (check RL)
+C0792 Exclude EC2 traffic control roadblocks
+C0793 Background EC1 disturbance-observer CBF safe RL (check vehicle)
+C0794 Unsure - domain-adaptive RL for robust AV navigation under shift
+C0795 Exclude EC1 drone task offloading
+C0796 Unsure - dynamic safe car-following RL with collision risk evaluation
+C0798 Exclude EC1 data management
+C0799 Unsure - shared steering DRL for emergency obstacle avoidance safety
+C0801 Exclude EC3 work-zone merging for emergency response
+C0803 Unsure - objective sufficiency for safe multi-objective AV decisions (check RL)
+C0804 Review EC9
+C0805 Exclude EC1 energy saving car-following
+C0806 Exclude EC1 energy-efficient roundabout
+C0807 Unsure - DACER++ risk-sensitive distributional RL vehicle environments
+C0809 Unsure - hybrid DRL-kinematic autopilot for safety and reliability
+C0812 Exclude EC1 mobile robots
+C0814 Review EC9
+C0815 Exclude EC3 fairness-aware overtaking
+C0816 Exclude EC1 UAV
+C0817 Exclude EC1 UAV
+C0818 Exclude EC2 flow matching generative planning
+C0819 Exclude EC1 trains
+C0820 Unsure - game-theoretic RL merging for traffic safety
+C0822 Unsure - hierarchical RL parking with kinematic constraints
+C0826 Unsure - adversarial training and uncertainty-aware DDPG car-following
+C0828 Unsure - robust RL with abnormally behaving traffic actors
+C0831 Exclude EC2 LLM behaviour planning
+C0832 Exclude EC2 LLM-guided MCTS (check RL)
+C0833 Exclude EC2 VLM path planning
+C0837 Unsure - occlusion-aware RL decision making
+C0838 Exclude EC1 UAV reachability
+C0839 Exclude EC10 adversarial attack on DRL driving

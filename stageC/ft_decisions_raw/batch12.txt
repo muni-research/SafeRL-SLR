@@ -1,0 +1,23 @@
+# Full-text eligibility, citation-search candidates via institutional access (stageC/dossiers batch15), 2026-10-10
+C0938 FI dual-aligned SAC with adaptive risk threshold and CBF/CLF-QP safety for motion planning; CARLA
+C0944 FI risk-aware SAC suppressing exploration variance in dangerous states; Simulink co-simulation
+C0946 FI safety-conscious double DQN with collision, TTC and hard-braking reward terms; SUMO
+C0969 FI SAC with biased-attention risk prediction for unsignalised intersections; SUMO
+C0970 FI brain-in-the-loop RL using fNIRS risk perception with TTC safety-layer action adjustment; CARLA
+C0977 FI DQN adaptive cruise control with collision-rate and headway evaluation; CARLA
+C0992 FI enhanced integrated decision and control with constrained RL; real-vehicle experiments
+C0999 FI MARL-initialised optimal-control cooperative trajectory planning with collision-free constraints at unstructured intersections
+C1006 FI adversarial RL with data-bounded adversary for sim-to-real robust driving; full-size vehicle test
+C1009 FI MARL with human intervention at uncontrolled intersections; highway-env safety outcomes
+C1020 FI long-tail augmentation and uncertainty-aware RL car-following; highD
+C1022 FI multi-agent RL lateral emergency avoidance; collision and success rates in Unity
+C1024 FI responsibility-oriented reward design from collision attribution; MetaDrive
+C1027 FI SAC curvature-tracking steer-by-wire control with lateral-acceleration-bounded targets for stability on low friction
+C1033 FI actor-critic prescribed-performance path tracking with state constraints via barrier Lyapunov functions
+C1037 FI SAC-MPC hierarchical merging with steering-angle constraints; highway-env
+C1038 FI PPO with risk-augmented loss and attention for highway driving; highway-env
+C1042 FI causal-invariant adversarial RL for robust lane-change decisions; SUMO
+C1043 FI SAC-D planner with HOCLF-HOCBF-QP constrained control; hardware-in-the-loop
+C1048 FI self-attention double DQN for safe highway driving; highway-env
+C1049 FI RL safety value estimation with world model for trajectory rescoring in end-to-end driving; Bench2Drive
+C1051 FI self-organising cooperative platooning decisions with safety mechanisms; HIL platform

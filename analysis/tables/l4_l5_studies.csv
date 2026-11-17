@@ -1,0 +1,90 @@
+study,year,safety_level,mech,validation_tier,guarantee_assumptions
+B0029,2018,L4,D; S; T,SIM-LOW,observed reality complies with verified hybrid model; full state observability; liveness of safe action set
+B1209,2018,L4,D; T; J,SIM-LOW,other vehicles bounded in speed and do not reverse; agent starts in a safe state; others may still cause unavoidable accidents
+B0048,2019,L4,E; F; H; N; Q,SIM-LOW,control-affine dynamics; valid forward-invariant safe set given; GP bound holds with high probability
+B0062,2019,L4,D; T; N,SIM-LOW,MDP model of traffic accurate and fully observable for model checking; belief updater reliable; perfect data association
+C0080,2019,L4,T; D; J,SIM-LOW,known discretised MDP model of the scenario for model checking; route perfectly observable
+B0110,2020,L4,J; S; B; N,SCALED,dynamic bicycle model with zero slip at low speed; GP (SUE-GP) bounds on future controls; fallback controller assumed safe
+B0117,2020,L4,D; J; S; T,SIM-DATA,other traffic participants obey the modelled behaviour set; correct set-based prediction
+B1237,2020,L4,J; S; T; K,SIM-LOW,bounded disturbance; polynomial approximation error bounds; low-dimensional system
+B0153,2021,L4,G; F; K; Q,SIM-LOW,strict-feedback model with bounded mismatch; persistently exciting learning
+B0157,2021,L4,B; T; A,SIM-LOW,linearized system dynamics for SMT verification
+B0170,2021,L4,J; O; G,SIM-LOW,identical vehicle dynamics; uniformly continuous differentiable models; persistent excitation; connected switching graph
+B0188,2021,L4,I; D,SIM-LOW,linear vehicle model; static known obstacles; terminal ingredients valid
+B0200,2021,L4,E; W; T,SIM-LOW,RSS response time and braking bounds; first-order low-level controller
+B0213,2021,L4,E; K; W,SIM-LOW,known motion of surrounding vehicles in QP model; robust controller bounds hold
+B1269,2021,L4,I; J; R,SIM-LOW,worst-case predictions of other vehicles; MPC feasibility
+B1274,2021,L4,D; S; L; J,SIM-LOW,"worst-case assumption set H over occlusions, perception noise and driver behaviour"
+B1284,2021,L4,E; J; K,SIM-LOW,linear discrete-time model; bounded polytopic disturbance (lead-vehicle acceleration mismatch)
+C0194,2021,L4,T; D; R; W,SIM-HIFI,program verified with Nagini; correctness of rule-based specifications and perception
+B0219,2022,L4,I; J,SIM-LOW,double-integrator agents; feasibility of robust positively invariant sets
+B0237,2022,L4,J; B; D,SIM-LOW,static obstacles; known vehicle dynamic model
+B0305,2022,L4,D; J; T; S,SIM-DATA,bounded absolute acceleration of all vehicles; lanelet road model; correct perception
+B1322,2022,L4,S; T; J,SIM-LOW,"other vehicles only longitudinal motion, no lane changes; fixed lane width"
+B1327,2022,L4,E; F; V,SIM-LOW,known longitudinal model; actuator bounds; no model uncertainty in ECBF
+B1329,2022,L4,E; F,SIM-LOW,known vehicle dynamics; worst-case lead-vehicle braking; bounded actuation verified by forward simulation
+C0299,2022,L4,F; E; H; J,SIM-DATA,known vehicle model and behaviour bounds of other vehicles; QP feasibility (relaxed otherwise)
+A129,2023,L4,E; F; G; H,SIM-LOW,nominal model conservatively over-approximates unsafe states of real dynamics; accurate data of surrounding vehicles; non-empty safe/stable action sets
+A132,2023,L4,E; F; H; N; Q; K,SIM-LOW,control-affine model with GP-bounded unknown dynamics; 95% confidence bound; static obstacles
+B0327,2023,L4,E; F; H; O,SIM-HIFI,kinematic bicycle model; accurate shared V2V states; feasible CBF-QP
+B0334,2023,L4,G; F; K; Q,SIM-LOW,Lipschitz second-order differentiable dynamics; known sign and bounds of input gain; smooth HJB solution
+B0423,2023,L4,H; F; G; N,SIM-HIFI,learned uncertainty compensates the plant-nominal mismatch; QP feasibility
+B0438,2023,L4,E; J; T,SIM-DATA,abstract model encloses real vehicle behaviour (conformance); small-angle reference-path tracking; predicted occupancies of others valid
+B1398,2023,L4,J; S; D,SIM-LOW,kinematic bicycle model; precomputed viability kernel on known maps; perfect state estimation
+C0382,2023,L4,I; J,SIM-LOW,known linear vehicle models and bounded disturbances for invariant-set computation
+C0442,2023,L4,G; K,SIM-LOW,"known structure of third-order platoon model, bounded disturbances, fuzzy approximation error bounds"
+A052,2024,L4,G; F; Q,SIM-LOW,strict-feedback model with bounded known structure; smooth positive-definite HJB solution; bounded parameter mismatch
+A109,2024,L4,E; F; H; O,SIM-LOW,control-affine longitudinal dynamics; HDV model learned online with bounded error; QP feasibility with slack for HDV constraints
+A144,2024,L4,F; G; K,SIM-LOW,"known bounded dynamics f, g, d; bounded NN approximation errors"
+A204,2024,L4,F; I; H,SIM-LOW,control-affine dynamics; feasibility of MPC-CBF; homogeneous CAVs
+B0575,2024,L4,B; C; G,HIL,deterministic dynamics; feasible non-empty control safe set; two-timescale convergence
+B0634,2024,L4,D; J,SIM-LOW,offline reachability over-approximates tracking error; polygonal obstacle sensing; other vehicles constant heading
+B1469,2024,L4,T; D; A,SIM-LOW,"correctness of timed-automata model of vehicle, sensors and obstacles; obstacle variables modelled as hybrid clocks"
+C0673,2024,L4,G; K,SIM-HIFI,bounded approximation errors and disturbances; known structure of vehicle model
+A037,2025,L4,E; F; H; K,SIM-DATA,accurate state measurement; bounded model error after state/dynamics synchronisation; control-affine longitudinal model
+A046,2025,L4,D; E; W,SIM-LOW,known reaction time and maximum decelerations; leader/follower keep speed for one step during lane change; perfect sensing
+A089,2025,L4,I; J; K; E,SIM-DATA,linear double-integrator dynamics; bounded disturbance set; human follower does not actively collide
+A187,2025,L4,D; E; F; T,SIM-HIFI,kinematic bicycle model; bounded speed; perfect obstacle detection (ground truth); static obstacles
+B0671,2025,L4,T; A,SIM-HIFI,timed-automata abstraction of the decision process
+B0750,2025,L4,E; F; H; O; N,SIM-LOW,V2V state sharing among all vehicles; conformal coverage of estimation errors; QP feasibility
+B0778,2025,L4,J; D; I; R,SIM-HIFI,deterministic dynamic models of traffic participants for FRS computation
+B0781,2025,L4,B; D; I; V,SIM-LOW,accurate IDM-based motion predictions of surrounding vehicles
+B0835,2025,L4,G; F; K,SIM-LOW,bounded disturbances; known sign of input gain; bounded and smooth reference trajectory
+B0845,2025,L4,E; F; H; O,SIM-LOW,accurate sensing of immediate neighbours; fixed-time signal timing known via I2V; QP feasibility
+B0887,2025,L4,E; F; W; O,SIM-LOW,accurate state estimation; worst-case acceleration of other vehicles
+B0898,2025,L4,F; E; G,SIM-LOW,known control-affine dynamics; interval excitation of regressor; CBF-stabilizable sets
+B0909,2025,L4,W; T,SIM-LOW,collision terminates episode; collision penalty below a bound; approximation error of Q-values below epsilon
+B0910,2025,L4,F; I; K; O; H,SIM-HIFI,bounded observation errors; MPC feasibility
+B0937,2025,L4,T; S; D,SIM-LOW,controller runs at least every T seconds; bounded reaction time and braking; simulator consistent with specification (shown violated)
+B1508,2025,L4,G; F,SIM-DATA,bounded velocity and preceding position; reliable V2V (PLF topology)
+B1533,2025,L4,F; E,SIM-LOW,known kinematic dynamics; lead cars stay in lane with non-negative speed and do not turn; worst-case lead braking
+B1536,2025,L4,E; I; K; J,SIM-HIFI,linearised time-varying model; bounded disturbances; terminal invariant set
+C0893,2025,L4,G,SIM-LOW,linear bicycle model; stabilising initial gain
+B0944,2026,L4,E; F; O,SIM-LOW,accurate state sharing within 180 m; QP feasibility
+B0972,2026,L4,Q; I; N; J; S,SIM-LOW,GP error bounds hold with chosen confidence; backup controller region known; linearised constraints
+B1035,2026,L4,G; F; K,SIM-LOW,bounded reference and derivatives; bounded disturbances; parameter conditions of Theorem 1
+B1163,2026,L4,F; G; K,SIM-LOW,bounded lumped dynamics; feasible initial conditions; known obstacle position
+B1659,2026,L4,F; G; O,SIM-HIFI,control-affine platoon dynamics; persistent excitation; convergence of policy iteration
+B1770,2026,L4,G; K,SIM-LOW,predecessor-following topology; bounded leader trajectory within constraints
+B1777,2026,L4,H; J; K; E,HIL,"attack bounds on timing, frequency and amplitude known; linearised lateral dynamics"
+B1788,2026,L4,F; G; E; H,SIM-LOW,unicycle model; input-to-state safety margin for bounded disturbances; QP feasibility
+C1033,2026,L4,G; F,SIM-LOW,bounded disturbances; neural approximation errors bounded
+E024,2026,L4,F; E; K,SIM-HIFI,straight-line longitudinal model; feasibility of the filter (fallback braking otherwise); accurate state
+E025,2026,L4,B; S; K; G,SIM-LOW,bounded attacks and leader signals; approximation-domain conditions; instantaneous actuator response in the nominal plant
+E048,2026,L4,K; G,SIM-LOW,bounded FDI attacks and disturbances; vehicle model structure with unknown parameters; predecessor-follower communication
+E071,2026,L4,F; E; O; A,SIM-DATA,kinematic bicycle model; exact geometry; one broadcast of states and routes per step; backup controls available
+B0028,2018,L5,D; N; L,CLOSED,other agents non-adversarial and follow distribution; Gaussian prediction errors; union bound over agents
+B1230,2020,L5,T; J,SCALED,structured hallway with 90-degree turns; LiDAR observation model from known walls; bounded initial set
+B1270,2021,L5,B; I; K; V,SCALED,known uncertainty range of tyre model (worst case)
+A140,2023,L5,S; I; U,CLOSED,MPC expert closed-loop stable; constant unknown control delay; feasibility of safe-set boundary points
+B0444,2023,L5,W; D; Q,CLOSED,accurate trajectory prediction of surrounding vehicles
+A074,2024,L5,F; G; K; Q; U,CLOSED,Lipschitz known model; stabilisability; bounded disturbances; slowly varying constraints; obstacles pre-detected
+B0485,2024,L5,I; V,CLOSED,obstacle predictions and RHO feasibility
+B0507,2024,L5,J; S; Q,CLOSED,circular obstacle envelope; actuators function optimally
+B0678,2025,L5,C; W; S; V,CLOSED,risk model representative of human risk perception
+B0716,2025,L5,V; L; S,ROAD,bounded variance of return distributions
+B0757,2025,L5,B; D; E; U,SCALED,static stability factor model ignoring suspension and tyres; zero road gradient
+B0761,2025,L5,F; E; U; S,ROAD,double-integrator longitudinal model with directly controlled acceleration (model error observed)
+B0882,2025,L5,E; F; H; I; K; O; U,SCALED,accurate state estimates; bounded measured V2V delays
+B0896,2025,L5,B; D; I; U,CLOSED,simplified lateral/vertical stability models; accurate fused state estimates
+E060,2026,L5,F; I; E; P,SCALED,nominal tracking model with bounded residuals; known obstacles; feasible certified reference set

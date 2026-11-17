@@ -1,0 +1,62 @@
+# Stage C (citation searching) title/abstract screening, batch 01 (C0001-C0060), 2026-10-10
+# format: CID DECISION [REASON] [note]; DECISION in Include/Unsure/Exclude/Background/Review/Duplicate
+C0001 Exclude EC3
+C0002 Exclude EC3
+C0003 Background EC1 general safe-exploration method
+C0004 Background EC1 general risk-sensitive actor-critic
+C0005 Duplicate C0003
+C0006 Exclude EC3
+C0007 Exclude EC2 learning from demonstration
+C0008 Exclude EC3
+C0009 Unsure - DQN autonomous braking against collision risk
+C0010 Exclude EC1 mobile robot corridor
+C0011 Unsure - LTL-constrained RL options, driving
+C0012 Exclude EC1 octorotor
+C0013 Exclude EC3
+C0014 Exclude EC3
+C0015 Exclude EC1
+C0016 Exclude EC3
+C0017 Unsure - continuous RL obstacle avoidance with dynamics and traffic-rule constraints
+C0018 Background EC1 general safe RL (MaxPain)
+C0019 Exclude EC2 inverse RL
+C0020 Exclude EC1 pedestrian-rich robot navigation
+C0021 Unsure - Q-masking incorporates constraints in lane-change RL
+C0022 Unsure - RL for drift counteraction with safety constraints, ACC
+C0023 Background EC1 robot collision-avoidance safe RL
+C0024 Background EC1 HJ safety framework for robots
+C0025 Exclude EC3
+C0026 Exclude EC3
+C0027 Exclude EC10
+C0028 Exclude EC3
+C0029 Exclude EC3
+C0030 Unsure - inference-time action masking, safety evaluation
+C0031 Exclude EC2
+C0032 Unsure - heuristic search overcoming DRL failure rate, safety-critical
+C0033 Exclude EC3
+C0034 Unsure - HeuRL heuristic guidance reduces collisions during training
+C0035 Unsure - collision rate as primary evaluation
+C0036 Exclude EC1
+C0037 Exclude EC3
+C0038 Exclude EC3
+C0039 Exclude EC3
+C0040 Exclude EC2
+C0041 Review EC9
+C0042 Exclude EC3
+C0043 Exclude EC3
+C0044 Exclude EC3
+C0045 Duplicate C0044
+C0046 Exclude EC3
+C0047 Exclude EC10
+C0048 Exclude EC3
+C0049 Exclude EC3
+C0050 Exclude EC3
+C0051 Unsure - collision-avoidance function supervising distributional RL policy
+C0052 Exclude EC3
+C0053 Exclude EC1
+C0054 Exclude EC3
+C0055 Exclude EC3
+C0056 Unsure - rule-based safety check guides exploration
+C0057 Exclude EC3
+C0058 Exclude EC3
+C0059 Exclude EC3
+C0060 Unsure - DQN lane-change decision with explicit safety consideration
